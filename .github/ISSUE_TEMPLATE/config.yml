@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 使用问题先看使用指南
+    url: https://github.com/asujdgg/aigent/blob/main/USAGE.md
+    about: 安装、配模型、各功能怎么用都在里面
+  - name: 安全漏洞请私下报告
+    url: https://github.com/asujdgg/aigent/security/advisories/new
+    about: 不要为安全漏洞开公开 Issue

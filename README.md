@@ -35,6 +35,26 @@ Aigent 不是又一个「套壳聊天框」。它把日常真正会用到的部�
 
 所有请求由手机直接发往你配置的接口。API Key 用 AES 加密后只存本机，不同步、不上传。
 
+## 快速上手
+
+1. 到 [Releases](https://github.com/asujdgg/aigent/releases) 下载 `Aigent-v4.22.0.apk`，Android 6.0+ 直接安装，无需注册。
+2. 打开左上角菜单 → **设置 → 连接与模型**，新增一条连接：填接口地址（OpenAI 兼容，一般带 `/v1`）、API Key、模型 ID。
+3. 回到主页点输入框上方的**模型条**选中它，就能开始对话。
+
+完整的安装、各功能用法、个性化设置与常见问题见 **[使用指南](USAGE.md)**。
+
+## 文档
+
+| 文档 | 内容 |
+|---|---|
+| [使用指南](USAGE.md) | 安装、配连接、语音 / 朗读 / 研究 / 智能体、主题字号语言、常见问题 |
+| [README](README.md) | 项目介绍、构建、目录结构、语言机制 |
+| [更新日志](CHANGELOG.md) | 各版本变更 |
+| [贡献指南](CONTRIBUTING.md) | 开发环境、质量门、文案规矩、PR 清单 |
+| [安全政策](SECURITY.md) | 漏洞报告方式与已知边界 |
+| [第三方许可](THIRD_PARTY_LICENSES.md) | 随包资源与依赖的许可说明 |
+| [许可证](LICENSE) | MIT |
+
 ## 构建
 
 需要 Flutter **3.24.x**（Dart 3.5.4）、Android SDK 与 JDK 17。
