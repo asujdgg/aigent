@@ -1,0 +1,300 @@
+主色	Aksentti
+主题	Teema
+今日	Tänään
+保存	Tallenna
+停止	Lopeta
+允许	Salli
+关闭	Sulje
+删除	Poista
+刷新	Päivitä
+发送	Lähetä
+取消	Peruuta
+圆角	Kulma
+复制	Kopioi
+外观	Ulkoasu
+字号	Tekstikoko
+密钥	Avain
+工具	Työkalut
+忽略	Älä välitä
+恢复	Palauta
+接入	Yhdistä
+新建	Uusi
+朗读	Lue ääneen
+未测	Testaamaton
+模型	Malli
+添加	Lisää
+清空	Tyhjennä
+确定	Selvä
+离线	Offline
+累计	Yhteensä
+编辑	Muokkaa
+视觉	Näkö
+设置	Asetukset
+语音	Ääni
+请求	Pyyntö
+跳过	Ohita
+部署	Käynnistä
+销毁	Tuhoa
+去设置	Avaa asetukset
+已停更	Keskeytetty
+已复制	Kopioi
+待检测	Ei testattu
+源代码	Lähde
+生成中	Luodaan
+知道了	Selvä
+自定义	Oma
+重命名	Nimeä uudelleen
++ 新建	+ Uusi
+一键接入	Yhdistä kaikki
+人物形象	Persona
+停止朗读	Lopeta lukeminen
+免密模型	Avainttomat mallit
+删除形象	Poista henkilö
+删除配置	Poista profiili
+原始输出	Raakatuotanto
+图片诊断	Kuvanmääritys
+复制一份	Kaksinkertaista
+复制全文	Kopioi kaikki
+复制内容	Kopioi teksti
+外观主题	Ulkoasu
+实验记录	Koeloki
+对话语言	Vastaa kieli
+开始检测	Aloitustesti
+开始说话	Ala puhua
+当前会话	Tämä keskustelu
+当前模型	Nykyinen malli
+当前预设	Nykyinen esiasetettu
+待填密钥	Tarvittava avain
+授权范围	Lupa
+接入最快	Nopein asennettava
+接口地址	Päätepisteen URL
+插件系统	Liitännäiset
+搜索模型	Hakumallit
+搜索设置	Hakuasetukset
+收起搜索	Piilota haku
+明暗模式	Valo / tumma
+未设模型	Ei mallia
+测试连通	Testiliitäntä
+深度思考	Syvä ajattelu
+深度研究	Syvä tutkimus
+添加地址	Lisää päätetapahtuma
+用量追踪	Käytön seuranta
+界面语言	Käyttöliittymän kieli
+系统当前	Järjestelmä
+网页抓取	Sivun nouto
+联网搜索	Verkkohaku
+能力开关	Voimavarakytkimet
+能力档位	Kapasiteettitaso
+语音输入	Äänisyöte
+说点什么	Sano jotain
+这台设备	Tämä laite
+连接配置	Yhteysprofiilit
+选择形象	Valitse henkilö
+选择模型	Valitse malli
+配置名称	Profiilin nimi
+配置连接	Määrittele yhteys
+页面底色	Sivun tausta
+预设名称	Esiasetettu nimi
+会话与设置	Keskustelut ja asetukset
+删除工作台	Poista työtila
+删除此形象	Poista tämä henkilö
+反代与网关	& Release- portti
+命令已复制	Komento kopioitu
+填入输入框	Lisää panos
+已复制回答	Vastaus kopioitu
+已开启朗读	Jatka
+应用与网页	Sovellukset ja verkko
+提示词预设	Näytä esiasetukset
+文件与脚本	Tiedostot ja skriptit
+日历与闹钟	Kalenteri & hälytykset
+朗读已开启	Jatka
+未指定模型	Mallia ei ole valittu
+查看源代码	Näytä lähde
+源码已复制	Lähde kopioitu
+点一下切换	Napauta vaihtaaksesi
+独立工作区	Yksityinen työtila
+研究工作台	Tutkimustyötilat
+网页版反代	Verkkorele
+联网搜索源	Verkkohakulähteet
+设备智能体	Laite
+语言与地区	Kieli ja alue
+输入任务…	Anna tehtävä..
+连接与模型	Yhteysmallit
+重命名配置	Nimeä profiili uudelleen
+链接已复制	Kopioi linkki
+顶部形象区	Huippuhenkilöalue
+（无内容）	(tyhjä)
+先填主机地址	Anna ensin isäntä
+助手消息头像	Vastaa avatareille
+去设置里刷新	Päivitä asetukset
+启用人物形象	Käytä persoonaa
+启用本机操作	Käytä laitteen toimintoja
+图片与多模态	Kuvat ja multimodaalit
+图片发送格式	Kuvan muoto
+已删除该配置	Profiili poistettu
+当前 API	Nykyinen API
+提示词预设库	Lähetä esiasetettu kirjasto
+搜索源连通性	Lähdeyhteys
+新建连接配置	Uusi yhteysprofiili
+模型能力档位	Kapasiteettitaso
+每源结果条数	Tulokset lähdettä kohti
+添加免密地址	Lisää avainton päätepiste
+等待模型输出	Odotetaan mallia
+自动记录实验	Automaattinen tallennus
+语音识别语言	Diktaatiokieli
+请求体已复制	Pyyntöelin kopioitu
+还没有记录。	Mitään ei ole nauhoitettu.
+销毁本地凭据	Tuhoa paikallinen valtakirja
+随便问点什么	Kysy minulta mitä vain
+HTTP 插件	HTTP-liitännäinen
+回收站是空的。	Kierrätysastia on tyhjä.
+已复制当前配置	Nykyinen profiili kopioitu
+已恢复到工作区	Palautettu työtilaan
+当前预设已生效	Tämä esiasetus on aktiivinen
+按当前单价估算	Arvio käypinä hintoina
+换个关键词试试	Kokeile toista avainsanaa
+智能体请求执行	Agentti pyytää toimenpidettä
+朗读上一条回答	Lue viimeinen vastaus
+本地凭据已销毁	Paikallistiedot tuhottu
+每次操作先问我	Kysy ennen jokaista toimenpidettä
+没有匹配的语言	Ei vastaavaa kieltä
+没有匹配的连接	Ei yhteensopivaa yhteyttä
+深度研究工作流	Syvä tutkimustyö
+管理 / 切换	Hallitse / vaihda
+自动接入可用项	Yhdistä saatavilla olevat
+Token 用量	Token-käyttö
+在所有连接里查找	Etsi kaikki yhteydet
+工作区路径已复制	Työtilan polku kopioitu
+扫描已运行的服务	Etsi juoksevia palveluja
+搜索连接名或地址	Etsi nimellä tai URL-osoitteella
+未启用任何搜索源	Ei hakulähdettä käytössä
+永久清空回收站？	Tyhjennetäänkö kierrätysastia pysyvästi?
+测试已启用搜索源	Testissä käytettävät lähteet
+会话已复制到剪贴板	Keskustelu kopioidaan leikepöydälle
+允许模型调用该插件	Salli mallin kutsua tätä liitännäistä
+填入该服务商的密钥	Anna palveluntarjoajaa koskeva avain
+手动填写模型 ID	Kirjoita mallin tunnus käsin
+点击头像从相册选择	Napauta avataria poimiaksesi galleriasta
+AI 用这种语言回答	Tekoäly vastaa tällä kielellä
+单次任务最多执行几步	Enimmäisvaiheet tehtävää kohti
+在线 · 需 Key	Online · avain vaaditaan
+已创建，可在下方编辑	Luonut muokkauksen alla
+当前会话的能力与连接	Kykyjä ja yhteys tähän keskusteluun
+自定义搜索引擎 ID	Oma hakukonetunnus
+至少需要保留一份配置	Säilytä vähintään yksi profiili
+还没有可以朗读的回答	Ei vastausta ääneen vielä
+临时凭据（用完即销毁）	Väliaikaiset valtuudet (hävitetty käytön jälkeen)
+已还原此预设的内置内容	Sisäänrakennettu sisältö palautettu tähän esiasetettu
+研究报告已复制到剪贴板	Raportti kopioitu leikepöydälle
+主色 · 页面 · 圆角	Aksentti · sivu · kulmat
+打不开浏览器，链接已复制	Selainta ei voitu avata; linkki kopioitu
+朗读上一条回答（已静音）	Lue viimeinen vastaus (muutettu)
+每条回答前显示形象小头像	Näytä pieni persoona avatar ennen jokaista vastausta
+发送前预览 · 最终请求体	Lähetä esikatselu · lopullinen pyyntö elin
+向网关索取真实 usage	Kysy portilta oikeaa käyttöä
+朗读已静音 · 长按可恢复	Read-aloud mutated · pitkä-press unmute
+档位、深度思考与联网总开关	Taso, syvä ajattelu ja verkkohaun pääkytkin
+正在准备朗读 · 点击取消	Valmistellaan puhetta · napauta peruuttaaksesi
+正在并行测试已启用搜索源…	Testaus mahdollista lähteitä rinnakkain..
+消息列表上方显示头像与名字	Näytä avatar ja nimi viestilistan yläpuolella
+累计消耗、单价、明细与导出	Kokonaismenot, hinnat, jaottelu ja vienti
+预览：静水深流，字要看得清	Esikatselu: vielä vettä, tekstin tulisi pysyä luettavissa
+关闭后主界面回到纯工作台样式	Kun pois päältä, päänäyttö palaa tavalliseen työtilaan
+按钮、标题与说明文字都跟着换	Napit, nimet ja kuvaukset kaikki kytkin liian
+这个连接还没有读到模型列表。	Tälle yhteydelle ei ole vielä luettu mallilistaa.
+这台主机上没有发现兼容端点。	Tähän isäntään ei löytynyt yhteensopivaa päätepistettä.
+关闭后保留文档但不注入工具清单	Kun olet poissa, dokumentit pysyvät, mutta työkaluluetteloa ei injektoida
+多源选择、每源密钥与连通性测试	Valitse lähteet, lisää lähde-avaimet, testiyhteydet
+接口地址、密钥、模型与多配置档	Päätepiste, avain, mallit ja moniprofiilit
+深度研究工作流、实验记录与报告	Syvä tutkimustyö, koeloki ja raportit
+先完成推理再输出结论，只显示摘要	Perustelu ensin, sitten vastaus; vain yhteenveto esitetään
+公益站额度导航 · 社区持续更新	Yhteisön kiintiöluettelo · yhteisön päivittämä
+切换不丢失内容；每份预设独立保存	Vaihdtaminen pitää tekstin; jokainen esiasetettu tallennetaan erikseen
+发送格式、视觉能力判定与图片诊断	Lähetä muoto, näkyvyys ja kuvan diagnostiikka
+已启用的源 · 点开填密钥或端点	Käytössä olevat lähteet · avaa yksi lisätä avain tai päätepiste
+每次调用的参数、请求体与响应原文	Parametrit, pyyntökeho ja raaka vastaus jokaiselle puhelulle
+没有发现服务，检查反代是否已启动	Palvelua ei löytynyt Tarkista, että rele on käynnissä
+直接输入，或者从下面挑一个开头。	Kirjoita vapaasti tai aloita alla olevasta ehdotuksesta.
+自动压缩到 320px，仅存本地	Valmistettu 320px:ksi, varastoitu vain paikallisesti
+自定义头像、名字、性格与角色设定	Oma avatar, nimi, persoonallisuus ja rooli
+不写入磁盘，仅保留在本次会话内存中	Säilytti muistia vain tämän istunnon, ei koskaan kirjoitettu levylle
+探测公开的免密钥模型，能对话才列出	Koeta julkista avainta ja luettele vain ne, jotka vastaavat
+19 套主题、自定义配色、圆角与字号	19 teemaa, omat värit, kulmat ja tekstin koko
+会真发一句极短的问题，消耗少量额度。	Esittää yhden hyvin lyhyen kysymyksen ja käyttää pientä kiintiötä.
+保存参数与响应原文，最多 120 条	Tallenna parametrit ja raaka vasteet, jopa 120 tietuetta
+朗读与语音输入，免费与付费引擎都可切	Read-aloud ja äänitulo, ilmaiset ja maksulliset moottorit
+sk-…（本地 Ollama 可留空）	sk-..
+只打开系统确认页，需你亲手点保存才生效	Avaa vain järjestelmän arkin; mikään ei muutu ennen kuin napautat Tallenna
+把开源 xx2api 项目接成一条连接	Liitä avoimen lähdekoodin xx2api-projekti yhteyteen
+界面、回答、语音识别三套语言，独立设置	Liitäntä, vastaus ja sanelu kielet ... kolme itsenäistä asetusta
+该会话的所有消息将被移除，且无法恢复。	Jokainen viesti tässä keskustelussa poistetaan pysyvästi.
+所有连接配置的密钥将被清除，且无法恢复。	Jokaisen yhteysprofiilin avaimet poistetaan pysyvästi.
+没有匹配的项目，换个关键词或点「全部」。	Mikään ei täsmää Kokeile toinen avainsana tai napauta Kaikki.
+没识别到有效地址，需要以 http 开头	Valid- osoitetta ei löytynyt; sen on aloitettava http: llä
+真实 usage 优先，未返回时本地估算	Todellinen käyttö ensin; arvioitu paikallisesti, kun puuttuu
+还没有启用任何源，联网搜索不会发起检索。	Ei lähdekoodia käytössä, joten web-hakua ei suoriteta.
+System Prompt 预设与变量插值	Järjestelmän nopeat esiasetukset ja muuttuva interpolointi
+检索 → 大纲 → 逐节展开 → 汇总报告	Haku → yhteenveto → luonnos → raportti
+还没有拉到模型列表，点右上角「刷新」读取。	Ei mallilistaa vielä napauta Päivitä oikeassa yläreunassa.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Kun pois, käyttäytyy täsmälleen kuin tavallinen chat asiakas ilman työkaluja ruiskutettu
+写文件、打开应用等动作在界面上等你点「允许」	Tiedostojen kirjoittaminen, sovellusten avaaminen ja vastaavat toiminnot odottavat ..
+只读工具随时可用；其余按上面的授权分组生效。	Lue vain työkalut toimivat aina; kaikki muu seuraa edellä mainittuja ryhmiä.
+圆角只作用于卡片、按钮与输入台，不影响排版。	Pyöristys koskee kortteja, painikkeita ja säveltäjää.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Avaa asennetut sovellukset, käynnistä selain, jaa, kirjoita leikepöydälle
+读取公开网页正文（禁止内网 / 元数据地址）	Lue julkinen sivu teksti (yksityiset ja metatiedot osoitteet estetty)
+127.0.0.1 或 192.168.1.5	127,0,0.1 tai 192,168,1,5
+例如：端侧小模型在 2025 年的推理优化路径	Esim. laite pienet mallit ja päättely optimointi vuonna 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Tämä koskee vain tätä työtilaa; muut työtilat pitävät oman valintansa.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Monipuolinen haku → yhteenveto → luonnos → raportti
+输入关键词，可在这个连接和所有其他连接里查找。	Kirjoita avainsana etsiäksesi tätä yhteyttä ja kaikkia muita.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Yhtään hakulähdettä ei ole vielä käytössä Asetuksissa → Etsi
+回收站里的备份与被删文件将被真正删除，无法恢复。	Varmuuskopioita ja poistettuja tiedostoja kierrätysastiasta poistetaan pysyvästi.
+搜索语言，如 英语 / English / 冰岛	Hakukielet, esim. englanti /
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Lue/kirjoita yksityinen työtila, suorita tehtäväskriptit (sandboxed, sallittu oletuksena)
+Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
+gpt-4o / claude / 通义 / 视觉	gpt-4o / Claude / qwen / näkö
+分两批并发，单个超时 25 秒；有本机服务时会更快	Kaksi samanaikaista erää, 25:n aikakatkaisu, nopeammin, kun paikallinen palvelu löytyy
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Teksti vain ... rivin korkeus ja välipysyä laittaa, joten suuremmat koot eivät koskaan riko painikkeita.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Laitetiedot, yksityinen työtila, sovellukset / kalenteri / hälytykset
+等宽原样呈现，不解析 Markdown、不转换引用	Näytetään kuin-on monospace: ei Markdown jäsennystä, ei viittaus muuntaminen
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Ei laitteen toimintoja vielä. Jokainen vaihe on kirjattu ja voidaan tarkistaa myöhemmin.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	Valtakirjat on salattu vain tällä laitteella; pyynnöt menevät suoraan päätepisteeseen.
+可留空，留空时请求不带 Authorization。	Valinnainen
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Napauta käyttääksesi, napauta uudelleen poistaaksesi käytöstä. Verkkohakuun käytetään vain käytössä olevia lähteitä.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	Diktaatin kieli vaikuttaa vain puhe-teksti; väärä tekee siitä muun kielen.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Lue vastaukset ääneen. Ilmaiset kanavat voivat lopettaa työskentelyn milloin tahansa; järjestelmäpuhe toimii aina.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	Yhden tapin testi lähettää todellisen pyynnön jokaiselle tarjoajalle ja listaa vain läpäisseet.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Pyydä todellinen käyttö; jos päätepiste virheitä, sammuta tämä ja palata ... arvioita.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	Todellinen käyttö voittaa; kun yhdyskäytävä jättää sen, arvioimme merkkiä ja merkitä sen .
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Kokeile lyhyempi alias (4o / ds / qwen), tai käytä tätä ID sellaisenaan.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Syötä 0 ohittaa kustannusarviot. Hinnat käytetään vain paikallisesti, koskaan lähetetty mihinkään.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Ei Markdown renderöintiä tai viittaus markkereita ... raa'a teksti näkyy monoavaruudessa.
+在电脑上跑着 g4f / chat2api / Ollama？	Running g4f / chat2api / Ollama tietokoneella?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Ei persoona vielä. Luo yksi alla Avatar, nimi ja puhuminen tyyli ovat kaikki sinun asettaa.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Monipuolinen haku → hahmotelma → jaksoittain luonnos → loppuraportti. Keskeytä milloin tahansa.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Hakumallit tai myyjät, esim. gpt-4o / Claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Etsi projekteja, alustoja tai malleja, esim. syvähaku / kimi / yhdyskäytävä
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Pyytäkää agenttia tallentamaan tulos muistiinpanoihin.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Luvattomia toimia ei toteuteta; malli saa luvan vaatia ja selittää tekstin sijaan.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Nauhoitus pysähtyy, kun menet hiljaiseksi.
+请求体附带 stream_options.include_usage	Pyyntöelin sisältää stream optiot.include usage
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Lähteet kysytään samanaikaisesti, deduplicated URL ja yhdistetään toisiinsa lainausmerkkejä; yksi puuttuva lähde ei vaikuta muihin.
+按路径筛选，如 app_state / AndroidManifest	Suodata polkuittain, esim. app state / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	On oltava OpenAI-yhteensopiva päätepiste, joka ei tarvitse avainta. Se testataan kerran heti lisäämisen jälkeen.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Tarkista järjestys: palvelu on käynnissä, satama vastaa, palomuuri sallii sen, ja puhelin ei ole vieras verkossa.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Normaali oire väärästä kielestä on, että se kuulee minut, mutta kirjoittaa toisen kielen. Aksentilla, valitse saman kielen alueellinen versio.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://example.com/v1 gpt-4o-mini\nYksi riviä kohti; mallin nimi on valinnainen
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127.0.0.1 pistettä puhelimessa itse. Jos rele ei ole tässä puhelimessa, korvaa se koneen LAN IP käynnissä.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	Malli alusten sisällä APK, ei ladattavaa. Tunnistus toimii kokonaan laitteen; tallenteet eivät koskaan ladata, elää sovelluksen private kansio, ja poistetaan käytöstä.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	Julkisia tapauksia hoitavat kolmannet osapuolet, ja ne voidaan rajoittaa, muuttaa tai poistaa ilman ennakkoilmoitusta, joten uudelleentestaa joka kerta. Älä koskaan lähetä yksityis-, tili- tai yritystietoja niiden kautta.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Neljä nimetöntä kanavaa ja tusina mallia, jotka kaikki on testattu yhdellä hanalla. Mallilista yksin on harhaanjohtava: paljon portteja listaa kaiken ja sitten palata 402 tai 429 oikealla puhelulla.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Ota käyttöön Automaattinen-ennätys kokeiluja. Jokainen puhelu . Normaalissa chat tai syvä tutkimus
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Rele toimii yleensä tietokoneella tai reitittimellä. Liity samaan Wi-Fi:hen, kirjoita koneeseen LAN IP (esim. 192.168.1.5), ja napauta Scania kokeillaksesi yhteisiä portteja.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Oletuksena malli vastaa vain kysymyksiin. Käynnistä tämä ja se voi lukea oikeat tiedot tästä laitteesta ja toimia sisällä mitä annat: lukea ja kirjoittaa yksityisen työtilan, avoimet sovellukset ja web-sivut, luoda kalenteritapahtumia, asettaa hälytyksiä.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Jokainen työtila voi ohittaa persoonansa yläpalkin avatarista. Roolikuvaus on kirjoitettu järjestelmään nopeasti tunnistusviestinä; se muuttaa äänensävyä ja tyyliä, ei mitä malli voi tehdä.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Saatavissa olevat muuttujat: {{query}} {date} {time} {{ malli}} {{kieli} {lähteet} {tier}
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Satamat 8000 ja 3000 ovat jaettu useita hankkeita, joten vain yksi voi ajaa konetta kohti; muuttaa sataman tai käyttää erikseen ajaa molempia. Virallinen set tarvitsee avaimen, mutta on vapaa kiintiö. Yhteisön tapaukset ovat joku muu.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Käytä {{query}}} {{date}} {aika} {{ malli} {{kieli} {lähteet}} {{tier}} pikaviestissä; ne korvataan todellisilla arvoilla ennen lähettämistä.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Vapaat kanavat käyttävät julkisia web-päätteitä ja voivat lopettaa työskentelyn tai saada hintarajoituksen milloin tahansa. Avaimet on salattu vain tällä laitteella, eikä koskaan synkronoitu. Napauta aaltopainiketta oikeassa yläkulmassa, tai pitkä paina kuplaa, lukea ääneen. Napauta mikrofonia säveltäjän puhua, nauhoitus pysähtyy, kun menet hiljainen, ja teksti laskeutuu tuloruutuun tarkistaa ennen lähettämistä.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Kuvat lähetetään base64, pisin reuna 1280, laatu 72. Jos kuvapyyntö palauttaa 400 / 413 / Yhteys suljettu, malli tai yhdyskäytävä todennäköisesti hylkää inline kuvia .
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Seuraa kysymystä" ei lisää kieliohjetta; malli päättää itse. Valinta kirjoitetaan System Promptiin.

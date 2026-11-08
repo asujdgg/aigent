@@ -1,0 +1,300 @@
+主色	Accent
+主题	Tema
+今日	Hari ini
+保存	Simpan
+停止	Berhenti
+允许	Ijinkan
+关闭	Tutup
+删除	Hapus
+刷新	Segarkan
+发送	Kirim
+取消	Batal
+圆角	Corners
+复制	Salin
+外观	Penampilan
+字号	Ukuran teks
+密钥	Kunci
+工具	Perkakas
+忽略	Abaikan
+恢复	Pulihkan
+接入	Sambung
+新建	Baru
+朗读	Baca keras-keras
+未测	Belum teruji
+模型	Model
+添加	Tambah
+清空	Hapus
+确定	OK
+离线	Luring
+累计	Total
+编辑	Sunting
+视觉	Visi
+设置	Pengaturan
+语音	Suara
+请求	Permintaan
+跳过	Lewati
+部署	Menyebarkan
+销毁	Hancurkan
+去设置	Buka pengaturan
+已停更	Dihentikan
+已复制	Disalin
+待检测	Belum diuji
+源代码	Sumber
+生成中	Menghasilkan
+知道了	Mengerti
+自定义	Gubahan
+重命名	Ganti Nama
++ 新建	+ Baru
+一键接入	Hubungkan semua
+人物形象	Persona
+停止朗读	Berhenti membaca
+免密模型	Model tanpa tombol
+删除形象	Hapus persona
+删除配置	Hapus profil
+原始输出	Keluaran mentah
+图片诊断	Diagnosa gambar
+复制一份	Duplikat
+复制全文	Salin semua
+复制内容	Salin teks
+外观主题	Penampilan
+实验记录	Log percobaan
+对话语言	Balas bahasa
+开始检测	Uji awal
+开始说话	Mulai bicara
+当前会话	Percakapan ini
+当前模型	Model saat ini
+当前预设	Preset kini
+待填密钥	Kunci dibutuhkan
+授权范围	Hak
+接入最快	Tercepat untuk mengatur
+接口地址	URL Endpoint
+插件系统	Pengaya
+搜索模型	Cari model
+搜索设置	Pengaturan pencarian
+收起搜索	Sembunyikan pencarian
+明暗模式	Cahaya / gelap
+未设模型	Tanpa model
+测试连通	Uji sambungan
+深度思考	Berpikir dalam
+深度研究	Penelitian mendalam
+添加地址	Tambah titik akhir
+用量追踪	Pelacakan penggunaan
+界面语言	Bahasa antarmuka
+系统当前	Sistem
+网页抓取	Mengambil halaman
+联网搜索	Pencarian web
+能力开关	Switch kapabilitas
+能力档位	Tingkat kapabilitas
+语音输入	Masukan suara
+说点什么	Katakan sesuatu
+这台设备	Perangkat ini
+连接配置	Profil koneksi
+选择形象	Pilih persona
+选择模型	Pilih model
+配置名称	Nama profil
+配置连接	Konfigurasikan koneksi
+页面底色	Latar belakang halaman
+预设名称	Nama praset
+会话与设置	Percakapan & pengaturan
+删除工作台	Hapus area kerja
+删除此形象	Hapus persona ini
+反代与网关	Relay & gateway
+命令已复制	Perintah disalin
+填入输入框	Sisipkan ke masukan
+已复制回答	Jawaban disalin
+已开启朗读	Baca keras-keras pada
+应用与网页	Apps & web
+提示词预设	Prompt presets
+文件与脚本	Berkas & skrip
+日历与闹钟	Kalender & alarm
+朗读已开启	Baca keras-keras pada
+未指定模型	Tidak ada model yang dipilih
+查看源代码	Lihat sumber
+源码已复制	Sumber disalin
+点一下切换	Sentuh ke switch
+独立工作区	Area kerja pribadi
+研究工作台	Area kerja penelitian
+网页版反代	Relay web
+联网搜索源	Sumber pencarian web
+设备智能体	Agen perangkat
+语言与地区	Bahasa & wilayah
+输入任务…	Masukkan tugas..
+连接与模型	& Model koneksi
+重命名配置	Ubah nama profil
+链接已复制	Tautan disalin
+顶部形象区	Area perorangan atas
+（无内容）	(kosong)
+先填主机地址	Masukkan host terlebih dahulu
+助手消息头像	Jawab avatar
+去设置里刷新	Segarkan dalam Pengaturan
+启用人物形象	Fungsikan persona
+启用本机操作	Aktifkan aksi perangkat
+图片与多模态	Gambar & multimodal
+图片发送格式	Format gambar
+已删除该配置	Profil dihapus
+当前 API	API Kini
+提示词预设库	Prompt preset library
+搜索源连通性	Konektivitas sumber
+新建连接配置	Profil koneksi baru
+模型能力档位	Tingkat kapabilitas
+每源结果条数	Hasil per sumber
+添加免密地址	Tambah titik akhir tanpa kunci
+等待模型输出	Menunggu model
+自动记录实验	Percobaan auto- record
+语音识别语言	Bahasa diktasi
+请求体已复制	Meminta salinan tubuh
+还没有记录。	Belum ada yang terekam.
+销毁本地凭据	Hancurkan kredensial lokal
+随便问点什么	Tanyakan apa saja
+HTTP 插件	Plugin HTTP
+回收站是空的。	Kotak daur ulang kosong.
+已复制当前配置	Profil saat ini disalin
+已恢复到工作区	Dikembalikan ke area kerja
+当前预设已生效	Preset ini aktif
+按当前单价估算	Perkiraan pada harga saat ini
+换个关键词试试	Coba kata kunci lain
+智能体请求执行	Agen meminta tindakan
+朗读上一条回答	Baca jawaban terakhir
+本地凭据已销毁	Kredensial lokal hancur
+每次操作先问我	Tanya saya sebelum setiap tindakan
+没有匹配的语言	Tidak ada bahasa yang cocok
+没有匹配的连接	Tidak ada koneksi yang cocok
+深度研究工作流	Kerjaan penelitian mendalam
+管理 / 切换	Kelola / switch
+自动接入可用项	Hubungkan yang tersedia
+Token 用量	Penggunaan token
+在所有连接里查找	Cari semua koneksi
+工作区路径已复制	Path Area Kerja disalin
+扫描已运行的服务	Pindai layanan yang sedang berjalan
+搜索连接名或地址	Cari berdasarkan nama atau URL
+未启用任何搜索源	Tak ada sumber pencarian yang diaktifkan
+永久清空回收站？	Kosongkan tempat sampah daur ulang secara permanen?
+测试已启用搜索源	Uji sumber yang diaktifkan
+会话已复制到剪贴板	Percakapan disalin ke clipboard
+允许模型调用该插件	Ijinkan model untuk memanggil plugin ini
+填入该服务商的密钥	Masukkan kunci penyedia
+手动填写模型 ID	Masukkan sebuah ID model secara manual
+点击头像从相册选择	Sentuh avatar untuk memilih dari galeri Anda
+AI 用这种语言回答	AI menjawab dalam bahasa ini
+单次任务最多执行几步	Langkah maksimum setiap tugas
+在线 · 需 Key	Daring
+已创建，可在下方编辑	Dibuat - sunting di bawah
+当前会话的能力与连接	Kemampuan dan koneksi untuk percakapan ini
+自定义搜索引擎 ID	ID mesin pencari gubahan
+至少需要保留一份配置	Simpan setidaknya satu profil
+还没有可以朗读的回答	Tidak ada jawaban untuk membaca keras belum
+临时凭据（用完即销毁）	Kredensial sementara (hancur setelah digunakan)
+已还原此预设的内置内容	Bawaan-dalam isi dipulihkan untuk preset ini
+研究报告已复制到剪贴板	Laporkan disalin ke papan klip
+主色 · 页面 · 圆角	Accent
+打不开浏览器，链接已复制	Tak bisa membuka peramban; taut disalin
+朗读上一条回答（已静音）	Baca jawaban terakhir (bisu)
+每条回答前显示形象小头像	Tampilkan avatar persona kecil sebelum setiap jawaban
+发送前预览 · 最终请求体	Kirim preview
+向网关索取真实 usage	Tanyakan gateway untuk penggunaan nyata
+朗读已静音 · 长按可恢复	Dibaca - keras muted - tekan untuk unmute
+档位、深度思考与联网总开关	Tier, pemikiran dalam dan tombol master pencari web
+正在准备朗读 · 点击取消	Menyiapkan pidato untuk membatalkan
+正在并行测试已启用搜索源…	Menguji sumber yang diaktifkan dalam paralel..
+消息列表上方显示头像与名字	Tampilkan avatar dan nama di atas daftar pesan
+累计消耗、单价、明细与导出	Total pengeluaran, harga, kerusakan dan ekspor
+预览：静水深流，字要看得清	Pratilik: masih air, teks harus tetap berhuruf
+关闭后主界面回到纯工作台样式	Ketika dimatikan, layar utama kembali ke ruang kerja biasa terlihat
+按钮、标题与说明文字都跟着换	Tombol, judul dan deskripsi semua switch terlalu
+这个连接还没有读到模型列表。	Belum ada daftar model yang dibaca untuk sambungan ini.
+这台主机上没有发现兼容端点。	Tidak ditemukan titik akhir yang kompatibel pada host ini.
+关闭后保留文档但不注入工具清单	Bila dimatikan, dokumen tetap tinggal tapi daftar alat tidak disuntikkan
+多源选择、每源密钥与连通性测试	Pilih sumber, tambahkan kunci per-source, uji konektivitas
+接口地址、密钥、模型与多配置档	Endpoint, kunci, model, dan beberapa profil
+深度研究工作流、实验记录与报告	Deep penelitian alur kerja, log percobaan dan laporan
+先完成推理再输出结论，只显示摘要	Alasan pertama, kemudian menjawab; hanya ringkasan yang ditampilkan
+公益站额度导航 · 社区持续更新	Daftar kuota masyarakat diperbarui oleh masyarakat
+切换不丢失内容；每份预设独立保存	Switching menyimpan teks Anda; setiap preset disimpan secara terpisah
+发送格式、视觉能力判定与图片诊断	Kirim format, deteksi visi, dan diagnosa gambar
+已启用的源 · 点开填密钥或端点	Diaktifkan sumber untuk menambah kunci atau titik akhir
+每次调用的参数、请求体与响应原文	Parameter, permintaan tubuh dan respon mentah untuk setiap panggilan
+没有发现服务，检查反代是否已启动	Tidak ditemukan layanan - periksa apakah relay sedang berjalan
+直接输入，或者从下面挑一个开头。	Ketik bebas, atau mulai dari saran di bawah.
+自动压缩到 320px，仅存本地	Kompresi ke 320px, hanya disimpan secara lokal
+自定义头像、名字、性格与角色设定	Avatar kustom, nama, kepribadian dan peran
+不写入磁盘，仅保留在本次会话内存中	Disimpan dalam memori untuk sesi ini saja, tidak pernah ditulis ke disk
+探测公开的免密钥模型，能对话才列出	Probe model publik tanpa kunci dan daftar hanya yang menjawab
+19 套主题、自定义配色、圆角与字号	19 tema, warna kustom, sudut dan ukuran teks
+会真发一句极短的问题，消耗少量额度。	Mengirim satu pertanyaan yang sangat singkat dan menggunakan sedikit kuota.
+保存参数与响应原文，最多 120 条	Simpan parameter dan respon mentah, hingga 120 entri
+朗读与语音输入，免费与付费引擎都可切	Baca - keras dan masukan suara, gratis dan mesin dibayar
+sk-…（本地 Ollama 可留空）	sk-... (tinggalkan kosong untuk ollama lokal)
+只打开系统确认页，需你亲手点保存才生效	Buka lembar sistem saja; tidak ada perubahan sampai Anda tekan Simpan
+把开源 xx2api 项目接成一条连接	Kaitkan projek xx2api sumber terbuka ke dalam suatu koneksi
+界面、回答、语音识别三套语言，独立设置	Antar muka, menjawab dan mendikte bahasa - tiga pengaturan independen
+该会话的所有消息将被移除，且无法恢复。	Setiap pesan dalam percakapan ini akan dihapus permanen.
+所有连接配置的密钥将被清除，且无法恢复。	Kunci untuk setiap profil koneksi akan dihapus permanen.
+没有匹配的项目，换个关键词或点「全部」。	Tidak ada yang cocok - coba kata kunci lain atau tekan Semua.
+没识别到有效地址，需要以 http 开头	URL tidak ditemukan valid; ini harus dimulai dengan http
+真实 usage 优先，未返回时本地估算	Penggunaan nyata pertama; diperkirakan lokal ketika hilang
+还没有启用任何源，联网搜索不会发起检索。	Tak ada sumber yang diaktifkan, jadi pencarian web tak akan berjalan.
+System Prompt 预设与变量插值	Sistim preset dan interpolasi variabel
+检索 → 大纲 → 逐节展开 → 汇总报告	Cari laporan outline Schuldraft £
+还没有拉到模型列表，点右上角「刷新」读取。	Belum ada daftar model - tekan Refresh di kanan atas.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Ketika mati, berperilaku persis seperti klien obrolan biasa tanpa alat disuntikkan
+写文件、打开应用等动作在界面上等你点「允许」	Menulis berkas, membuka aplikasi dan aksi serupa menunggu tekan "Ijinkan" Anda
+只读工具随时可用；其余按上面的授权分组生效。	Hanya alat baca yang selalu bekerja; yang lain mengikuti kelompok di atas.
+圆角只作用于卡片、按钮与输入台，不影响排版。	Pembatasan berlaku untuk kartu, tombol, dan komposer - bukan untuk tata letak.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Buka aplikasi yang terpasang, luncurkan peramban, bagi, tulis ke papan klip
+读取公开网页正文（禁止内网 / 元数据地址）	Baca teks halaman publik (alamat privat dan metadata diblokir)
+127.0.0.1 或 192.168.1.5	127.0.1 atau 192.168.1.5
+例如：端侧小模型在 2025 年的推理优化路径	mis. on-device model kecil dan optimasi inferensi di 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Aplikasi ke area kerja ini saja; ruang kerja lain menjaga pilihan mereka sendiri.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Kalikan-bulat pencarian stringed outline draft £laporan
+输入关键词，可在这个连接和所有其他连接里查找。	Ketik kata kunci untuk mencari koneksi ini dan yang lainnya.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Belum ada sumber pencarian yang diaktifkan - aktifkan satu pada Pengaturan Pencarian
+回收站里的备份与被删文件将被真正删除，无法恢复。	Backup dan berkas yang dihapus dalam kotak daur ulang akan dihapus permanen.
+搜索语言，如 英语 / English / 冰岛	Bahasa pencarian, misalnya bahasa Inggris / Singapura
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Baca / tulis sebuah area kerja privat, jalankan skrip tugas (sandboxed, diperbolehkan secara baku)
+Swagger / OpenAPI JSON 地址	URL Swagger / OpenAPI JSON
+gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / vision
+分两批并发，单个超时 25 秒；有本机服务时会更快	Dua batch concurt, 25 s timeout masing-masing; lebih cepat ketika layanan lokal ditemukan
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Teks saja - batas ketinggian dan jarak tinggal, ukuran yang lebih besar tidak pernah memecahkan tombol.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informasi perangkat, area kerja privat, aplikasi / kalender / alarm
+等宽原样呈现，不解析 Markdown、不转换引用	Shown as- adalah dalam monospace: tidak Markdown parsing, tidak ada konversi kutipan
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Belum ada aksi perangkat. Setiap langkah dilog dan dapat ditinjau nanti.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	Kredensial telah dienkripsi pada perangkat ini saja; permintaan langsung ke titik akhir yang Anda masukkan.
+可留空，留空时请求不带 Authorization。	Opsional - ketika kosong, permintaan dikirim tanpa header Otorisasi.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Sentuh untuk mengaktifkan, klik lagi untuk mematikan. Hanya sumber aktif yang digunakan untuk pencarian web.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	Bahasa diktasi hanya berpengaruh pada teks cepat; yang salah membuatnya berlangganan ke bahasa lain.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Baca jawaban dengan keras.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	Satu-tekan tes mengirimkan permintaan nyata untuk setiap penyedia dan daftar hanya yang lewat.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Meminta penggunaan nyata; jika kesalahan titik akhir, matikan ini dan kembali ke perkiraan.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	Penggunaan sebenarnya menang; ketika gateway menghilangkannya, kita memperkirakan dengan karakter dan menandainya dengan luwes.
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Coba alias lebih pendek (4o / ds / qwen), atau gunakan ID ini seperti ini.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Masukkan 0 untuk melewatkan perkiraan biaya. Harga hanya digunakan secara lokal, tidak pernah dikirim ke mana pun.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Tidak ada render Markdown atau penanda kutipan - teks mentah ditampilkan dalam monopace.
+在电脑上跑着 g4f / chat2api / Ollama？	Menjalankan g4f / chat2api / Ollama di komputer Anda?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Belum ada persona.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Multip- round search GNU outline discisions-by-section draft aschfinal report any time.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Cari model atau vendor, misal gpt-4o / claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Cari proyek, platform, atau model, misalnya deepseek / kimi / gateway
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Kosong untuk saat ini. Minta agen untuk "menyimpan hasil ke catatan /" dan itu akan muncul di bawah.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Tindakan tidak sah tidak dijalankan; model menerima "permission" dan menjelaskan dalam teks sebagai gantinya.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Rekaman berhenti ketika Anda pergi tenang. transkrip masuk ke kotak masukan - check it, then send.
+请求体附带 stream_options.include_usage	Permintaan tubuh termasuk stream _ options.include _ using
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Sumber diquery dalam paralel, deduplikasi oleh URL dan digabung ke kutipan-kutipan berinterleaved; satu sumber gagal tidak mempengaruhi yang lain.
+按路径筛选，如 app_state / AndroidManifest	Filter menurut jalur, mis. app _ state / AndroidFicful
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Harus berupa titik akhir yang kompatibel OpenAI- yang tidak memerlukan kunci. Diuji sekali setelah menambahkan.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Periksa urutan: layanan berjalan, kecocokan port, firewall memungkinkan, dan telepon tidak pada jaringan tamu.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Gejala yang biasa dari bahasa yang salah adalah "ia mendengar saya tapi mengirim bahasa lain". dengan aksen, memilih varian regional dari bahasa yang sama.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Ikuti pertanyaannya" tidak menambahkan instruksi bahasa dan membiarkan model memutuskan. Sebuah bahasa yang dipilih ditulis ke dalam sistem prompt.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / / example.com / v1 gpt -4o-mini\nSatu per baris; nama model adalah opsional
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127.0.1 poin di telepon itu. jika relay tidak ada di ponsel ini, ganti dengan IP LAN dari mesin yang menjalankannya.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	Model kapal di dalam APK, tidak diperlukan unduhan. Pengakuan sepenuhnya pada perangkat; rekaman tidak pernah diunggah, hidup dalam folder pribadi aplikasi, dan dihapus pada uninstall.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	Contoh umum dijalankan oleh pihak ketiga dan mungkin dibatasi - terbatas, berubah atau diturunkan tanpa pemberitahuan, jadi uji ulang setiap kali. Jangan pernah mengirim pribadi, akun, atau data perusahaan melalui mereka.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Empat saluran tanpa nama dan selusin model, semua diuji dalam satu keran.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Aktifkan "Percobaan Auto- record" dalam Pengaturan. Setiap panggilan - dalam percakapan normal atau penelitian dalam - adalah diarsipkan dengan parameter, sebuah permintaan tubuh dan keluaran model mentah, hingga 120 entri.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Sebuah relay biasanya dijalankan pada komputer atau router. Gabung Wi- Fi yang sama, masukkan IP LAN mesin (misalnya 192.168.1.5), dan tekan Pindai untuk mencoba port umum.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Secara baku model hanya menjawab pertanyaan. Nyalakan ini dan dapat membaca informasi nyata dari perangkat ini dan bertindak dalam apa yang Anda otorisasi: membaca dan menulis area kerja pribadi, membuka aplikasi dan halaman web, membuat kejadian kalender, mengatur alarm.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Setiap area kerja dapat menimpa persona dari avatar di bar atas. Deskripsi peran ditulis ke dalam sistem cepat sebagai catatan identitas; ia mengubah nada dan gaya, bukan apa model sebenarnya dapat dilakukan.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variabel tersedia: {{{query}} {{date}} {{{time} {{{model} {{language}} {{{{tier}} - digantikan dengan nilai sebenarnya sebelum mengirim.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Ports 8000 dan 3000 dibagi oleh beberapa proyek, jadi hanya satu yang dapat menjalankan setiap mesin; mengubah port atau menyebarkan secara terpisah untuk keduanya. Set resmi membutuhkan kunci tetapi memiliki kuota gratis. Komunitas adalah layanan orang lain - mereka dapat pergi offline setiap saat, jadi tidak pernah mengirim data pribadi melalui mereka.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Gunakan {query} {{{date}} {{{waktu}} {{{model} {{{language}} {{{tier}}} dalam prompt; mereka digantikan dengan nilai sebenarnya sebelum mengirim.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Saluran bebas menggunakan titik akhir web publik dan mungkin berhenti bekerja atau mendapatkan rate-terbatas setiap saat. Kunci dienkripsi pada perangkat ini saja dan tidak pernah disinkronkan. Sentuh tombol gelombang di kanan atas, atau lama-tekan gelembung, untuk membaca keras. Sentuh mikrofon di komposer untuk berbicara; rekaman berhenti ketika Anda pergi diam, dan teks mendarat di kotak masukan untuk meninjau sebelum mengirim.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Gambar dikirim sebagai base64, ujung terpanjang 1280, kualitas 72. Jika permintaan gambar kembali 400 / 413 / Connection ditutup, model atau gateway kemungkinan besar menolak gambar inline - switch format di atas untuk mempersempitnya.

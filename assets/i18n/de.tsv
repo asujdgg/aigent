@@ -1,0 +1,300 @@
+主色	Akzentfarbe
+主题	Thema
+今日	Heute
+保存	Speichern
+停止	Stopp
+允许	Zulässig
+关闭	Schließen
+删除	Löschen
+刷新	Erfrischend
+发送	Senden
+取消	Abbrechen
+圆角	Ecken
+复制	Kopieren
+外观	Aussehen
+字号	Textgröße
+密钥	Schlüssel
+工具	Werkzeuge
+忽略	Ignorieren
+恢复	Wiederherstellung
+接入	Anschluss
+新建	Neu
+朗读	Vorlesen
+未测	Nicht getestet
+模型	Modell
+添加	Addition
+清空	Klar
+确定	OK
+离线	Offline
+累计	Insgesamt
+编辑	Edit
+视觉	Vision
+设置	Einstellungen
+语音	Stimme
+请求	Antrag
+跳过	Skip
+部署	Einsatz
+销毁	Zerstörung
+去设置	Offene Einstellungen
+已停更	Abgesetzt
+已复制	Kopiert
+待检测	Nicht getestet
+源代码	Quelle
+生成中	Erzeugung
+知道了	Verstanden
+自定义	Benutzerdefiniert
+重命名	Umbenennen
++ 新建	+ Neu
+一键接入	Alle verbinden
+人物形象	Persona
+停止朗读	Ablesen
+免密模型	Schlüsselfreie Modelle
+删除形象	Persona löschen
+删除配置	Profil löschen
+原始输出	Rohoutput
+图片诊断	Bilddiagnostik
+复制一份	Duplikat
+复制全文	Kopieren Sie alle
+复制内容	Kopiertext
+外观主题	Erscheinungsbild
+实验记录	Versuchsprotokoll
+对话语言	Antwortsprache
+开始检测	Startprüfung
+开始说话	Sprechen beginnen
+当前会话	Dieses Gespräch
+当前模型	Aktuelles Modell
+当前预设	Stromvorgabe
+待填密钥	Schlüssel benötigt
+授权范围	Genehmigungen
+接入最快	Schnellste Einrichtung
+接口地址	Endpunkt-URL
+插件系统	Plugins
+搜索模型	Suchmodelle
+搜索设置	Sucheinstellungen
+收起搜索	Versteckte Suche
+明暗模式	Hell/dunkel
+未设模型	Kein Modell
+测试连通	Prüfanschluss
+深度思考	Tiefes Denken
+深度研究	Tiefe Forschung
+添加地址	Endpunkt hinzufügen
+用量追踪	Nutzungsverfolgung
+界面语言	Oberflächensprache
+系统当前	System
+网页抓取	Seitenabruf
+联网搜索	Web-Suche
+能力开关	Leistungsschalter
+能力档位	Fähigkeitsstufe
+语音输入	Spracheingang
+说点什么	Sag etwas
+这台设备	Diese Vorrichtung
+连接配置	Anschlussprofile
+选择形象	Wählen Sie Persona
+选择模型	Wählen Sie Modell
+配置名称	Profilbezeichnung
+配置连接	Konfigurieren der Verbindung
+页面底色	Seitenhintergrund
+预设名称	Voreingestellter Name
+会话与设置	Chats & Einstellungen
+删除工作台	Arbeitsbereich löschen
+删除此形象	Diese Persona löschen
+反代与网关	Relais & Gateway
+命令已复制	Befehl kopiert
+填入输入框	In den Input einfügen
+已复制回答	Antwort kopiert
+已开启朗读	Read-aloud am
+应用与网页	Apps & Web
+提示词预设	Prompt-Vorgaben
+文件与脚本	Dateien & Skripte
+日历与闹钟	Kalender und Alarme
+朗读已开启	Read-aloud am
+未指定模型	Kein Modell ausgewählt
+查看源代码	Sichtquelle
+源码已复制	Quelle kopiert
+点一下切换	Tape zum Switch
+独立工作区	Privater Arbeitsbereich
+研究工作台	Recherche
+网页版反代	Web-Relay
+联网搜索源	Websuchquellen
+设备智能体	Geräteagent
+语言与地区	Sprache & Region
+输入任务…	Geben Sie eine Aufgabe ein..
+连接与模型	Verbindung & Modelle
+重命名配置	Umbenennungsprofil
+链接已复制	Link kopiert
+顶部形象区	Top Persona Bereich
+（无内容）	(leer)
+先填主机地址	Betreten Sie zuerst einen Host
+助手消息头像	Antworten auf Avatare
+去设置里刷新	Refresh in Einstellungen
+启用人物形象	Persona aktivieren
+启用本机操作	Geräteaktionen aktivieren
+图片与多模态	Bilder & Multimodal
+图片发送格式	Bildformat
+已删除该配置	Profil gelöscht
+当前 API	Aktuelle API
+提示词预设库	Prompt Preset Bibliothek
+搜索源连通性	Quelle:
+新建连接配置	Neues Anschlussprofil
+模型能力档位	Kapazitätsstufe
+每源结果条数	Ergebnisse pro Quelle
+添加免密地址	Hinzufügen eines schlüssellosen Endpunkts
+等待模型输出	Warten auf das Modell
+自动记录实验	Auto-Record Experimente
+语音识别语言	Diktiersprache
+请求体已复制	Anfragestelle kopiert
+还没有记录。	Noch nichts aufgezeichnet.
+销毁本地凭据	Zerstören Sie lokale Referenzen
+随便问点什么	Frag mich was
+HTTP 插件	HTTP Plugin
+回收站是空的。	Der Papierkorb ist leer.
+已复制当前配置	Aktuelles Profil kopiert
+已恢复到工作区	Restauriert im Workspace
+当前预设已生效	Dieses Preset ist aktiv
+按当前单价估算	Geschätzt zu jeweiligen Preisen
+换个关键词试试	Versuchen Sie ein anderes Keyword
+智能体请求执行	Agent fordert eine Aktion
+朗读上一条回答	Lesen Sie die letzte Antwort
+本地凭据已销毁	Lokale Referenzen zerstört
+每次操作先问我	Fragen Sie mich vor jeder Aktion
+没有匹配的语言	Keine passende Sprache
+没有匹配的连接	Keine passende Verbindung
+深度研究工作流	Deep Research Workflow
+管理 / 切换	Verwalten / Switch
+自动接入可用项	Verfügbare verbinden
+Token 用量	Token-Verbrauch
+在所有连接里查找	Suchen Sie alle Verbindungen
+工作区路径已复制	Workspace Pfad kopiert
+扫描已运行的服务	Scan für laufende Dienste
+搜索连接名或地址	Suche nach Name oder URL
+未启用任何搜索源	Keine Suchquelle aktiviert
+永久清空回收站？	Den Papierkorb dauerhaft leeren?
+测试已启用搜索源	Testfähige Quellen
+会话已复制到剪贴板	Gespräch kopiert ins Clipboard
+允许模型调用该插件	Lassen Sie das Modell dieses Plugin aufrufen
+填入该服务商的密钥	Geben Sie den Schlüssel des Anbieters ein
+手动填写模型 ID	Modell-ID manuell eingeben
+点击头像从相册选择	Tippen Sie auf den Avatar zur Auswahl aus Ihrer Galerie
+AI 用这种语言回答	Die KI antwortet in dieser Sprache
+单次任务最多执行几步	Maximale Schritte pro Aufgabe
+在线 · 需 Key	Online · Schlüssel erforderlich
+已创建，可在下方编辑	Erstellt - Bearbeiten Sie es unten
+当前会话的能力与连接	Fähigkeiten und Verbindung für dieses Gespräch
+自定义搜索引擎 ID	Benutzerdefinierte Suchmaschinen-ID
+至少需要保留一份配置	Halten Sie mindestens ein Profil
+还没有可以朗读的回答	Noch keine Antwort zum Vorlesen
+临时凭据（用完即销毁）	Vorübergehende Zugangsdaten (nach Verwendung zerstört)
+已还原此预设的内置内容	Eingebaute Inhalte, die für dieses Preset wiederhergestellt wurden
+研究报告已复制到剪贴板	Bericht kopiert in Clipboard
+主色 · 页面 · 圆角	Akzent · Seite · Ecken
+打不开浏览器，链接已复制	Konnte keinen Browser öffnen; Link kopiert
+朗读上一条回答（已静音）	Lesen Sie die letzte Antwort (muted)
+每条回答前显示形象小头像	Zeigen Sie vor jeder Antwort einen kleinen Persona-Avatar
+发送前预览 · 最终请求体	Pre-Send Preview · final request body
+向网关索取真实 usage	Bitten Sie das Gateway um echte Nutzung
+朗读已静音 · 长按可恢复	Read-aloud stumm · lange Presse zu unmute
+档位、深度思考与联网总开关	Tier, Deep Thinking und der Web Search Master Switch
+正在准备朗读 · 点击取消	Vorbereiten der Rede · Tippen zum Abbrechen
+正在并行测试已启用搜索源…	Testen aktivierter Quellen parallel..
+消息列表上方显示头像与名字	Avatar und Name über der Nachrichtenliste anzeigen
+累计消耗、单价、明细与导出	Gesamtausgaben, Preise, Untergliederung und Ausfuhr
+预览：静水深流，字要看得清	Vorschau: Stilles Wasser, Text soll lesbar bleiben
+关闭后主界面回到纯工作台样式	Wenn Sie ausgeschaltet sind, kehrt der Hauptbildschirm zum einfachen Arbeitsbereich zurück
+按钮、标题与说明文字都跟着换	Buttons, Titel und Beschreibungen wechseln auch alle
+这个连接还没有读到模型列表。	Für diese Verbindung wurde noch keine Modellliste gelesen.
+这台主机上没有发现兼容端点。	Kein kompatibler Endpunkt auf diesem Host gefunden.
+关闭后保留文档但不注入工具清单	Wenn Sie ausgeschaltet sind, bleiben Dokumente, aber die Toolliste wird nicht injiziert
+多源选择、每源密钥与连通性测试	Quellen auswählen, per Source Keys hinzufügen, Konnektivität testen
+接口地址、密钥、模型与多配置档	Endpunkt, Schlüssel, Modelle und mehrere Profile
+深度研究工作流、实验记录与报告	Deep Research Workflow, Experimentalprotokoll und Berichte
+先完成推理再输出结论，只显示摘要	Grund zuerst, dann Antwort; nur die Zusammenfassung wird angezeigt
+公益站额度导航 · 社区持续更新	Gemeinschaftsquotenliste · aktualisiert von der Gemeinschaft
+切换不丢失内容；每份预设独立保存	Switching behält Ihren Text; jedes Preset wird separat gespeichert
+发送格式、视觉能力判定与图片诊断	Sendeformat, Seherkennung und Bilddiagnose
+已启用的源 · 点开填密钥或端点	Aktivierte Quellen · Öffnen Sie eine, um einen Schlüssel oder Endpunkt hinzuzufügen
+每次调用的参数、请求体与响应原文	Parameter, Anfragestelle und Rohantwort für jede Aufforderung
+没有发现服务，检查反代是否已启动	Kein Dienst gefunden - Überprüfen Sie, ob das Relais läuft
+直接输入，或者从下面挑一个开头。	Geben Sie frei ein oder beginnen Sie mit einem Vorschlag unten.
+自动压缩到 320px，仅存本地	Komprimiert auf 320px, nur lokal gespeichert
+自定义头像、名字、性格与角色设定	Benutzerdefinierter Avatar, Name, Persönlichkeit und Rolle
+不写入磁盘，仅保留在本次会话内存中	Nur für diese Sitzung im Gedächtnis behalten, niemals auf die Festplatte geschrieben
+探测公开的免密钥模型，能对话才列出	Sondieren Sie öffentliche schlüssellose Modelle und listen Sie nur diejenigen auf, die antworten
+19 套主题、自定义配色、圆角与字号	19 Themen, benutzerdefinierte Farben, Ecken und Textgröße
+会真发一句极短的问题，消耗少量额度。	Sendet eine sehr kurze Frage und verwendet ein kleines Kontingent.
+保存参数与响应原文，最多 120 条	Speichern Sie Parameter und Rohantworten, bis zu 120 Einträge
+朗读与语音输入，免费与付费引擎都可切	Lese- und Spracheingabe, kostenlose und kostenpflichtige Motoren
+sk-…（本地 Ollama 可留空）	sk-... (Leave leer für lokale Ollama)
+只打开系统确认页，需你亲手点保存才生效	Öffnet nur das Systemblatt; nichts ändert sich, bis Sie auf Speichern tippen
+把开源 xx2api 项目接成一条连接	Wire ein Open-Source xx2api Projekt in eine Verbindung
+界面、回答、语音识别三套语言，独立设置	Schnittstellen-, Antwort- und Diktiersprachen — drei unabhängige Einstellungen
+该会话的所有消息将被移除，且无法恢复。	Jede Nachricht in diesem Gespräch wird dauerhaft entfernt.
+所有连接配置的密钥将被清除，且无法恢复。	Schlüssel für jedes Verbindungsprofil werden dauerhaft gelöscht.
+没有匹配的项目，换个关键词或点「全部」。	Nichts passte — versuchen sie ein anderes schlüsselwort oder tippen sie auf alle.
+没识别到有效地址，需要以 http 开头	Keine gültige URL gefunden; sie muss mit http beginnen
+真实 usage 优先，未返回时本地估算	Reale Nutzung zuerst; lokal geschätzt, wenn sie fehlt
+还没有启用任何源，联网搜索不会发起检索。	Keine Quelle aktiviert, so dass die Websuche nicht ausgeführt wird.
+System Prompt 预设与变量插值	System-Prompt-Presets und variable Interpolation
+检索 → 大纲 → 逐节展开 → 汇总报告	Suche → Entwurf → Bericht
+还没有拉到模型列表，点右上角「刷新」读取。	Noch keine Modellliste – oben rechts auf Refresh tippen.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Wenn ausgeschaltet, verhält sich genau wie ein einfacher chat-client ohne werkzeuge injiziert
+写文件、打开应用等动作在界面上等你点「允许」	Schreiben von Dateien, Öffnen von Apps und ähnliche Aktionen warten auf Ihren "Allow"-Tipp
+只读工具随时可用；其余按上面的授权分组生效。	Read-only-tools funktionieren immer; alles andere folgt den oben genannten gruppen.
+圆角只作用于卡片、按钮与输入台，不影响排版。	Rundung gilt für Karten, Buttons und den Komponisten – nicht für das Layout.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Öffnen Sie installierte Apps, starten Sie den Browser, teilen, schreiben Sie in die Zwischenablage
+读取公开网页正文（禁止内网 / 元数据地址）	Lesen Sie öffentlichen Seitentext (private und Metadatenadressen blockiert)
+127.0.0.1 或 192.168.1.5	127.0.0.1 oder 192.168.1.5
+例如：端侧小模型在 2025 年的推理优化路径	z.B. On-Device-Kleinmodelle und Inferenzoptimierungen im Jahr 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Gilt nur für diesen Arbeitsbereich; andere Arbeitsbereiche behalten ihre eigene Wahl.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Mehrrunde Suche → Entwurf → Bericht
+输入关键词，可在这个连接和所有其他连接里查找。	Geben sie ein schlüsselwort ein, um diese verbindung und alle anderen zu durchsuchen.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Noch keine Suchquelle aktiviert – schalten Sie eine in Einstellungen → Suche
+回收站里的备份与被删文件将被真正删除，无法恢复。	Backups und gelöschte Dateien im Papierkorb werden dauerhaft gelöscht.
+搜索语言，如 英语 / English / 冰岛	Suchsprachen, z.B. Englisch / 冰岛
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Lesen/Schreiben eines privaten Arbeitsbereichs, Ausführen von Task-Scripts (sandboxed, standardmäßig erlaubt)
+Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
+gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / vision
+分两批并发，单个超时 25 秒；有本机服务时会更快	Zwei gleichzeitige Batches, jeweils 25s Timeout; schneller, wenn ein lokaler Dienst gefunden wird
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Nur text - linienhöhen und abstand bleiben gesetzt, so dass größere größen nie knöpfe brechen.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Geräteinformationen, privater Arbeitsbereich, Apps / Kalender / Alarme
+等宽原样呈现，不解析 Markdown、不转换引用	As-is im Monospace: kein Markdown-Parsing, keine Zitierkonvertierung
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Jeder Schritt wird protokolliert und kann später überprüft werden.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	Anmeldeinformationen sind nur auf diesem Gerät AES-verschlüsselt; Anfragen gehen direkt zu dem von Ihnen eingegebenen Endpunkt.
+可留空，留空时请求不带 Authorization。	Optional – wenn leer, werden Anfragen ohne Autorisierungs-Header gesendet.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Tippen Sie zum Aktivieren, Tippen Sie erneut zum Deaktivieren.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	Die Diktatsprache wirkt sich nur auf Sprache-zu-Text aus; die falsche lässt sie in eine andere Sprache transkribieren.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Freie Kanäle können jederzeit aufhören zu arbeiten; Systemsprache funktioniert immer.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	One-tap-test sendet eine echte anfrage an jeden anbieter und listet nur diejenigen auf, die passieren.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Fordern Sie die tatsächliche Nutzung an; Wenn der Endpunktfehler auftritt, schalten Sie dies aus und greifen Sie auf ≈ Schätzungen zurück.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	Reale Nutzung gewinnt; Wenn das Gateway es auslässt, schätzen wir nach Zeichen und markieren es mit ≈.
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Versuchen Sie einen kürzeren Alias (4o / ds / qwen), oder verwenden Sie diese ID wie sie ist.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Geben Sie 0 ein, um Kostenschätzungen zu überspringen Die Preise werden nur lokal verwendet, niemals irgendwohin gesendet.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Keine Markdown-Rendering- oder Zitiermarkierungen - der Rohtext wird im Monospace angezeigt.
+在电脑上跑着 g4f / chat2api / Ollama？	Ausführen von g4f / chat2api / Ollama auf Ihrem Computer?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Noch keine Persona. Erstellen Sie eine unten — Avatar, Name und Sprechstil gehören Ihnen.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Mehrrunde Suche → Gliederung → Abschnitt für Abschnitt Entwurf → Abschlussbericht. jederzeit unterbrechen.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Suchmodelle oder Anbieter, z.B. gpt-4o / claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Suchprojekte, Plattformen oder Modelle, z.B. Deepseek / Kimi / Gateway
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Bitten Sie den Agenten, "das Ergebnis in Notizen zu speichern" und es wird unten angezeigt.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Nicht autorisierte Aktionen werden nicht ausgeführt; das Modell erhält "Permission required" und erklärt stattdessen im Text.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Die Aufzeichnung hört auf, wenn Sie still werden. Das Transkript geht in das Eingabefeld — überprüfen Sie es und senden Sie es dann.
+请求体附带 stream_options.include_usage	Request Body enthält stream options.include usage
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Quellen werden parallel abgefragt, per URL dedupliziert und zu interleaved Zitationen zusammengeführt; eine ausfallende Quelle beeinflusst die anderen nicht.
+按路径筛选，如 app_state / AndroidManifest	Filter nach Pfad, z.B. app state / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Muss ein OpenAI-kompatibler Endpunkt sein, der keinen Schlüssel benötigt.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Überprüfen Sie die Reihenfolge: Der Dienst läuft, der Port stimmt überein, die Firewall erlaubt es, und das Telefon befindet sich nicht in einem Gastnetzwerk.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Das übliche Symptom einer falschen Sprache ist „sie hört mich, aber transkribiert eine andere Sprache. Wählen Sie mit einem Akzent die regionale Variante derselben Sprache.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Follow the Question" fügt keine Sprachanweisung hinzu und lässt das Modell entscheiden.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://example.com/v1 gpt-4o-mini\nEine pro Zeile; der Modellname ist optional
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127,0,0.1 Punkte auf dem Telefon selbst. Wenn sich das Relais nicht auf diesem Telefon befindet, ersetzen Sie es mit der LAN-IP der Maschine, auf der es läuft.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	Das Modell wird im APK ausgeliefert, es ist kein Download erforderlich. Die Erkennung läuft vollständig auf dem Gerät; Aufnahmen werden nie hochgeladen, live im privaten Ordner der App und werden bei der Deinstallation entfernt.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	Öffentliche Instanzen werden von Dritten betrieben und können gebührenbegrenzt, geändert oder entfernt werden, also jedes Mal erneut testen.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Vier anonyme Kanäle und ein Dutzend Modelle, die alle mit einem Tipp getestet wurden. Eine Modellliste allein ist irreführend: viele Gateways listen alles auf und geben dann 402 oder 429 bei einem echten Anruf zurück.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Aktivieren Sie "Auto-Record-Experimente" in Einstellungen. Jeder Anruf - im normalen Chat oder in der Tiefenforschung - wird mit seinen Parametern, einem redigierten Request-Body und der Rohmodellausgabe mit bis zu 120 Einträgen archiviert.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Ein Relais läuft normalerweise auf einem Computer oder Router. Schließen Sie sich dem gleichen WLAN an, geben Sie die LAN-IP dieses Computers ein (z. B. 192.168.1.5) und tippen Sie auf Scan, um die gemeinsamen Ports auszuprobieren.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Standardmäßig beantwortet das Modell nur Fragen. Schalten Sie dies ein und es kann echte Informationen von diesem Gerät lesen und innerhalb dessen handeln, was Sie autorisieren: Lesen und Schreiben eines privaten Arbeitsbereichs, Öffnen von Apps und Webseiten, Erstellen von Kalenderereignissen, Setzen von Alarmen.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Jeder Arbeitsbereich kann seine Persona vom Avatar in der oberen Leiste überschreiben. Die Rollenbeschreibung wird als Identitätsvermerk in die Systemaufforderung geschrieben; sie ändert Ton und Stil, nicht was das Modell tatsächlich kann.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Verfügbare Variablen: {{Abfrage}} {{Datum}} {{Zeit}} {{Modell}} {{Sprache}} {{Quellen}} {{tier}} - vor dem Senden durch reelle Werte ersetzt.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Die Ports 8000 und 3000 werden von mehreren Projekten geteilt, so dass nur eines pro Maschine laufen kann; den Port ändern oder separat bereitstellen, um beide auszuführen. Das offizielle Set benötigt einen Schlüssel, hat aber ein kostenloses Kontingent. Community-Instanzen sind der Dienst von jemand anderem - sie können jederzeit offline gehen, also senden Sie niemals private Daten durch sie.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Verwenden Sie {{Abfrage}} {{Datum}} {{Zeit}} {{Modell}} {{Sprache}} {{Quellen}} {{Tier}} in der Eingabeaufforderung; sie werden vor dem Senden durch reelle Werte ersetzt.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Kostenlose Kanäle nutzen öffentliche Web-Endpunkte und können jederzeit nicht mehr funktionieren oder ratenbegrenzt werden. Tasten werden nur auf diesem Gerät verschlüsselt und nie synchronisiert. Tippen Sie auf die Wellentaste oben rechts oder drücken Sie eine Blase, um laut zu lesen. Tippen Sie auf das Mikrofon im Komponisten, um zu sprechen; die Aufzeichnung stoppt, wenn Sie ruhig werden, und der Text landet in der Eingabebox zur Überprüfung vor dem Senden.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Bilder werden inline als base64, long edge 1280, quality 72 gesendet. Wenn eine Bildanforderung 400/413 / Connection closed zurückgibt, lehnt das Modell oder Gateway höchstwahrscheinlich Inline-Bilder ab - schalten Sie das Format oben, um es einzugrenzen.

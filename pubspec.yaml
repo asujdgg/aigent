@@ -1,0 +1,52 @@
+name: ai_agent_app
+description: "Aigent — 极简 AI 研究与多模态客户端"
+publish_to: 'none'
+version: 4.22.0+41
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 状态管理
+  provider: ^6.1.2
+  # 网络：流式 LLM / 搜索 / OpenAPI 插件
+  dio: ^5.7.0
+  # 本地加密凭据
+  shared_preferences: ^2.3.0
+  encrypt: ^5.0.3
+  # 富文本与外链
+  flutter_markdown: ^0.7.4
+  url_launcher: ^6.3.1
+  # 多模态与文件
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  # 路径归一化 / 越界校验（隔离工作区的安全判定依赖它）
+  path: ^1.9.0
+  archive: ^3.6.1
+  # Edge TTS 的 Sec-MS-GEC 签名需要 SHA256
+  crypto: ^3.0.3
+  syncfusion_flutter_pdf: ^27.1.48
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # 构建期由 tool/build_source_assets.py 生成：工程源码离线浏览 + 应用图标
+    - assets/source_bundle.json
+    - assets/brand/app_icon.png
+    # 模型列表用的高清彩色官方品牌图标（tool/build_brand_icons.py 生成）
+    - assets/brand_models/
+    # 界面语言词表：中文 / 英文编译进 Dart，其余语言按需从 assets 读取。
+    - assets/i18n/
+    # 中文离线语音包（Vosk small-cn）：随包分发，首次使用本地解压，
+    # 不依赖任何下载源。压缩包 42 MB，解压后约 90 MB。
+    - assets/speech/vosk-model-small-cn-0.22.zip

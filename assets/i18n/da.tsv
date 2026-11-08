@@ -1,0 +1,300 @@
+主色	Procent
+主题	Tema
+今日	I dag
+保存	Gem
+停止	Stop
+允许	Tillad
+关闭	Luk
+删除	Slet
+刷新	Genopfrisk
+发送	Send
+取消	Annullér
+圆角	Hjørner
+复制	Kopiér
+外观	Udseende
+字号	Tekststørrelse
+密钥	Nøgle
+工具	Værktøjer
+忽略	Ignorér
+恢复	Gendan
+接入	Forbind
+新建	Ny
+朗读	Læs højt
+未测	Uprøvet
+模型	Model
+添加	Tilføj
+清空	Ryd
+确定	OK
+离线	Offline
+累计	I alt
+编辑	Redigér
+视觉	Vision
+设置	Indstillinger
+语音	Stemme
+请求	Anmodning
+跳过	Skip
+部署	Opsætning
+销毁	Ødelæg
+去设置	Åbn indstillinger
+已停更	Udgået
+已复制	Kopieret
+待检测	Ikke testet
+源代码	Kilde
+生成中	Generering
+知道了	Fik det
+自定义	Brugerdefineret
+重命名	Omdøb
++ 新建	+ Ny
+一键接入	Forbind alle
+人物形象	Persona Formand
+停止朗读	Stop læsning
+免密模型	Keyless modeller
+删除形象	Slet persona
+删除配置	Slet profil
+原始输出	Råproduktion
+图片诊断	Billeddiagnostik
+复制一份	Duplikér
+复制全文	Kopiér alle
+复制内容	Kopiér tekst
+外观主题	Udseende
+实验记录	Eksperimentellog
+对话语言	Svar sprog
+开始检测	Start test
+开始说话	Begynd at tale
+当前会话	Denne samtale
+当前模型	Nuværende model
+当前预设	Nuværende forudindstillet
+待填密钥	Nøgle nødvendig
+授权范围	Tilladelser
+接入最快	Den hurtigste opsætning
+接口地址	Endepunkt URL
+插件系统	Plugins
+搜索模型	Søg modeller
+搜索设置	Søgeindstillinger
+收起搜索	Skjul søgning
+明暗模式	Lys / mørk
+未设模型	Ingen model
+测试连通	Prøvningsforbindelse
+深度思考	Dybt tænkning
+深度研究	Dyb forskning
+添加地址	Tilføj endpoint
+用量追踪	Brug tracking
+界面语言	Grænsefladesprog
+系统当前	System
+网页抓取	Side hentning
+联网搜索	Websøgning
+能力开关	Kapacitetsafbrydere
+能力档位	Kapacitetsniveau
+语音输入	Stemmeinput
+说点什么	Sig noget
+这台设备	Denne enhed
+连接配置	Forbindelsesprofiler
+选择形象	Vælg person
+选择模型	Vælg model
+配置名称	Profilnavn
+配置连接	Indstil forbindelse
+页面底色	Sidebaggrund
+预设名称	Fornavn
+会话与设置	Chats & indstillinger
+删除工作台	Slet arbejdsområde
+删除此形象	Slet denne persona
+反代与网关	Relæ- gateway
+命令已复制	Kommando kopieret
+填入输入框	Indsæt i input
+已复制回答	Svar kopieret
+已开启朗读	Lad os gå
+应用与网页	Apps & web
+提示词预设	Prompte presets
+文件与脚本	Filer og scripts
+日历与闹钟	Kalender og alarmer
+朗读已开启	Lad os gå
+未指定模型	Ingen model valgt
+查看源代码	Vis kilde
+源码已复制	Kilde kopieret
+点一下切换	Tryk på for at skifte
+独立工作区	Privat arbejdsområde
+研究工作台	Forskningsarbejdsområde
+网页版反代	Webrelæ
+联网搜索源	Websøgningskilder
+设备智能体	Enhedsagent
+语言与地区	Sprog og region
+输入任务…	Indtast en opgave..
+连接与模型	Forbindelsesmodeller
+重命名配置	Omdøb profil
+链接已复制	Link kopieret
+顶部形象区	Top persona område
+（无内容）	(tom)
+先填主机地址	Indtast en vært først
+助手消息头像	Svar avatarer
+去设置里刷新	Genopfrisk i indstillinger
+启用人物形象	Aktivér persona
+启用本机操作	Aktivér enhedshandlinger
+图片与多模态	Billeder og multimodal
+图片发送格式	Billedformat
+已删除该配置	Profil slettet
+当前 API	Nuværende API
+提示词预设库	Prompt forudindstillet bibliotek
+搜索源连通性	Kildeforbindelse
+新建连接配置	Ny forbindelsesprofil
+模型能力档位	Kapacitetsniveau
+每源结果条数	Resultater pr. kilde
+添加免密地址	Tilføj et keyless endpoint
+等待模型输出	Venter på modellen
+自动记录实验	Autorekordforsøg
+语音识别语言	Diktationssprog
+请求体已复制	Anmodning organ kopieret
+还没有记录。	Intet optaget endnu.
+销毁本地凭据	Ødelæg lokale legitimationsoplysninger
+随便问点什么	Spørg mig om noget
+HTTP 插件	HTTP- plugin
+回收站是空的。	Genbrugsspanden er tom.
+已复制当前配置	Nuværende profil kopieret
+已恢复到工作区	Gendannelse til arbejdsrum
+当前预设已生效	Denne forudindstillet er aktiv
+按当前单价估算	Anslået i løbende priser
+换个关键词试试	Prøv et andet søgeord
+智能体请求执行	Agent anmoder om en handling
+朗读上一条回答	Læs det sidste svar
+本地凭据已销毁	Lokal legitimation ødelagt
+每次操作先问我	Spørg mig før hver handling
+没有匹配的语言	Intet matchende sprog
+没有匹配的连接	Ingen matchende forbindelse
+深度研究工作流	Arbejdsgang inden for dybforskning
+管理 / 切换	Håndtering / omskifter
+自动接入可用项	Forbind tilgængelige
+Token 用量	Brug af token
+在所有连接里查找	Søg i alle forbindelser
+工作区路径已复制	Kopieret arbejdsrums sti
+扫描已运行的服务	Scan for løbende tjenester
+搜索连接名或地址	Søg efter navn eller URL
+未启用任何搜索源	Ingen søgekilde aktiveret
+永久清空回收站？	Tøm papirkurven permanent?
+测试已启用搜索源	Prøvningsaktiverede kilder
+会话已复制到剪贴板	Samtale kopieret til udklipsholderen
+允许模型调用该插件	Tillad modellen at kalde dette plugin
+填入该服务商的密钥	Indtast leverandørens nøgle
+手动填写模型 ID	Indtast et model- id manuelt
+点击头像从相册选择	Tryk på avataren for at vælge fra dit galleri
+AI 用这种语言回答	AI svar på dette sprog
+单次任务最多执行几步	Maksimale trin pr. opgave
+在线 · 需 Key	Online · nøgle kræves
+已创建，可在下方编辑	Oprettet - rediger det nedenfor
+当前会话的能力与连接	Kapacitet og forbindelse til denne samtale
+自定义搜索引擎 ID	Brugerdefineret søgemaskine-id
+至少需要保留一份配置	Hold mindst én profil
+还没有可以朗读的回答	Intet svar at læse endnu
+临时凭据（用完即销毁）	Midlertidige oplysninger (destrueres efter brug)
+已还原此预设的内置内容	Bygge- i indhold gendannet til dette forudindstillede
+研究报告已复制到剪贴板	Rapport kopieret til udklipsholderen
+主色 · 页面 · 圆角	Procent · side · hjørner
+打不开浏览器，链接已复制	Kunne ikke åbne en browser; link kopieret
+朗读上一条回答（已静音）	Læs det sidste svar (dæmpet)
+每条回答前显示形象小头像	Vis en lille persona avatar før hvert svar
+发送前预览 · 最终请求体	Forhåndssend forhåndsvisning · endelig anmodning organ
+向网关索取真实 usage	Spørg gateway for real use
+朗读已静音 · 长按可恢复	Read- højt dæmpet · lang-tryk til untute
+档位、深度思考与联网总开关	Tier, dyb tænkning og web søgning master kontakt
+正在准备朗读 · 点击取消	Klargøring af tale · tryk på for at annullere
+正在并行测试已启用搜索源…	Prøvning aktiveret kilder parallelt..
+消息列表上方显示头像与名字	Vis avatar og navn over brevlisten
+累计消耗、单价、明细与导出	Udgifter i alt, priser, fordeling og eksport
+预览：静水深流，字要看得清	Forhåndsvisning: stadig vand, tekst skal forblive læselig
+关闭后主界面回到纯工作台样式	Når de slukkes, vender hovedskærmen tilbage til det almindelige workspace look
+按钮、标题与说明文字都跟着换	Knapper, titler og beskrivelser alle skifte for
+这个连接还没有读到模型列表。	Der er endnu ikke læst nogen modelliste for denne forbindelse.
+这台主机上没有发现兼容端点。	Intet kompatibelt endepunkt fundet på denne vært.
+关闭后保留文档但不注入工具清单	Når de slukkes, bliver dokumenterne, men værktøjslisten injiceres ikke
+多源选择、每源密钥与连通性测试	Vælg kilder, tilføje per- source nøgler, test forbindelse
+接口地址、密钥、模型与多配置档	Endepunkt, nøgle, modeller og flere profiler
+深度研究工作流、实验记录与报告	Workflow, forsøgslog og rapporter om dybdeforskning
+先完成推理再输出结论，只显示摘要	Årsag først, derefter svar; kun resuméet er vist
+公益站额度导航 · 社区持续更新	Fællesskabets kvoteliste ajourført af Fællesskabet
+切换不丢失内容；每份预设独立保存	Skift holder din tekst; hvert forudindstillet gemmes separat
+发送格式、视觉能力判定与图片诊断	Send format, synsdetektion og billeddiagnostik
+已启用的源 · 点开填密钥或端点	Aktiverede kilder · åbne en for at tilføje en nøgle eller endpoint
+每次调用的参数、请求体与响应原文	Parametre, ansøgningsorgan og råt respons for hvert opkald
+没有发现服务，检查反代是否已启动	Ingen service fundet - tjek at relæet kører
+直接输入，或者从下面挑一个开头。	Skriv frit, eller start fra et forslag nedenfor.
+自动压缩到 320px，仅存本地	Komprimeret til 320px, opbevares kun lokalt
+自定义头像、名字、性格与角色设定	Brugerdefineret avatar, navn, personlighed og rolle
+不写入磁盘，仅保留在本次会话内存中	Holdt i hukommelsen for denne session kun, aldrig skrevet til disk
+探测公开的免密钥模型，能对话才列出	Probe offentlige keyless modeller og liste kun dem, der svarer
+19 套主题、自定义配色、圆角与字号	19 temaer, brugerdefinerede farver, hjørner og tekststørrelse
+会真发一句极短的问题，消耗少量额度。	Sender et meget kort spørgsmål og bruger en lille kvote.
+保存参数与响应原文，最多 120 条	Gem parametre og rå svar, op til 120 poster
+朗读与语音输入，免费与付费引擎都可切	Læse- og stemmeindgange, frie og betalte motorer
+sk-…（本地 Ollama 可留空）	sk-... (lad tom for lokale Ollama)
+只打开系统确认页，需你亲手点保存才生效	Åbner kun systemarket; intet ændrer sig før du trykker på Gem
+把开源 xx2api 项目接成一条连接	Wire en opensource xx2api projekt i en forbindelse
+界面、回答、语音识别三套语言，独立设置	Interface, svar og diktat sprog - tre uafhængige indstillinger
+该会话的所有消息将被移除，且无法恢复。	Hver besked i denne samtale vil blive fjernet permanent.
+所有连接配置的密钥将被清除，且无法恢复。	Nøglerne til hver forbindelsesprofil slettes permanent.
+没有匹配的项目，换个关键词或点「全部」。	Intet matcher - prøv et andet søgeord eller tryk på Alt.
+没识别到有效地址，需要以 http 开头	Ingen gyldig URL fundet; det skal starte med http
+真实 usage 优先，未返回时本地估算	Første anvendelse; estimeret lokalt, når der mangler
+还没有启用任何源，联网搜索不会发起检索。	Ingen kilde aktiveret, så websøgning vil ikke køre.
+System Prompt 预设与变量插值	Systemprompter og variabel interpolation
+检索 → 大纲 → 逐节展开 → 汇总报告	Søg → skitse → udkast → rapport
+还没有拉到模型列表，点右上角「刷新」读取。	Ingen modelliste endnu - tryk på Genopfrisk øverst til højre.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Opfører sig præcis som en almindelig chat-klient uden værktøj injiceret
+写文件、打开应用等动作在界面上等你点「允许」	Skrivning af filer, åbning af apps og lignende handlinger venter på din "Tillad" tap
+只读工具随时可用；其余按上面的授权分组生效。	Read- kun værktøjer altid virker; alt andet følger grupperne ovenfor.
+圆角只作用于卡片、按钮与输入台，不影响排版。	Rounding gælder for kort, knapper og komponisten - ikke for layout.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Åbn installerede apps, start browseren, del, skriv til udklipsholderen
+读取公开网页正文（禁止内网 / 元数据地址）	Læs den offentlige sidetekst (privat og metadataadresser blokeret)
+127.0.0.1 或 192.168.1.5	127.0.0.1 eller 192.168.1.5
+例如：端侧小模型在 2025 年的推理优化路径	f.eks. on- device små modeller og inferensoptimering i 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Gælder kun for dette arbejdsrum; andre arbejdsrum har deres eget valg.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Multiround search → skitse → udkast → rapport
+输入关键词，可在这个连接和所有其他连接里查找。	Skriv et søgeord for at søge i denne forbindelse og alle andre.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Ingen søgekilde aktiveret endnu - slå en til i Indstillinger → Søg
+回收站里的备份与被删文件将被真正删除，无法恢复。	Backup og slettede filer i papirkurven vil blive slettet permanent.
+搜索语言，如 英语 / English / 冰岛	Søgesprog, f.eks. engelsk
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Læs / skriv et privat arbejdsområde, kør opgavescripts (sandboxed, tilladt som standard)
+Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
+gpt-4o / claude / 通义 / 视觉	gpt- 4o / claude / qwen / vision
+分两批并发，单个超时 25 秒；有本机服务时会更快	To sideløbende batcher, 25 s timeout hver; hurtigere, når en lokal service er fundet
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Tekst kun - linje højder og afstand ophold sat, så større størrelser aldrig bryde knapper.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Enhedsinfo, privat arbejdsområde, apps / kalender / alarmer
+等宽原样呈现，不解析 Markdown、不转换引用	Vist as- is in monospace: no Markdown parsing, no citation konvertering
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Ingen enhed handlinger endnu. Hvert skridt er logget og kan revideres senere.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	Valgt er AES- krypteret på denne enhed; anmodninger gå direkte til det endepunkt, du indtaster.
+可留空，留空时请求不带 Authorization。	Valgfrit - når de er tomme, sendes anmodningerne uden en tilladelsesoverskrift.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Tryk på for at aktivere, tryk igen på for at deaktivere. Kun aktiverede kilder bruges til websøgning.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	Diktationssproget påvirker kun speech- to- tekst; den forkerte gør det transskribere til et andet sprog.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Læs svar højt. Gratis kanaler kan stoppe med at arbejde til enhver tid; system tale altid virker.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	One- tap test sender en reel anmodning til hver udbyder og lister kun dem, der passerer.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Anmoder om rigtig brug; hvis endepunktet fejl, slukke dette og falde tilbage til Shape skøn.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	Real brug vinder; når gateway udelader det, vi estimere efter tegn og markere det med Downloader.
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Prøv et kortere alias (4o / ds / qwen), eller brug dette id som det er.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Indtast 0 for at springe over omkostningsoverslag. Priserne bruges kun lokalt, aldrig sendt nogen steder.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Ingen markering rendering eller citation markører - den rå tekst er vist i monospace.
+在电脑上跑着 g4f / chat2api / Ollama？	Kører g4f / chat2api / Ollama på din computer?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Ingen persona endnu. Opret en nedenfor - avatar, navn og tale stil er alle dine at indstille.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Multirunde søgning → skitse → sektion- by- sektion udkast → endelig rapport. Afbryd når som helst.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Søgemodeller eller forhandlere, f.eks. gpt- 4o / claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Søgeprojekter, platforme eller modeller, f.eks. dybsøg / kimi / gateway
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Tom for nu. Bed agenten om at "gemme resultatet til noter /" og det vil dukke op nedenfor.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Uautoriserede handlinger udføres ikke; modellen modtager "tilladelse" og forklarer i stedet i tekst.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Optagelse stopper, når du går stille. Udskriften går ind i input boksen - kontrollere det, derefter sende.
+请求体附带 stream_options.include_usage	Anmodning organ omfatter stream _ options.include _ use
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Kilder spørges parallelt, kopieres af URL og sammenflettes til interleaved citater; en svigtende kilde påvirker ikke de andre.
+按路径筛选，如 app_state / AndroidManifest	Filtrér efter sti, f.eks. app _ state / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Skal være et OpenAI- kompatibelt endpoint, der ikke behøver nogen nøgle. Det testes en gang lige efter tilsætning.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Tjek i rækkefølge: Tjenesten kører, portene matcher, firewallen tillader det, og telefonen er ikke på et gæstenetværk.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Det sædvanlige symptom på et forkert sprog er "det hører mig, men transskribere et andet sprog". Med en accent, vælge den regionale variant af samme sprog.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Følg spørgsmålet" tilføjer ingen sprogundervisning og lader modellen beslutte. Et valgt sprog er skrevet ind i systemet prompt.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / / example.com / v1 gpt- 4o- mini\nEn pr. linje; modelnavnet er valgfrit
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127.0.0.1 point på selve telefonen. Hvis relæet ikke er på denne telefon, erstatte det med LAN IP af maskinen kører det.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	Modellen skibe inde i APK, ingen download nødvendig. Anerkendelse kører helt på enheden; optagelser er aldrig uploadet, bor i appens private mappe, og fjernes ved afinstallere.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	Offentlige instanser drives af tredjeparter og kan være skattepligtige-begrænset, ændret eller taget ned uden varsel, så re-test hver gang. Aldrig sende private, konto eller virksomhedens data gennem dem.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Fire anonyme kanaler og et dusin modeller, alle testet i et tryk. En model liste alene er vildledende: masser af gateways liste over alt og derefter returnere 402 eller 429 på en rigtig opkald.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Aktivér "Autorekordforsøg" i Indstillinger. Hvert opkald - i normal chat eller dyb forskning - arkiveres med sine parametre, en redigeret forespørgsel organ og den rå model output, op til 120 poster.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Et relæ kører normalt på en computer eller router. Deltag i den samme Wi- Fi, indtast denne maskines LAN IP (fx 192.168.1.5), og tryk på Scan for at prøve de fælles porte.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Som standard svarer modellen kun på spørgsmål. Tænd for dette, og det kan læse rigtige oplysninger fra denne enhed og handle inden for hvad du tillader: læs og skriv et privat arbejdsområde, åbne apps og websider, oprette kalenderbegivenheder, indstille alarmer.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Hvert arbejdsområde kan tilsidesætte sin persona fra avataren i øverste linje. Rollebeskrivelsen er skrevet ind i systemet prompt som en identitetsnote; det ændrer tone og stil, ikke hvad modellen faktisk kan gøre.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Tilgængelige variabler: {{question}} {{date}} {{tid}} {{model}} {sprog}} {kilder}} {{tier}} - erstattet med rigtige værdier før afsendelse.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Havne 8000 og 3000 deles af flere projekter, så kun én kan køre per maskine; ændre porten eller implementere separat for at køre begge. Det officielle sæt har brug for en nøgle, men har en gratis kvote. Fællesskabets tilfælde er en andens service - de kan gå offline til enhver tid, så aldrig sende private data gennem dem.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Brug {{forespørgsel}} {{dato}} {{tid}} {{model}} {sprog}} {kilder}} {{niveau}}} i prompten; de erstattes med rigtige værdier før afsendelse.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Gratis kanaler bruger offentlige webendepunkter og kan til enhver tid stoppe med at arbejde eller få hastigheds- begrænset. Nøglerne krypteres kun på denne enhed og synkroniseres aldrig. Tryk på bølgeknappen øverst til højre eller længere - tryk på en boble for at læse højt. Tryk på mikrofonen i komponisten for at tale; optagelsen stopper, når du går stille, og teksten lander i indlæsningsfeltet til gennemgang, før du sender.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Billeder sendes inline som base64, længste kant 1280, kvalitet 72. Hvis en billedforespørgsel returnerer 400 / 413 / Forbindelse lukket, modellen eller gateway sandsynligvis afviser inline billeder - skifte formatet ovenfor for at indsnævre det ned.

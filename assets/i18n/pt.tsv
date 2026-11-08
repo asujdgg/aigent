@@ -1,0 +1,300 @@
+主色	Cor de destaque
+主题	Tema
+今日	Hoje
+保存	Salvar
+停止	Parar
+允许	Permitir
+关闭	Fechar
+删除	Excluir
+刷新	Actualizar
+发送	Enviar
+取消	Cancelar
+圆角	Cantos
+复制	Copiar
+外观	Aparência
+字号	Tamanho do texto
+密钥	Chave
+工具	Ferramentas
+忽略	Ignorar
+恢复	Restaurar
+接入	Ligar
+新建	Novo
+朗读	Ler em voz alta
+未测	Não testado
+模型	Modelo
+添加	Adicionar
+清空	Limpar
+确定	OK
+离线	Desligado
+累计	Total
+编辑	Editar
+视觉	Visão
+设置	Configurações
+语音	Voz
+请求	Pedido
+跳过	Pular
+部署	Implantar
+销毁	Destruir
+去设置	Abrir configurações
+已停更	Descontinuado
+已复制	Copiado
+待检测	Não testado
+源代码	Origem
+生成中	Gerando
+知道了	Entendi
+自定义	Personalizado
+重命名	Renomear
++ 新建	+ Novo
+一键接入	Ligar tudo
+人物形象	Persona
+停止朗读	Parar de ler
+免密模型	Modelos sem chave
+删除形象	Apagar persona
+删除配置	Apagar perfil
+原始输出	Resultado bruto
+图片诊断	Diagnóstico de imagens
+复制一份	Duplicar
+复制全文	Copiar tudo
+复制内容	Copiar texto
+外观主题	Aparência
+实验记录	Registo de experiências
+对话语言	Idioma das respostas
+开始检测	Iniciar o teste
+开始说话	Começa a falar
+当前会话	Esta conversa
+当前模型	Modelo atual
+当前预设	Predefinição atual
+待填密钥	Chave necessária
+授权范围	Permissões
+接入最快	O mais rápido a configurar
+接口地址	URL do ponto final
+插件系统	Plugins
+搜索模型	Pesquisar modelos
+搜索设置	Configurações de pesquisa
+收起搜索	Ocultar pesquisa
+明暗模式	Luz / escuro
+未设模型	Nenhum modelo
+测试连通	Conexão de teste
+深度思考	Pensamento profundo
+深度研究	Investigação profunda
+添加地址	Adicionar parâmetro
+用量追踪	Seguimento de uso
+界面语言	Idioma da interface
+系统当前	Sistema
+网页抓取	Obtendo página
+联网搜索	Pesquisa Web
+能力开关	Interruptores de capacidade
+能力档位	Nível de capacidade
+语音输入	Entrada de voz
+说点什么	Diga algo
+这台设备	Este dispositivo
+连接配置	Perfis de ligação
+选择形象	Escolher persona
+选择模型	Escolher modelo
+配置名称	Nome do perfil
+配置连接	Configurar conexão
+页面底色	Fundo da página
+预设名称	Nome predefinido
+会话与设置	& Configurações das conversas
+删除工作台	Apagar espaço de trabalho
+删除此形象	Apagar esta pessoaa
+反代与网关	Retransmitir o & gateway
+命令已复制	Comando copiado
+填入输入框	Inserir na entrada
+已复制回答	Resposta copiada
+已开启朗读	Ler em voz alta em
+应用与网页	Aplicações & Web
+提示词预设	Presets de prompt
+文件与脚本	Ficheiros & scripts
+日历与闹钟	& Alarmes de calendário
+朗读已开启	Ler em voz alta em
+未指定模型	Nenhum modelo selecionado
+查看源代码	Ver fonte
+源码已复制	Fonte copiada
+点一下切换	Toque em para alternar
+独立工作区	Espaço de trabalho privado
+研究工作台	Pesquisa profunda
+网页版反代	Relay web
+联网搜索源	Fontes de busca
+设备智能体	Agente do dispositivo
+语言与地区	& Região da língua
+输入任务…	Indique uma tarefa..
+连接与模型	Conexão e modelos
+重命名配置	Mudar o nome do perfil
+链接已复制	Ligação copiada
+顶部形象区	Área de persona superior
+（无内容）	(vazio)
+先填主机地址	Digite uma máquina primeiro
+助手消息头像	Responder avatars
+去设置里刷新	Atualizar nas configurações
+启用人物形象	Habilitar persona
+启用本机操作	Activar as acções do dispositivo
+图片与多模态	Imagens e multimodal
+图片发送格式	Formato da imagem
+已删除该配置	Perfil excluído
+当前 API	API atual
+提示词预设库	Pedir uma biblioteca pré- definida
+搜索源连通性	Conectividade de origem
+新建连接配置	Novo perfil de conexão
+模型能力档位	Nível de capacidade
+每源结果条数	Resultados por fonte
+添加免密地址	Adicionar um endpoint sem chave
+等待模型输出	À espera do modelo
+自动记录实验	Auto-gravar experiências
+语音识别语言	Idioma do ditado
+请求体已复制	Solicitar o corpo copiado
+还没有记录。	Nada gravado ainda.
+销毁本地凭据	Destruir credenciais locais
+随便问点什么	Pergunta-me qualquer coisa
+HTTP 插件	Plug- in HTTP
+回收站是空的。	A lixeira está vazia.
+已复制当前配置	Perfil atual copiado
+已恢复到工作区	Restaurado para o espaço de trabalho
+当前预设已生效	Esta predefinição está ativa
+按当前单价估算	Estimativa a preços correntes
+换个关键词试试	Tente outra palavra- chave
+智能体请求执行	O agente solicita uma acção
+朗读上一条回答	Leia a última resposta
+本地凭据已销毁	Credenciais locais destruídos
+每次操作先问我	Pergunte-me antes de cada ação
+没有匹配的语言	Sem idioma correspondente
+没有匹配的连接	Sem ligação correspondente
+深度研究工作流	Fluxo de trabalho de investigação profundo
+管理 / 切换	Gerenciar / alternar
+自动接入可用项	Conectar os disponíveis
+Token 用量	Uso de tokens
+在所有连接里查找	Procurar todas as ligações
+工作区路径已复制	Caminho do espaço de trabalho copiado
+扫描已运行的服务	Procurar por serviços em execução
+搜索连接名或地址	Procurar pelo nome ou URL
+未启用任何搜索源	Nenhuma fonte de pesquisa habilitada
+永久清空回收站？	Esvaziar a lixeira permanentemente?
+测试已启用搜索源	Testar fontes habilitadas
+会话已复制到剪贴板	Conversa copiada para a área de transferência
+允许模型调用该插件	Permitir que o modelo chame este plugin
+填入该服务商的密钥	Digite a chave do provedor
+手动填写模型 ID	Digite um ID do modelo manualmente
+点击头像从相册选择	Toque no avatar para escolher na sua galeria
+AI 用这种语言回答	A IA responde nesta língua
+单次任务最多执行几步	Máximo de passos por tarefa
+在线 · 需 Key	Online · chave necessária
+已创建，可在下方编辑	Criado — editá- lo abaixo
+当前会话的能力与连接	Capacidades e conexão para esta conversa
+自定义搜索引擎 ID	ID personalizado do motor de pesquisa
+至少需要保留一份配置	Manter pelo menos um perfil
+还没有可以朗读的回答	Ainda não há resposta para ler em voz alta
+临时凭据（用完即销毁）	Credenciais temporários (destruídos após utilização)
+已还原此预设的内置内容	Conteúdo incorporado restaurado para esta predefinição
+研究报告已复制到剪贴板	Relatório copiado para a área de transferência
+主色 · 页面 · 圆角	Accent · página · cantos
+打不开浏览器，链接已复制	Não foi possível abrir um navegador; link copiado
+朗读上一条回答（已静音）	Leia a última resposta (mútua)
+每条回答前显示形象小头像	Mostrar uma pequena persona avatar antes de cada resposta
+发送前预览 · 最终请求体	Pré-enviar preview · corpo de solicitação final
+向网关索取真实 usage	Perguntar ao gateway para uso real
+朗读已静音 · 长按可恢复	Ler em voz alta silenciado · long-press to unmute
+档位、深度思考与联网总开关	Tier, pensamento profundo eo switch mestre de pesquisa web
+正在准备朗读 · 点击取消	Preparando discurso · toque para cancelar
+正在并行测试已启用搜索源…	Testando fontes habilitadas em paralelo..
+消息列表上方显示头像与名字	Mostrar o avatar e o nome acima da lista de mensagens
+累计消耗、单价、明细与导出	Despesas totais, preços, repartição e exportação
+预览：静水深流，字要看得清	Visualização: água parada, texto deve permanecer legível
+关闭后主界面回到纯工作台样式	Quando desligado, a tela principal retorna à aparência de espaço de trabalho simples
+按钮、标题与说明文字都跟着换	Botões, títulos e descrições também
+这个连接还没有读到模型列表。	Ainda não foi lida nenhuma lista de modelos para esta ligação.
+这台主机上没有发现兼容端点。	Nenhum endpoint compatível encontrado nesta máquina.
+关闭后保留文档但不注入工具清单	Quando desligado, os documentos ficam, mas a lista de ferramentas não é injetada
+多源选择、每源密钥与连通性测试	Escolha fontes, adicione chaves por fonte, conectividade de teste
+接口地址、密钥、模型与多配置档	Endpoint, chave, modelos e vários perfis
+深度研究工作流、实验记录与报告	Fluxo de trabalho de pesquisa profundo, registro de experimentos e relatórios
+先完成推理再输出结论，只显示摘要	Razão primeiro, em seguida, responder; apenas o resumo é mostrado
+公益站额度导航 · 社区持续更新	Lista de quotas comunitárias · actualizada pela comunidade
+切换不丢失内容；每份预设独立保存	A mudança mantém o seu texto; cada predefinição é armazenada separadamente
+发送格式、视觉能力判定与图片诊断	Enviar formato, detecção de visão e diagnóstico de imagem
+已启用的源 · 点开填密钥或端点	Fontes habilitadas · abra uma para adicionar uma chave ou endpoint
+每次调用的参数、请求体与响应原文	Parâmetros, solicitar corpo e resposta bruta para cada chamada
+没有发现服务，检查反代是否已启动	Nenhum serviço encontrado — verifique se o relé está em execução
+直接输入，或者从下面挑一个开头。	Digite livremente, ou comece a partir de uma sugestão abaixo.
+自动压缩到 320px，仅存本地	Compactado a 320px, armazenado apenas localmente
+自定义头像、名字、性格与角色设定	Avatar personalizado, nome, personalidade e papel
+不写入磁盘，仅保留在本次会话内存中	Guardado em memória apenas para esta sessão, nunca gravado no disco
+探测公开的免密钥模型，能对话才列出	Sonda modelos públicos sem chave e lista apenas os que respondem
+19 套主题、自定义配色、圆角与字号	19 temas, cores personalizadas, cantos e tamanho de texto
+会真发一句极短的问题，消耗少量额度。	Envia uma pergunta muito curta e usa um pouco de quota.
+保存参数与响应原文，最多 120 条	Salvar parâmetros e respostas brutas, até 120 entradas
+朗读与语音输入，免费与付费引擎都可切	Leitura em voz alta e entrada de voz, motores gratuitos e pagos
+sk-…（本地 Ollama 可留空）	sk-... (deixe vazio para Ollama local)
+只打开系统确认页，需你亲手点保存才生效	Abre apenas a folha de sistema; nada muda até que você toque em Salvar
+把开源 xx2api 项目接成一条连接	Transfira um projeto xx2api de código aberto para uma conexão
+界面、回答、语音识别三套语言，独立设置	Linguagens de interface, resposta e ditado — três definições independentes
+该会话的所有消息将被移除，且无法恢复。	Todas as mensagens nesta conversa serão removidas permanentemente.
+所有连接配置的密钥将被清除，且无法恢复。	Chaves para cada perfil de conexão serão apagadas permanentemente.
+没有匹配的项目，换个关键词或点「全部」。	Nada corresponde — tente outra palavra-chave ou toque em Tudo.
+没识别到有效地址，需要以 http 开头	Nenhum URL válido encontrado; ele deve começar com http
+真实 usage 优先，未返回时本地估算	Primeiro o uso real; estimado localmente quando faltando
+还没有启用任何源，联网搜索不会发起检索。	Nenhuma fonte habilitada, então a pesquisa na web não será executada.
+System Prompt 预设与变量插值	Predefinições de prompt de sistema e interpolação variável
+检索 → 大纲 → 逐节展开 → 汇总报告	Pesquisar → esboço → rascunho → relatório
+还没有拉到模型列表，点右上角「刷新」读取。	Nenhuma lista de modelos ainda — toque em Atualizar no canto superior direito.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Quando desligado, comporta-se exatamente como um cliente de chat sem ferramentas injetadas
+写文件、打开应用等动作在界面上等你点「允许」	Gravar arquivos, abrir aplicativos e ações semelhantes aguardam seu toque "Permitir"
+只读工具随时可用；其余按上面的授权分组生效。	Ferramentas somente leitura sempre funcionam; tudo o resto segue os grupos acima.
+圆角只作用于卡片、按钮与输入台，不影响排版。	O arredondamento aplica-se às cartas, botões e ao compositor — não à disposição.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Abra aplicativos instalados, inicie o navegador, compartilhe, escreva para a área de transferência
+读取公开网页正文（禁止内网 / 元数据地址）	Leia o texto da página pública (endereços privados e metadados bloqueados)
+127.0.0.1 或 192.168.1.5	127.0.0.1 ou 192.168.1.5
+例如：端侧小模型在 2025 年的推理优化路径	Por exemplo, modelos pequenos e otimizações de inferência em 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Aplica-se apenas a este espaço de trabalho; outros espaços de trabalho mantêm a sua própria escolha.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Pesquisa multi-redonda → esboço → relatório →
+输入关键词，可在这个连接和所有其他连接里查找。	Digite uma palavra-chave para pesquisar esta conexão e todas as outras.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Nenhuma fonte de pesquisa habilitada ainda — ligue uma em Configurações → Pesquisar
+回收站里的备份与被删文件将被真正删除，无法恢复。	Backups e arquivos excluídos na lixeira serão apagados permanentemente.
+搜索语言，如 英语 / English / 冰岛	Procurar idiomas, por exemplo, inglês /
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Ler/escrever um espaço de trabalho privado, executar scripts de tarefas (sandboxed, permitido por padrão)
+Swagger / OpenAPI JSON 地址	URL do Swagger / OpenAPI JSON
+gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / vision
+分两批并发，单个超时 25 秒；有本机服务时会更快	Dois lotes simultâneos, 25s timeout cada; mais rápido quando um serviço local é encontrado
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Apenas texto – alturas de linha e espaçamento permanecem colocados, de modo que tamanhos maiores nunca quebram botões.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informações do dispositivo, espaço de trabalho privado, aplicativos / calendário / alarmes
+等宽原样呈现，不解析 Markdown、不转换引用	Mostrado como está no monoespaço: sem análise de Markdown, sem conversão de citação
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Nenhuma ação do dispositivo ainda. Cada passo é registrado e pode ser revisto mais tarde.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	As credenciais são criptografadas somente neste dispositivo; as solicitações vão diretamente para o endpoint que você digita.
+可留空，留空时请求不带 Authorization。	Opcional — quando vazio, os pedidos são enviados sem um cabeçalho de Autorização.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Toque em para ativar, toque novamente para desabilitar. Somente fontes habilitadas são usadas para pesquisa na Web.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	A linguagem do ditado afeta somente a fala-texto; a errada a faz transcrever em outra língua.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Leia as respostas em voz alta. Os canais livres podem parar de funcionar a qualquer momento; a fala do sistema funciona sempre.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	Um-tap test envia uma solicitação real para cada provedor e lista apenas os que passam.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Solicitar o uso real; se os erros de endpoint, desligue isso e volte para as estimativas .
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	O uso real ganha; quando o gateway o omite, nós estimamos por caracteres e marcamos com .
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Tente um alias mais curto (4o / ds / qwen), ou use este ID como está.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Digite 0 para ignorar as estimativas de custos. Os preços são usados apenas localmente, nunca enviados para qualquer lugar.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Nenhum marcador de renderização ou citação Markdown — o texto bruto é mostrado no monoespaço.
+在电脑上跑着 g4f / chat2api / Ollama？	A executar o g4f / chat2api / Ollama no seu computador?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Nenhuma persona ainda. Crie uma abaixo — avatar, nome e estilo de fala são todos seus para definir.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Pesquisa multi-redonda → esboço → section-by-section rascunho → relatório final. Interromper a qualquer momento.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Pesquisar modelos ou fornecedores, por exemplo gpt-4o / claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Pesquisa projetos, plataformas ou modelos, por exemplo, deepseek / kimi / gateway
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Vazio por enquanto. Peça ao agente para “salvar o resultado para notas/” e ele aparecerá abaixo.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	As ações não autorizadas não são executadas; o modelo recebe “permissão necessária” e explica em vez disso em texto.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	A gravação pára quando você fica quieto. A transcrição entra na caixa de entrada — marque- a e envie- a.
+请求体附带 stream_options.include_usage	O corpo de solicitação inclui stream options.include usage
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	As fontes são consultadas em paralelo, deduplicadas por URL e mescladas em citações interleaved; uma fonte falhando não afeta as outras.
+按路径筛选，如 app_state / AndroidManifest	Filtrar por caminho, por exemplo app state / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Deve ser um endpoint compatível com OpenAI que não precisa de nenhuma chave. É testado uma vez logo após a adição.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Verifique em ordem: o serviço está em execução, a porta coincide, o firewall permite, e o telefone não está em uma rede hóspede.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	O sintoma usual de uma língua errada é “ele me ouve, mas transcreve outra língua”. Com um sotaque, escolha a variante regional da mesma língua.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	“Siga a pergunta” não acrescenta nenhuma instrução de linguagem e deixa o modelo decidir. Uma língua escolhida é escrita no prompt do sistema.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://exemplo.com/v1 gpt-4o-mini\nUm por linha; o nome do modelo é opcional
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127.0.0.1 pontos no próprio telefone. Se o relé não estiver neste telefone, substitua-o pelo IP LAN da máquina que o executa.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	O modelo envia dentro do APK, sem necessidade de download. O reconhecimento é executado inteiramente no dispositivo; as gravações nunca são enviadas, ao vivo na pasta privada do aplicativo e são removidas na desinstalação.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	As instâncias públicas são geridas por terceiros e podem ser limitadas a taxas, alteradas ou retiradas sem aviso prévio, por isso re-teste cada vez. Nunca envie dados privados, de conta ou de empresa através deles.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Quatro canais anônimos e uma dúzia de modelos, todos testados em uma torneira. Uma lista de modelos sozinho é enganosa: muitos gateways listam tudo e então retornam 402 ou 429 em uma chamada real.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Activar "Experimentos de gravação automática" em Definições. Cada chamada — em chat normal ou pesquisa profunda — é arquivada com os seus parâmetros, um corpo de requisição editado e a saída do modelo bruto, até 120 entradas.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Um relé geralmente é executado em um computador ou roteador. Junte-se ao mesmo Wi-Fi, insira o LAN IP da máquina (por exemplo, 192.168.1.5) e toque em Procurar para experimentar as portas comuns.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Por padrão, o modelo só responde a perguntas. Ligue isto e poderá ler informações reais deste dispositivo e agir dentro do que autorizar: leia e escreva um espaço de trabalho privado, abra aplicações e páginas Web, crie eventos de calendário, defina alarmes.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Cada espaço de trabalho pode substituir a sua persona a partir do avatar na barra superior. A descrição de funções é escrita no prompt do sistema como uma nota de identidade; muda o tom e o estilo, não o que o modelo pode realmente fazer.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variáveis disponíveis: {{query}} {{date}} {{time}} {{model}} {{language}} {{sources} {{tier}} — substituído por valores reais antes de enviar.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	As portas 8000 e 3000 são compartilhadas por vários projetos, de modo que apenas uma pode executar por máquina; alterar a porta ou implantar separadamente para executar ambos. O conjunto oficial precisa de uma chave, mas tem uma quota livre. As instâncias comunitárias são o serviço de outra pessoa – elas podem ficar offline a qualquer momento, então nunca envie dados privados através delas.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Use {{query}} {{date}} {{time}} {{model}} {{language}} {{sources} {{tier}} no prompt; eles são substituídos por valores reais antes de enviar.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Os canais livres usam endpoints Web públicos e podem parar de funcionar ou ficar limitados a taxas a qualquer momento. As chaves são criptografadas neste dispositivo apenas e nunca sincronizadas. Toque no botão de onda no canto superior direito, ou pressione uma bolha longa, para ler em voz alta. Toque no microfone do compositor para falar; a gravação pára quando você fica quieto, e o texto pousa na caixa de entrada para revisão antes de enviar.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	As imagens são enviadas em linha como base64, borda mais longa 1280, qualidade 72. Se uma solicitação de imagem retorna 400 / 413 / Conexão fechada, o modelo ou gateway provavelmente rejeita imagens em linha — mude o formato acima para reduzi-lo.

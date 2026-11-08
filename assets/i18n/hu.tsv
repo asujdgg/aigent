@@ -1,0 +1,300 @@
+主色	Accent
+主题	Téma
+今日	Ma
+保存	Mentés
+停止	Állj!
+允许	Engedélyezés
+关闭	Bezárás
+删除	Törlés
+刷新	Frissítés
+发送	Küldés
+取消	Törlés
+圆角	Sarkok
+复制	Másolás
+外观	Megjelenés
+字号	Szövegméret
+密钥	Kulcs
+工具	Szerszámok
+忽略	Figyelmen kívül hagyás
+恢复	Visszaállítás
+接入	Csatlakozás
+新建	Új
+朗读	Olvasd fel hangosan
+未测	Nem tesztelt
+模型	Minta
+添加	Hozzáadás
+清空	Tiszta
+确定	Oké
+离线	Offline
+累计	Összesen
+编辑	Szerkesztés
+视觉	Látás
+设置	Beállítások
+语音	Hang
+请求	Kérelem
+跳过	Skip
+部署	Felszerelés
+销毁	Pusztítás
+去设置	Beállítások megnyitása
+已停更	A kezelés megszakítása
+已复制	Másolt
+待检测	Nem vizsgálták
+源代码	Forrás
+生成中	Generálás
+知道了	Megvan
+自定义	Egyéni
+重命名	Átnevezés
++ 新建	+ Új
+一键接入	Csatlakozás
+人物形象	Persona
+停止朗读	Ne olvass!
+免密模型	Kulcsnélküli modellek
+删除形象	Személyek törlése
+删除配置	A profil törlése
+原始输出	Nyersteljesítmény
+图片诊断	Képdiagnosztika
+复制一份	Duplikáció
+复制全文	Minden másolás
+复制内容	A szöveg másolása
+外观主题	Megjelenés
+实验记录	Kísérleti napló
+对话语言	Válasznyelv
+开始检测	A vizsgálat megkezdése
+开始说话	Kezdj beszélni!
+当前会话	Ez a beszélgetés
+当前模型	Jelenlegi modell
+当前预设	Jelenlegi beállítás
+待填密钥	Kulcsfontosságú
+授权范围	Jogosultságok
+接入最快	A leggyorsabb beállítás
+接口地址	URL végpont
+插件系统	Bővítőmodulok
+搜索模型	Kereső modellek
+搜索设置	Keresési beállítások
+收起搜索	A keresés elrejtése
+明暗模式	Világos / sötét
+未设模型	Nincs modell
+测试连通	Vizsgálati kapcsolat
+深度思考	Mély gondolkodás
+深度研究	Mély kutatás
+添加地址	A végpont hozzáadása
+用量追踪	Használati nyomkövetés
+界面语言	Interfészek nyelve
+系统当前	Rendszer
+网页抓取	Oldal lekérdezése
+联网搜索	Webkeresés
+能力开关	Képességváltók
+能力档位	Kapacitásszint
+语音输入	Hang bemenet
+说点什么	Mondj valamit
+这台设备	Ez az eszköz
+连接配置	Csatlakozási profilok
+选择形象	Válassza ki a személy
+选择模型	Modell kiválasztása
+配置名称	A profil neve
+配置连接	Kapcsolat beállítása
+页面底色	Oldal háttere
+预设名称	Előzetes név
+会话与设置	Chats & beállítások
+删除工作台	Munkahely törlése
+删除此形象	Törlés
+反代与网关	& Átjáró
+命令已复制	A parancs másolása
+填入输入框	Betöltés
+已复制回答	A válasz másolása
+已开启朗读	Read-oud on
+应用与网页	Alkalmazások & web
+提示词预设	Azonnali beállítások
+文件与脚本	Fájlok és szkriptek
+日历与闹钟	Naptár- emlékeztetők
+朗读已开启	Read-oud on
+未指定模型	Nem kiválasztott modell
+查看源代码	A forrás megjelenítése
+源码已复制	Másolt forrás
+点一下切换	Koppintsunk a kapcsolásra
+独立工作区	Privát munkaterület
+研究工作台	Kutatási munkaterület
+网页版反代	Web relé
+联网搜索源	Webes keresőforrások
+设备智能体	Eszközkezelő
+语言与地区	Nyelv és régió
+输入任务…	Adjon meg egy feladatot..
+连接与模型	Csatlakozási modellek
+重命名配置	A profil átnevezése
+链接已复制	Lemásolt link
+顶部形象区	Top persona area
+（无内容）	(üres)
+先填主机地址	Először adja meg a gazdatestet
+助手消息头像	Válasz avatarok
+去设置里刷新	Frissítés a Beállítások
+启用人物形象	Személyiség engedélyezése
+启用本机操作	A készülék működésének engedélyezése
+图片与多模态	Képek és multimodális
+图片发送格式	Képformátum
+已删除该配置	A profil törölve
+当前 API	Aktuális API
+提示词预设库	Prompt preset könyvtár
+搜索源连通性	Forráskapcsolat
+新建连接配置	Új kapcsolatprofil
+模型能力档位	Kapacitásszint
+每源结果条数	Eredmények forrásonként
+添加免密地址	Kulcsnélküli végpont hozzáadása
+等待模型输出	A modellre várok
+自动记录实验	Auto-rekord kísérletek
+语音识别语言	Diktálási nyelv
+请求体已复制	Kérjen másolatot
+还没有记录。	Még semmi felvétel.
+销毁本地凭据	A helyi azonosítók megsemmisítése
+随便问点什么	Kérdezz bármit
+HTTP 插件	HTTP bővítmény
+回收站是空的。	Az újrahasznosító kuka üres.
+已复制当前配置	Aktuális profil lemásolva
+已恢复到工作区	Munkahelyre felújítva
+当前预设已生效	Ez a beállítás aktív
+按当前单价估算	Becsült folyó árakon
+换个关键词试试	Próbálj ki egy másik kulcsszót
+智能体请求执行	Az ügynök keresetet kér
+朗读上一条回答	Olvassa el az utolsó választ
+本地凭据已销毁	Helyi adatok megsemmisítése
+每次操作先问我	Kérdezz meg minden akció előtt
+没有匹配的语言	Nincs egyező nyelv
+没有匹配的连接	Nincs egyező kapcsolat
+深度研究工作流	Mély kutatási munkafolyamat
+管理 / 切换	Kezelés / kapcsoló
+自动接入可用项	Csatlakozás elérhető
+Token 用量	Token használat
+在所有连接里查找	Minden kapcsolat keresése
+工作区路径已复制	Megmásolt munkatér
+扫描已运行的服务	Szkennelés szolgáltatások működtetéséhez
+搜索连接名或地址	Keresés név vagy URL alapján
+未启用任何搜索源	Nem engedélyezett a keresési forrás
+永久清空回收站？	Ürítsd ki az újrahasznosító kukát véglegesen?
+测试已启用搜索源	A vizsgálathoz engedélyezett források
+会话已复制到剪贴板	A vágólapra másolt beszélgetés
+允许模型调用该插件	Lehetővé teszi, hogy a modell hívja ezt a plugint
+填入该服务商的密钥	Adja meg a szolgáltató kulcsát
+手动填写模型 ID	Adja meg a modell azonosítóját manuálisan
+点击头像从相册选择	Koppintson az avatarra, hogy a galériából válasszon
+AI 用这种语言回答	Az MI válaszol ezen a nyelven
+单次任务最多执行几步	Maximális lépések feladatonként
+在线 · 需 Key	Online · kulcs szükséges
+已创建，可在下方编辑	Létrehozva - szerkesztés alább
+当前会话的能力与连接	Képességek és kapcsolat ehhez a beszélgetéshez
+自定义搜索引擎 ID	Egyedi keresőmotor azonosítója
+至少需要保留一份配置	Legalább egy profil megtartása
+还没有可以朗读的回答	Még nincs válasz a felolvasásra
+临时凭据（用完即销毁）	Ideiglenes megbízólevél (használat után megsemmisítve)
+已还原此预设的内置内容	Beépített tartalom helyreállítva ehhez a beállításhoz
+研究报告已复制到剪贴板	Jelentés másolva a vágólapra
+主色 · 页面 · 圆角	& Oldal · sarkok
+打不开浏览器，链接已复制	Nem sikerült megnyitni a böngészőt; másolt link
+朗读上一条回答（已静音）	Olvassa el az utolsó választ (néma)
+每条回答前显示形象小头像	Minden válasz előtt mutasson egy kis személyiséget Avatar
+发送前预览 · 最终请求体	Pre- send preview · végleges kéréstest
+向网关索取真实 usage	Kérje az átjárót valódi használatra
+朗读已静音 · 长按可恢复	Read-oud muted · long-press to unsilow
+档位、深度思考与联网总开关	Tier, mély gondolkodás és a web keresési mesterkapcsoló
+正在准备朗读 · 点击取消	A beszéd előkészítése
+正在并行测试已启用搜索源…	Tesztelés engedélyezett források párhuzamosan..
+消息列表上方显示头像与名字	Az avatar és a név megjelenítése az üzenetlista felett
+累计消耗、单价、明细与导出	Összes kiadás, árak, bontás és export
+预览：静水深流，字要看得清	Előnézet: csendes víz, a szövegnek olvashatónak kell maradnia
+关闭后主界面回到纯工作台样式	Amikor ki, a fő képernyő visszatér a sima munkaterület megjelenés
+按钮、标题与说明文字都跟着换	Gombok, címek és leírások mind kapcsoló is
+这个连接还没有读到模型列表。	Ehhez a kapcsolathoz még nem olvastunk modelllistát.
+这台主机上没有发现兼容端点。	Nincs kompatibilis végpont ezen a gazdatesten.
+关闭后保留文档但不注入工具清单	Ha ki, dokumentumok maradnak, de a szerszámlista nem kerül beadásra
+多源选择、每源密钥与连通性测试	Források kiválasztása, perforráskulcsok hozzáadása, tesztkapcsolat
+接口地址、密钥、模型与多配置档	Végpont, kulcs, modellek és több profil
+深度研究工作流、实验记录与报告	Mély kutatási munkafolyamat, kísérleti napló és jelentések
+先完成推理再输出结论，只显示摘要	Első ok, majd válasz; csak az összefoglaló látható
+公益站额度导航 · 社区持续更新	Közösségi kvótajegyzék · a közösség által frissítve
+切换不丢失内容；每份预设独立保存	A váltás megtartja a szöveget; minden előre beállított külön kerül tárolásra
+发送格式、视觉能力判定与图片诊断	Formátum, látásfelismerés és képdiagnosztika küldése
+已启用的源 · 点开填密钥或端点	Engedélyezett források · nyisson meg egy kulcsot vagy végpontot
+每次调用的参数、请求体与响应原文	Paraméterek, kérési testület és nyers válasz minden egyes híváshoz
+没有发现服务，检查反代是否已启动	Nincs szolgáltatás található - ellenőrizze, hogy a relé fut
+直接输入，或者从下面挑一个开头。	Gépelj szabadon, vagy kezdj egy alábbi javaslatból.
+自动压缩到 320px，仅存本地	Sajtolt 320px, tárolt csak helyben
+自定义头像、名字、性格与角色设定	Egyéni avatár, név, személyiség és szerep
+不写入磁盘，仅保留在本次会话内存中	Csak erre a munkamenetre emlékeztetett, soha nem volt lemezre írva
+探测公开的免密钥模型，能对话才列出	Probe nyilvános kulcsnélküli modellek és felsorolja csak azok, amelyek válaszolnak
+19 套主题、自定义配色、圆角与字号	19 téma, egyedi színek, sarkok és szövegméret
+会真发一句极短的问题，消耗少量额度。	Egy nagyon rövid kérdést küld, és egy kis kvótát használ.
+保存参数与响应原文，最多 120 条	A paraméterek és a nyers válaszok mentése, akár 120 bejegyzés
+朗读与语音输入，免费与付费引擎都可切	Hang- és hangfelvétel, ingyenes és fizetett motorok
+sk-…（本地 Ollama 可留空）	sk-... (hagyja üresen a helyi Ollama)
+只打开系统确认页，需你亲手点保存才生效	Csak a rendszerlapot nyitja meg; semmi sem változik, amíg nem koppintottál a Mentés lehetőségre
+把开源 xx2api 项目接成一条连接	Egy nyílt forráskódú xx2api projekt csatlakoztatása
+界面、回答、语音识别三套语言，独立设置	Interfész, válasz és diktálási nyelvek - három független beállítás
+该会话的所有消息将被移除，且无法恢复。	Ebben a beszélgetésben minden üzenetet véglegesen eltávolítunk.
+所有连接配置的密钥将被清除，且无法恢复。	Kulcsok minden kapcsolat profil töröljük véglegesen.
+没有匹配的项目，换个关键词或点「全部」。	Semmi egyezés - próbálja ki egy másik kulcsszó vagy koppintson az All.
+没识别到有效地址，需要以 http 开头	Nem található érvényes URL; a http-val kell kezdeni
+真实 usage 优先，未返回时本地估算	A valós használat első; becsült helyi, ha hiányzik
+还没有启用任何源，联网搜索不会发起检索。	Nincs forrás engedélyezve, így a web keresés nem fut.
+System Prompt 预设与变量插值	Rendszerazonnali beállítások és változó interpoláció
+检索 → 大纲 → 逐节展开 → 汇总报告	Keresés → vázlat → tervezet → jelentés
+还没有拉到模型列表，点右上角「刷新」读取。	Még nincs modelllista - koppintsunk a Frissítés lehetőségre a jobb felső sarokban.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Amikor ki, úgy viselkedik, mint egy egyszerű chat kliens nélkül eszközök injektálva
+写文件、打开应用等动作在界面上等你点「允许」	A fájlok írása, az alkalmazások megnyitása és hasonló tevékenységek várják az "Engedélyezés" koppintást
+只读工具随时可用；其余按上面的授权分组生效。	A Read-only szerszámok mindig működnek; minden más követi a fenti csoportokat.
+圆角只作用于卡片、按钮与输入台，不影响排版。	A kerekítés a kártyákra, gombokra és a zeneszerzőre vonatkozik - nem az elrendezésre.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Telepített alkalmazások megnyitása, böngésző indítása, megosztás, írás a vágólapra
+读取公开网页正文（禁止内网 / 元数据地址）	A nyilvános oldal szövege (privát és metaadatcímek blokkolva)
+127.0.0.1 或 192.168.1.5	127.0.0.1 vagy 192.18.1.5
+例如：端侧小模型在 2025 年的推理优化路径	pl. az on-device kis modelljei és az inference optimalizálása 2025-ben
+可为当前这个工作台单独指定，不影响其它工作台。	Csak erre a munkaterületre vonatkozik; a többi munkaterület megtartja a saját választását.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Többkörös keresés → vázlat → tervezet → jelentés
+输入关键词，可在这个连接和所有其他连接里查找。	Írja be a kulcsszót, hogy megkeresse ezt a kapcsolatot, és az összes többi.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Még nem engedélyezett a keresési forrás - kapcsolja be az egyiket a Beállítások mezőben → Keresés
+回收站里的备份与被删文件将被真正删除，无法恢复。	A biztonsági mentések és a törölt fájlok az újrahasznosító tárolóban véglegesen törlődnek.
+搜索语言，如 英语 / English / 冰岛	Keresés nyelve, pl. angol / bolgár
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Privát munkaterület olvasása / írása, feladatszkriptek futtatása (homokozva, alapértelmezés szerint engedélyezve)
+Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
+gpt-4o / claude / 通义 / 视觉	gpt- 4o / claude / qwen / látás
+分两批并发，单个超时 25 秒；有本机服务时会更快	Két párhuzamos tétel, egyenként 25 óra; gyorsabb, ha egy helyi szolgáltatás található
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Csak szöveg - vonal magasságok és a távolság marad fel, így nagyobb méretek soha nem törik gombok.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Eszközök info, privát munkaterület, alkalmazások / naptár / riasztók
+等宽原样呈现，不解析 Markdown、不转换引用	Megjelenített s-a monospace: nincs Marklown parsing, nincs idézés konverzió
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Még nincs eszközművelet. Minden lépés bejelentkezik és később felülvizsgálható.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	A credents csak ezen az eszközön van AES- titkosítva; a kérések egyenesen a megadott végpontra vonatkoznak.
+可留空，留空时请求不带 Authorization。	Opcionális - ha üres, a kéréseket engedély nélkül küldik.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Koppintson az engedélyezéshez, koppintson újra a tiltáshoz. Csak a webes kereséshez használható engedélyezett forrás.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	A diktálási nyelv csak a szöveges szövegre hat; a nem megfelelő nyelvre írja át.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	A válaszok hangosan olvashatók. A szabad csatornák bármikor leállhatnak; a rendszerbeszéd mindig működik.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	Egy kopp teszt küld egy igazi kérést minden szolgáltató, és felsorolja csak azok, amelyek átmennek.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Valódi használat igénylése; ha a végpont hibás, kapcsold ki, és térj vissza a becslésekre.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	A valódi használat nyer; ha az átjáró kihagyja, karakterekkel becsüljük és jelöljük meg.
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Próbálja rövidebb alias (4o / ds / qwen), vagy használja ezt az azonosítót, ahogy van.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Adja meg a 0-t, hogy kihagyja a költségbecsléseket. Az árak csak helyben, soha nem küldik el.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Nincs Markdown rendering vagy idézés markerek - a nyers szöveg megjelenik a monospace.
+在电脑上跑着 g4f / chat2api / Ollama？	G4f / chat2api / Ollama fut a gépeden?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Még nincs személyiség. Létrehozni egyet alattunk - Avatar, név és beszéd stílus mind a tiéd.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Többkörös keresés → vázlat → section- by-section draft → végleges jelentés.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Kereső modellek vagy gyártók, pl. gpt- 4o / claude / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Keresés projektek, platformok vagy modellek, pl. mélykeresés / kimi / átjáró
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Most üres. Kérje meg az ügynököt, hogy "mentse az eredményt a jegyzetek /" és meg fog jelenni az alábbiakban.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	A jogosulatlan cselekvések nem hajthatók végre; a modell "szükséges engedélyt" kap, és helyette szövegben magyarázza el.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	A felvétel megáll, ha elcsendesedsz. Az átirat bekerül a beviteli mezőbe - ellenőrizze, majd küldje el.
+请求体附带 stream_options.include_usage	Kérési szerv tartalmazza stream _ options.include _ usage
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	A források lekérdezése párhuzamosan történik, az URL megkettőzi őket, és összekapcsolódik egymással; az egyik hibás forrás nem érinti a többit.
+按路径筛选，如 app_state / AndroidManifest	Szűrés menetvonal szerint, pl. app _ state / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Kell lennie egy OpenAI- kompatibilis végpont, amely nem igényel kulcsot. Ez tesztelt egyszer közvetlenül a hozzáadás után.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Jelölje be sorrendben: a szolgáltatás fut, a port egyezik, a tűzfal lehetővé teszi, és a telefon nincs a vendég hálózaton.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	A szokásos tünete a rossz nyelv "hall engem, de átírja egy másik nyelvet". Egy akcentussal válassza ki a regionális változata ugyanazon nyelv.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Kövesse a kérdést" nem ad nyelvi utasítást, és hagyja, hogy a modell döntsön. A választott nyelv van írva a rendszer azonnali.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / / example.com / v1 gpt- 4o- mini\nSoronként egy; a modell neve nem kötelező
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	127.0.0.1 pont magának a telefonnak. Ha a relé nincs ezen a telefonon, cserélje ki az azt futtató gép LAN IP-jére.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	A modell hajók belsejében az APK, nem kell letölteni. Elismerés fut teljesen eszköz; felvételek soha nem töltik fel, élő az alkalmazás privát mappában, és eltávolítják eltávolítás.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	A közügyeket harmadik személyek működtetik, és azok az árak korlátozásával, megváltoztatásával vagy előzetes értesítés nélkül is végrehajthatók, tehát minden alkalommal újra-teszteljük őket.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Négy névtelen csatorna és egy tucat modell, mind egy csapban tesztelve. Csak egy modell lista félrevezető: rengeteg átjárók felsorol mindent, majd visszatér 402 vagy 429 egy igazi hívás.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	A Beállítások "Auto-rekord kísérletek" engedélyezése. Minden hívás - normál chat-ben vagy mélykutatásban - archiválva van paramétereivel, egy átszerkesztett igénylőtesttel és a nyers modell kimenettel, akár 120 bejegyzéssel.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	A relé általában fut a számítógépen vagy router. Csatlakozzon az azonos Wi- Fi, adja meg a gép LAN IP (pl. 192.18.1.5), és koppintson a Scan, hogy próbálja meg a közös portok.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Alapértelmezés szerint a modell csak kérdésekre válaszol. Ezt kapcsolja be, és valódi információkat tud olvasni ebből az eszközből, és az Ön által engedélyezett mértéken belül cselekszik: saját munkaterületet, nyitott alkalmazásokat és weboldalt kell olvasnia és írnia, naptár eseményeket kell létrehoznia, riasztásokat kell beállítania.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Minden munkaterület felülbírálhatja a személyiségét az avatarból a felső sávban. A szerepleírás a rendszerbe van írva, mint egy azonosító megjegyzés; megváltoztatja a hangot és a stílust, nem pedig azt, amit a modell tud.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	A rendelkezésre álló változók: {{{Query}} {{Date}} {{time}} {{model}} {{language}} {{{sources}}} {{Tier}} - elküldés előtt valódi értékekkel helyettesítve.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	A 8000-es és 3000-es portokat több projekt is osztja, így gépenként csak egy futhat; a kikötőt vagy a telepítés külön-külön fut. A hivatalos készletnek kulcsra van szüksége, de ingyenes kvótája van. A közösségi esetek valaki más szolgáltatásai - bármikor kikapcsolhatnak, így soha nem küldhetnek privát adatokat rajtuk keresztül.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Használja a {{{Query}} {{{Date}} {{Time}} {{model}} {{{language}} {{{sources}} {Teier}} -t az azonnali alkalmazásban; ezeket az adatokat a küldés előtt valós értékekkel helyettesítik.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	A szabad csatornák nyilvános webvégpontokat használnak, és bármikor leállíthatják a munkavégzést, illetve korlátozhatják az árat. A billentyűket csak ezen az eszközön titkosítják, és soha nem szinkronizálják. A jobb felső oldalon koppintsunk a hullám gombjára, vagy hosszú nyomással nyomjunk meg egy buborékot, hogy hangosan olvassuk.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Images are sended inline as base64, leghosszabb edge 1280, quality 72. Ha egy kép kérés visszatér 400 / 413 / Connection zárt, a modell vagy átjáró valószínűleg elutasítja inline képeket - kapcsolja be a fenti formátumot, hogy szűkítse le.

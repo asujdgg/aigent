@@ -1,0 +1,300 @@
+主色	Accent
+主题	Tema
+今日	Avui
+保存	Desa
+停止	Atura
+允许	Permet
+关闭	Tanca
+删除	Esborra
+刷新	Refresca
+发送	Envia
+取消	Cancel· la
+圆角	Cantonades
+复制	Copia
+外观	Aparença
+字号	Mida del text
+密钥	Clau
+工具	Eines
+忽略	Ignora
+恢复	Restaura
+接入	Connecta
+新建	Nou
+朗读	Llegeix en veu alta
+未测	No s' ha provat
+模型	Model
+添加	Afegeix
+清空	Neteja
+确定	Bé
+离线	Desconnectat
+累计	Total
+编辑	Edita
+视觉	Visió
+设置	Arranjament
+语音	Veu
+请求	Sol· licita
+跳过	Salta
+部署	Deploy
+销毁	Destruir
+去设置	Arranjament d' obertura
+已停更	Dishn
+已复制	Copiat
+待检测	Sense provar
+源代码	Origen
+生成中	S' està generant
+知道了	Ho tinc
+自定义	A mida
+重命名	Reanomena
++ 新建	+ Nova
+一键接入	Connecta- ho tot
+人物形象	Persona
+停止朗读	Atura la lectura
+免密模型	Models sense tecles
+删除形象	Esborra la persona
+删除配置	Esborra el perfil
+原始输出	Sortida en brut
+图片诊断	Diagnòstics d' imatge
+复制一份	Duplica
+复制全文	Copia- ho tot
+复制内容	Copia text
+外观主题	Aparença
+实验记录	Comment
+对话语言	Idioma de resposta
+开始检测	Inicia la prova
+开始说话	Comença a parlar
+当前会话	Aquesta conversa
+当前模型	Model actual
+当前预设	Pre ambient actual
+待填密钥	Cal la clau
+授权范围	Permisos
+接入最快	El més ràpid per configurar
+接口地址	URL del punt final
+插件系统	Connectors
+搜索模型	Models de cerca
+搜索设置	Arranjaments de la cerca
+收起搜索	Oculta la cerca
+明暗模式	Llum / fosc
+未设模型	Sense model
+测试连通	Prova la connexió
+深度思考	Perfil profund
+深度研究	Treball profund
+添加地址	Afegeix punt d' acabament
+用量追踪	S' utilitza el seguiment
+界面语言	Idioma de la interfície
+系统当前	Sistema
+网页抓取	Obtén pàgina
+联网搜索	Cerca web
+能力开关	Commutadors de capacitat
+能力档位	Un empatador de capacitat
+语音输入	Entrada de veu
+说点什么	Digues alguna cosa
+这台设备	Aquest dispositiu
+连接配置	Perfils de connexió
+选择形象	Tria persona
+选择模型	Escolliu model
+配置名称	Nom del perfil
+配置连接	Configura la connexió
+页面底色	Fons de pàgina
+预设名称	Nom preestablert
+会话与设置	& Arranjament dels xats
+删除工作台	Esborra l' espai de treball
+删除此形象	Esborra aquesta persona
+反代与网关	Entrega i portal
+命令已复制	S' ha copiat l' ordre
+填入输入框	Insereix a l' entrada
+已复制回答	Resposta copiada
+已开启朗读	Passat de lectura
+应用与网页	Apps & web
+提示词预设	Pregunta als ambients
+文件与脚本	Fitxers i scripts
+日历与闹钟	Alarmes de calendari@ info: whatsthis
+朗读已开启	Passat de lectura
+未指定模型	No hi ha cap model seleccionat
+查看源代码	Visualitza la font
+源码已复制	S' ha copiat l' origen
+点一下切换	Tap a canviar
+独立工作区	Espai de treball privat
+研究工作台	Espai de treball de recerca
+网页版反代	Entrega web
+联网搜索源	Codis de cerca web
+设备智能体	Agent del dispositiu
+语言与地区	& Regió del llenguatge
+输入任务…	Introduïu una tasca..
+连接与模型	& Model de connexió
+重命名配置	Reanomena el perfil
+链接已复制	Enllaç copiat
+顶部形象区	Àrea superior persona
+（无内容）	(Buit)
+先填主机地址	Primer introduïu un remot
+助手消息头像	Respon avatars
+去设置里刷新	Refresca en l' arranjament
+启用人物形象	Habilita la persona
+启用本机操作	Habilita les accions de dispositiu
+图片与多模态	Imatges i multimodal
+图片发送格式	Format d' imatge
+已删除该配置	S' ha esborrat el perfil
+当前 API	API actual
+提示词预设库	Pregunta a la biblioteca preestablerta
+搜索源连通性	Connexió font
+新建连接配置	Nou perfil de connexió
+模型能力档位	Un empatador de capacitat
+每源结果条数	Resultats per font
+添加免密地址	Afegeix un punt d' acabament sense clau
+等待模型输出	S' està esperant el model
+自动记录实验	Experiments de gravació automàtica
+语音识别语言	Idioma de Dicció
+请求体已复制	S' ha copiat el cos
+还没有记录。	Encara no hi ha res gravat.
+销毁本地凭据	Destruïu credencials locals
+随便问点什么	Pregunta'm qualsevol cosa
+HTTP 插件	Connector HTTPComment
+回收站是空的。	El contenidor de reciclatge és buit.
+已复制当前配置	S' ha copiat el perfil actual
+已恢复到工作区	Restaurat a l' espai de treball
+当前预设已生效	Aquest ambient està actiu
+按当前单价估算	Estimada en els preus actuals
+换个关键词试试	Prova una altra paraula clau
+智能体请求执行	L' agent requereix una acció
+朗读上一条回答	Llegeix la darrera resposta
+本地凭据已销毁	S' han destruït les credencials locals
+每次操作先问我	Pregunta'm abans de cada acció
+没有匹配的语言	Sense idioma coincident
+没有匹配的连接	Sense connexió coincident
+深度研究工作流	Un flux de treball d'investigació profund
+管理 / 切换	Gestiona / commuta
+自动接入可用项	Connecta els disponibles
+Token 用量	Ús del Token
+在所有连接里查找	Cerca totes les connexions
+工作区路径已复制	S' ha copiat la ruta de l' espai de treball
+扫描已运行的服务	Cerca serveis en execució
+搜索连接名或地址	Cerca per nom o URL
+未启用任何搜索源	No s' ha habilitat cap font de cerca
+永久清空回收站？	Buidar el contenidor de reciclatge permanentment?
+测试已启用搜索源	Comprova les fonts habilitats
+会话已复制到剪贴板	S' ha copiat la conversa al porta- retalls
+允许模型调用该插件	Permet que el model truqui a aquest connector
+填入该服务商的密钥	Introduïu la clau del proveïdor proveïdors
+手动填写模型 ID	Introduïu manualment una ID del model
+点击头像从相册选择	Tira l' avatar a escollir des de la vostra galeria
+AI 用这种语言回答	Les respostes de la IA en aquest idioma
+单次任务最多执行几步	Màxims passos per tasca
+在线 · 需 Key	Cal una clau en línia
+已创建，可在下方编辑	S' ha creat la editació a sota
+当前会话的能力与连接	Capacitats i connexions per aquesta conversa
+自定义搜索引擎 ID	ID personalitzat del motor de cerca
+至少需要保留一份配置	Mantén com a mínim un perfil
+还没有可以朗读的回答	Encara no hi ha resposta a llegir en veu alta
+临时凭据（用完即销毁）	Credencials temporals (desordenades després d' utilitzar)
+已还原此预设的内置内容	S' ha restaurat el contingut integrat per aquest ambient
+研究报告已复制到剪贴板	Informe copiat al porta- retalls
+主色 · 页面 · 圆角	Situació de la pàgina
+打不开浏览器，链接已复制	No s' ha pogut obrir un navegador; s' ha copiat l' enllaç
+朗读上一条回答（已静音）	Llegeix la darrera resposta (mitjat)
+每条回答前显示形象小头像	Mostra una petita persona avatar abans de cada resposta
+发送前预览 · 最终请求体	Vista prèvia pre- final
+向网关索取真实 usage	Demana al portal un ús real
+朗读已静音 · 长按可恢复	S' ha silenciat per lectura
+档位、深度思考与联网总开关	Tier, pensament profund i canvi mestre de cerca web
+正在准备朗读 · 点击取消	S' està preparant l' enllaç del llenguatge per cancel· lar
+正在并行测试已启用搜索源…	S' estan provant les fonts habilitades en paral· leles..
+消息列表上方显示头像与名字	Mostra l' avatar i el nom sobre la llista de missatges
+累计消耗、单价、明细与导出	Pas total, preus, interrupció i exportació
+预览：静水深流，字要看得清	Vista prèvia: aigua encara, text s' hauria de quedar camaible
+关闭后主界面回到纯工作台样式	Quan està desactivat, la pantalla principal retorna l' aparença de l' espai de treball pla
+按钮、标题与说明文字都跟着换	Botons, títols i descripcions també tots els canvis
+这个连接还没有读到模型列表。	Encara no s' ha llegit cap llista de models per aquesta connexió.
+这台主机上没有发现兼容端点。	No s' ha trobat cap punt d' acabament compatible en aquesta màquina.
+关闭后保留文档但不注入工具清单	Quan està desactivat, els documents es queden però no s' injecta la llista d' eines
+多源选择、每源密钥与连通性测试	Trieu fonts, afegiu claus per font, connectivitat de prova
+接口地址、密钥、模型与多配置档	Punt final, clau, models i múltiples perfils
+深度研究工作流、实验记录与报告	Un flux de treball de la investigació profunda, un registre d'experiments i informes
+先完成推理再输出结论，只显示摘要	Motiu primer, llavors resposta; només es mostra el resum
+公益站额度导航 · 社区持续更新	Llista de quotes de la Comunitat
+切换不丢失内容；每份预设独立保存	Canviar manté el text; cada ambient es desa per separat
+发送格式、视觉能力判定与图片诊断	Envia format, detecció de visió i diagnòstics d' imatge
+已启用的源 · 点开填密钥或端点	S'han habilitat les fonts en obrir un per afegir una clau o punt d' acabament
+每次调用的参数、请求体与响应原文	Paràmetres, peticions de cos i resposta en brut per cada crida
+没有发现服务，检查反代是否已启动	No s' ha trobat cap servei comproveu que el repetidor s' està executant
+直接输入，或者从下面挑一个开头。	Escriu lliurement, o comença des d' un suggeriment a sota.
+自动压缩到 320px，仅存本地	Comprimeix a 320px, només desat localment
+自定义头像、名字、性格与角色设定	A mida avatar, nom, personalitat i rol
+不写入磁盘，仅保留在本次会话内存中	Desat només a memòria d' aquesta sessió, mai s' ha escrit al disc
+探测公开的免密钥模型，能对话才列出	Probe models i llista només els que responen
+19 套主题、自定义配色、圆角与字号	19 temes, colors personalitzats, cantonades i mida de text
+会真发一句极短的问题，消耗少量额度。	Envia una pregunta molt curta i utilitza una petita quota.
+保存参数与响应原文，最多 120 条	Desa els paràmetres i respostes en cru, fins a 120 entrades
+朗读与语音输入，免费与付费引擎都可切	Entrada de lectura i de veu, motors lliures i pagats
+sk-…（本地 Ollama 可留空）	Sk... (deixeu buit per a l'Ollama local)
+只打开系统确认页，需你亲手点保存才生效	Obre només el full del sistema; no hi ha res que canvii fins que l' arrencada de desat
+把开源 xx2api 项目接成一条连接	Envia un projecte de codi obert xx2api a una connexió
+界面、回答、语音识别三套语言，独立设置	Interfície, resposta i llengües dictats konversation tres opcions independents
+该会话的所有消息将被移除，且无法恢复。	Cada missatge d' aquesta conversa s' eliminarà permanentment.
+所有连接配置的密钥将被清除，且无法恢复。	Les claus per a cada perfil de connexió s' esborraran permanentment.
+没有匹配的项目，换个关键词或点「全部」。	No s' ha trobat res que s' intenti una altra paraula clau o Acculeu- ho tot.
+没识别到有效地址，需要以 http 开头	No s' ha trobat cap URL vàlid; ha de començar amb http
+真实 usage 优先，未返回时本地估算	El primer ús real; calculat localment quan falta
+还没有启用任何源，联网搜索不会发起检索。	No s' ha habilitat cap font, de manera que la cerca web no s' executarà.
+System Prompt 预设与变量插值	Assistents per a l' indicatiu del sistema i la instrucció variable
+检索 → 大纲 → 逐节展开 → 汇总报告	Cerca l' informe del dibuix 141
+还没有拉到模型列表，点右上角「刷新」读取。	Encara no hi ha llista de models l' entrada de model Refresca a la part superior dreta.
+关闭时与纯聊天客户端完全一致，不注入任何工具	Quan fora, es comporta exactament com un client de xat pla sense eines injectades
+写文件、打开应用等动作在界面上等你点「允许」	S' estan escrivint fitxers, obrint aplicacions i accions similars esperant la vostra disposició AllAKADUK
+只读工具随时可用；其余按上面的授权分组生效。	Les eines de només lectura sempre funcionen; tota la resta segueix els grups de sobre.
+圆角只作用于卡片、按钮与输入台，不影响排版。	Arrodoniment s'aplica a les cartes, botons i compositor no a disposició.
+打开已装应用、调起系统浏览器、分享、写剪贴板	Obre aplicacions instal· lades, executa el navegador, comparteix, escriu al porta- retalls
+读取公开网页正文（禁止内网 / 元数据地址）	Llegeix el text de la pàgina pública (adreça privada i de metadades bloquejada)
+127.0.0.1 或 192.168.1.5	127. 0. 1 o 1921. 5
+例如：端侧小模型在 2025 年的推理优化路径	p. ex. en un diagrama de models petits i inferència optimització el 2025
+可为当前这个工作台单独指定，不影响其它工作台。	Només apel·lant a aquest espai de treball; els altres espais de treball segueixen la seva pròpia elecció.
+多轮检索 → 大纲 → 逐节展开 → 汇总报告	Informe de l'esborrany de la cerca multi- al voltant de 141
+输入关键词，可在这个连接和所有其他连接里查找。	Escriviu una paraula clau per cercar aquesta connexió i totes les altres.
+还没有启用的搜索源，去 设置 → 搜索 里勾选	Encara no s' ha habilitat cap font de cerca, l' ordre Ldenttxenko en la cerca de Arranjament RT
+回收站里的备份与被删文件将被真正删除，无法恢复。	Les còpies de seguretat i els fitxers esborrats del contenidor de reciclatge s' esborraran permanentment.
+搜索语言，如 英语 / English / 冰岛	Idiomes de cerca, p. ex. English / gnupg
+隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Llegiu/escriu un espai de treball privat, executeu scripts de tasca (sandboxed, permès per omissió)
+Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
+gpt-4o / claude / 通义 / 视觉	gpt- 4o / clade / qwen / vision
+分两批并发，单个超时 25 秒；有本机服务时会更快	Dos grups concurrents, 25 temps d' espera cada; més ràpid quan es troba un servei local
+只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Text només altures de línia i espaiat es queden, així que les mides més grans mai trenquen els botons.
+本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informació del dispositiu, espai de treball privat, aplicacions / calendari / alarmes
+等宽原样呈现，不解析 Markdown、不转换引用	Mostra com està a monoespai: cap anàlisi Markdown, sense conversió de citació
+还没有执行过本机操作。每一步都会留痕，可随时回溯。	Encara no hi ha accions de dispositiu. Cada pas s' ha accedit i es pot revisar més tard.
+凭据经 AES 加密仅存本机，请求直发你填写的接口。	Només les sol·licituds són encrypts a aquest dispositiu. Les peticions van directament al punt final que introduïu.
+可留空，留空时请求不带 Authorization。	Opcional a Oplipse quan estan buides, les peticions s'envien sense una capçalera d' autorització.
+点一下启用，再点关闭。只有启用的源才会参与联网检索。	Tap per habilitar, l' enllaç de nou per a deshabilitar. Només s' usen fonts actives per a la cerca web.
+识别语言只影响听写；说错语种时转写会串到另一门语言。	El llenguatge dictat només afecta al text de l'expressió; l'equivocat el fa transcrimina en un altre idioma.
+把回答读出来。免费通道随时可能失效，系统语音永远可用。	Llegiu respostes en veu alta. Els canals lliures poden deixar de treballar en qualsevol moment; el discurs del sistema sempre funciona.
+点「一键测试」会对每家真实发一次请求，通过才列进可用。	Una prova d' una execució envia una petició real a cada proveïdor i llista només les que passen.
+索取真实 usage；若接口报错可关闭，退化为估算 ≈	Sol· licita ús real; si els errors del punt final s' han apagat i s' han de tornar a les estimacions de l' adequat.
+真实 usage 优先；网关未返回时按字符估算并标 ≈。	L'ús real guanya; quan el portal l'exempla, estimem els caràcters i la marquem amb l'Yz.
+可换个简写（4o / ds / 通义），或直接用这个 ID。	Prova un àlies més curt (4o / ds / qwen), o useu aquest ID tal com és.
+填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Introduïu 0 per saltar les estimacions dels costos. Les cotitzacions només s' usen localment, mai s' han enviat a qualsevol lloc.
+回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Sense marques de renderització o citació es mostra el text en brut a monoespai.
+在电脑上跑着 g4f / chat2api / Ollama？	Executant g4f / xat2api / Ollama al teu ordinador?
+还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Encara no hi ha persona. Creeu- ne un avatar sota, el nom i l' estil de parlant són tots els vostres.
+多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Impressió multi- al voltant de l' article final de la secció kdeaccessibility. S' interrompen en qualsevol moment.
+搜模型名 / 厂商，如 gpt-4o / claude / 通义	Models de cerca o proveïdors, p. expt- 4o / clade / qwen
+搜项目、平台或模型，如 deepseek / kimi / 网关	Projectes de cerca, plataformes o models, p. ex. profundseek / kimi / portal
+暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Buida per ara. Demaneu a l' agent que George desisi el resultat a les notes i es mostrarà a sota.
+未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Les accions no autoritzades no s' executen; el model rep la missió de l' 2001- 2003 requerida i explica en el text.
+说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	La transcripció va a la caixa d' entrada i després l' envia.
+请求体附带 stream_options.include_usage	El cos sol· licita que inclou flux  opcions. include usage
+多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Les fonts són consultades en paral· leles, desenganyades per URL i barrejades en citacions interessives; una font falla no afecta als altres.
+按路径筛选，如 app_state / AndroidManifest	Filtre per camí, p. ex. ap  estat / AndroidManifest
+必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Ha de ser un punt de final compatible amb OpenAI que no necessita cap clau. Es prova un cop després d' afegir.
+依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Comproveu per ordre: el servei s' està executant, el port coincideix, el tallafocs ho permet, i el telèfon no està en una xarxa d' invitat.
+选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	El símptoma habitual d'un idioma erroni és que m'escolta, però transcrivi un altre idioma.
+「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	1]Construcció de la pregunta Interface no afegeix instrucció d' idioma i permet que el model decideixi. S' escriu un idioma escollit en l' indicatiu del sistema.
+https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://exemple.com/v1 gpt- 4o-mini\nUna per línia; el nom del model és opcional
+127.0.0.1 在手机上指向手机自己。反代如果不在这台手机上，把它换成运行反代之电脑的内网 IP。	0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 punts al telèfon. Si el repetidor no està en aquest telèfon, el substitueix amb la IP LAN de la màquina que l' executa.
+模型随安装包分发，不需要联网下载。装好后识别全程在本机完成，录音不上传，装在应用私有目录，卸载即清理。	Les naus de model dins del PPK, sense baixada. El reconeixement s' executa completament en el dispositiu; les gravacions mai no s' han pujat, viuen a la carpeta privada de l' aplicacióimportators, i s' eliminaran de desinstal· lar.
+公开实例由第三方维护，随时可能限流、改协议或下线，所以每次都要重新检测。不要在这些通道里传隐私、账号和公司资料。	Les instàncies públiques s' executen per tres partits i poden ser limitades, canviar-se o baixant sense adonar-se, així que torna a provar cada vegada. Mai enviïs dades privades, compte o empresa a través d' ells.
+四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Quatre canals anònims i una dotzena de models, tots es van posar a prova en una aixeta.
+在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Habilita els experiments del " cdrecordAuto " en Arranjament. Cada crida a l' ordre " YPMB en el xat normal o la investigació profunda s' arxivarà amb els seus paràmetres, un cos de petició en vermell i la sortida del model cru, fins a 120 entrades.
+反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Un repetidor normalment s' executa en un ordinador o enrutador. Uneix- te a la mateixa Wi-Fi, introduïu- hi el servidor IP de la LAN (p. ex. 192. 192. 1921. 5) i l' exploració d' etiquetes per provar els ports comuns.
+默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Per omissió, el model només respon a les preguntes. Activeu això i pot llegir informació real d' aquest dispositiu i actua amb el que s' autoritzeu: llegiu i escriviu un espai de treball privat, aplicacions obertes i pàgines web, crea esdeveniments de calendari, establiu alarmes.
+每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Cada espai de treball pot substituir la seva personalitat des de l' avatar de la barra superior. La descripció del rol s' escriu en l' indicatiu del sistema com a nota d' identitat; canvia el to i l' estil, no el que pot fer el model.
+可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variables disponibles: {{ etiqueta}} {{ data} {{ time}} {{ model}} {{ idioma}} {{ codi}} {{ sources}}} {{ tier} } replace amb valors reals abans d' enviar.
+8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Els ports 8000 i 3000 són compartits per diversos projectes, per tant només un pot executar per màquina; canviar el port o desplegar per separat per executar- los. El conjunt oficial necessita una clau però té una quota lliure. Les instàncies de la Comunitat són algú altre servei de kdeOSP que pot anar fora de línia en qualsevol moment, de manera que mai enviïn dades privades a través d' ells.
+在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Useu {{ etiqueta}} {{ data}} {{ time}} {{ model}} {{ idioma}} {{ codi}}} {{ tier}} en l' indicatiu; se substitueixen amb valors reals abans d' enviar.
+免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Els canals lliures utilitzen els punts d' acabament públic i poden deixar de funcionar o obtenir una taxa limitada en qualsevol moment. Les tecles només s' encriptaran en aquest dispositiu i mai no s' ha sincronitzat. En prémer el botó d' ona a la part superior dreta, o una bombolla llarga, per llegir en veu alta. Tira el micròfon en el compositor per a parlar; l' enregistrament s' atura quan aneu en silenci, i el text terres en la caixa d' entrada per a revisar abans d' enviar.
+图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Les imatges s' envien en línia com a base64, vora 1280, qualitat 72. Si una petició d' imatge retorna 400/ 413 / Connexió tancada, el model o portal probablement rebutja les imatges en línia, canvieu el format anterior per reduir- lo.

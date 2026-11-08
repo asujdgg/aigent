@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# 构建产物与发布物不进仓库（APK 体积大，走 GitHub Releases）
+*.apk
+*.aab
+*.zip
+/build/
+/docs/screenshots/*.mp4
+
+# 例外：随包分发的离线语音模型是构建必需资源，必须入库
+!assets/speech/*.zip
+
+# 本机环境与签名材料（含绝对路径 / 私钥，禁止入库）
+android/local.properties
+android/.gradle/
+android/.cxx/
+**/.gradle/
+**/.cxx/
+*.jks
+*.keystore
+key.properties
+*.p12
+*.p8
+google-services.json
+
+# 内部交接文档（仅本地交付，不随仓库公开）
+HANDOVER.md
