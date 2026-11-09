@@ -116,7 +116,10 @@ if [ ! -f "$APK" ]; then
   exit 1
 fi
 
-OUT="$ROOT/Aigent-v4.24.0.apk"
+# 从 pubspec.yaml 读版本号，避免每次升级都回来改这里的硬编码文件名。
+VER="$(grep -m1 '^version:' "$ROOT/pubspec.yaml" \
+  | sed -E 's/^version:[[:space:]]*([^+]+).*/\1/' | tr -d '[:space:]')"
+OUT="$ROOT/Aigent-v${VER:-0.0.0}.apk"
 cp -f "$APK" "$OUT"
 echo ""
 echo "构建完成：$OUT"

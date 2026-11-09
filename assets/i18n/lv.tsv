@@ -1,21 +1,41 @@
+你	Jūs
+共	ieraksti
+岁	Yrs
+平	Zīmēt
+我	Es
+条	ieraksti
+次	minējumi
+胜	Win
+负	Loze
 主色	Accent
 主题	Tēma
 今日	Šodien
+使用	Lietot
 保存	Saglabāt
 停止	Apturēt
 允许	Atļaut
 关闭	Aizvērt
+出拳	Jūsu gājiens
 删除	Dzēst
 刷新	Atsvaidzināt
 发送	Sūtīt
 取消	Atcelt
+名称	Nosaukums
 圆角	Stūri
 复制	Kopēt
 外观	Izskats
+大了	Pārāk augsts
 字号	Teksta izmērs
 密钥	Taustiņš
+对话	Sarunas
+小了	Pārāk zems
 工具	Rīki
+已猜	Guesenes
+平局	Izšķirts
+开始	Sākums
+当前	Laikposms
 忽略	Ignorēt
+性别	Dzimums
 恢复	Atjaunot
 接入	Pieslēgties
 新建	Jauns
@@ -24,8 +44,12 @@
 模型	Paraugs
 添加	Pievienot
 清空	Tīrīt
+游戏	Spēles
+猜！	Uzmini!
+百万	M
 确定	Labi
 离线	Bezsaistē
+管理	Pārvaldīt
 累计	Kopā
 编辑	Rediģēt
 视觉	Redze
@@ -33,184 +57,360 @@
 语音	Balss
 请求	Pieprasījums
 跳过	Izlaist
+返回	Atpakaļ
+选择	Izvēle
 部署	Izvietot
 销毁	Iznīcināt
+1 轮	1 kārta
+2 轮	2 kārtas
+3 轮	3 kārtas
+个模型	modeļi
+个选项	iespējas līgumi
+二十问	20 Jautājumi
+今日签	Mūsdienu bagātība
+你赢了	Tu uzvarēji
+再看看	Vēlreiz
 去设置	Atvērt iestatījumus
+多模型	Daudzmoduļi
 已停更	Kombinētā terapija
 已复制	Kopēts
+已完结	Pabeigts
 待检测	Nav testēts
+我赢了	Es uzvarēju
+摇一摇	Sakratiet
+未匹配	Neatbilst
+未发言	Nav atbildes
+条发言	pagriezieni
+段经历	notikumi
 源代码	Avots
+猜数字	Uzmini skaitli
 生成中	Ģenerē
 知道了	Sapratu
 自定义	Pielāgots
+转起来	Spins
 重命名	Pārdēvēt
 + 新建	+ Jauns
+一共用了	skaits
 一键接入	Savienot visu
 人物形象	Persona
+人生事件	Notikums Life
+人生存档	Saglabātās dzīvības
+人生履历	Dzīvesstāsts
+人生目标	Dzīves mērķis
+价格来源	Cenu avots
+会议大纲	Darba kārtība
+会议结论	Secinājums
+会议议题	Temats
+会议记录	Tikšanās vēsture
+估算省下	Est. saglabāts
+位参会者	dalībnieki
+候选选项	Opcijas
+停止会议	Apturēt tikšanos
 停止朗读	Apturēt lasīšanu
 免密模型	Bezatslēgas modeļi
+再玩一局	Spēlēt vēlreiz
+创建角色	Izveidot rakstzīmi
+删除席位	Noņemt sēdekli
 删除形象	Dzēst personua
 删除配置	Dzēst profilu
+剩余提问	Atlikušie jautājumi
+匹配模型	Saskaņotais modelis
 原始输出	Izeja
+参会模型	Dalībnieki
+命中概览	Kešatmiņas trāpījumi
+命中次数	Trāpījumi
 图片诊断	Attēlu diagnostika
 复制一份	Dublēt
 复制全文	Kopēt visu
 复制内容	Kopēt tekstu
 外观主题	Izskats
+完全权限	Pilnīga piekļuve
+实时价格	Dzīvās cenas
 实验记录	Eksperimenta žurnāls
 对话语言	Atbildes valoda
+导出纪要	Eksportēt protokolus
+少量权限	Minimāla piekļuve
+尚未获取	Vēl nav ielādēts
+就选这个	Iet ar šo
+席位设置	Sēdekļa iestatījumi
+开始会议	Sākt tikšanos
 开始检测	Sākuma tests
 开始说话	Sākt runāt
 当前会话	Šī saruna
 当前模型	Pašreizējais modelis
+当前连接	Laikposms
 当前预设	Pašreizējais regulējums
 待填密钥	Nepieciešamā atslēga
+恢复默认	Atjaunot noklusēto
+抉择轮盘	Lēmuma ritenis
+抽一支签	Zīmēt
+拉取失败	Neizdevās ielādēt
+按天花费	Izmaksas pa dienām
 授权范围	Atļaujas
 接入最快	Ātrāk izveidot
 接口地址	Mērķa punktu URL
+推进人生	Avansa dzīve
 插件系统	Spraudņi
 搜索模型	Meklēšanas modeļi
 搜索设置	Meklēšanas iestatījumi
 收起搜索	Slēpt meklēšanu
+故事接龙	Stāstu ķēde
+新建会议	Jauna sanāksme
+新的人生	Jauna dzīve
+时代背景	Era
 明暗模式	Gaiša/tumša
+更新时间	Atjaunināts
+最近命中	Nesenie trāpījumi
 未设模型	Nav modeļa
+本地复用	Vietēja atkalizmantošana
+权限档位	Atļaujas līmenis
+标准权限	Standarta piekļuve
+模拟人生	Dzīvības simulators
+正在停止	Apturēšana
+每日一签	Dienas bagātība
 测试连通	Testa savienojums
 深度思考	Dziļa domāšana
 深度研究	Dziļa pētniecība
 添加地址	Pievienot mērķa kritēriju
+添加席位	Pievienot vietu
+添加连接	Pievienot savienojumu
+生成大纲	Vispārējs
 用量追踪	Izmantošanas izsekošana
 界面语言	Saskarnes valoda
+盖棺定论	Galīgais spriedums
 系统当前	Sistēma
+累计估算	Kopā
+缓存命中	Kešatmiņas trāpījumi
+缓存条目	Kūdītas atbildes
+缓存省下	Saglabāts ar kešatmiņu
+缓存设置	Keša iestatījumi
 网页抓取	Lapas ielāde
+美元汇率	USD maiņas kurss
 联网搜索	Tīmekļa meklēšana
 能力开关	Slēdži
 能力档位	Spēju līmenis
+角色立场	Loma un nostāja
+讨论记录	Ieraksts
+讨论轮数	Rindas
 语音输入	Balss ievade
 说点什么	Saki kaut ko
+请求次数	Lūgumi
+输入单价	Ievades cena
+输出单价	Izlaides cena
 这台设备	Šī ierīce
 连接配置	Savienojumu profili
 选择形象	Izvēlēties personua
 选择模型	Izvēlieties modeli
 配置名称	Profila nosaukums
 配置连接	Konfigurēt savienojumu
+重新开始	Pārstartēt
 页面底色	Lapas fons
 预设名称	Regulēšanas nosaukums
+魔法八球	Burvju 8 ball
+AI 玩法	AI spēles
 会话与设置	Tērzēšanas un iestatījumi
 删除工作台	Dzēst darbvirsmu
 删除此形象	Dzēst šo personua
+单价与汇率	Vienības cena un FX
+去添加连接	Pievienot savienojumu
 反代与网关	Releju & vārteja
 命令已复制	Komanda nokopēta
 填入输入框	Ievietot ievadā
 已复制回答	Nokopētas atbildes
 已开启朗读	Ready- pulss on
 应用与网页	Lietotnes un tīmekļa
+开始这一生	Sākt šo dzīvi
+按模型花费	Izmaksas pēc modeļa
 提示词预设	Prasīt regulējumus
 文件与脚本	Faili un skripti
 日历与闹钟	Kalendāra & atgādinājumi@ info: whatsthis
+服务端缓存	Piegādātāja kešatmiņa
 朗读已开启	Ready- pulss on
+未命名议题	Nenosaukts temats
 未指定模型	Nav izvēlēts modelis
+未指定连接	Nav savienojuma
+未设置模型	Nav noteikts modelis
+未选择连接	Nav izvēlēts savienojums
 查看源代码	Aplūkot avotu
+模型 ID	ID paraugs
 源码已复制	Avots nokopēts
 点一下切换	Piesitiet, lai pārslēgtos
 独立工作区	Privāta darba telpa
+石头剪刀布	Rokpapīra šķēres
 研究工作台	Pētniecības darba telpa
+离线小游戏	Bezsaistes minispēles
+结束这一生	Beigt šo dzīvi
 网页版反代	Tīmekļa relejs
 联网搜索源	Tīmekļa meklēšanas avoti
+花了多少钱	Cik daudz esmu iztērējis
 设备智能体	Ierīces aģents
 语言与地区	Valodas & reģions
+费用与价格	Izmaksu un cenu noteikšana
 输入任务…	Ievadiet darbu..
-连接与模型	Pieslēguma & modelis
+还没有存档	Vēl nav glābtu dzīvību
+还没有故事	Vēl nav stāstu
+连接与模型	Savienojuma & modeļi
 重命名配置	Pārdēvēt profilu
 链接已复制	Saikne nokopēta
 顶部形象区	Augšējā persona teritorija
 （无内容）	(tukšs)
+个离线小游戏	bezsaistes minispēles
+你会怎么选？	Ko tu darīsi?
+例如：分析者	Piemēram, analītiķis
 先填主机地址	Ievadiet datoru vispirms
+判定结果失败	Neizdevās atrisināt rezultātu
+刷新实时价格	Atsvaidzināt pastāvīgās cenas
 助手消息头像	Atbildes avatāri
 去设置里刷新	Atjaunot iestatījumus
 启用人物形象	Ieslēgt personu
 启用本机操作	Ieslēgt ierīces darbības
 图片与多模态	Attēli un multimodālie
 图片发送格式	Attēla formāts
+导出人生履历	Eksportēt dzīvesstāstu
+尚未选择模型	Nav izvēlēts modelis
+尚未配置接口	Nav konfigurēts
 已删除该配置	Profils dzēsts
 当前 API	Pašreizējā API
+当前对话模型	Pašreizējais tērzēšanas modelis
 提示词预设库	Prasīt iestatīto bibliotēku
 搜索源连通性	Avota savienojamība
 新建连接配置	Jauns savienojuma profils
+暂无历史会议	Nav saglabātu sanāksmju
+暂无参会席位	Vēl nav dalībnieku
 模型能力档位	Spēju līmenis
+模型调用失败	Neizdevās izsaukt modeli
 每源结果条数	Rezultāti katram avotam
 添加免密地址	Pievienot bezatslēgas galapunktu
+清空命中记录	Ieraksti par trāpījumu
+清空响应缓存	Tīrīt atbildes kešatmiņu
+点此配置接口	Piesitiet, lai izveidotu savienojumu
+猜中了！就是	Sapratu!
+生成事件失败	Neizdevās ģenerēt notikumu
+生成传记失败	Neizdevās ierakstīt biogrāfiju
 等待模型输出	Gaida modeli
 自动记录实验	Automātiskās ierakstīšanas eksperimenti
+设备清理已开	Ierīces tīrīšana
+设备清理未开	Ierīces tīrīšana
 语音识别语言	Teksta valoda
 请求体已复制	Nokopēta pieprasījuma struktūra
 还没有记录。	Vēl nekas nav ierakstīts.
+选择游戏模型	Izvēlieties spēles modeli
 销毁本地凭据	Iznīcināt lokālos akreditācijas datus
 随便问点什么	Pajautā man jebko
+AI 圆桌会议	AI apaļais galds
 HTTP 插件	HTTP spraudnis
+个 AI 玩法	AI spēles
 回收站是空的。	Pārstrāde ir tukša.
+已复制到剪贴板	Nokopēts starpliktuvē
 已复制当前配置	Pašreizējais profils nokopēts
 已恢复到工作区	Atjaunots uz darbvirsmu
 当前预设已生效	Šis regulējums ir aktīvs
 按当前单价估算	Novērtētais pašreizējās cenās
 换个关键词试试	Mēģināt citu atslēgvārdu
+搜索模型 ID	Meklēšanas modeļa ID
 智能体请求执行	Aģents pieprasa rīcību
+服务端缓存命中	Provaidera kešatmiņas hiti
 朗读上一条回答	Izlasiet pēdējo atbildi
 本地凭据已销毁	Lokālie dati iznīcināti
+本局使用的模型	Modelis šai spēlei
 每次操作先问我	Jautāt man pirms katras darbības
+没有匹配的模型	Nav atbilstošu modeļu
 没有匹配的语言	Nav atbilstošas valodas
 没有匹配的连接	Nav atbilstoša savienojuma
 深度研究工作流	Dziļas pētniecības darba plūsma
+清空命中记录？	Skaidri hit ieraksti?
+清空响应缓存？	Skaidra atbildes kešatmiņa?
+猜对了！答案是	Atbilde bija pareiza
 管理 / 切换	Pārvaldīt/ pārslēgt
 自动接入可用项	Savienot pieejamās
+自定义立场描述	Pielāgota pozīcija
 Token 用量	Zīmju izmantošana
 在所有连接里查找	Meklēt visus savienojumus
 工作区路径已复制	Nokopēts darba vietas ceļš
+心里默念一个问题	Padomājiet par jautājumu
 扫描已运行的服务	Skenēšana pakalpojumu sniegšanai
 搜索连接名或地址	Meklēt pēc nosaukuma vai URL
 未启用任何搜索源	Nav ieslēgts meklēšanas avots
+来几局，纯靠运气	Daži raundi, tīra veiksme
+正在撰写人生总结	Dzīves ilguma kopsavilkuma rakstīšana
 永久清空回收站？	Iztukšot pārstrādes tvertni?
 测试已启用搜索源	Testa iespējotie avoti
+留空将自动取名。	Atstāt tukšu nejaušam nosaukumam.
+缓存 token	Kešatmiņas
+自动获取实时价格	Automātiski ielādēt tiešraides cenas
+请先填写会议议题	Vispirms ievadiet tikšanās tēmu
+（模型没有回复）	(Modeļa atbildes nav)
+下一段人生尚未发生	Nākamā nodaļa nav sākusies
 会话已复制到剪贴板	Saruna nokopēta starpliktuvē
 允许模型调用该插件	Atļaut modelim izsaukt šo spraudni
+先给故事起个主题吧	Vispirms piešķir stāstam tēmu
+填 0 表示不计算	0 deaktivizēt izmaksas
 填入该服务商的密钥	Ievadiet pakalpojuma sniedzēja atslēgu
+复用相同请求的回答	Atkārtoti izmantot identiskus pieprasījumus
 手动填写模型 ID	Pašrocīgi ievadiet modeļa ID
+手动输入模型 ID	Pašrocīgi ievadiet modeļa ID
 点击头像从相册选择	Piesitiet avataram, lai izvēlētos no galerijas
+用一个是非题提问…	Uzdot jā/nē jautājumu..
+给 TA 起个名字	Norādīt viņiem vārdu
+设备清理与文件删除	Ierīces tīrīšanas & faila dzēšana
 AI 用这种语言回答	AI atbild šajā valodā
+也可以自己写一个目标	Vai uzrakstīt savu mērķi
+仅显示最近 30 条	Parāda jaunākos 30 ierakstus
+写下接下来发生的事…	Rakstīt, kas notiks tālāk..
 单次任务最多执行几步	Maksimums soļu katram uzdevumam
 在线 · 需 Key	Nepieciešama tiešsaistes atslēga
 已创建，可在下方编辑	Izveidots — rediģēt to zemāk
 当前会话的能力与连接	Iespējas un saistība ar šo sarunu
+每天一支签，图个乐子	Viena laime dienā, tikai priekam
 自定义搜索引擎 ID	Pielāgots meklētājprogrammas ID
 至少需要保留一份配置	Saglabāt vismaz vienu profilu
+输入这次要讨论的问题	Par ko būtu jārunā šajā sanāksmē?
 还没有可以朗读的回答	Vēl nav atbildes, ko lasīt skaļi
+静一静心，点下面抽签	Ievelc elpu, tad izvelciet zemāk
 临时凭据（用完即销毁）	Pagaidu pilnvaras (iznīcinātas pēc lietošanas)
 已还原此预设的内置内容	Iebūvētais saturs atjaunots šim regulējumam
+每行一个，或用逗号隔开	Viens katrai līnijai vai atdalīts ar komatiem
+点这里选择运营商与模型	Piesitiet, lai izvēlētos piegādātāju un modeli
 研究报告已复制到剪贴板	Ziņojums nokopēts starpliktuvē
 主色 · 页面 · 圆角	Accent · lapa · stūri
 打不开浏览器，链接已复制	Neizdevās atvērt pārlūku; saite nokopēta
 朗读上一条回答（已静音）	Lasīt pēdējo atbildi (mutēti)
 每条回答前显示形象小头像	Rādīt mazu personas avatāru pirms katras atbildes
+人生评分 · 满分 100	Dzīvības vērtējums · no 100
+从已有连接补齐 5 个模型	Aizpildīt 5 modeļus no savienojumiem
 发送前预览 · 最终请求体	Pirmssūtīšanas priekšskatījums · gala pieprasījuma struktūra
 向网关索取真实 usage	Prasīt vārteju reālai lietošanai
+实时价格、按模型与按天花费	Live cenas, izmaksas pēc modeļa un dienā
 朗读已静音 · 长按可恢复	Read-oud muted · ilgi nospiest uz unmute
 档位、深度思考与联网总开关	Līmeņa, dziļa domāšana un tīmekļa meklēšanas galvenais slēdzis
 正在准备朗读 · 点击取消	Sagatavojot runu · pieskarieties, lai atceltu
 正在并行测试已启用搜索源…	Testēšana ieslēgti avoti paralēli..
 消息列表上方显示头像与名字	Rādīt vārdu virs vēstuļu saraksta
+点开始，由模型先说第一句。	Piesitiet sākumam un ļaujiet modelim runāt vispirms.
 累计消耗、单价、明细与导出	Kopējie izdevumi, cenas, sadalījums un eksports
+至少需要一个可用的参会模型	Vajadzīgs vismaz viens darba modelis
 预览：静水深流，字要看得清	Priekšskatījums: vēl ūdens, tekstam jābūt salasāmam
+例如：今天适合开始新计划吗？	Piemēram, vai šodien ir labi izstrādāt jaunu plānu?
 关闭后主界面回到纯工作台样式	Kad izslēgts, galvenais ekrāns atgriežas vienkāršā darba vietas izskatā
+命中统计、响应复用与缓存管理	Hit stats, atbildes atkārtota izmantošana un kešatmiņas pārvaldība
 按钮、标题与说明文字都跟着换	Pogas, nosaukumi un apraksti arī pārslēdzas
 这个连接还没有读到模型列表。	Šim savienojumam vēl nav nolasīts modeļu saraksts.
 这台主机上没有发现兼容端点。	Šajā datorā nav atrasts savietojams parametrs.
+1 到 100，看你能几次猜中	Skaitlis no 1 līdz 100 — cik minējumus jūs varat uzvarēt?
+你一句我一句，让故事一直讲下去	Pagriezienus un turpini stāstu
 关闭后保留文档但不注入工具清单	Kad izslēgts, dokumenti palikt, bet rīku saraksts nav ievadīts
 多源选择、每源密钥与连通性测试	Izvēlieties avotus, pievienojiet avota atslēgas, pārbaudiet savienojamību
 接口地址、密钥、模型与多配置档	Mērķa kritērijs, atslēga, modeļi un vairāki profili
 深度研究工作流、实验记录与报告	Dziļas izpētes darbplūsma, eksperimentu žurnāls un ziņojumi
+猜一个 1 到 100 的数字	Uzmini skaitli no 1 līdz 100
+请输入 1 到 100 的整数	Ievadiet veselu skaitli no 1 līdz 100
+默念一个问题，摇一摇看它怎么答	Padomājiet par jautājumu, sakratiet, lai rastu atbildi
+你一句我一句，让故事一直讲下去。	Pagriezies un turpini stāstu.
 先完成推理再输出结论，只显示摘要	Vispirms iemesls, tad atbilde; tiek parādīts tikai kopsavilkums
 公益站额度导航 · 社区持续更新	Kopienas kvotu saraksts, ko atjaunina Kopiena
 切换不丢失内容；每份预设独立保存	Pārslēgšana saglabā tekstu; katrs regulējums tiek saglabāts atsevišķi
 发送格式、视觉能力判定与图片诊断	Sūtīt formātu, redzes noteikšanu un attēlu diagnostiku
+和我来几局，纯靠运气，不花流量。	Dažas kārtas ar mani — tīra veiksme, netika izmantoti dati.
 已启用的源 · 点开填密钥或端点	Iespējot avotus · atvērt vienu, lai pievienotu atslēgu vai galapunktu
 每次调用的参数、请求体与响应原文	Parametri, pieprasījuma iestāde un neapstrādāta atbilde katram uzaicinājumam
 没有发现服务，检查反代是否已启动	Nav atrasts serviss — pārbaudiet, vai relejs darbojas
@@ -218,70 +418,107 @@ AI 用这种语言回答	AI atbild šajā valodā
 自动压缩到 320px，仅存本地	Saspiests līdz 320px, saglabāts tikai lokāli
 自定义头像、名字、性格与角色设定	Pielāgots avatārs, vārds, personība un loma
 不写入磁盘，仅保留在本次会话内存中	Atmiņā glabāta tikai šai sesijai, nekad nav ierakstīta diskā
+圆桌会议、模拟人生与 7 个小游戏	Apaļais galds, Life Simulator & 7 mini-spēles
+把纠结的选项写进去，让轮盘替你决定	Uzrakstiet savas iespējas un ļaujiet ritenim izlemt
 探测公开的免密钥模型，能对话才列出	Probe publiskie bez atslēgas modeļi un uzskaitīt tikai tos, kas atbild
+沿用聊天界面正在使用的连接与模型。	Izmantot savienojumu un modeli, kas šobrīd ir aktīvs tērzēšanā.
+由 AI 根据议题生成，可手动修改	Izveidots no tēmas AI- rediģējams
 19 套主题、自定义配色、圆角与字号	19 tēmas, pielāgotas krāsas, stūri un teksta izmērs
 会真发一句极短的问题，消耗少量额度。	Atsūta vienu ļoti īsu jautājumu un izmanto nelielu kvotu.
 保存参数与响应原文，最多 120 条	Saglabāt parametrus un neapstrādātas atbildes, līdz 120 ierakstiem
+只清统计与列表，不影响已缓存的回答。	Notīra tikai statistiku un sarakstu; tiek glabātas kešatmiņas atbildes.
 朗读与语音输入，免费与付费引擎都可切	Read-oud un balss ievade, bezmaksas un maksas dzinēji
 sk-…（本地 Ollama 可留空）	sk-... (atstājiet tukšu vietējai Ollama)
 只打开系统确认页，需你亲手点保存才生效	Atver tikai sistēmas lapu; nekas nemainās, līdz piesitiet Saglabāt
 把开源 xx2api 项目接成一条连接	Ieslēdziet atvērtā pirmkoda xx2api projektu savienojumā
 界面、回答、语音识别三套语言，独立设置	Saskarne, atbildes un diktācijas valodas – trīs neatkarīgi iestatījumi
 该会话的所有消息将被移除，且无法恢复。	Katrs vēstījums šajā sarunā tiks izņemts uz visiem laikiem.
+隔离工作区内读写、任务脚本（沙箱保护）	Lasīt/rakstīt izolētajā darbvirsmā un uzdevumu skriptos (sandboxed)
+20 次提问用完了，点重新开始再来一局。	Visi 20 izmantotie jautājumi. Lai atskaņotu vēlreiz, piesitiet pārstartēt.
+同一天抽到的签不会变，明天再来会有新签。	Šodienas bagātība paliek tāda pati; rīt atgriezieties pēc jaunas.
+已手动调整单项授权，不对应任何预设档位。	Individuālās atļaujas ir mainītas manuāli; netiek piemērots iepriekš iestatīts līmenis.
+心里默念一个问题，摇一摇，看它怎么回答。	Padomājiet par jautājumu, sakratiet, paskatieties, kas tajā teikts.
 所有连接配置的密钥将被清除，且无法恢复。	Katra savienojuma profila atslēgas tiks pilnībā izdzēstas.
+把纠结的选项都写进去，让轮盘替你做决定。	Uzskaitiet visas iespējas, starp kurām esat saplēsis un ļaujiet riteņam izlemt.
 没有匹配的项目，换个关键词或点「全部」。	Nekas neatbilst — pamēģiniet citu atslēgvārdu vai pieskarieties pie Visi.
 没识别到有效地址，需要以 http 开头	Nav atrasts derīgs URL; tam jāsākas ar http
+添加连接并选定模型后，模型会显示在这里。	Modeļi parādās šeit, kad jūs pievienot savienojumu un izvēlēties vienu.
 真实 usage 优先，未返回时本地估算	Reāla izmantošana vispirms; aprēķināta lokāli, ja trūkst
 还没有启用任何源，联网搜索不会发起检索。	Nav ieslēgts avots, tāpēc tīmekļa meklēšana netiks veikta.
+还没有连接，请先到「连接与模型」里添加。	Vēl nav savienojumu. Pievienojiet to sadaļā "Savienojumi un modeļi".
 System Prompt 预设与变量插值	Sistēmas uzvednes iestatījumi un mainīgā interpolācija
+之后相同的请求会重新发起，直到再次被缓存。	Identiski pieprasījumi tiks nosūtīti vēlreiz, līdz tie tiks kešoti vēlreiz.
+尚未配置接口，请先到设置里填好连接与模型。	Nav konfigurēts savienojums. Vispirms iestatiet beigu punktu un modeli iestatījumos.
+已为游戏单独指定模型，随时可换或恢复默认。	Specializēts modelis ir iestatīts spēlēm; mainīt to vai atjaunot noklusējuma jebkurā laikā.
 检索 → 大纲 → 逐节展开 → 汇总报告	Meklēšana → kontūra → projekts → ziņojums
 还没有拉到模型列表，点右上角「刷新」读取。	Vēl nav modeļu saraksta — pieskarieties pie Atsvaidzināt augšējā labajā pusē.
+还没有添加任何连接，所以这里没有可用模型。	Vēl nav pievienots neviens savienojums, tāpēc šeit nav pieejami modeļi.
+这个连接还没有缓存模型，可在下方手动输入。	Šim savienojumam nav kešotu modeļu; ievadiet vienu manuāli zemāk.
+先选一家运营商（连接），再进入模型列表挑选。	Vispirms izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties no tā modeļu saraksta.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Kad izslēgts, uzvedas tieši kā vienkāršs tērzēšanas klients bez injicētiem rīkiem
 写文件、打开应用等动作在界面上等你点「允许」	Failu rakstīšana, programmu atvēršana un līdzīgas darbības gaida jūsu "Allow" piesitienu
+创建角色，由 AI 生成事件与抉择，走完一生	Izveidot rakstzīmi; MI ģenerē notikumus un izvēles caur visu dzīvi
 只读工具随时可用；其余按上面的授权分组生效。	Tikai lasāmrīki vienmēr strādā; viss pārējais seko grupām iepriekš.
 圆角只作用于卡片、按钮与输入台，不影响排版。	Noapaļošana attiecas uz atklātnēm, pogām un komponistu — nevis izkārtojumu.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Atvērt instalētās programmas, palaist pārlūkprogrammu, kopīgot, rakstīt starpliktuvē
+模型想一个东西，你用是非题在 20 次内猜中	Modelis domā par kaut ko; uzminēt to 20 jā / nav jautājumi
+每天一支签，同一天不会变。图个乐子，别当真。	Viena laime dienā, nemainīga dienas laikā.
+每行一条，讨论时所有参会者都会看到这份大纲。	Katrs dalībnieks redz šo darba kārtību.
 读取公开网页正文（禁止内网 / 元数据地址）	Publiskās lapas teksts (aizslēgtas privātās un metadatu adreses)
 127.0.0.1 或 192.168.1.5	127.0.0.1 vai 192.168.1.5
+AI 玩法会调用你所选的模型，按实际用量计费。	AI spēles zvanu jūsu izvēlēto modeli un ir jāmaksā par faktisko izmantošanu.
 例如：端侧小模型在 2025 年的推理优化路径	Piemēram, ierīces mazie modeļi un slēdzienu optimizācija 2025. gadā
 可为当前这个工作台单独指定，不影响其它工作台。	Attiecas tikai uz šo darbvirsmu; citas darbtelpas saglabā savu izvēli.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Daudzpusīga meklēšana → kontūra → projekts → ziņojums
+所有剧情由你配置的模型实时生成，只保存在本机。	Katrs notikums tiek ģenerēts tiešraidē jūsu modelis un glabājas tikai šajā ierīcē.
 输入关键词，可在这个连接和所有其他连接里查找。	Ievadiet atslēgvārdu, lai meklētu šo savienojumu un visus pārējos.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Vēl nav ieslēgts neviens meklēšanas avots — ieslēdziet to Iestatījumos → Meklēšana
 回收站里的备份与被删文件将被真正删除，无法恢复。	Backups un dzēstie faili pārstrādātajā bin tiks neatgriezeniski izdzēsti.
 搜索语言，如 英语 / English / 冰岛	Meklēšanas valodas, piem., angļu / angļu
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Nolasīt/rakstīt privāto darba vietu, palaist uzdevumu skriptus (sandboxed, atļauts pēc noklusējuma)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Seko pašreizējam tērzēšanas modelim pēc noklusējuma; piesitiet, lai iestatītu īpašu modeli.
 Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / redze
 分两批并发，单个超时 25 秒；有本机服务时会更快	Divas vienlaicīgas partijas, 25s noildze katrs; ātrāk, ja vietējais pakalpojums ir atrasts
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Teksts tikai — līniju augstums un atstatums palikt likts, tāpēc lielāki izmēri nekad nelauzt pogas.
+我想好了一个东西，你用是非题在 20 次内猜出来。	Esmu kaut ko domājis.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Ierīces informācija, privātā darba telpa, programmas / kalendārs / atgādinājumi
 等宽原样呈现，不解析 Markdown、不转换引用	Parādīta kā- ir monotelpā: nav iezīmēšanas parsējuma, nav citēšanas konversijas
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Nav ierīces darbību vēl. Katrs solis ir pieteicies un to var pārskatīt vēlāk.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties modeli no tā saraksta.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Credentials ir šifrēti tikai uz šīs ierīces; pieprasījumi iet taisni uz beigu punktu jūs ievadīt.
 可留空，留空时请求不带 Authorization。	Fakultatīvs – ja ir tukšs, pieprasījumi tiek nosūtīti bez autorizācijas galvenes.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Izvēlēties dažādus savienojumus vai modeļus. Pat viens modelis var nepiekrist ar sevi zem dažādām lomām.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Piesitiet, lai ieslēgtu, pieskarieties vēlreiz, lai izslēgtu. Tīmekļa meklēšanai tiek izmantoti tikai atļauti avoti.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Diktācijas valoda ietekmē tikai runu pret tekstu; nepareizais padara to pārrakstīt citā valodā.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Lasīt atbildes skaļi. Bezmaksas kanāli var pārtraukt darbu jebkurā laikā; sistēmas runa vienmēr darbojas.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	Vienas pieturas tests nosūta reālu pieprasījumu katram pakalpojumu sniedzējam un uzskaita tikai tos, kas iztur.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Pieprasīt reālu izmantošanu; ja galarezultāts kļūdas, izslēgt to un nokrist atpakaļ līdz ≈ aplēses.
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Es slēpju skaitli no 1 līdz 100
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	Uzvar reāla izmantošana; ja vārti to izlaiž, mēs novērtējam pēc burtiem un atzīmē to ar ≈.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3-5 modeļus no dažādiem piegādātājiem, apspriest pa kārtām, saņemt kopsavilkumu
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Nav hits vēl. Izmantojiet apaļā galda vai mini spēli, bet un dati parādīsies šeit.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Mēģiniet īsāku segvārdu (4o / ds / qwen), vai izmantot šo ID, kā ir.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Ievadiet 0, lai izlaistu izmaksu aplēses. Cenas izmanto tikai lokāli, nekad nekur nav nosūtīts.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Bezsaistes spēles nekad nezvana modeli vai neizmanto datus; AI spēles ir jāmaksā jūsu izvēlētajam modelim.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Nav iezīmēšanas renderēšanas vai citēšanas marķieru — neapstrādātais teksts tiek rādīts monotelpā.
 在电脑上跑着 g4f / chat2api / Ollama？	Darbojas g4f / chat2api / Ollama savā datorā?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Pagaidām nav neviena cilvēka. Izveidojiet to zemāk — jūsu uzstādītais vārds un runas stils.
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	Tikai lasāma: ierīces informācija, instalētās programmas un failu saraksti. Neko neraksta un neatver citu lietotni.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Daudzpusīga meklēšana → kontūra → atsevišķa sadaļa projekts → galīgais ziņojums. Pārtraukt jebkuru laiku.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Meklēšanas modeļi vai pārdevēji, piem. gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Meklēšanas projekti, platformas vai modeļi, piemēram, deepseek / kimi / vārteja
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Notīrīt šīs lietotnes kešatmiņas, atrast un dzēst failus pieejamās mapēs (ieteicams tikai pilnīgai piekļuvei)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Palūdziet aģentam “saglabāt rezultātu pierakstiem /” un tas parādīsies zemāk.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Neautorizētas darbības netiek izpildītas; modelis saņem „atļauju nepieciešams" un tā vietā skaidro tekstu.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Ieraksts apstājas, kad tu klusē. Atraksts nonāk ievades lodziņā — pārbaudiet to, tad atsūtiet.
 请求体附带 stream_options.include_usage	Pieprasījuma struktūra ietver straum options. include usage
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Noteikt cenu 0 izlaist izmaksu aprēķinu. Manuāli ierakstītās cenas palikt, ja vien jūs atsvaidzināt dzīvo cenas.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Ielādē publisko tarifu tabulu fonā un atbilst pašreizējam modelim. Lietojumi nekad netiek augšupielādēti.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Avoti tiek aptaujāti paralēli, tos dedublē URL un apvieno starplapu citātos; viens neveiksmīgs avots neietekmē pārējos.
 按路径筛选，如 app_state / AndroidManifest	Filtrēt pa ceļam, piem., app state / AndroidManifest
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Jābūt ar OpenAI savietojamam mērķa kritērijam, kam nav nepieciešama atslēga. Tas tiek pārbaudīts vienu reizi pēc pievienošanas.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Pārbaudiet pēc kārtības: pakalpojums darbojas, ports atbilst, ugunsmūris ļauj, un tālrunis nav viesu tīklā.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Vienā piesitienā norādiet, ko aģents var darīt šajā tālrunī. Līmenī tiek mainītas tikai atļaujas; riskantas darbības joprojām prasa apstiprinājumu pa vienam.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Parastais simptoms nepareizas valodas ir “tas dzird mani, bet transcribes citu valodu”. Ar akcentu, izvēlēties reģionālo variantu tās pašas valodas.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	“Sekojiet uz jautājumu” piebilst, nav valodas mācības un ļauj modelis izlemt. Izvēlētā valoda ir rakstīts sistēmā ātri.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://example.com/v1 gpt-4o-mini\nViens katrai rindai; modeļa nosaukums nav obligāts
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Četri anonīmi kanāli un ducis modeļu, visi pārbaudīti vienā piesitienā. Tikai modeļu saraksts ir maldinošs: daudz vārtejas uzskaitīt visu un pēc tam atgriezties 402 vai 429 pēc reāla zvana.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Ieslēgt “Auto-ierakstīt eksperimentus” Iestatījumos. Katrs zvans – normālā tērzēšanā vai padziļinātā izpētē – tiek arhivēts ar saviem parametriem, rediģētu pieprasījuma struktūru un neapstrādāta modeļa izvadi, līdz 120 ierakstiem.
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Relejs parasti darbojas datorā vai maršrutētājā. Pievienojies tam pašam Wi-Fi, ievadiet šīs mašīnas LAN IP (piemēram, 192.168.1.5) un piesitiet Scan, lai izmēģinātu kopējās pieslēgvietas.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Identiski nestreaming pieprasījumi apaļā galda, dzīves sim, mini spēles un padziļināti pētījumi atkārtoti iepriekšējo atbildi 6 stundu laikā — bez pieprasījuma, bez maksas. Galvenā tērzēšana ir straumēšanas un vienmēr atnes svaigu atbildi.
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Pēc noklusējuma modelis atbild tikai uz jautājumiem. Ieslēdziet šo un tas var nolasīt reālu informāciju no šīs ierīces un darboties tajā, ko pilnvarojat: lasīt un rakstīt privāto darbvirsmu, atvērt programmas un tīmekļa lapas, izveidot kalendāra notikumus, iestatīt atgādinājumus.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Abi trāpījumu veidi tiek reģistrēti: pakalpojuma sniedzēja atgrieztie ātrās izsaukuma marķieri tiek izrakstīti ar atlaidi; vietēja atkārtota izmantošana nesūta pieprasījumu vispār. Ietaupījumi tiek aprēķināti no jūsu noteiktās ievades cenas, nevis no rēķina.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Katra darbvieta var aizstāt savu personu no augšējās joslas avatara. Lomu apraksts tiek ierakstīts sistēmā kā identitātes piezīme; tas maina toni un stilu, nevis to, ko modelis faktiski var darīt.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Izmaksas = reālā marķieri, ko atgriež pakalpojuma sniedzējs × vienības cena. Ja pakalpojuma sniedzējs izlaiž lietošanu, marķieri tiek aprēķināti no teksta un var būt nedaudz izslēgts. Tas ir tikai vietējais novērtējums; oficiālais rēķins ir jūsu pakalpojumu sniedzēja konsole.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Pieejamie mainīgie lielumi: {{jautājums}} {{datums} {{laiks}} {{modelis}} {{valoda}} {{avoti}} {{līmenis} - aizvietots ar reālām vērtībām pirms nosūtīšanas.
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Portiem 8000 un 3000 ir kopīgi vairāki projekti, tāpēc tikai viens var darboties uz vienu mašīnu; mainīt ostu vai izvietot atsevišķi, lai darbotos abas. Oficiālā komplektam ir nepieciešama atslēga, bet ir bezmaksas kvota. Kopienas gadījumi ir kāds cits pakalpojums — tie var iet bezsaistē jebkurā laikā, tāpēc nekad nesūtīt privātos datus caur tiem.
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Lietojiet {{jautājums}} {{datums}} {{laiks}} {{modelis}} {{valoda}} {{avoti}} {{līmenis}} uzvednē; pirms nosūtīšanas tie tiek aizvietoti ar reālām vērtībām.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Bezmaksas kanāli izmanto publiskos tīmekļa galapunktus un var jebkurā laikā pārtraukt darbu vai samazināt ātrumu. Atslēgas tiek šifrētas tikai uz šīs ierīces un nekad netiek sinhronizētas. Pieskarieties viļņa pogai augšpusē pa labi, vai ilgi nospiediet burbuli, lai lasītu skaļi. Pieskarieties komponistam mikrofonam, lai runātu; ierakstīšana apstājas, kad klusē, un teksts nolaižas ievades lodziņā pārskatīšanai pirms nosūtīšanas.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Attēli tiek nosūtīti inline kā base64, garākā mala 1280, kvalitāte 72. Ja attēla pieprasījums atgriež 400 / 413 / Savienojums aizvērts, modelis vai vārteja visticamāk noraida inline attēlus — pārslēdziet formātu iepriekš, lai sašaurinātu to uz leju.
-1 轮	1 kārta
-2 轮	2 kārtas
-3 轮	3 kārtas
-AI 圆桌会议	AI apaļais galds
-AI 实验室	AI Lab
-下一段人生尚未发生	Nākamā nodaļa nav sākusies
-也可以自己写一个目标	Vai uzrakstīt savu mērķi
-人生事件	Notikums Life
-人生存档	Saglabātās dzīvības
-人生履历	Dzīvesstāsts
-人生目标	Dzīves mērķis
-人生评分 · 满分 100	Dzīvības vērtējums · no 100
-从已有连接补齐 5 个模型	Aizpildīt 5 modeļus no savienojumiem
-会议大纲	Darba kārtība
-会议结论	Secinājums
-会议议题	Temats
-会议记录	Tikšanās vēsture
-位参会者	dalībnieki
-你会怎么选？	Ko tu darīsi?
-例如：分析者	Piemēram, analītiķis
-停止会议	Apturēt tikšanos
-创建角色	Izveidot rakstzīmi
-删除席位	Noņemt sēdekli
-判定结果失败	Neizdevās atrisināt rezultātu
-参会模型	Dalībnieki
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Izvēlēties dažādus savienojumus vai modeļus. Pat viens modelis var nepiekrist ar sevi zem dažādām lomām.
-名称	Nosaukums
-多模型圆桌会议 · 3~5 个 AI 开会	AI apaļā galda diskusijas · 3-5 modeļi
-导出人生履历	Eksportēt dzīvesstāstu
-导出纪要	Eksportēt protokolus
-尚未配置接口，请先到设置里填好连接与模型。	Nav konfigurēts savienojums. Vispirms iestatiet beigu punktu un modeli iestatījumos.
-岁	Yrs
-已复制到剪贴板	Nokopēts starpliktuvē
-已完结	Pabeigts
-席位设置	Sēdekļa iestatījumi
-开始会议	Sākt tikšanos
-开始这一生	Sākt šo dzīvi
-性别	Dzimums
-所有剧情由你配置的模型实时生成，只保存在本机。	Katrs notikums tiek ģenerēts tiešraidē jūsu modelis un glabājas tikai šajā ierīcē.
-推进人生	Avansa dzīve
-新建会议	Jauna sanāksme
-新的人生	Jauna dzīve
-时代背景	Era
-暂无历史会议	Nav saglabātu sanāksmju
-暂无参会席位	Vēl nav dalībnieku
-未发言	Nav atbildes
-未命名议题	Nenosaukts temats
-条发言	pagriezieni
-模型 ID	ID paraugs
-模拟人生	Dzīvības simulators
-模拟人生 · AI 生成剧情与抉择	Dzīvības simulators · AI radīts stāsts & izvēle
-正在停止	Apturēšana
-正在撰写人生总结	Dzīves ilguma kopsavilkuma rakstīšana
-段经历	notikumi
-每行一条，讨论时所有参会者都会看到这份大纲。	Katrs dalībnieks redz šo darba kārtību.
-添加席位	Pievienot vietu
-生成事件失败	Neizdevās ģenerēt notikumu
-生成传记失败	Neizdevās ierakstīt biogrāfiju
-生成大纲	Vispārējs
-由 AI 根据议题生成，可手动修改	Izveidots no tēmas AI- rediģējams
-留空将自动取名。	Atstāt tukšu nejaušam nosaukumam.
-盖棺定论	Galīgais spriedums
-结束这一生	Beigt šo dzīvi
-给 TA 起个名字	Norādīt viņiem vārdu
-自定义立场描述	Pielāgota pozīcija
-至少需要一个可用的参会模型	Vajadzīgs vismaz viens darba modelis
-角色立场	Loma un nostāja
-讨论记录	Ieraksts
-讨论轮数	Rindas
-请先填写会议议题	Vispirms ievadiet tikšanās tēmu
-输入这次要讨论的问题	Par ko būtu jārunā šajā sanāksmē?
-返回	Atpakaļ
-还没有存档	Vēl nav glābtu dzīvību
-还没有故事	Vēl nav stāstu
-连接	Savienojums
-选择	Izvēle
-健康	Veselība
-才智	Prāta
-魅力	Rakstzīme
-财富	Bagātība
-声望	Slava
-幸福	Prieks
-现代都市 · 2026 年	Mūsdienu pilsēta · 2026
-九十年代 · 小城旧事	1990. gadi · mazpilsēta
-古代 · 书香门第	Senie laiki · zinātnieku ģimene
-近未来 · 赛博都市	Tuvākā nākotnē · kiberpilsēta
-顺其自然，过好每一天	Ņemt dzīvi, kā nāk
-事业有成，闯出一番名堂	Veidot veiksmīgu karjeru
-家人平安，守住平凡幸福	Lai ģimene būtu droša un laimīga
-见世面，走遍天涯	Skatīt pasauli
-求知到底，成为某个领域的行家	Apgūt zināšanas
-主持人	Moderators
-分析者	Analītiķis
-质疑者	Skeptisks
-创意者	Radošs
-务实派	Pragmatists
-女	Sieviete
-男	Vīrietis
-其他	Citi
-1 到 100，看你能几次猜中	Skaitlis no 1 līdz 100 — cik minējumus jūs varat uzvarēt?
-20 次提问用完了，点重新开始再来一局。	Visi 20 izmantotie jautājumi. Lai atskaņotu vēlreiz, piesitiet pārstartēt.
-AI 玩法	AI spēles
-AI 玩法会调用你所选的模型，按实际用量计费。	AI spēles zvanu jūsu izvēlēto modeli un ir jāmaksā par faktisko izmantošanu.
-一共用了	skaits
-一只猫	kaķis
-一把雨伞	lietussargs
-一本书	grāmata
-一杯咖啡	tasi kafijas
-一点小惊喜正在路上，留意身边不显眼的机会。	Neliels pārsteigums ir ceļā; ievērojiet klusās izredzes pie jums.
-上上签	Labākā laime
-上签	Laba laime
-不进不退，也是一日。守住眼前，就是守住运气。	Ne uz priekšu, ne atpakaļ vēl nav diena. Turot to, kas ir šeit tur savu veiksmi.
-个 AI 玩法	AI spēles
-个模型	modeļi
-个离线小游戏	bezsaistes minispēles
-个选项	iespējas līgumi
-中签	Godīga laime
-二十问	20 Jautājumi
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Mākoņi daļa un mēness spīd spoži; katrs ceļš ir atvērts. Labu dienu, lai spertu vienu soli uz kaut ko jums sen gribēja darīt.
-今日签	Mūsdienu bagātība
-你	Jūs
-你一句我一句，让故事一直讲下去	Pagriezienus un turpini stāstu
-你一句我一句，让故事一直讲下去。	Pagriezies un turpini stāstu.
-你赢了	Tu uzvarēji
-使用	Lietot
-例如：今天适合开始新计划吗？	Piemēram, vai šodien ir labi izstrādāt jaunu plānu?
-候选选项	Opcijas
-先给故事起个主题吧	Vispirms piešķir stāstam tēmu
-先选一家运营商（连接），再进入模型列表挑选。	Vispirms izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties no tā modeļu saraksta.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties modeli no tā saraksta.
-再玩一局	Spēlēt vēlreiz
-再看看	Vēlreiz
-写下接下来发生的事…	Rakstīt, kas notiks tālāk..
-冰淇淋	saldējums
-出拳	Jūsu gājiens
-创建角色，由 AI 生成事件与抉择，走完一生	Izveidot rakstzīmi; MI ģenerē notikumus un izvēles caur visu dzīvi
-别急着决定，先睡一觉。	Pirms lēmuma pieņemšanas guliet tajā.
-剩余提问	Atlikušie jautājumi
-剪刀	Šķēres
-同一天抽到的签不会变，明天再来会有新签。	Šodienas bagātība paliek tāda pati; rīt atgriezieties pēc jaunas.
-和我来几局，纯靠运气，不花流量。	Dažas kārtas ar mani — tīra veiksme, netika izmantoti dati.
-圆桌会议、模拟人生与 7 个小游戏	Apaļais galds, Life Simulator & 7 mini-spēles
-埃菲尔铁塔	Eifeļa tornis
-多模型	Daudzmoduļi
-大了	Pārāk augsts
-大概率可以，但留个后手。	Jā, bet saglabājiet rezerves kopiju.
-宇宙说：再问一次。	Visums saka: jautāt vēlreiz.
-对话	Sarunas
-小了	Pārāk zems
-小吉	Neliela svētība
-就选这个	Iet ar šo
-已为游戏单独指定模型，随时可换或恢复默认。	Specializēts modelis ir iestatīts spēlēm; mainīt to vai atjaunot noklusējuma jebkurā laikā.
-已猜	Guesenes
-布	Papīra
-平	Zīmēt
-平局	Izšķirts
-平签	Stabila laime
-开始	Sākums
-当前对话模型	Pašreizējais tērzēšanas modelis
-当前连接	Laikposms
-待时	Atvēli laiku
-心里默念一个问题	Padomājiet par jautājumu
-心里默念一个问题，摇一摇，看它怎么回答。	Padomājiet par jautājumu, sakratiet, paskatieties, kas tajā teikts.
-恢复默认	Atjaunot noklusēto
-想不通的事，出去走一圈大概就有答案了。	Par to, ko jūs nevarat iedomāties, īsa pastaiga droši vien dos atbildi.
-我	Es
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Es slēpju skaitli no 1 līdz 100
-我想好了一个东西，你用是非题在 20 次内猜出来。	Esmu kaut ko domājis.
-我赢了	Es uzvarēju
-手动输入模型 ID	Pašrocīgi ievadiet modeļa ID
-抉择轮盘	Lēmuma ritenis
-把纠结的选项写进去，让轮盘替你决定	Uzrakstiet savas iespējas un ļaujiet ritenim izlemt
-把纠结的选项都写进去，让轮盘替你做决定。	Uzskaitiet visas iespējas, starp kurām esat saplēsis un ļaujiet riteņam izlemt.
-抽一支签	Zīmēt
-换个角度想想会更好。	Izmēģini citu leņķi.
-搜索模型 ID	Meklēšanas modeļa ID
-摇一摇	Sakratiet
-故事接龙	Stāstu ķēde
-月亮	Mēness
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Daži iegūst, daži zaudējumi; pat prāts tur vislabāk. Ņem to nedaudz lēnāk šodien.
-未指定连接	Nav savienojuma
-未设置模型	Nav noteikts modelis
-未选择连接	Nav izvēlēts savienojums
-本局使用的模型	Modelis šai spēlei
-来几局，纯靠运气	Daži raundi, tīra veiksme
-模型想一个东西，你用是非题在 20 次内猜中	Modelis domā par kaut ko; uzminēt to 20 jā / nav jautājumi
-模型调用失败	Neizdevās izsaukt modeli
-次	minējumi
-每天一支签，同一天不会变。图个乐子，别当真。	Viena laime dienā, nemainīga dienas laikā.
-每天一支签，图个乐子	Viena laime dienā, tikai priekam
-每日一签	Dienas bagātība
-每行一个，或用逗号隔开	Viens katrai līnijai vai atdalīts ar komatiem
-没有匹配的模型	Nav atbilstošu modeļu
-沿用聊天界面正在使用的连接与模型。	Izmantot savienojumu un modeli, kas šobrīd ir aktīvs tērzēšanā.
-游戏	Spēles
-点开始，由模型先说第一句。	Piesitiet sākumam un ļaujiet modelim runāt vispirms.
-点这里选择运营商与模型	Piesitiet, lai izvēlētos piegādātāju un modeli
-猜一个 1 到 100 的数字	Uzmini skaitli no 1 līdz 100
-猜中了！就是	Sapratu!
-猜对了！答案是	Atbilde bija pareiza
-猜数字	Uzmini skaitli
-猜！	Uzmini!
-现在还看不清，再等等。	Pārāk drīz pateikt, pagaidiet mazliet.
-用一个是非题提问…	Uzdot jā/nē jautājumu..
-看起来不错，放手去做。	Izskatās labi — dari to.
-眼下还不是最好的时机，先攒力气，等风来。	Tagad nav gluži brīdis. Savāciet savu spēku un gaidīt vēju.
-石头	Roks
-石头剪刀布	Rokpapīra šķēres
-离线小游戏	Bezsaistes minispēles
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Bezsaistes spēles nekad nezvana modeli vai neizmanto datus; AI spēles ir jāmaksā jūsu izvēlētajam modelim.
-答案是肯定的。	Jā, noteikti.
-胜	Win
-自行车	divritenis
-请输入 1 到 100 的整数	Ievadiet veselu skaitli no 1 līdz 100
-负	Loze
-转起来	Spins
-还没有连接，请先到「连接与模型」里添加。	Vēl nav savienojumu. Pievienojiet to sadaļā "Savienojumi un modeļi".
-这个连接还没有缓存模型，可在下方手动输入。	Šim savienojumam nav kešotu modeļu; ievadiet vienu manuāli zemāk.
-这次恐怕不行。	Droši vien ne šoreiz.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3-5 modeļus no dažādiem piegādātājiem, apspriest pa kārtām, saņemt kopsavilkumu
-选择游戏模型	Izvēlieties spēles modeli
-重新开始	Pārstartēt
-钢琴	klavieru
-长城	Lielais mūris
-静一静心，点下面抽签	Ievelc elpu, tad izvelciet zemāk
-顺签	Gluda kuģošana
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vējš mīkstina, ūdens nomierinās. Tas, kas ir jūsu rokās, atbildēs ar laiku, nav nepieciešams steigties.
-魔法八球	Burvju 8 ball
-默念一个问题，摇一摇看它怎么答	Padomājiet par jautājumu, sakratiet, lai rastu atbildi
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Seko pašreizējam tērzēšanas modelim pēc noklusējuma; piesitiet, lai iestatītu īpašu modeli.
-（模型没有回复）	(Modeļa atbildes nav)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	Oficiālās API, piemēram, OpenAI / Anthropic nav publisko galarezultātu, kas atgriež vienu zvanu cenu; rēķinu vaicājumi ir nepieciešams atsevišķs Admin Key, ka klients nekad turēt. Tātad cenas nāk no publiskās LiteLLM / OpenRouter likmes tabulas, reizināts ar reālo token skaits reģistrēti lokāli.

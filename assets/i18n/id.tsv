@@ -1,21 +1,41 @@
+你	Kau
+共	entri
+岁	Ya
+平	Gambar
+我	Aku
+条	entri
+次	menebak
+胜	Menang
+负	Kalah
 主色	Accent
 主题	Tema
 今日	Hari ini
+使用	Gunakan
 保存	Simpan
 停止	Berhenti
 允许	Ijinkan
 关闭	Tutup
+出拳	Anda bergerak
 删除	Hapus
 刷新	Segarkan
 发送	Kirim
 取消	Batal
+名称	Nama
 圆角	Corners
 复制	Salin
 外观	Penampilan
+大了	Terlalu tinggi
 字号	Ukuran teks
 密钥	Kunci
+对话	Percakapan
+小了	Terlalu rendah
 工具	Perkakas
+已猜	Guesses
+平局	Ini imbang
+开始	Mulai
+当前	Saat ini
 忽略	Abaikan
+性别	Gender
 恢复	Pulihkan
 接入	Sambung
 新建	Baru
@@ -24,8 +44,12 @@
 模型	Model
 添加	Tambah
 清空	Hapus
+游戏	Permainan
+猜！	Tebak!
+百万	M
 确定	OK
 离线	Luring
+管理	Kelola
 累计	Total
 编辑	Sunting
 视觉	Visi
@@ -33,184 +57,360 @@
 语音	Suara
 请求	Permintaan
 跳过	Lewati
+返回	Mundur
+选择	Pilihan
 部署	Menyebarkan
 销毁	Hancurkan
+1 轮	1 putaran
+2 轮	2 putaran
+3 轮	3 putaran
+个模型	model
+个选项	pilihan
+二十问	20 Pertanyaan
+今日签	Keberuntungan hari ini
+你赢了	Kau menang
+再看看	Lagi
 去设置	Buka pengaturan
+多模型	Model multi-
 已停更	Dihentikan
 已复制	Disalin
+已完结	Selesai
 待检测	Belum diuji
+我赢了	Aku menang
+摇一摇	Shake
+未匹配	Tidak cocok
+未发言	Tak ada respon
+条发言	putaran
+段经历	kejadian
 源代码	Sumber
+猜数字	Tebak Angka
 生成中	Menghasilkan
 知道了	Mengerti
 自定义	Gubahan
+转起来	Spin
 重命名	Ganti Nama
 + 新建	+ Baru
+一共用了	in
 一键接入	Hubungkan semua
 人物形象	Persona
+人生事件	Event kehidupan
+人生存档	Menyelamatkan nyawa
+人生履历	Kisah hidup
+人生目标	Hidup tujuan
+价格来源	Sumber harga
+会议大纲	Agenda
+会议结论	Kesimpulan
+会议议题	Topik
+会议记录	Rapat riwayat
+估算省下	Est. disimpan
+位参会者	Peserta
+候选选项	Opsi
+停止会议	Berhenti bertemu
 停止朗读	Berhenti membaca
 免密模型	Model tanpa tombol
+再玩一局	Putar lagi
+创建角色	Buat karakter
+删除席位	Hapus tempat duduk
 删除形象	Hapus persona
 删除配置	Hapus profil
+剩余提问	Pertanyaan tersisa
+匹配模型	Model yang cocok
 原始输出	Keluaran mentah
+参会模型	Peserta
+命中概览	Cache hits
+命中次数	Hits
 图片诊断	Diagnosa gambar
 复制一份	Duplikat
 复制全文	Salin semua
 复制内容	Salin teks
 外观主题	Penampilan
+完全权限	Akses penuh
+实时价格	Harga hidup
 实验记录	Log percobaan
 对话语言	Balas bahasa
+导出纪要	Ekspor menit
+少量权限	Akses minimal
+尚未获取	Belum diambil
+就选这个	Pergilah dengan ini
+席位设置	Pengaturan tempat duduk
+开始会议	Mulai rapat
 开始检测	Uji awal
 开始说话	Mulai bicara
 当前会话	Percakapan ini
 当前模型	Model saat ini
+当前连接	Saat ini
 当前预设	Preset kini
 待填密钥	Kunci dibutuhkan
+恢复默认	Kembalikan bawaan
+抉择轮盘	Roda Keputusan
+抽一支签	Menggambar keberuntungan
+拉取失败	Fetch gagal
+按天花费	Biaya per hari
 授权范围	Hak
 接入最快	Tercepat untuk mengatur
 接口地址	URL Endpoint
+推进人生	Advance life
 插件系统	Pengaya
 搜索模型	Cari model
 搜索设置	Pengaturan pencarian
 收起搜索	Sembunyikan pencarian
+故事接龙	Rantai Cerita
+新建会议	Pertemuan baru
+新的人生	Kehidupan baru
+时代背景	Era
 明暗模式	Cahaya / gelap
+更新时间	Diperbarui
+最近命中	Tabrakan terakhir
 未设模型	Tanpa model
+本地复用	Penggunaan ulang lokal
+权限档位	Tingkat ijin
+标准权限	Akses standar
+模拟人生	Simulator Hidup
+正在停止	Menghentikan
+每日一签	Harian Fortune
 测试连通	Uji sambungan
 深度思考	Berpikir dalam
 深度研究	Penelitian mendalam
 添加地址	Tambah titik akhir
+添加席位	Tambah tempat duduk
+添加连接	Tambah koneksi
+生成大纲	Buat agenda
 用量追踪	Pelacakan penggunaan
 界面语言	Bahasa antarmuka
+盖棺定论	Putusan akhir
 系统当前	Sistem
+累计估算	Perkiraan total
+缓存命中	Cache hits
+缓存条目	Jawaban cache
+缓存省下	Disimpan oleh cache
+缓存设置	Pengaturan singgahan
 网页抓取	Mengambil halaman
+美元汇率	Laju pertukaran USD
 联网搜索	Pencarian web
 能力开关	Switch kapabilitas
 能力档位	Tingkat kapabilitas
+角色立场	Peran & sikap
+讨论记录	Transkrip
+讨论轮数	Rounds
 语音输入	Masukan suara
 说点什么	Katakan sesuatu
+请求次数	Permintaan
+输入单价	Harga masukan
+输出单价	Harga keluaran
 这台设备	Perangkat ini
 连接配置	Profil koneksi
 选择形象	Pilih persona
-选择模型	Pilih sebuah model
+选择模型	Pilih model
 配置名称	Nama profil
 配置连接	Konfigurasikan koneksi
+重新开始	Mulai Ulang
 页面底色	Latar belakang halaman
 预设名称	Nama praset
+魔法八球	Magic 8-Ball
+AI 玩法	Permainan AI
 会话与设置	Percakapan & pengaturan
 删除工作台	Hapus area kerja
 删除此形象	Hapus persona ini
+单价与汇率	Harga unit & FX
+去添加连接	Tambahkan koneksi
 反代与网关	Relay & gateway
 命令已复制	Perintah disalin
 填入输入框	Sisipkan ke masukan
 已复制回答	Jawaban disalin
 已开启朗读	Baca keras-keras pada
 应用与网页	Apps & web
+开始这一生	Mulai hidup ini
+按模型花费	Biaya berdasarkan model
 提示词预设	Prompt presets
 文件与脚本	Berkas & skrip
 日历与闹钟	Kalender & alarm
+服务端缓存	Cache penyedia
 朗读已开启	Baca keras-keras pada
+未命名议题	Topik tanpa judul
 未指定模型	Tidak ada model yang dipilih
+未指定连接	Tidak ada koneksi
+未设置模型	Tidak ada set model
+未选择连接	Tak ada koneksi yang dipilih
 查看源代码	Lihat sumber
+模型 ID	ID Model
 源码已复制	Sumber disalin
 点一下切换	Sentuh ke switch
 独立工作区	Area kerja pribadi
+石头剪刀布	Gunting Kertas Batu
 研究工作台	Area kerja penelitian
+离线小游戏	Offline mini- game
+结束这一生	Akhiri hidup ini
 网页版反代	Relay web
 联网搜索源	Sumber pencarian web
+花了多少钱	Berapa banyak saya menghabiskan
 设备智能体	Agen perangkat
 语言与地区	Bahasa & wilayah
+费用与价格	Biaya & harga
 输入任务…	Masukkan tugas..
+还没有存档	Belum ada yang selamat
+还没有故事	Belum ada cerita
 连接与模型	& Model koneksi
 重命名配置	Ubah nama profil
 链接已复制	Tautan disalin
 顶部形象区	Area perorangan atas
 （无内容）	(kosong)
+个离线小游戏	minimal-game luring
+你会怎么选？	Apa yang akan kau lakukan?
+例如：分析者	Mis. Analis
 先填主机地址	Masukkan host terlebih dahulu
+判定结果失败	Gagal menyelesaikan hasil
+刷新实时价格	Segarkan harga hidup
 助手消息头像	Jawab avatar
 去设置里刷新	Segarkan dalam Pengaturan
 启用人物形象	Fungsikan persona
 启用本机操作	Aktifkan aksi perangkat
 图片与多模态	Gambar & multimodal
 图片发送格式	Format gambar
+导出人生履历	Ekspor kisah hidup
+尚未选择模型	Tidak ada model yang dipilih
+尚未配置接口	Tidak dikonfigurasi
 已删除该配置	Profil dihapus
 当前 API	API Kini
+当前对话模型	Model obrolan saat ini
 提示词预设库	Prompt preset library
 搜索源连通性	Konektivitas sumber
 新建连接配置	Profil koneksi baru
+暂无历史会议	Tidak ada rapat yang disimpan
+暂无参会席位	Belum ada peserta
 模型能力档位	Tingkat kapabilitas
+模型调用失败	Panggilan model gagal
 每源结果条数	Hasil per sumber
 添加免密地址	Tambah titik akhir tanpa kunci
+清空命中记录	Hapus rekaman hit
+清空响应缓存	Hapus cache respon
+点此配置接口	Sentuh untuk mengatur koneksi
+猜中了！就是	Mengerti!
+生成事件失败	Gagal membuat acara
+生成传记失败	Gagal menulis biografi
 等待模型输出	Menunggu model
 自动记录实验	Percobaan auto- record
+设备清理已开	Membersihkan perangkat pada
+设备清理未开	Pembersih perangkat mati
 语音识别语言	Bahasa diktasi
 请求体已复制	Meminta salinan tubuh
 还没有记录。	Belum ada yang terekam.
+选择游戏模型	Pilih model permainan
 销毁本地凭据	Hancurkan kredensial lokal
 随便问点什么	Tanyakan apa saja
+AI 圆桌会议	Dapat Diputar
 HTTP 插件	Plugin HTTP
+个 AI 玩法	Permainan AI
 回收站是空的。	Kotak daur ulang kosong.
+已复制到剪贴板	Disalin ke papan klip
 已复制当前配置	Profil saat ini disalin
 已恢复到工作区	Dikembalikan ke area kerja
 当前预设已生效	Preset ini aktif
 按当前单价估算	Perkiraan pada harga saat ini
 换个关键词试试	Coba kata kunci lain
+搜索模型 ID	ID Model Pencarian
 智能体请求执行	Agen meminta tindakan
+服务端缓存命中	Provider cache hits
 朗读上一条回答	Baca jawaban terakhir
 本地凭据已销毁	Kredensial lokal hancur
+本局使用的模型	Model untuk permainan ini
 每次操作先问我	Tanya saya sebelum setiap tindakan
+没有匹配的模型	Tidak ada model yang cocok
 没有匹配的语言	Tidak ada bahasa yang cocok
 没有匹配的连接	Tidak ada koneksi yang cocok
 深度研究工作流	Kerjaan penelitian mendalam
+清空命中记录？	Jelas catatan hit?
+清空响应缓存？	Hapus cache respon?
+猜对了！答案是	Benar!
 管理 / 切换	Kelola / switch
 自动接入可用项	Hubungkan yang tersedia
+自定义立场描述	Sikap kustom
 Token 用量	Penggunaan token
 在所有连接里查找	Cari semua koneksi
 工作区路径已复制	Path Area Kerja disalin
+心里默念一个问题	Pikirkan sebuah pertanyaan
 扫描已运行的服务	Pindai layanan yang sedang berjalan
 搜索连接名或地址	Cari berdasarkan nama atau URL
 未启用任何搜索源	Tak ada sumber pencarian yang diaktifkan
+来几局，纯靠运气	Beberapa putaran, murni keberuntungan
+正在撰写人生总结	Menulis ringkasan kehidupan
 永久清空回收站？	Kosongkan tempat sampah daur ulang secara permanen?
 测试已启用搜索源	Uji sumber yang diaktifkan
+留空将自动取名。	Tinggalkan kosong untuk nama acak.
+缓存 token	Token cached
+自动获取实时价格	Mengambil harga hidup secara otomatis
+请先填写会议议题	Masukkan topik pertemuan dulu
+（模型没有回复）	(Tidak ada respon dari model)
+下一段人生尚未发生	Bab berikutnya belum dimulai
 会话已复制到剪贴板	Percakapan disalin ke clipboard
 允许模型调用该插件	Ijinkan model untuk memanggil plugin ini
+先给故事起个主题吧	Berikan cerita tema pertama
+填 0 表示不计算	0 untuk menonaktifkan costing
 填入该服务商的密钥	Masukkan kunci penyedia
+复用相同请求的回答	Gunakan ulang permintaan identik
 手动填写模型 ID	Masukkan sebuah ID model secara manual
+手动输入模型 ID	Masukkan ID model secara manual
 点击头像从相册选择	Sentuh avatar untuk memilih dari galeri Anda
+用一个是非题提问…	Tanyakan ya / tidak ada pertanyaan..
+给 TA 起个名字	Beri mereka nama
+设备清理与文件删除	Membersihkan & penghapusan berkas perangkat
 AI 用这种语言回答	AI menjawab dalam bahasa ini
+也可以自己写一个目标	Atau menulis tujuan Anda sendiri
+仅显示最近 30 条	Menampilkan 30 entri terbaru
+写下接下来发生的事…	Tulis apa yang terjadi selanjutnya..
 单次任务最多执行几步	Langkah maksimum setiap tugas
 在线 · 需 Key	Daring
 已创建，可在下方编辑	Dibuat - sunting di bawah
 当前会话的能力与连接	Kemampuan dan koneksi untuk percakapan ini
+每天一支签，图个乐子	Satu keberuntungan sehari, hanya untuk bersenang-senang
 自定义搜索引擎 ID	ID mesin pencari gubahan
 至少需要保留一份配置	Simpan setidaknya satu profil
+输入这次要讨论的问题	Apa yang harus dibahas pertemuan ini?
 还没有可以朗读的回答	Tidak ada jawaban untuk membaca keras belum
+静一静心，点下面抽签	Ambil napas, kemudian menarik bawah
 临时凭据（用完即销毁）	Kredensial sementara (hancur setelah digunakan)
 已还原此预设的内置内容	Bawaan-dalam isi dipulihkan untuk preset ini
+每行一个，或用逗号隔开	Satu per baris, atau dipisahkan oleh koma
+点这里选择运营商与模型	Sentuh untuk memilih penyedia dan model
 研究报告已复制到剪贴板	Laporkan disalin ke papan klip
 主色 · 页面 · 圆角	Accent
 打不开浏览器，链接已复制	Tak bisa membuka peramban; taut disalin
 朗读上一条回答（已静音）	Baca jawaban terakhir (bisu)
 每条回答前显示形象小头像	Tampilkan avatar persona kecil sebelum setiap jawaban
+人生评分 · 满分 100	Nilai hidup dari 100
+从已有连接补齐 5 个模型	Isi 5 model dari koneksi
 发送前预览 · 最终请求体	Kirim preview
 向网关索取真实 usage	Tanyakan gateway untuk penggunaan nyata
+实时价格、按模型与按天花费	Harga hidup, biaya oleh model dan hari
 朗读已静音 · 长按可恢复	Dibaca - keras muted - tekan untuk unmute
 档位、深度思考与联网总开关	Tier, pemikiran dalam dan tombol master pencari web
 正在准备朗读 · 点击取消	Menyiapkan pidato untuk membatalkan
 正在并行测试已启用搜索源…	Menguji sumber yang diaktifkan dalam paralel..
 消息列表上方显示头像与名字	Tampilkan avatar dan nama di atas daftar pesan
+点开始，由模型先说第一句。	Tap start dan biarkan model berbicara pertama.
 累计消耗、单价、明细与导出	Total pengeluaran, harga, kerusakan dan ekspor
+至少需要一个可用的参会模型	Setidaknya satu model yang bekerja diperlukan
 预览：静水深流，字要看得清	Pratilik: masih air, teks harus tetap berhuruf
+例如：今天适合开始新计划吗？	Apa hari ini bagus untuk rencana baru?
 关闭后主界面回到纯工作台样式	Ketika dimatikan, layar utama kembali ke ruang kerja biasa terlihat
+命中统计、响应复用与缓存管理	Tekan statistik, respon penggunaan ulang dan manajemen cache
 按钮、标题与说明文字都跟着换	Tombol, judul dan deskripsi semua switch terlalu
 这个连接还没有读到模型列表。	Belum ada daftar model yang dibaca untuk sambungan ini.
 这台主机上没有发现兼容端点。	Tidak ditemukan titik akhir yang kompatibel pada host ini.
+1 到 100，看你能几次猜中	Angka 1 sampai 100 - berapa banyak tebakan yang bisa kau menangkan?
+你一句我一句，让故事一直讲下去	Bergiliran dan menjaga cerita akan
 关闭后保留文档但不注入工具清单	Bila dimatikan, dokumen tetap tinggal tapi daftar alat tidak disuntikkan
 多源选择、每源密钥与连通性测试	Pilih sumber, tambahkan kunci per-source, uji konektivitas
 接口地址、密钥、模型与多配置档	Endpoint, kunci, model, dan beberapa profil
 深度研究工作流、实验记录与报告	Deep penelitian alur kerja, log percobaan dan laporan
+猜一个 1 到 100 的数字	Tebak angka dari 1 sampai 100
+请输入 1 到 100 的整数	Masukkan seluruh nomor dari 1 sampai 100
+默念一个问题，摇一摇看它怎么答	Pikirkan sebuah pertanyaan, kocok jawaban
+你一句我一句，让故事一直讲下去。	Bergiliran dan menjaga cerita berjalan.
 先完成推理再输出结论，只显示摘要	Alasan pertama, kemudian menjawab; hanya ringkasan yang ditampilkan
 公益站额度导航 · 社区持续更新	Daftar kuota masyarakat diperbarui oleh masyarakat
 切换不丢失内容；每份预设独立保存	Switching menyimpan teks Anda; setiap preset disimpan secara terpisah
 发送格式、视觉能力判定与图片诊断	Kirim format, deteksi visi, dan diagnosa gambar
+和我来几局，纯靠运气，不花流量。	Beberapa putaran dengan saya - murni keberuntungan, tidak ada data yang digunakan.
 已启用的源 · 点开填密钥或端点	Diaktifkan sumber untuk menambah kunci atau titik akhir
 每次调用的参数、请求体与响应原文	Parameter, permintaan tubuh dan respon mentah untuk setiap panggilan
 没有发现服务，检查反代是否已启动	Tidak ditemukan layanan - periksa apakah relay sedang berjalan
@@ -218,70 +418,107 @@ AI 用这种语言回答	AI menjawab dalam bahasa ini
 自动压缩到 320px，仅存本地	Kompresi ke 320px, hanya disimpan secara lokal
 自定义头像、名字、性格与角色设定	Avatar kustom, nama, kepribadian dan peran
 不写入磁盘，仅保留在本次会话内存中	Disimpan dalam memori untuk sesi ini saja, tidak pernah ditulis ke disk
+圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 minimal games
+把纠结的选项写进去，让轮盘替你决定	Daftar pilihan Anda dan biarkan roda memutuskan
 探测公开的免密钥模型，能对话才列出	Probe model publik tanpa kunci dan daftar hanya yang menjawab
+沿用聊天界面正在使用的连接与模型。	Gunakan koneksi dan model yang sedang aktif dalam percakapan.
+由 AI 根据议题生成，可手动修改	AI- dihasilkan dari topik; dapat disunting
 19 套主题、自定义配色、圆角与字号	19 tema, warna kustom, sudut dan ukuran teks
 会真发一句极短的问题，消耗少量额度。	Mengirim satu pertanyaan yang sangat singkat dan menggunakan sedikit kuota.
 保存参数与响应原文，最多 120 条	Simpan parameter dan respon mentah, hingga 120 entri
+只清统计与列表，不影响已缓存的回答。	Hanya membersihkan statistik dan daftar; jawaban cache disimpan.
 朗读与语音输入，免费与付费引擎都可切	Baca - keras dan masukan suara, gratis dan mesin dibayar
 sk-…（本地 Ollama 可留空）	sk-... (tinggalkan kosong untuk ollama lokal)
 只打开系统确认页，需你亲手点保存才生效	Buka lembar sistem saja; tidak ada perubahan sampai Anda tekan Simpan
 把开源 xx2api 项目接成一条连接	Kaitkan projek xx2api sumber terbuka ke dalam suatu koneksi
 界面、回答、语音识别三套语言，独立设置	Antar muka, menjawab dan mendikte bahasa - tiga pengaturan independen
 该会话的所有消息将被移除，且无法恢复。	Setiap pesan dalam percakapan ini akan dihapus permanen.
+隔离工作区内读写、任务脚本（沙箱保护）	Baca / tulis dalam area kerja terisolasi dan skrip tugas (sandboxed)
+20 次提问用完了，点重新开始再来一局。	Semua 20 pertanyaan yang digunakan. Tekan ulang untuk diputar lagi.
+同一天抽到的签不会变，明天再来会有新签。	Keberuntungan hari ini tetap sama; datang kembali besok untuk yang baru.
+已手动调整单项授权，不对应任何预设档位。	Izin individu telah diubah secara manual; tidak ada level preset yang berlaku.
+心里默念一个问题，摇一摇，看它怎么回答。	Pikirkan sebuah pertanyaan, kocok, lihat apa yang dikatakannya.
 所有连接配置的密钥将被清除，且无法恢复。	Kunci untuk setiap profil koneksi akan dihapus permanen.
+把纠结的选项都写进去，让轮盘替你做决定。	Daftar semua pilihan yang Anda robek antara dan biarkan roda memutuskan.
 没有匹配的项目，换个关键词或点「全部」。	Tidak ada yang cocok - coba kata kunci lain atau tekan Semua.
 没识别到有效地址，需要以 http 开头	URL tidak ditemukan valid; ini harus dimulai dengan http
+添加连接并选定模型后，模型会显示在这里。	Model muncul di sini setelah Anda menambahkan koneksi dan memilih satu.
 真实 usage 优先，未返回时本地估算	Penggunaan nyata pertama; diperkirakan lokal ketika hilang
 还没有启用任何源，联网搜索不会发起检索。	Tak ada sumber yang diaktifkan, jadi pencarian web tak akan berjalan.
+还没有连接，请先到「连接与模型」里添加。	Belum ada koneksi. Tambahkan satu di bawah "Connections & Model".
 System Prompt 预设与变量插值	Sistim preset dan interpolasi variabel
+之后相同的请求会重新发起，直到再次被缓存。	Permintaan identik akan dikirim lagi sampai mereka cache sekali lagi.
+尚未配置接口，请先到设置里填好连接与模型。	Tidak ada koneksi yang dikonfigurasi. Atur titik akhir dan model dalam Pengaturan pertama.
+已为游戏单独指定模型，随时可换或恢复默认。	Model didedikasikan diatur untuk permainan; ubah atau kembalikan bawaan kapan saja.
 检索 → 大纲 → 逐节展开 → 汇总报告	Cari laporan outline Schuldraft £
 还没有拉到模型列表，点右上角「刷新」读取。	Belum ada daftar model - tekan Refresh di kanan atas.
+还没有添加任何连接，所以这里没有可用模型。	Belum ada koneksi yang ditambahkan, jadi tidak ada model yang tersedia di sini.
+这个连接还没有缓存模型，可在下方手动输入。	Tidak ada model cached untuk sambungan ini; masukkan satu secara manual di bawah ini.
+先选一家运营商（连接），再进入模型列表挑选。	Pilih penyedia (koneksi) pertama, lalu pilih dari daftar modelnya.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Ketika mati, berperilaku persis seperti klien obrolan biasa tanpa alat disuntikkan
 写文件、打开应用等动作在界面上等你点「允许」	Menulis berkas, membuka aplikasi dan aksi serupa menunggu tekan "Ijinkan" Anda
+创建角色，由 AI 生成事件与抉择，走完一生	Membuat karakter; AI menghasilkan kejadian dan pilihan sepanjang hidup
 只读工具随时可用；其余按上面的授权分组生效。	Hanya alat baca yang selalu bekerja; yang lain mengikuti kelompok di atas.
 圆角只作用于卡片、按钮与输入台，不影响排版。	Pembatasan berlaku untuk kartu, tombol, dan komposer - bukan untuk tata letak.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Buka aplikasi yang terpasang, luncurkan peramban, bagi, tulis ke papan klip
+模型想一个东西，你用是非题在 20 次内猜中	Model memikirkan sesuatu; menebak dalam 20 ya / tidak ada pertanyaan
+每天一支签，同一天不会变。图个乐子，别当真。	Satu keberuntungan sehari, tak berubah dalam sehari, hanya untuk bersenang-senang.
+每行一条，讨论时所有参会者都会看到这份大纲。	Setiap peserta melihat agenda ini.
 读取公开网页正文（禁止内网 / 元数据地址）	Baca teks halaman publik (alamat privat dan metadata diblokir)
 127.0.0.1 或 192.168.1.5	127.0.1 atau 192.168.1.5
+AI 玩法会调用你所选的模型，按实际用量计费。	Permainan AI memanggil model yang Anda pilih dan ditagih dengan penggunaan aktual.
 例如：端侧小模型在 2025 年的推理优化路径	mis. on-device model kecil dan optimasi inferensi di 2025
 可为当前这个工作台单独指定，不影响其它工作台。	Aplikasi ke area kerja ini saja; ruang kerja lain menjaga pilihan mereka sendiri.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Kalikan-bulat pencarian stringed outline draft £laporan
+所有剧情由你配置的模型实时生成，只保存在本机。	Setiap kejadian dihasilkan langsung oleh model Anda dan hanya disimpan di perangkat ini.
 输入关键词，可在这个连接和所有其他连接里查找。	Ketik kata kunci untuk mencari koneksi ini dan yang lainnya.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Belum ada sumber pencarian yang diaktifkan - aktifkan satu pada Pengaturan Pencarian
 回收站里的备份与被删文件将被真正删除，无法恢复。	Backup dan berkas yang dihapus dalam kotak daur ulang akan dihapus permanen.
 搜索语言，如 英语 / English / 冰岛	Bahasa pencarian, misalnya bahasa Inggris / Singapura
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Baca / tulis sebuah area kerja privat, jalankan skrip tugas (sandboxed, diperbolehkan secara baku)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Mengikuti model obrolan saat ini secara baku; tekan untuk mengatur satu dedicated.
 Swagger / OpenAPI JSON 地址	URL Swagger / OpenAPI JSON
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / vision
 分两批并发，单个超时 25 秒；有本机服务时会更快	Dua batch concurt, 25 s timeout masing-masing; lebih cepat ketika layanan lokal ditemukan
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Teks saja - batas ketinggian dan jarak tinggal, ukuran yang lebih besar tidak pernah memecahkan tombol.
+我想好了一个东西，你用是非题在 20 次内猜出来。	Saya telah memikirkan sesuatu.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informasi perangkat, area kerja privat, aplikasi / kalender / alarm
 等宽原样呈现，不解析 Markdown、不转换引用	Shown as- adalah dalam monospace: tidak Markdown parsing, tidak ada konversi kutipan
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Belum ada aksi perangkat. Setiap langkah dilog dan dapat ditinjau nanti.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Pilih penyedia (koneksi), lalu pilih model dari daftarnya.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Kredensial telah dienkripsi pada perangkat ini saja; permintaan langsung ke titik akhir yang Anda masukkan.
 可留空，留空时请求不带 Authorization。	Opsional - ketika kosong, permintaan dikirim tanpa header Otorisasi.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Pilih koneksi atau model yang berbeda. bahkan satu model pun tidak setuju dengan perannya sendiri.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Sentuh untuk mengaktifkan, klik lagi untuk mematikan. Hanya sumber aktif yang digunakan untuk pencarian web.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Bahasa diktasi hanya berpengaruh pada teks cepat; yang salah membuatnya berlangganan ke bahasa lain.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Baca jawaban dengan keras.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	Satu-tekan tes mengirimkan permintaan nyata untuk setiap penyedia dan daftar hanya yang lewat.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Meminta penggunaan nyata; jika kesalahan titik akhir, matikan ini dan kembali ke perkiraan.
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Aku menyembunyikan angka dari 1 sampai 100
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	Penggunaan sebenarnya menang; ketika gateway menghilangkannya, kita memperkirakan dengan karakter dan menandainya dengan luwes.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pilih 3- 5 model dari penyedia yang berbeda, diskusikan selama putaran, mendapatkan ringkasan
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Gunakan putaran atau permainan mini untuk sementara dan data akan muncul di sini.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Coba alias lebih pendek (4o / ds / qwen), atau gunakan ID ini seperti ini.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Masukkan 0 untuk melewatkan perkiraan biaya. Harga hanya digunakan secara lokal, tidak pernah dikirim ke mana pun.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Permainan offline tidak pernah memanggil model atau menggunakan data; permainan AI ditagih ke model yang Anda pilih.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Tidak ada render Markdown atau penanda kutipan - teks mentah ditampilkan dalam monopace.
 在电脑上跑着 g4f / chat2api / Ollama？	Menjalankan g4f / chat2api / Ollama di komputer Anda?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Belum ada persona.
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	Baca saja: informasi perangkat, aplikasi yang terpasang dan daftar berkas. Tidak menulis dan tidak membuka aplikasi lain.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Multip- round search GNU outline discisions-by-section draft aschfinal report any time.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Cari model atau vendor, misal gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Cari proyek, platform, atau model, misalnya deepseek / kimi / gateway
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Bersihkan singgahan aplikasi ini, temukan dan hapus berkas dalam folder yang dapat diakses (disarankan untuk hanya akses penuh)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Kosong untuk saat ini. Minta agen untuk "menyimpan hasil ke catatan /" dan itu akan muncul di bawah.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Tindakan tidak sah tidak dijalankan; model menerima "permission" dan menjelaskan dalam teks sebagai gantinya.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Rekaman berhenti ketika Anda pergi tenang. transkrip masuk ke kotak masukan - check it, then send.
 请求体附带 stream_options.include_usage	Permintaan tubuh termasuk stream _ options.include _ using
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Atur harga 0 untuk melewatkan perhitungan biaya. Harga yang dimasukkan secara manual tetap kecuali jika Anda menyegarkan harga hidup.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Mengambil tabel rate publik di latar belakang pada startup dan cocok dengan model saat ini. Penggunaan data tidak pernah diunggah.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Sumber diquery dalam paralel, deduplikasi oleh URL dan digabung ke kutipan-kutipan berinterleaved; satu sumber gagal tidak mempengaruhi yang lain.
 按路径筛选，如 app_state / AndroidManifest	Filter menurut jalur, mis. app _ state / AndroidFicful
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Harus berupa titik akhir yang kompatibel OpenAI- yang tidak memerlukan kunci. Diuji sekali setelah menambahkan.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Periksa urutan: layanan berjalan, kecocokan port, firewall memungkinkan, dan telepon tidak pada jaringan tamu.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Atur apa yang bisa dilakukan agen di telepon ini dengan satu tekan.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Gejala yang biasa dari bahasa yang salah adalah "ia mendengar saya tapi mengirim bahasa lain". dengan aksen, memilih varian regional dari bahasa yang sama.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Ikuti pertanyaannya" tidak menambahkan instruksi bahasa dan membiarkan model memutuskan. Sebuah bahasa yang dipilih ditulis ke dalam sistem prompt.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / / example.com / v1 gpt -4o-mini\nSatu per baris; nama model adalah opsional
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Empat saluran tanpa nama dan selusin model, semua diuji dalam satu keran.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Aktifkan "Percobaan Auto- record" dalam Pengaturan. Setiap panggilan - dalam percakapan normal atau penelitian dalam - adalah diarsipkan dengan parameter, sebuah permintaan tubuh dan keluaran model mentah, hingga 120 entri.
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Sebuah relay biasanya dijalankan pada komputer atau router. Gabung Wi- Fi yang sama, masukkan IP LAN mesin (misalnya 192.168.1.5), dan tekan Pindai untuk mencoba port umum.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Permintaan tidak-streaming identik dalam bentuk putaran, hidup sim, game mini dan penelitian dalam menggunakan jawaban sebelumnya dalam waktu 6 jam - tidak ada permintaan, tidak ada muatan. percakapan utama adalah streaming dan selalu mengambil jawaban segar.
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Secara baku model hanya menjawab pertanyaan. Nyalakan ini dan dapat membaca informasi nyata dari perangkat ini dan bertindak dalam apa yang Anda otorisasi: membaca dan menulis area kerja pribadi, membuka aplikasi dan halaman web, membuat kejadian kalender, mengatur alarm.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Kedua jenis hits direkam: proto-cache token dikembalikan oleh penyedia ditagih dengan diskon; penggunaan ulang lokal mengirim tidak ada permintaan sama sekali. Tabungan diperkirakan dari harga masukan yang Anda set, bukan dari tagihan.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Setiap area kerja dapat menimpa persona dari avatar di bar atas. Deskripsi peran ditulis ke dalam sistem cepat sebagai catatan identitas; ia mengubah nada dan gaya, bukan apa model sebenarnya dapat dilakukan.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Biaya = token nyata dikembalikan oleh harga unit provider ×. Ketika penyedia hilang penggunaan, token diperkirakan dari teks dan mungkin sedikit off. Ini adalah estimasi lokal saja; RUU resmi dalam konsol penyedia Anda.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variabel tersedia: {{{query}} {{date}} {{{time} {{{model} {{language}} {{{{tier}} - digantikan dengan nilai sebenarnya sebelum mengirim.
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Ports 8000 dan 3000 dibagi oleh beberapa proyek, jadi hanya satu yang dapat menjalankan setiap mesin; mengubah port atau menyebarkan secara terpisah untuk keduanya. Set resmi membutuhkan kunci tetapi memiliki kuota gratis. Komunitas adalah layanan orang lain - mereka dapat pergi offline setiap saat, jadi tidak pernah mengirim data pribadi melalui mereka.
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Gunakan {query} {{{date}} {{{waktu}} {{{model} {{{language}} {{{tier}}} dalam prompt; mereka digantikan dengan nilai sebenarnya sebelum mengirim.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Saluran bebas menggunakan titik akhir web publik dan mungkin berhenti bekerja atau mendapatkan rate-terbatas setiap saat. Kunci dienkripsi pada perangkat ini saja dan tidak pernah disinkronkan. Sentuh tombol gelombang di kanan atas, atau lama-tekan gelembung, untuk membaca keras. Sentuh mikrofon di komposer untuk berbicara; rekaman berhenti ketika Anda pergi diam, dan teks mendarat di kotak masukan untuk meninjau sebelum mengirim.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Gambar dikirim sebagai base64, ujung terpanjang 1280, kualitas 72. Jika permintaan gambar kembali 400 / 413 / Connection ditutup, model atau gateway kemungkinan besar menolak gambar inline - switch format di atas untuk mempersempitnya.
-1 轮	1 putaran
-2 轮	2 putaran
-3 轮	3 putaran
-AI 圆桌会议	Dapat Diputar
-AI 实验室	Lab AI
-下一段人生尚未发生	Bab berikutnya belum dimulai
-也可以自己写一个目标	Atau menulis tujuan Anda sendiri
-人生事件	Event kehidupan
-人生存档	Menyelamatkan nyawa
-人生履历	Kisah hidup
-人生目标	Hidup tujuan
-人生评分 · 满分 100	Nilai hidup dari 100
-从已有连接补齐 5 个模型	Isi 5 model dari koneksi
-会议大纲	Agenda
-会议结论	Kesimpulan
-会议议题	Topik
-会议记录	Rapat riwayat
-位参会者	Peserta
-你会怎么选？	Apa yang akan kau lakukan?
-例如：分析者	Mis. Analis
-停止会议	Berhenti bertemu
-创建角色	Buat karakter
-删除席位	Hapus tempat duduk
-判定结果失败	Gagal menyelesaikan hasil
-参会模型	Peserta
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Pilih koneksi atau model yang berbeda. bahkan satu model pun tidak setuju dengan perannya sendiri.
-名称	Nama
-多模型圆桌会议 · 3~5 个 AI 开会	Model AI dapat dibulatkan dalam diskusi
-导出人生履历	Ekspor kisah hidup
-导出纪要	Ekspor menit
-尚未配置接口，请先到设置里填好连接与模型。	Tidak ada koneksi yang dikonfigurasi. Atur titik akhir dan model dalam Pengaturan pertama.
-岁	Ya
-已复制到剪贴板	Disalin ke papan klip
-已完结	Selesai
-席位设置	Pengaturan tempat duduk
-开始会议	Mulai rapat
-开始这一生	Mulai hidup ini
-性别	Gender
-所有剧情由你配置的模型实时生成，只保存在本机。	Setiap kejadian dihasilkan langsung oleh model Anda dan hanya disimpan di perangkat ini.
-推进人生	Advance life
-新建会议	Pertemuan baru
-新的人生	Kehidupan baru
-时代背景	Era
-暂无历史会议	Tidak ada rapat yang disimpan
-暂无参会席位	Belum ada peserta
-未发言	Tak ada respon
-未命名议题	Topik tanpa judul
-条发言	putaran
-模型 ID	ID Model
-模拟人生	Simulator Hidup
-模拟人生 · AI 生成剧情与抉择	Simulator Hidup
-正在停止	Menghentikan
-正在撰写人生总结	Menulis ringkasan kehidupan
-段经历	kejadian
-每行一条，讨论时所有参会者都会看到这份大纲。	Setiap peserta melihat agenda ini.
-添加席位	Tambah tempat duduk
-生成事件失败	Gagal membuat acara
-生成传记失败	Gagal menulis biografi
-生成大纲	Buat agenda
-由 AI 根据议题生成，可手动修改	AI- dihasilkan dari topik; dapat disunting
-留空将自动取名。	Tinggalkan kosong untuk nama acak.
-盖棺定论	Putusan akhir
-结束这一生	Akhiri hidup ini
-给 TA 起个名字	Beri mereka nama
-自定义立场描述	Sikap kustom
-至少需要一个可用的参会模型	Setidaknya satu model yang bekerja diperlukan
-角色立场	Peran & sikap
-讨论记录	Transkrip
-讨论轮数	Rounds
-请先填写会议议题	Masukkan topik pertemuan dulu
-输入这次要讨论的问题	Apa yang harus dibahas pertemuan ini?
-返回	Mundur
-还没有存档	Belum ada yang selamat
-还没有故事	Belum ada cerita
-连接	Koneksi
-选择	Pilihan
-健康	Kesehatan
-才智	Pikiran
-魅力	Pesona
-财富	Kekayaan
-声望	Ketenaran
-幸福	Joy
-现代都市 · 2026 年	Kota modern
-九十年代 · 小城旧事	Tahun 1990-an
-古代 · 书香门第	Dulu keluarga
-近未来 · 赛博都市	Dekat masa depan
-顺其自然，过好每一天	Ambil kehidupan karena datang
-事业有成，闯出一番名堂	Membangun karir yang sukses
-家人平安，守住平凡幸福	Menjaga keluarga aman dan bahagia
-见世面，走遍天涯	Melihat dunia
-求知到底，成为某个领域的行家	Guru bidang pengetahuan
-主持人	Moderator
-分析者	Analis
-质疑者	Skepsi
-创意者	Kreatif
-务实派	Pragmatist
-女	Perempuan
-男	Pria
-其他	Lainnya
-1 到 100，看你能几次猜中	Angka 1 sampai 100 - berapa banyak tebakan yang bisa kau menangkan?
-20 次提问用完了，点重新开始再来一局。	Semua 20 pertanyaan yang digunakan. Tekan ulang untuk diputar lagi.
-AI 玩法	Permainan AI
-AI 玩法会调用你所选的模型，按实际用量计费。	Permainan AI memanggil model yang Anda pilih dan ditagih dengan penggunaan aktual.
-一共用了	in
-一只猫	seekor kucing
-一把雨伞	payung
-一本书	buku
-一杯咖啡	secangkir kopi
-一点小惊喜正在路上，留意身边不显眼的机会。	Sebuah kejutan kecil sedang dalam perjalanan, perhatikan kemungkinan tenang di dekat Anda.
-上上签	Keberuntungan terbaik
-上签	Semoga beruntung
-不进不退，也是一日。守住眼前，就是守住运气。	Tidak maju atau mundur masih sehari, memegang apa yang ada di sini adalah memegang keberuntungan Anda.
-个 AI 玩法	Permainan AI
-个模型	model
-个离线小游戏	minimal-game luring
-个选项	pilihan
-中签	Nasib baik
-二十问	20 Pertanyaan
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Bagian awan dan bulan bersinar terang, setiap jalan terbuka.
-今日签	Keberuntungan hari ini
-你	Kau
-你一句我一句，让故事一直讲下去	Bergiliran dan menjaga cerita akan
-你一句我一句，让故事一直讲下去。	Bergiliran dan menjaga cerita berjalan.
-你赢了	Kau menang
-使用	Gunakan
-例如：今天适合开始新计划吗？	Apa hari ini bagus untuk rencana baru?
-候选选项	Opsi
-先给故事起个主题吧	Berikan cerita tema pertama
-先选一家运营商（连接），再进入模型列表挑选。	Pilih penyedia (koneksi) pertama, lalu pilih dari daftar modelnya.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Pilih penyedia (koneksi), lalu pilih model dari daftarnya.
-再玩一局	Putar lagi
-再看看	Lagi
-写下接下来发生的事…	Tulis apa yang terjadi selanjutnya..
-冰淇淋	Es krim
-出拳	Anda bergerak
-创建角色，由 AI 生成事件与抉择，走完一生	Membuat karakter; AI menghasilkan kejadian dan pilihan sepanjang hidup
-别急着决定，先睡一觉。	Tidurlah sebelum memutuskan.
-剩余提问	Pertanyaan tersisa
-剪刀	Gunting
-同一天抽到的签不会变，明天再来会有新签。	Keberuntungan hari ini tetap sama; datang kembali besok untuk yang baru.
-和我来几局，纯靠运气，不花流量。	Beberapa putaran dengan saya - murni keberuntungan, tidak ada data yang digunakan.
-圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 minimal games
-埃菲尔铁塔	Menara Eiffel
-多模型	Model multi-
-大了	Terlalu tinggi
-大概率可以，但留个后手。	Sepertinya ya, tapi tetap cadangan.
-宇宙说：再问一次。	Alam semesta mengatakan: bertanya lagi.
-对话	Percakapan
-小了	Terlalu rendah
-小吉	Berkat kecil
-就选这个	Pergilah dengan ini
-已为游戏单独指定模型，随时可换或恢复默认。	Model didedikasikan diatur untuk permainan; ubah atau kembalikan bawaan kapan saja.
-已猜	Guesses
-布	Kertas
-平	Gambar
-平局	Ini imbang
-平签	Keberuntungan stabil
-开始	Mulai
-当前对话模型	Model obrolan saat ini
-当前连接	Saat ini
-待时	Bide waktu Anda
-心里默念一个问题	Pikirkan sebuah pertanyaan
-心里默念一个问题，摇一摇，看它怎么回答。	Pikirkan sebuah pertanyaan, kocok, lihat apa yang dikatakannya.
-恢复默认	Kembalikan bawaan
-想不通的事，出去走一圈大概就有答案了。	Untuk apa yang Anda tidak bisa berpikir melalui, jalan-jalan singkat mungkin akan membawa jawabannya.
-我	Aku
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Aku menyembunyikan angka dari 1 sampai 100
-我想好了一个东西，你用是非题在 20 次内猜出来。	Saya telah memikirkan sesuatu.
-我赢了	Aku menang
-手动输入模型 ID	Masukkan ID model secara manual
-抉择轮盘	Roda Keputusan
-把纠结的选项写进去，让轮盘替你决定	Daftar pilihan Anda dan biarkan roda memutuskan
-把纠结的选项都写进去，让轮盘替你做决定。	Daftar semua pilihan yang Anda robek antara dan biarkan roda memutuskan.
-抽一支签	Menggambar keberuntungan
-换个角度想想会更好。	Coba sudut yang berbeda.
-搜索模型 ID	ID Model Pencarian
-摇一摇	Shake
-故事接龙	Rantai Cerita
-月亮	Bulan
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Beberapa keuntungan, beberapa kerugian, bahkan pikiran memegang terbaik.
-未指定连接	Tidak ada koneksi
-未设置模型	Tidak ada set model
-未选择连接	Tak ada koneksi yang dipilih
-本局使用的模型	Model untuk permainan ini
-来几局，纯靠运气	Beberapa putaran, murni keberuntungan
-模型想一个东西，你用是非题在 20 次内猜中	Model memikirkan sesuatu; menebak dalam 20 ya / tidak ada pertanyaan
-模型调用失败	Panggilan model gagal
-次	menebak
-每天一支签，同一天不会变。图个乐子，别当真。	Satu keberuntungan sehari, tak berubah dalam sehari, hanya untuk bersenang-senang.
-每天一支签，图个乐子	Satu keberuntungan sehari, hanya untuk bersenang-senang
-每日一签	Harian Fortune
-每行一个，或用逗号隔开	Satu per baris, atau dipisahkan oleh koma
-没有匹配的模型	Tidak ada model yang cocok
-沿用聊天界面正在使用的连接与模型。	Gunakan koneksi dan model yang sedang aktif dalam percakapan.
-游戏	Permainan
-点开始，由模型先说第一句。	Tap start dan biarkan model berbicara pertama.
-点这里选择运营商与模型	Sentuh untuk memilih penyedia dan model
-猜一个 1 到 100 的数字	Tebak angka dari 1 sampai 100
-猜中了！就是	Mengerti!
-猜对了！答案是	Benar!
-猜数字	Tebak Angka
-猜！	Tebak!
-现在还看不清，再等等。	Terlalu cepat untuk mengatakan; tunggu sedikit.
-用一个是非题提问…	Tanyakan ya / tidak ada pertanyaan..
-看起来不错，放手去做。	Kelihatannya bagus, silahkan.
-眼下还不是最好的时机，先攒力气，等风来。	Sekarang tidak cukup saat.
-石头	Rock
-石头剪刀布	Gunting Kertas Batu
-离线小游戏	Offline mini- game
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Permainan offline tidak pernah memanggil model atau menggunakan data; permainan AI ditagih ke model yang Anda pilih.
-答案是肯定的。	Ya, pasti.
-胜	Menang
-自行车	sepeda
-请输入 1 到 100 的整数	Masukkan seluruh nomor dari 1 sampai 100
-负	Kalah
-转起来	Spin
-还没有连接，请先到「连接与模型」里添加。	Belum ada koneksi. Tambahkan satu di bawah "Connections & Model".
-这个连接还没有缓存模型，可在下方手动输入。	Tidak ada model cached untuk sambungan ini; masukkan satu secara manual di bawah ini.
-这次恐怕不行。	Mungkin tidak kali ini.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pilih 3- 5 model dari penyedia yang berbeda, diskusikan selama putaran, mendapatkan ringkasan
-选择游戏模型	Pilih model permainan
-重新开始	Mulai Ulang
-钢琴	piano
-长城	Tembok Besar
-静一静心，点下面抽签	Ambil napas, kemudian menarik bawah
-顺签	Pelayaran mulus
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Angin bertiup, menenangkan air. Apa yang ada di tanganmu akan menjawab pada waktunya, tak perlu terburu-buru
-魔法八球	Magic 8-Ball
-默念一个问题，摇一摇看它怎么答	Pikirkan sebuah pertanyaan, kocok jawaban
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Mengikuti model obrolan saat ini secara baku; tekan untuk mengatur satu dedicated.
-（模型没有回复）	(Tidak ada respon dari model)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	APIS resmi seperti OpenAI / Anthropic tidak memiliki titik akhir publik yang menghasilkan harga yang lebih besar; kueri tagihan membutuhkan kunci admin terpisah yang klien tidak boleh pegang.

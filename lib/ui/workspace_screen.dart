@@ -156,9 +156,11 @@ class _WorkspaceScreenState extends State<WorkspaceScreen> {
                         collapse: _collapse,
                         dark: dark,
                         persona: _persona(st),
-                        statusLine: configured
-                            ? '${st.settings.activeProfile.name} · ${st.settings.model}'
-                            : '点此配置接口',
+                        statusLine: !configured
+                            ? t('点此配置接口')
+                            : (st.settings.model.trim().isEmpty
+                                ? t('尚未选择模型')
+                                : '${st.settings.activeProfile.name} · ${st.settings.model}'),
                         connected: configured,
                         showPill: st.settings.personaEnabled,
                         onMenu: () => _scaffoldKey.currentState?.openDrawer(),
@@ -381,9 +383,11 @@ class _WorkspaceScreenState extends State<WorkspaceScreen> {
     return MuseOnboarding(
       persona: _persona(st),
       dark: dark,
-      modelLine: _configured(st)
-          ? '${st.settings.activeProfile.name} · ${st.settings.model}'
-          : '尚未配置接口',
+      modelLine: !_configured(st)
+          ? t('尚未配置接口')
+          : (st.settings.model.trim().isEmpty
+              ? t('尚未选择模型')
+              : '${st.settings.activeProfile.name} · ${st.settings.model}'),
       onConfigure: _openSettings,
       onPersona: _openPersonaPicker,
       onVoice: () => Navigator.of(context).push(

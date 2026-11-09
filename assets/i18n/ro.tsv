@@ -1,21 +1,41 @@
+你	Tu
+共	intrări
+岁	ai
+平	Trage
+我	Eu
+条	intrări
+次	presupuneri
+胜	Câştigă
+负	Pierde
 主色	Accent
 主题	Tematică
 今日	Astăzi
+使用	Utilizare
 保存	Salvează
 停止	Stop
 允许	Permite
 关闭	Închide
+出拳	E rândul tău
 删除	Șterge
 刷新	Reîmprospătează
 发送	Trimite
 取消	Renunță
+名称	Nume
 圆角	Colțuri
 复制	Copiază
 外观	Aspect
+大了	Prea sus
 字号	Dimensiunea textului
 密钥	Cheie
+对话	Conversație
+小了	Prea jos
 工具	Unelte
+已猜	Ghiciri
+平局	E o remiză
+开始	Start
+当前	Curent
 忽略	Ignoră
+性别	Sex
 恢复	Restaurează
 接入	Conectează
 新建	Nou
@@ -24,8 +44,12 @@
 模型	Model
 添加	Adaugă
 清空	Clar
+游戏	Jocuri
+猜！	Ghici!
+百万	Pr
 确定	Bine
 离线	Offline
+管理	Gestionează
 累计	Total
 编辑	Editare
 视觉	Vedere
@@ -33,184 +57,360 @@
 语音	Voce
 请求	Cerere
 跳过	Sari
+返回	Înapoi
+选择	Alegerea
 部署	Desfășoară
 销毁	Distruge
+1 轮	1 rundă
+2 轮	2 runde
+3 轮	3 runde
+个模型	modele
+个选项	opțiuni
+二十问	20 Întrebări
+今日签	Averea de azi
+你赢了	Ai câştigat
+再看看	Din nou
 去设置	Deschide configurări
+多模型	Model multiplu
 已停更	Întrerupere
 已复制	Copiat
+已完结	Completat
 待检测	Netestat
+我赢了	Am câştigat
+摇一摇	Se agită
+未匹配	Nepotrivit
+未发言	Niciun răspuns
+条发言	rotiri
+段经历	evenimente
 源代码	Sursă
+猜数字	Ghiciţi numărul
 生成中	Generare
 知道了	Am înţeles
 自定义	Personalizat
+转起来	Învârte
 重命名	Redenumește
 + 新建	+ Nou
+一共用了	în
 一键接入	Conectează toate
 人物形象	Persoana
+人生事件	Eveniment de viață
+人生存档	Salvat vieți
+人生履历	Poveste de viaţă
+人生目标	Scopul vieţii
+价格来源	Sursa prețului
+会议大纲	Agendă
+会议结论	Concluzie
+会议议题	Subiect
+会议记录	Istoricul întâlnirii
+估算省下	Est. salvat
+位参会者	participanți
+候选选项	Opțiuni
+停止会议	Nu te mai întâlni
 停止朗读	Nu mai citi
 免密模型	Modele fără cheie
+再玩一局	Joaca din nou
+创建角色	Creează caracter
+删除席位	Scoateți scaunul
 删除形象	Șterge persoana
 删除配置	Șterge profilul
+剩余提问	Întrebări rămase
+匹配模型	Model compatibil
 原始输出	Producția brută
+参会模型	Participanţi
+命中概览	Cache hits
+命中次数	Hits
 图片诊断	Diagnosticarea imaginii
 复制一份	Duplicat
 复制全文	Copiază toate
 复制内容	Copiază textul
 外观主题	Aspect
+完全权限	Acces complet
+实时价格	Prețurile reale
 实验记录	Jurnal de experiment
 对话语言	Limba de răspuns
+导出纪要	Proces-verbal de export
+少量权限	Acces minim
+尚未获取	Încă nu l-am luat
+就选这个	Du-te cu asta
+席位设置	Setări scaune
+开始会议	Începe şedinţa
 开始检测	Încercarea de pornire
 开始说话	Începe să vorbeşti
 当前会话	Această conversaţie
 当前模型	Model curent
+当前连接	Curent
 当前预设	Preset curent
 待填密钥	Cheie necesară
+恢复默认	Restaurează implicit
+抉择轮盘	Roată de decizie
+抽一支签	Trage o avere
+拉取失败	Fetch a eșuat
+按天花费	Costuri zilnice
 授权范围	Permisiuni
 接入最快	Cel mai rapid pentru a configura
 接口地址	URL punct final
+推进人生	Viață avansată
 插件系统	Module
 搜索模型	Modele de căutare
 搜索设置	Configurări căutare
 收起搜索	Ascunde căutarea
+故事接龙	Lanț poveste
+新建会议	Ședință nouă
+新的人生	Viață nouă
+时代背景	Era
 明暗模式	Lumină / întuneric
+更新时间	Actualizat
+最近命中	Lovituri recente
 未设模型	Fără model
+本地复用	Refolosirea locală
+权限档位	Nivelul permisiunii
+标准权限	Acces standard
+模拟人生	Simulator Life
+正在停止	Oprirea
+每日一签	Noroc zilnic
 测试连通	Conexiune de încercare
 深度思考	Gândire profundă
 深度研究	Cercetare profundă
 添加地址	Se adaugă obiectivul final
+添加席位	Adaugă scaun
+添加连接	Adaugă conexiune
+生成大纲	Generează agenda
 用量追踪	Urmărire utilizare
 界面语言	Limbajul interfeței
+盖棺定论	Verdictul final
 系统当前	Sistem
+累计估算	Total estimat
+缓存命中	Cache hits
+缓存条目	Cached raspunsuri
+缓存省下	Salvat prin cache
+缓存设置	Configurări cache
 网页抓取	Aducere pagină
+美元汇率	Cursul de schimb USD
 联网搜索	Căutare pe internet
 能力开关	Întrerupătoare de capacitate
 能力档位	Nivelul capacității
+角色立场	& Poziţie rol
+讨论记录	Transcript
+讨论轮数	Rotunde
 语音输入	Intrare vocală
 说点什么	Spune ceva
+请求次数	Cereri
+输入单价	Prețul de intrare
+输出单价	Prețul de ieșire
 这台设备	Acest dispozitiv
 连接配置	Profile în conexiune
 选择形象	Alege persoana
-选择模型	Alegeți un model
+选择模型	Alegeți modelul
 配置名称	Denumirea profilului
 配置连接	Configurare conexiune
+重新开始	Repornire
 页面底色	Fundal pagină
 预设名称	Denumire prestabilită
+魔法八球	Magic 8-Ball
+AI 玩法	Jocuri AI
 会话与设置	& Configurări chat
 删除工作台	Șterge spațiul de lucru
 删除此形象	Șterge această persoană
+单价与汇率	Prețul unitar & FX
+去添加连接	Adaugă o conexiune
 反代与网关	Releu & poarta
 命令已复制	Comandă copiată
 填入输入框	Introduceți în intrare
 已复制回答	Răspuns copiat
 已开启朗读	Citeşte-l pe
 应用与网页	Aplicații & web
+开始这一生	Începe această viață
+按模型花费	Costul pe model
 提示词预设	Prestații prompte
 文件与脚本	Fișiere și scripturi
 日历与闹钟	& Alarme calendar
+服务端缓存	Cache-ul furnizorului
 朗读已开启	Citeşte-l pe
+未命名议题	Subiect fără titlu
 未指定模型	Niciun model selectat
+未指定连接	Nicio legătură
+未设置模型	Niciun set model
+未选择连接	Nicio conexiune selectată
 查看源代码	Vizualizare sursă
+模型 ID	Model de identificare
 源码已复制	Sursă copiată
 点一下切换	Atingeți pentru a comuta
 独立工作区	Spațiu de lucru privat
+石头剪刀布	Foarfece din hârtie rock
 研究工作台	Spațiu de lucru pentru cercetare
+离线小游戏	Minijocuri offline
+结束这一生	Sfârşitul acestei vieţi
 网页版反代	Releu web
 联网搜索源	Surse de căutare web
+花了多少钱	Cât de mult am cheltuit
 设备智能体	Dispozitiv
 语言与地区	Limba și regiunea
+费用与价格	Costuri și prețuri
 输入任务…	Introduceți o sarcină..
-连接与模型	& Model conexiune
+还没有存档	Nu a salvat vieți încă
+还没有故事	Nici o poveste încă
+连接与模型	& Modele conexiune
 重命名配置	Redenumește profilul
 链接已复制	Link copiat
 顶部形象区	Zona de personalitate superioară
 （无内容）	(gol)
+个离线小游戏	Minijocuri offline
+你会怎么选？	Ce vei face?
+例如：分析者	de exemplu analist
 先填主机地址	Introduceți mai întâi o gazdă
+判定结果失败	Eșec la rezolvarea rezultatului
+刷新实时价格	Reîmprospătează prețurile live
 助手消息头像	Răspundeţi la avatare
 去设置里刷新	Reîmprospătează în configurări
 启用人物形象	Activează persoana
 启用本机操作	Activează acțiunile dispozitivului
 图片与多模态	Imagini și multimodale
 图片发送格式	Format imagine
+导出人生履历	Export poveste de viață
+尚未选择模型	Niciun model selectat
+尚未配置接口	Neconfigurat
 已删除该配置	Profil șters
 当前 API	API curent
+当前对话模型	Modelul actual de chat
 提示词预设库	Librărie prestabilită promptă
 搜索源连通性	Conectivitate sursă
 新建连接配置	Profil de conexiune nou
+暂无历史会议	Fără întâlniri salvate
+暂无参会席位	Niciun participant încă
 模型能力档位	Nivelul capacității
+模型调用失败	Apelul model a eșuat
 每源结果条数	Rezultate per sursă
 添加免密地址	Adaugă un obiectiv fără cheie
+清空命中记录	Clear hit records
+清空响应缓存	Cache răspuns clar
+点此配置接口	Atingeți pentru a configura o conexiune
+猜中了！就是	A fost!
+生成事件失败	Eșec la generarea evenimentului
+生成传记失败	Nu s-a putut scrie biografia
 等待模型输出	Aştept modelul
 自动记录实验	Experimente de înregistrare automată
+设备清理已开	Curățare dispozitiv pe
+设备清理未开	Curățare dispozitiv
 语音识别语言	Limba de dictare
 请求体已复制	Cererea organismului copiat
 还没有记录。	Nimic înregistrat încă.
+选择游戏模型	Alege modelul jocului
 销毁本地凭据	Distruge acreditările locale
 随便问点什么	Întreabă-mă orice
+AI 圆桌会议	AI Masă rotundă
 HTTP 插件	Modul HTTP
+个 AI 玩法	Jocuri AI
 回收站是空的。	Reciclarea e goală.
+已复制到剪贴板	Copiat în clipboard
 已复制当前配置	Profilul curent copiat
 已恢复到工作区	Refăcut în spațiu de lucru
 当前预设已生效	Acest preset este activ
 按当前单价估算	Estimare la prețuri curente
 换个关键词试试	Încearcă un alt cuvânt cheie
+搜索模型 ID	Model de căutare ID
 智能体请求执行	Agent solicită o acțiune
+服务端缓存命中	Cache-ul furnizorului lovește
 朗读上一条回答	Citeste ultimul raspuns
 本地凭据已销毁	Acreditările locale distruse
+本局使用的模型	Model pentru acest joc
 每次操作先问我	Întreabă-mă înainte de fiecare acțiune
+没有匹配的模型	Fără modele de potrivire
 没有匹配的语言	Fără limbaj de potrivire
 没有匹配的连接	Nicio conexiune de potrivire
 深度研究工作流	Fluxul de lucru profund de cercetare
+清空命中记录？	E clar?
+清空响应缓存？	Cache răspuns clar?
+猜对了！答案是	Răspunsul a fost:
 管理 / 切换	Gestionează / schimbă
 自动接入可用项	Conectează cele disponibile
+自定义立场描述	Poziţie personalizată
 Token 用量	Utilizarea jetoanelor
 在所有连接里查找	Caută toate conexiunile
 工作区路径已复制	Calea de lucru copiată
+心里默念一个问题	Gândeşte-te la o întrebare
 扫描已运行的服务	Scanare pentru servicii de rulare
 搜索连接名或地址	Căutare după nume sau URL
 未启用任何搜索源	Nicio sursă de căutare activată
+来几局，纯靠运气	Câteva runde, noroc pur
+正在撰写人生总结	Scrierea rezumatului vieţii
 永久清空回收站？	Să golesc coşul de reciclare permanent?
 测试已启用搜索源	Surse activate de încercare
+留空将自动取名。	Lăsați gol pentru un nume aleatoriu.
+缓存 token	Jetoane cache
+自动获取实时价格	Aduceți automat prețuri live
+请先填写会议议题	Introduceți mai întâi un subiect de întâlnire
+（模型没有回复）	(Nici un răspuns din partea modelului)
+下一段人生尚未发生	Următorul capitol nu a început
 会话已复制到剪贴板	Conversație copiată în clipboard
 允许模型调用该插件	Permite modelului să numească acest modul
+先给故事起个主题吧	Dă povestea o temă mai întâi
+填 0 表示不计算	0 până la dezactivarea costurilor
 填入该服务商的密钥	Introduceți cheia furnizorului
+复用相同请求的回答	Reutilizați cererile identice
 手动填写模型 ID	Introduceți manual un model de ID
+手动输入模型 ID	Introduceți manual modelul ID
 点击头像从相册选择	Atingeţi uşor avatarul pentru a alege din galeria dumneavoastră
+用一个是非题提问…	Pune o întrebare da / nu ..
+给 TA 起个名字	Dă-le un nume
+设备清理与文件删除	Curățare & fișier dispozitiv
 AI 用这种语言回答	AI răspunde în această limbă
+也可以自己写一个目标	Sau scrie propriul scop
+仅显示最近 30 条	Se afișează ultimele 30 de intrări
+写下接下来发生的事…	Scrie ce urmează..
 单次任务最多执行几步	Etapele maxime per sarcină
 在线 · 需 Key	Online · cheie necesară
 已创建，可在下方编辑	Creat
 当前会话的能力与连接	Capabilități și conexiune pentru această conversație
+每天一支签，图个乐子	O avere pe zi, doar pentru distracţie
 自定义搜索引擎 ID	ID-ul personalizat al motorului de căutare
 至少需要保留一份配置	Păstrează cel puțin un profil
+输入这次要讨论的问题	Ce ar trebui să discute această întâlnire?
 还没有可以朗读的回答	Nici un răspuns pentru a citi cu voce tare încă
+静一静心，点下面抽签	Respiră, apoi trage mai jos
 临时凭据（用完即销毁）	Acreditări temporare (distruse după utilizare)
 已还原此预设的内置内容	Conţinut încorporat restaurat pentru acest preset
+每行一个，或用逗号隔开	Unul pe linie sau separat prin vigmă
+点这里选择运营商与模型	Atingeți pentru a alege un furnizor și un model
 研究报告已复制到剪贴板	Raport copiat în clipboard
 主色 · 页面 · 圆角	Accent · pagină · colțuri
 打不开浏览器，链接已复制	Nu am putut deschide un browser; link copiat
 朗读上一条回答（已静音）	Citeste ultimul raspuns (mutat)
 每条回答前显示形象小头像	Arată un mic avatar înainte de fiecare răspuns
+人生评分 · 满分 100	Scorul vieţii · din 100
+从已有连接补齐 5 个模型	Completați 5 modele din conexiuni
 发送前预览 · 最终请求体	Pre-trimite previzualizare · organism cerere finală
 向网关索取真实 usage	Întreabă poarta de acces pentru utilizare reală
+实时价格、按模型与按天花费	Prețuri live, cost după model și pe zi
 朗读已静音 · 长按可恢复	Read-aloud muted · lung-press to unmute
 档位、深度思考与联网总开关	Tier, gândire profundă și comutatorul principal de căutare web
 正在准备朗读 · 点击取消	Pregătirea vorbirii · atingeți pentru a anula
 正在并行测试已启用搜索源…	Testarea surselor activate în paralel..
 消息列表上方显示头像与名字	Afișează avatarul și numele deasupra listei de mesaje
+点开始，由模型先说第一句。	Atingeţi uşor startul şi lăsaţi modelul să vorbească primul.
 累计消耗、单价、明细与导出	Cheltuieli totale, prețuri, defalcare și export
+至少需要一个可用的参会模型	Cel puțin un model de lucru este necesar
 预览：静水深流，字要看得清	Previzualizare: încă apă, textul ar trebui să rămână lizibil
+例如：今天适合开始新计划吗？	De exemplu, astăzi este bun pentru un nou plan?
 关闭后主界面回到纯工作台样式	Când este oprit, ecranul principal revine la aspectul simplu de spațiu de lucru
+命中统计、响应复用与缓存管理	Statistici lovite, reutilizarea răspunsului și gestionarea cache-urilor
 按钮、标题与说明文字都跟着换	Butoni, titluri și descrieri toate comutatorul de asemenea
 这个连接还没有读到模型列表。	Încă nu s-a citit nicio listă de modele pentru această conexiune.
 这台主机上没有发现兼容端点。	Nu s-a găsit un obiectiv compatibil pentru această gazdă.
+1 到 100，看你能几次猜中	Un numar de la 1 la 100
+你一句我一句，让故事一直讲下去	Fă cu rândul şi continuă povestea
 关闭后保留文档但不注入工具清单	Când sunt închise, documentele rămân, dar lista cu unelte nu este injectată
 多源选择、每源密钥与连通性测试	Pick sources, add per-source tastes, test conectible
 接口地址、密钥、模型与多配置档	Punct final, cheie, modele și profiluri multiple
 深度研究工作流、实验记录与报告	Fluxul profund de lucru de cercetare, jurnal de experiment și rapoarte
+猜一个 1 到 100 的数字	Ghici un număr de la 1 la 100
+请输入 1 到 100 的整数	Introduceți un număr întreg de la 1 la 100
+默念一个问题，摇一摇看它怎么答	Gandeste-te la o intrebare, scutura pentru un raspuns
+你一句我一句，让故事一直讲下去。	Fă cu rândul şi continuă povestea.
 先完成推理再输出结论，只显示摘要	Mai întâi motivul, apoi răspunsul; numai rezumatul este afișat
 公益站额度导航 · 社区持续更新	Lista cotelor comunitare · actualizată de comunitate
 切换不丢失内容；每份预设独立保存	Comutarea păstrează textul; fiecare preset este stocat separat
 发送格式、视觉能力判定与图片诊断	Trimite formatul, detectarea vederii și diagnosticarea imaginii
+和我来几局，纯靠运气，不花流量。	Câteva runde cu mine noroc pur, fără date folosite.
 已启用的源 · 点开填密钥或端点	Surse activate · deschide una pentru a adăuga o cheie sau un obiectiv
 每次调用的参数、请求体与响应原文	Parametrii, cererea organismului și răspunsul brut pentru fiecare apel
 没有发现服务，检查反代是否已启动	Nu s-a găsit nici un serviciu care să verifice dacă releul funcţionează
@@ -218,70 +418,107 @@ AI 用这种语言回答	AI răspunde în această limbă
 自动压缩到 320px，仅存本地	Compresat la 320px, stocat numai la nivel local
 自定义头像、名字、性格与角色设定	Avatar personalizat, nume, personalitate și rol
 不写入磁盘，仅保留在本次会话内存中	Păstrat în memorie doar pentru această sesiune, niciodată scris pe disc
+圆桌会议、模拟人生与 7 个小游戏	Masă rotundă, Simulator Life & 7 mini-jocuri
+把纠结的选项写进去，让轮盘替你决定	Enumeră opţiunile şi lasă roata să decidă
 探测公开的免密钥模型，能对话才列出	Probe publice modele fără cheie și lista numai cele care răspund
+沿用聊天界面正在使用的连接与模型。	Utilizați conexiunea și modelul activ în prezent în chat.
+由 AI 根据议题生成，可手动修改	Al-generat de la subiect; editabil
 19 套主题、自定义配色、圆角与字号	19 teme, culori personalizate, colțuri și dimensiunea textului
 会真发一句极短的问题，消耗少量额度。	Trimite o întrebare foarte scurtă şi foloseşte o mică cotă.
 保存参数与响应原文，最多 120 条	Salvează parametrii și răspunsurile brute, până la 120 de intrări
+只清统计与列表，不影响已缓存的回答。	Numai șterge statisticile și lista; răspunsurile cache sunt păstrate.
 朗读与语音输入，免费与付费引擎都可切	Citește-aloud și de intrare vocală, motoare gratuite și plătite
 sk-…（本地 Ollama 可留空）	sk-- (Lasă gol pentru local Ollama)
 只打开系统确认页，需你亲手点保存才生效	Deschide doar foaia de sistem; nimic nu se schimbă până nu atingeți Save
 把开源 xx2api 项目接成一条连接	Wire un proiect open-source xx2api într-o conexiune
 界面、回答、语音识别三套语言，独立设置	Interfață, răspuns și dictare limbi
 该会话的所有消息将被移除，且无法恢复。	Fiecare mesaj din această conversație va fi eliminat permanent.
+隔离工作区内读写、任务脚本（沙箱保护）	Citire/scriere în spațiul de lucru izolat și scripturi de sarcină (sandboxed)
+20 次提问用完了，点重新开始再来一局。	Toate cele 20 de întrebări folosite. Atingeți reporniți pentru a juca din nou.
+同一天抽到的签不会变，明天再来会有新签。	Norocul de azi rămâne acelaşi; întoarce-te mâine pentru unul nou.
+已手动调整单项授权，不对应任何预设档位。	Permisiunile individuale au fost modificate manual; nu se aplică niciun nivel prestabilit.
+心里默念一个问题，摇一摇，看它怎么回答。	Gândiți-vă la o întrebare, da un shake, vezi ce spune.
 所有连接配置的密钥将被清除，且无法恢复。	Cheile pentru fiecare profil de conexiune vor fi șterse permanent.
+把纠结的选项都写进去，让轮盘替你做决定。	Enumeraţi toate opţiunile pe care le aveţi între voi şi lăsaţi roata să decidă.
 没有匹配的项目，换个关键词或点「全部」。	Nimic nu s-a potrivit cu un alt cuvânt cheie sau atingeți All.
 没识别到有效地址，需要以 http 开头	Niciun URL valid găsit; trebuie să înceapă cu http
+添加连接并选定模型后，模型会显示在这里。	Modelele apar aici odată ce adăugați o conexiune și alege unul.
 真实 usage 优先，未返回时本地估算	Utilizarea reală mai întâi; estimată la nivel local atunci când lipsește
 还没有启用任何源，联网搜索不会发起检索。	Nici o sursă activată, astfel încât căutarea web nu va rula.
+还没有连接，请先到「连接与模型」里添加。	Nu există conexiuni încă. Se adaugă una la "Connections & Models."
 System Prompt 预设与变量插值	Presetări prompte ale sistemului și interpolare variabilă
+之后相同的请求会重新发起，直到再次被缓存。	Solicitările identice vor fi trimise din nou până când acestea sunt cached încă o dată.
+尚未配置接口，请先到设置里填好连接与模型。	Nicio conexiune configurată. Configurați mai întâi un obiectiv și un model în Setări.
+已为游戏单独指定模型，随时可换或恢复默认。	Un model dedicat este setat pentru jocuri; schimba sau restabili implicit oricând.
 检索 → 大纲 → 逐节展开 → 汇总报告	Căutare → contur → proiect → raport
 还没有拉到模型列表，点右上角「刷新」读取。	Nici o listă model încă
+还没有添加任何连接，所以这里没有可用模型。	Încă nu s-a adăugat nicio conexiune, deci nu există modele disponibile aici.
+这个连接还没有缓存模型，可在下方手动输入。	Nu există modele cache pentru această conexiune; introduceți unul manual mai jos.
+先选一家运营商（连接），再进入模型列表挑选。	Alege un furnizor (conectare) mai întâi, apoi alege din lista sa model.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Când off, se comportă exact ca un client simplu chat cu nici un instrument injectat
 写文件、打开应用等动作在界面上等你点「允许」	Scrierea de fișiere, deschiderea de aplicații și acțiuni similare așteptați pentru tap-ul tău
+创建角色，由 AI 生成事件与抉择，走完一生	Creați un caracter; AI generează evenimente și alegeri într-o viață întreagă
 只读工具随时可用；其余按上面的授权分组生效。	Instrumentele de citire funcționează întotdeauna; orice altceva urmează grupurile de mai sus.
 圆角只作用于卡片、按钮与输入台，不影响排版。	Rotunjirea se aplică cardurilor, butoanelor și compozitorului nu la aspect.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Deschide aplicații instalate, lansează browserul, partajează, scrie în clipboard
+模型想一个东西，你用是非题在 20 次内猜中	Modelul se gândeşte la ceva; ghiceşte în 20 de întrebări da/nu
+每天一支签，同一天不会变。图个乐子，别当真。	O avere pe zi, neschimbată în timpul zilei.
+每行一条，讨论时所有参会者都会看到这份大纲。	Fiecare participant vede această agendă.
 读取公开网页正文（禁止内网 / 元数据地址）	Citiți textul paginii publice (adresele private și metadatele blocate)
 127.0.0.1 或 192.168.1.5	127,0.01 sau 192,168.1.5
+AI 玩法会调用你所选的模型，按实际用量计费。	Jocurile AI numesc modelul selectat și sunt facturate de utilizarea efectivă.
 例如：端侧小模型在 2025 年的推理优化路径	De exemplu, modelele și optimizările de conferințe în 2025
 可为当前这个工作台单独指定，不影响其它工作台。	Se aplică numai acestui spațiu de lucru; alte spații de lucru păstrează propria alegere.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Căutare multiplă → schiță → proiect → raport
+所有剧情由你配置的模型实时生成，只保存在本机。	Fiecare eveniment este generat live de modelul dumneavoastră și stocate numai pe acest dispozitiv.
 输入关键词，可在这个连接和所有其他连接里查找。	Tastați un cuvânt cheie pentru a căuta această conexiune și toate celelalte.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Nicio sursă de căutare nu a fost activată încă
 回收站里的备份与被删文件将被真正删除，无法恢复。	Backup-uri și fișiere șterse în coșul de reciclare vor fi șterse permanent.
 搜索语言，如 英语 / English / 冰岛	Limbi de căutare, de exemplu engleză /
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Citiți/scrieți un spațiu de lucru privat, executați scripturi de sarcină (sandboxed, permis implicit)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Urmează modelul actual de chat implicit; atingeți pentru a seta unul dedicat.
 Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / visual
 分两批并发，单个超时 25 秒；有本机服务时会更快	Două loturi concurente, 25 de ani pauză fiecare; mai repede atunci când un serviciu local este găsit
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Text numai
+我想好了一个东西，你用是非题在 20 次内猜出来。	M-am gândit la ceva.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informații despre dispozitiv, spațiu de lucru privat, aplicații / calendar / alarme
 等宽原样呈现，不解析 Markdown、不转换引用	Afișat ca-este în monospațiu: nici o parsare Markdown, nici o conversie citare
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Nici o acțiune dispozitiv încă. Fiecare pas este autentificat și poate fi revizuit mai târziu.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Alege un furnizor (conectare), apoi alege un model din lista sa.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Acreditarile sunt AES-criptate doar pe acest dispozitiv; cererile merg direct la obiectivul pe care îl introduceți.
 可留空，留空时请求不带 Authorization。	În cazul în care gol, cererile sunt trimise fără antet de autorizare.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Alege diferite conexiuni sau modele. Chiar și un model poate fi de acord cu ea însăși în roluri diferite.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Atingeți pentru a activa, atingeți din nou pentru a dezactiva. Numai sursele activate sunt utilizate pentru căutare web.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Limba de dictare afectează doar vorbire-la-text; cel greșit o face transcrie într-o altă limbă.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Citiți răspunsuri cu voce tare. Canalele libere pot înceta să mai lucreze în orice moment; vorbirea sistemului funcționează întotdeauna.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	O singură încercare trimite o cerere reală fiecărui furnizor și enumeră doar cele care trec.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Cererea de utilizare reală; în cazul în care erorile de evaluare a obiectivului, opriți acest lucru și se încadrează din nou la estimări
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Am ascuns un număr de la 1 la 100
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	Folosirea reală câștigă; atunci când poarta omite, estimăm prin caractere și o marcăm cu
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3 / 5 modele de la diferiți furnizori, discuta peste runde, obține un rezumat
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Nu hit-uri încă. Utilizați o masă rotundă sau un joc mini pentru un timp și datele vor apărea aici.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Încercați un alias mai scurt (4o / ds / qwen), sau utilizați acest ID așa cum este.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Introduceți 0 pentru a sări peste estimările costurilor. Prețurile sunt utilizate doar la nivel local, nu a trimis nicăieri.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jocuri offline nu numesc un model sau de a folosi date; jocuri AI sunt facturate la modelul ales.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Nici un marker Markdown sau citare
 在电脑上跑着 g4f / chat2api / Ollama？	Rularea g4f / chat2api / Ollama pe computer?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Nici o persona încă. Creați unul mai jos
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	Numai citire: informații despre dispozitiv, aplicații instalate și liste de fișiere. Nu scrie nimic și nu deschide nicio altă aplicație.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Căutare multi-rotunde → schiță → proiect secțiune cu secțiune → raport final. Întrerupeți oricând.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Modele de căutare sau furnizori, de exemplu gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Proiecte de căutare, platforme sau modele, de exemplu, deepseek / kimi / gateway
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Ștergeți cache-urile acestei aplicații, găsiți și ștergeți fișiere în dosare accesibile (recomandat numai pentru acces complet)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Gol pentru moment. Cere agentul de a salva rezultatul la note / și va apărea mai jos.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Acţiunile neautorizate nu sunt executate; modelul primeşte permisiunea necesară şi explică în text în schimb.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Înregistrarea se oprește atunci când te duci liniștit. Transcrierea merge în caseta de intrare
 请求体附带 stream_options.include_usage	Organismul de cerere include stream options.include usage
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Stabilește un preț de 0 pentru a sări peste calculul costurilor. Prețurile introduse manual rămân dacă nu reîmprospătați prețurile live.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Fetches un tabel tarif public în fundal la pornire și se potrivește cu modelul actual. Datele de utilizare nu este niciodată încărcat.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Sursele sunt interogate în paralel, deduplicate de URL și fuzionate în citări intercritate; o sursă care nu reușește nu afectează celelalte.
 按路径筛选，如 app_state / AndroidManifest	Filtru după cale, de exemplu app state / AndroidManifest
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Trebuie să fie un obiectiv OpenAI-compatibil care nu are nevoie de cheie. Este testat o dată imediat după adăugarea.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Verificați în ordine: serviciul se execută, portul se potrivește, firewall-ul permite, iar telefonul nu este pe o rețea de invitați.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Setează ce poate face agentul pe acest telefon într-un singur robinet. Un nivel schimbă doar permisiunile; acțiunile riscante încă cer confirmarea unul câte unul.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Simptomul obişnuit al unei limbi greşite este că mă aude dar transcrie o altă limbă. Cu accent, alege varianta regională a aceleiaşi limbi.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	În urma întrebării se adaugă nici o instruire lingvistică și permite modelul decide. O limbă aleasă este scris în sistemul prompt.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://exemplu.com/v1 gpt-4o-mini\nUna pe linie; denumirea modelului este opțională
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Patru canale anonime și o duzină de modele, toate testate într-un singur robinet. O singură listă de modele este înșelătoare: o mulțime de gateway-uri lista totul și apoi reveni 402 sau 429 pe un apel real.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Activați
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Un releu ruleaza, de obicei, pe un computer sau router. Alăturați-vă același Wi-Fi, introduceți acea mașină . LAN IP (de exemplu 192.168.1.5) și atingeți Scanarea pentru a încerca porturile comune.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Solicitări identice non-streaming în mese rotunde, viata sim, mini jocuri și cercetare profundă refolosiți răspunsul anterior în termen de 6 ore
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	In mod implicit modelul raspunde doar la intrebari. Porneste asta si poate citi informatii reale de pe acest dispozitiv si actiona in cadrul a ceea ce autorizezi: cititi si scrieti un spatiu de lucru privat, aplicatii deschise si pagini web, creati evenimente calendaristice, setati alarme.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Ambele tipuri de hit-uri sunt înregistrate: jetoane prompt-cache returnate de către furnizor sunt facturate la o reducere; o reutilizare locală nu trimite nici o cerere la toate. Economii sunt estimate din prețul de intrare ați stabilit, nu dintr-o factură.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Fiecare spațiu de lucru poate suprascrie personalitatea sa de la avatar în bara de sus. Descrierea rolului este scrisă în sistem prompt ca o notă de identitate; se schimbă tonul și stilul, nu ceea ce modelul poate face de fapt.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Cost = jetoane reale returnate de furnizor × preț unitar. Când furnizorul omite utilizarea, jetoanele sunt estimate din text și pot fi ușor off. Aceasta este doar o estimare locală; factura oficială este în consola furnizorului dumneavoastră.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variabile disponibile: { { Query}} {{data}} {data}} {timp}} {model}} {limbă} {surse}} {tyre}}
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Porturile 8000 şi 3000 sunt împărţite de mai multe proiecte, astfel încât doar unul poate rula pe maşină; schimba portul sau se desfăşoară separat pentru a rula ambele. Setul oficial are nevoie de o cheie, dar are o cotă liberă. instanţe comunitare sunt altcineva
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Utilizaţi { { Query}} {{data}} {timp}} {model}} {limbă} {surse}} {mai mult}}} în prompt; acestea sunt înlocuite cu valori reale înainte de a fi trimise.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Canalele gratuite folosesc obiective web publice și pot opri lucrul sau pot obține rata limitată în orice moment. Cheile sunt criptate doar pe acest dispozitiv și nu se sincronizează niciodată. Atingeți butonul undei din dreapta sus, sau apăsați o bulă lungă, pentru a citi cu voce tare. Atingeți microfonul din compozitor pentru a vorbi; se oprește înregistrarea atunci când mergeți liniștit, iar textul aterizează în caseta de intrare pentru revizuire înainte de a trimite.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Imaginile sunt trimise în linie ca bază64, cea mai lungă margine 1280, calitate 72. În cazul în care o cerere de imagine se întoarce 400 / 413 / Conexiune închisă, modelul sau poarta de acces respinge cel mai probabil imagini în linie
-1 轮	1 rundă
-2 轮	2 runde
-3 轮	3 runde
-AI 圆桌会议	AI Masă rotundă
-AI 实验室	Laboratorul AI
-下一段人生尚未发生	Următorul capitol nu a început
-也可以自己写一个目标	Sau scrie propriul scop
-人生事件	Eveniment de viață
-人生存档	Salvat vieți
-人生履历	Poveste de viaţă
-人生目标	Scopul vieţii
-人生评分 · 满分 100	Scorul vieţii · din 100
-从已有连接补齐 5 个模型	Completați 5 modele din conexiuni
-会议大纲	Agendă
-会议结论	Concluzie
-会议议题	Subiect
-会议记录	Istoricul întâlnirii
-位参会者	participanți
-你会怎么选？	Ce vei face?
-例如：分析者	de exemplu analist
-停止会议	Nu te mai întâlni
-创建角色	Creează caracter
-删除席位	Scoateți scaunul
-判定结果失败	Eșec la rezolvarea rezultatului
-参会模型	Participanţi
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Alege diferite conexiuni sau modele. Chiar și un model poate fi de acord cu ea însăși în roluri diferite.
-名称	Nume
-多模型圆桌会议 · 3~5 个 AI 开会	Masă rotundă AI · 3 (5 modele în discuție)
-导出人生履历	Export poveste de viață
-导出纪要	Proces-verbal de export
-尚未配置接口，请先到设置里填好连接与模型。	Nicio conexiune configurată. Configurați mai întâi un obiectiv și un model în Setări.
-岁	ai
-已复制到剪贴板	Copiat în clipboard
-已完结	Completat
-席位设置	Setări scaune
-开始会议	Începe şedinţa
-开始这一生	Începe această viață
-性别	Sex
-所有剧情由你配置的模型实时生成，只保存在本机。	Fiecare eveniment este generat live de modelul dumneavoastră și stocate numai pe acest dispozitiv.
-推进人生	Viață avansată
-新建会议	Ședință nouă
-新的人生	Viață nouă
-时代背景	Era
-暂无历史会议	Fără întâlniri salvate
-暂无参会席位	Niciun participant încă
-未发言	Niciun răspuns
-未命名议题	Subiect fără titlu
-条发言	rotiri
-模型 ID	Model de identificare
-模拟人生	Simulator Life
-模拟人生 · AI 生成剧情与抉择	Simulator de viață · Poveste generată de AI & opțiuni
-正在停止	Oprirea
-正在撰写人生总结	Scrierea rezumatului vieţii
-段经历	evenimente
-每行一条，讨论时所有参会者都会看到这份大纲。	Fiecare participant vede această agendă.
-添加席位	Adaugă scaun
-生成事件失败	Eșec la generarea evenimentului
-生成传记失败	Nu s-a putut scrie biografia
-生成大纲	Generează agenda
-由 AI 根据议题生成，可手动修改	Al-generat de la subiect; editabil
-留空将自动取名。	Lăsați gol pentru un nume aleatoriu.
-盖棺定论	Verdictul final
-结束这一生	Sfârşitul acestei vieţi
-给 TA 起个名字	Dă-le un nume
-自定义立场描述	Poziţie personalizată
-至少需要一个可用的参会模型	Cel puțin un model de lucru este necesar
-角色立场	& Poziţie rol
-讨论记录	Transcript
-讨论轮数	Rotunde
-请先填写会议议题	Introduceți mai întâi un subiect de întâlnire
-输入这次要讨论的问题	Ce ar trebui să discute această întâlnire?
-返回	Înapoi
-还没有存档	Nu a salvat vieți încă
-还没有故事	Nici o poveste încă
-连接	Conexiune
-选择	Alegerea
-健康	Sănătate
-才智	Minte
-魅力	Farmec
-财富	Bogate
-声望	Faima
-幸福	Bucurie
-现代都市 · 2026 年	Oraș modern · 2026
-九十年代 · 小城旧事	Anii 1990 · orăşel
-古代 · 书香门第	Vechi timpuri · familie de savanţi
-近未来 · 赛博都市	Aproape de viitor · oraşul cibernetic
-顺其自然，过好每一天	Ia viața așa cum vine
-事业有成，闯出一番名堂	Construiește o carieră de succes
-家人平安，守住平凡幸福	Păstrați familia în condiții de siguranță și fericit
-见世面，走遍天涯	Vezi lumea
-求知到底，成为某个领域的行家	Maestru un domeniu de cunoștințe
-主持人	Moderator
-分析者	Analist
-质疑者	Sceptic
-创意者	Creativ
-务实派	Pragmatist
-女	Femeie
-男	Masculin
-其他	Altele
-1 到 100，看你能几次猜中	Un numar de la 1 la 100
-20 次提问用完了，点重新开始再来一局。	Toate cele 20 de întrebări folosite. Atingeți reporniți pentru a juca din nou.
-AI 玩法	Jocuri AI
-AI 玩法会调用你所选的模型，按实际用量计费。	Jocurile AI numesc modelul selectat și sunt facturate de utilizarea efectivă.
-一共用了	în
-一只猫	o pisică
-一把雨伞	o umbrelă
-一本书	o carte
-一杯咖啡	o ceaşcă de cafea
-一点小惊喜正在路上，留意身边不显眼的机会。	O mică surpriză este pe drum; observaţi şansele liniştite de lângă voi.
-上上签	Cel mai bun noroc
-上签	Noroc
-不进不退，也是一日。守住眼前，就是守住运气。	Nici înainte, nici înapoi nu este încă o zi.
-个 AI 玩法	Jocuri AI
-个模型	modele
-个离线小游戏	Minijocuri offline
-个选项	opțiuni
-中签	Avere cinstită
-二十问	20 Întrebări
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Partea norilor și luna strălucește; fiecare drum este deschis. O zi bună pentru a lua un pas pe ceva ce le-ați dorit mult timp să facă.
-今日签	Averea de azi
-你	Tu
-你一句我一句，让故事一直讲下去	Fă cu rândul şi continuă povestea
-你一句我一句，让故事一直讲下去。	Fă cu rândul şi continuă povestea.
-你赢了	Ai câştigat
-使用	Utilizare
-例如：今天适合开始新计划吗？	De exemplu, astăzi este bun pentru un nou plan?
-候选选项	Opțiuni
-先给故事起个主题吧	Dă povestea o temă mai întâi
-先选一家运营商（连接），再进入模型列表挑选。	Alege un furnizor (conectare) mai întâi, apoi alege din lista sa model.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Alege un furnizor (conectare), apoi alege un model din lista sa.
-再玩一局	Joaca din nou
-再看看	Din nou
-写下接下来发生的事…	Scrie ce urmează..
-冰淇淋	înghețată
-出拳	E rândul tău
-创建角色，由 AI 生成事件与抉择，走完一生	Creați un caracter; AI generează evenimente și alegeri într-o viață întreagă
-别急着决定，先睡一觉。	Dormi pe ea înainte de a decide.
-剩余提问	Întrebări rămase
-剪刀	Foarfece
-同一天抽到的签不会变，明天再来会有新签。	Norocul de azi rămâne acelaşi; întoarce-te mâine pentru unul nou.
-和我来几局，纯靠运气，不花流量。	Câteva runde cu mine noroc pur, fără date folosite.
-圆桌会议、模拟人生与 7 个小游戏	Masă rotundă, Simulator Life & 7 mini-jocuri
-埃菲尔铁塔	Turnul Eiffel
-多模型	Model multiplu
-大了	Prea sus
-大概率可以，但留个后手。	Probabil că da, dar păstrează o rezervă.
-宇宙说：再问一次。	Universul spune: întreabă din nou.
-对话	Conversație
-小了	Prea jos
-小吉	Mică binecuvântare
-就选这个	Du-te cu asta
-已为游戏单独指定模型，随时可换或恢复默认。	Un model dedicat este setat pentru jocuri; schimba sau restabili implicit oricând.
-已猜	Ghiciri
-布	Hârtie
-平	Trage
-平局	E o remiză
-平签	Avere constantă
-开始	Start
-当前对话模型	Modelul actual de chat
-当前连接	Curent
-待时	Bide timpul
-心里默念一个问题	Gândeşte-te la o întrebare
-心里默念一个问题，摇一摇，看它怎么回答。	Gândiți-vă la o întrebare, da un shake, vezi ce spune.
-恢复默认	Restaurează implicit
-想不通的事，出去走一圈大概就有答案了。	Pentru ceea ce nu poţi gândi, o scurtă plimbare va aduce probabil răspunsul.
-我	Eu
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Am ascuns un număr de la 1 la 100
-我想好了一个东西，你用是非题在 20 次内猜出来。	M-am gândit la ceva.
-我赢了	Am câştigat
-手动输入模型 ID	Introduceți manual modelul ID
-抉择轮盘	Roată de decizie
-把纠结的选项写进去，让轮盘替你决定	Enumeră opţiunile şi lasă roata să decidă
-把纠结的选项都写进去，让轮盘替你做决定。	Enumeraţi toate opţiunile pe care le aveţi între voi şi lăsaţi roata să decidă.
-抽一支签	Trage o avere
-换个角度想想会更好。	Încearcă alt unghi.
-搜索模型 ID	Model de căutare ID
-摇一摇	Se agită
-故事接龙	Lanț poveste
-月亮	Luna
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Unele câştiguri, unele pierderi; o minte egală ţine cel mai bine.
-未指定连接	Nicio legătură
-未设置模型	Niciun set model
-未选择连接	Nicio conexiune selectată
-本局使用的模型	Model pentru acest joc
-来几局，纯靠运气	Câteva runde, noroc pur
-模型想一个东西，你用是非题在 20 次内猜中	Modelul se gândeşte la ceva; ghiceşte în 20 de întrebări da/nu
-模型调用失败	Apelul model a eșuat
-次	presupuneri
-每天一支签，同一天不会变。图个乐子，别当真。	O avere pe zi, neschimbată în timpul zilei.
-每天一支签，图个乐子	O avere pe zi, doar pentru distracţie
-每日一签	Noroc zilnic
-每行一个，或用逗号隔开	Unul pe linie sau separat prin vigmă
-没有匹配的模型	Fără modele de potrivire
-沿用聊天界面正在使用的连接与模型。	Utilizați conexiunea și modelul activ în prezent în chat.
-游戏	Jocuri
-点开始，由模型先说第一句。	Atingeţi uşor startul şi lăsaţi modelul să vorbească primul.
-点这里选择运营商与模型	Atingeți pentru a alege un furnizor și un model
-猜一个 1 到 100 的数字	Ghici un număr de la 1 la 100
-猜中了！就是	A fost!
-猜对了！答案是	Răspunsul a fost:
-猜数字	Ghiciţi numărul
-猜！	Ghici!
-现在还看不清，再等等。	Prea devreme pentru a spune; așteptați un pic.
-用一个是非题提问…	Pune o întrebare da / nu ..
-看起来不错，放手去做。	Arată bine.
-眼下还不是最好的时机，先攒力气，等风来。	Adună-ţi puterile şi aşteaptă vântul.
-石头	Rock
-石头剪刀布	Foarfece din hârtie rock
-离线小游戏	Minijocuri offline
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jocuri offline nu numesc un model sau de a folosi date; jocuri AI sunt facturate la modelul ales.
-答案是肯定的。	Da, cu siguranţă.
-胜	Câştigă
-自行车	o bicicletă
-请输入 1 到 100 的整数	Introduceți un număr întreg de la 1 la 100
-负	Pierde
-转起来	Învârte
-还没有连接，请先到「连接与模型」里添加。	Nu există conexiuni încă. Se adaugă una la "Connections & Models."
-这个连接还没有缓存模型，可在下方手动输入。	Nu există modele cache pentru această conexiune; introduceți unul manual mai jos.
-这次恐怕不行。	Probabil că nu de data asta.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3 / 5 modele de la diferiți furnizori, discuta peste runde, obține un rezumat
-选择游戏模型	Alege modelul jocului
-重新开始	Repornire
-钢琴	un pian
-长城	Marele Zid
-静一静心，点下面抽签	Respiră, apoi trage mai jos
-顺签	Navigare fără probleme
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vântul se înmoaie, apa se calmează, ceea ce este în mâinile tale va răspunde la timp, nu trebuie să te grăbeşti.
-魔法八球	Magic 8-Ball
-默念一个问题，摇一摇看它怎么答	Gandeste-te la o intrebare, scutura pentru un raspuns
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Urmează modelul actual de chat implicit; atingeți pentru a seta unul dedicat.
-（模型没有回复）	(Nici un răspuns din partea modelului)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	API-uri oficiale, cum ar fi OpenAI / Antropic nu au un obiectiv public care returnează un preț per-call; întrebări de facturare au nevoie de o cheie de admin separată pe care clientul nu ar trebui să dețină. Deci prețurile provin de la tabele publice LiteLLM / OpenRouter rata, înmulțită cu numerele de jetoane reale înregistrate la nivel local.

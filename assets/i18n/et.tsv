@@ -1,21 +1,41 @@
+你	Sina
+共	sissekandeid
+岁	yrs
+平	Tõmba
+我	Mina
+条	sissekandeid
+次	oletab
+胜	Võida
+负	Kaota
 主色	Accent
 主题	Teema
 今日	Täna
+使用	Kasuta
 保存	Päästa
 停止	Lõpeta
 允许	Luba
 关闭	Sulge
+出拳	Sinu käik
 删除	Kustuta
 刷新	Värskenda
 发送	Saada
 取消	Tühistage
+名称	Nimi
 圆角	Nurgad
 复制	Kopeeri
 外观	Välimus
+大了	Liiga kõrge
 字号	Teksti suurus
 密钥	Võti
+对话	Vestlus
+小了	Liiga madal
 工具	Tööriistad
+已猜	Arvab
+平局	See on viik
+开始	Alusta
+当前	Praegune
 忽略	Ignoreeri
+性别	Soolise
 恢复	Taastage
 接入	Ühenda
 新建	Uus
@@ -24,8 +44,12 @@
 模型	Mudel
 添加	Lisa
 清空	Selge
+游戏	Mängud
+猜！	Arva!
+百万	M
 确定	OK
 离线	Offline
+管理	Manage
 累计	Kokku
 编辑	Edit
 视觉	Visioon
@@ -33,184 +57,360 @@
 语音	Hääl
 请求	Palu
 跳过	Skip
+返回	Tagasi
+选择	Valik
 部署	Paiguta
 销毁	Hävita
+1 轮	1 ring
+2 轮	2 vooru
+3 轮	3 ringi
+个模型	modelle
+个选项	valikuid
+二十问	20 küsimust
+今日签	Tänane varandus
+你赢了	Võidad
+再看看	Jälle
 去设置	Ava seaded
+多模型	Mitmemudeliline
 已停更	Lõpetatud
 已复制	Kopeerisin
+已完结	Lõpetasin
 待检测	Testimata
+我赢了	Võitsin
+摇一摇	Raputa
+未匹配	Ei sobinud
+未发言	Vastuseta
+条发言	muutub
+段经历	sündmusi
 源代码	Allikas
+猜数字	Arva number
 生成中	Genereeri
 知道了	Sain aru
 自定义	Kohandatud
+转起来	Spin
 重命名	Ümbernimeta
 + 新建	+ Uus
+一共用了	sisse
 一键接入	Ühendage
 人物形象	Persona
+人生事件	Elusündmus
+人生存档	Päästetud elud
+人生履历	Elulugu
+人生目标	Elueesmärk
+价格来源	Hinnaallikas
+会议大纲	Agenda
+会议结论	Järeldus
+会议议题	Topic
+会议记录	Kohtumise ajalugu
+估算省下	Est päästetud
+位参会者	osalejate
+候选选项	Valikud
+停止会议	Peatage koosolek
 停止朗读	Lõpeta lugemine
 免密模型	Võtmeta mudelid
+再玩一局	Mängi uuesti
+创建角色	Sümboli loomine
+删除席位	Eemaldage
 删除形象	Kustuta isika
 删除配置	Kustuta profiil
+剩余提问	Küsimused vasakule
+匹配模型	Sobiv mudel
 原始输出	Toores väljund
+参会模型	Osalejad
+命中概览	Vahemälu tabab
+命中次数	Löögid
 图片诊断	Pildidiagnostika
 复制一份	Duplikaat
 复制全文	Kopeeri
 复制内容	Kopeeri tekst
 外观主题	Välimus
+完全权限	Täielik juurdepääs
+实时价格	Eluasemehinnad
 实验记录	Katselogi
 对话语言	Vastamiskeel
+导出纪要	Ekspordiminutid
+少量权限	Minimaalne juurdepääs
+尚未获取	Pole veel kätte saadud
+就选这个	Mine sellega
+席位设置	Istmete seadistused
+开始会议	Alusta koosolekut
 开始检测	Käivita test
 开始说话	Hakka rääkima
 当前会话	See vestlus
 当前模型	Praegune mudel
+当前连接	Praegune
 当前预设	Aktiivne eelseadistus
 待填密钥	Võti
+恢复默认	Vaikimisi taastamine
+抉择轮盘	Otsustusratas
+抽一支签	Joonista varandus
+拉取失败	Tõmbamine nurjus
+按天花费	Kulud päeva lõikes
 授权范围	Load
 接入最快	Kiireim seadistamine
 接口地址	Endpointi URL
+推进人生	Edasine elu
 插件系统	Pluginad
 搜索模型	Otsingumudelid
 搜索设置	Otsinguseadistused
 收起搜索	Otsing peidetakse
+故事接龙	Story Chain
+新建会议	Uus koosolek
+新的人生	Uus elu
+时代背景	Era
 明暗模式	Valgus/pimedus
+更新时间	Uuendatud
+最近命中	Hiljutised tabamused
 未设模型	Mudelit pole
+本地复用	Kohalik taaskasutus
+权限档位	Loa tase
+标准权限	Standardne juurdepääs
+模拟人生	Life Simulator
+正在停止	Peatamine
+每日一签	Igapäevane õnn
 测试连通	Katseühendus
 深度思考	Sügav mõtlemine
 深度研究	Süvauuringud
 添加地址	Lisa lõpp-punkt
+添加席位	Lisage istekoht
+添加连接	Ühenduse lisamine
+生成大纲	Päevakorra loomine
 用量追踪	Kasutuse jälgimine
 界面语言	Liideskeel
+盖棺定论	Lõplik kohtuotsus
 系统当前	Süsteemi
+累计估算	Hinnanguline kogusumma
+缓存命中	Vahemälu tabab
+缓存条目	Vahemällu jäetud vastused
+缓存省下	Salvestatud vahemäluga
+缓存设置	Vahemälu seadistused
 网页抓取	Lehekülje tõmbamine
+美元汇率	USA dollari vahetuskurss
 联网搜索	Veebiotsing
 能力开关	Võimekuslülitid
 能力档位	Võimekuse määramistasand
+角色立场	Roll ja hoiak
+讨论记录	Transkript
+讨论轮数	Ringid
 语音输入	Kõnesisend
 说点什么	Ütle midagi
+请求次数	Taotlused
+输入单价	Sisendhind
+输出单价	Tootmishind
 这台设备	Seade
 连接配置	Ühenduse profiilid
 选择形象	Vali persona
 选择模型	Vali mudel
 配置名称	Profiili nimi
 配置连接	Ühenduse seadistamine
+重新开始	Taaskäivitus
 页面底色	Lehekülje taust
 预设名称	Eelseadistatud nimi
+魔法八球	Magic 8-ball
+AI 玩法	Tehisintellektimängud
 会话与设置	Vestlused ja seadistused
 删除工作台	Kustuta tööruum
 删除此形象	Kustuta see isik
+单价与汇率	Ühikuhind ja FX
+去添加连接	Ühenduse lisamine
 反代与网关	Relee ja lüüsi
 命令已复制	Komando kopeeris
 填入输入框	Sisesta sisendisse
 已复制回答	Vastus kopeeriti
 已开启朗读	Loe edasi
 应用与网页	Rakendused ja veebirakendused
+开始这一生	Alusta seda elu
+按模型花费	Kulud mudeli kaupa
 提示词预设	Eelseadistused
 文件与脚本	Failid ja skriptid
 日历与闹钟	Kalendri häired
+服务端缓存	Teenusepakkuja vahemälu
 朗读已开启	Loe edasi
+未命名议题	Pealkirjata teema
 未指定模型	Mudelit pole valitud
+未指定连接	Ühendust pole
+未设置模型	Mudelikomplekti pole
+未选择连接	Ühendust pole valitud
 查看源代码	Vaade allikas
+模型 ID	Mudeli ID
 源码已复制	Allika kopeerimine
 点一下切换	Kopeeri lülitit
 独立工作区	Privaatne tööruum
+石头剪刀布	Kivipaberikäärid
 研究工作台	Uurimistöö tööruum
+离线小游戏	Ühenduseta minimängud
+结束这一生	Lõpeta see elu
 网页版反代	Veebiredaktsioon
 联网搜索源	Veebiotsingu allikad
+花了多少钱	Kui palju ma kulutasin
 设备智能体	Seadmeagent
 语言与地区	Keel ja piirkond
+费用与价格	Kulud ja hinnakujundus
 输入任务…	Sisesta ülesanne..
-连接与模型	Ühendus & mudel
+还没有存档	Elusid pole veel päästetud
+还没有故事	Lugusid veel pole
+连接与模型	Ühendusmudelid
 重命名配置	Nimeta ümber profiil
 链接已复制	Link kopeeriti
 顶部形象区	Kõrgeima isiku ala
 （无内容）	(tühi)
+个离线小游戏	võrguühenduseta minimängud
+你会怎么选？	Mida sa teed?
+例如：分析者	nt analüütik
 先填主机地址	Sisesta masina esimene
+判定结果失败	Tulemuse lahendamine nurjus
+刷新实时价格	Värskenda reaalajas hindu
 助手消息头像	Vasta avataridele
 去设置里刷新	Värskenda seadistustes
 启用人物形象	Persona lubamine
 启用本机操作	Seadme toimingute lubamine
 图片与多模态	Pildid ja mitmeliigiline
 图片发送格式	Pildivorming
+导出人生履历	Ekspordi elulugu
+尚未选择模型	Mudelit pole valitud
+尚未配置接口	Ei ole seadistatud
 已删除该配置	Profiil kustutatud
 当前 API	Praegune API
+当前对话模型	Aktiivne vestlusmudel
 提示词预设库	Eelseadistatud teegi kiirendamine
 搜索源连通性	Lähteühendus
 新建连接配置	Uus ühenduseprofiil
+暂无历史会议	Salvestatud koosolekuid pole
+暂无参会席位	Osalejaid veel pole
 模型能力档位	Võimekuse määramistasand
+模型调用失败	Mudelkõne nurjus
 每源结果条数	Tulemused allika kohta
 添加免密地址	Lisa võtmeta lõpp- punkt
+清空命中记录	Puhasta tabamused
+清空响应缓存	Puhasta vastuse vahemälu
+点此配置接口	Puudutus ühenduse loomiseks
+猜中了！就是	Sain kätte!
+生成事件失败	Sündmuse genereerimine nurjus
+生成传记失败	Eluloo kirjutamine nurjus
 等待模型输出	Mudeli ootamine
 自动记录实验	Automaatsalvestuskatsed
+设备清理已开	Seadme puhastamine
+设备清理未开	Seadme puhastamine
 语音识别语言	Dikteerimiskeel
 请求体已复制	Taotlev asutus kopeeritud
 还没有记录。	Midagi pole veel salvestatud.
+选择游戏模型	Mängumudeli valimine
 销毁本地凭据	Hävita kohalikud andmed
 随便问点什么	Küsi midagi
+AI 圆桌会议	AI ümarlaud
 HTTP 插件	HTTP plugin
+个 AI 玩法	Tehisintellektimängud
 回收站是空的。	Taaskasutuskast on tühi.
+已复制到剪贴板	Koopia lõikepuhvrisse
 已复制当前配置	Aktiivse profiili kopeerimine
 已恢复到工作区	Taastatud tööruumi
 当前预设已生效	See eelseadistus on aktiivne
 按当前单价估算	Hinnanguline jooksevhindades
 换个关键词试试	Proovi teist võtmesõna
+搜索模型 ID	Otsingumudeli ID
 智能体请求执行	Agent nõuab hagi
+服务端缓存命中	Pakkuja vahemälu tabamused
 朗读上一条回答	Loe viimast vastust
 本地凭据已销毁	Kohalikud andmed hävitati
+本局使用的模型	Selle mängu mudel
 每次操作先问我	Küsige minult enne iga toimingut
+没有匹配的模型	Sobivaid mudeleid pole
 没有匹配的语言	Sobivat keelt pole
 没有匹配的连接	Sobivat ühendust pole
 深度研究工作流	Süvauuringute töövoog
+清空命中记录？	Selged tabamused?
+清空响应缓存？	Selge vastuse vahemälu?
+猜对了！答案是	Õige, vastus oli
 管理 / 切换	Halda / lüliti
 自动接入可用项	Ühenda saadaolevad
+自定义立场描述	Kohandatud hoiak
 Token 用量	Sümboli kasutamine
 在所有连接里查找	Otsi kõiki ühendusi
 工作区路径已复制	Tööruumi tee kopeeriti
+心里默念一个问题	Mõtle küsimusele
 扫描已运行的服务	Skaneeri jooksvaid teenuseid
 搜索连接名或地址	Otsing nime või URL- i järgi
 未启用任何搜索源	Otsinguallikas pole lubatud
+来几局，纯靠运气	Paar raundi, puhas õnn
+正在撰写人生总结	Elu kokkuvõtte kirjutamine
 永久清空回收站？	Tühjendage prügikonteiner jäädavalt?
 测试已启用搜索源	Testi võimaldatud allikad
+留空将自动取名。	Jäta suvalise nime jaoks tühjaks.
+缓存 token	Puhverdatud märgid
+自动获取实时价格	Reaalajas hindade automaatne tõmbamine
+请先填写会议议题	Sisesta kõigepealt koosoleku teema
+（模型没有回复）	(Mudelilt vastust ei saadud)
+下一段人生尚未发生	Järgmine peatükk pole veel alanud
 会话已复制到剪贴板	Vestlus kopeeriti lõikepuhvrisse
 允许模型调用该插件	Lubab mudelil sellele pluginale helistada
+先给故事起个主题吧	Anna loole esimene teema
+填 0 表示不计算	0 kuni kulutuse keelamine
 填入该服务商的密钥	Sisesta pakkuja võti
+复用相同请求的回答	Identsete taotluste taaskasutamine
 手动填写模型 ID	Sisesta mudeli ID käsitsi
+手动输入模型 ID	Sisesta mudeli ID käsitsi
 点击头像从相册选择	Koputage avatari, et valida oma galeriist
+用一个是非题提问…	Küsi jah/ei küsimust..
+给 TA 起个名字	Anna neile nimi
+设备清理与文件删除	Seadme puhastamine & faili kustutamine
 AI 用这种语言回答	AI vastab selles keeles
+也可以自己写一个目标	Või kirjutada oma eesmärk
+仅显示最近 30 条	Viimase 30 kirje näitamine
+写下接下来发生的事…	Kirjuta, mis järgmisena juhtub..
 单次任务最多执行几步	Maksimaalne samm ülesande kohta
 在线 · 需 Key	Nõutav on veebipõhine · võti
 已创建，可在下方编辑	Loodud - redigeeri allpool
 当前会话的能力与连接	Võimalus ja ühendus selle vestluse jaoks
+每天一支签，图个乐子	Üks varandus päevas, lihtsalt lõbu pärast
 自定义搜索引擎 ID	Kohandatud otsingumootori ID
 至少需要保留一份配置	Säilitage vähemalt üks profiil
+输入这次要讨论的问题	Mida peaks sellel kohtumisel arutama?
 还没有可以朗读的回答	Pole veel vastust, et valjusti lugeda
+静一静心，点下面抽签	Hingake sisse ja joonistage alla
 临时凭据（用完即销毁）	Ajutised volitused (hävitatakse pärast kasutamist)
 已还原此预设的内置内容	Sisseehitatud sisu on selle eelseadistuse jaoks taastatud
+每行一个，或用逗号隔开	Üks rea kohta või eraldatud komadega
+点这里选择运营商与模型	Puudutus pakkuja ja mudeli valimiseks
 研究报告已复制到剪贴板	Aruanne kopeeriti lõikepuhvrisse
 主色 · 页面 · 圆角	Aken · lehekülg · nurgad
 打不开浏览器，链接已复制	Brauseri avamine nurjus; link kopeeriti
 朗读上一条回答（已静音）	Loe viimast vastust (vaigistatud)
 每条回答前显示形象小头像	Väikese persona avatari näitamine enne iga vastust
+人生评分 · 满分 100	Elu skoor · 100st
+从已有连接补齐 5 个模型	Täida 5 mudelit ühendustest
 发送前预览 · 最终请求体	Eelvaatlus · lõplik taotlusorgan
 向网关索取真实 usage	Küsi väravalt tegelikku kasutust
+实时价格、按模型与按天花费	Eluasemehinnad, kulu mudeli ja päeva kaupa
 朗读已静音 · 长按可恢复	Read-aloud muted · long press to unmute
 档位、深度思考与联网总开关	Tase, sügav mõtlemine ja veebiotsingu pealüliti
 正在准备朗读 · 点击取消	Kõne ettevalmistamine · katkestamine
 正在并行测试已启用搜索源…	Sisselülitatud allikate testimine paralleelselt..
 消息列表上方显示头像与名字	Avatari ja nime näitamine teadete nimekirja kohal
+点开始，由模型先说第一句。	Koputage ja laske mudelil esimesena rääkida.
 累计消耗、单价、明细与导出	Kulutused kokku, hinnad, jaotus ja eksport
+至少需要一个可用的参会模型	Vaja on vähemalt ühte töömudelit
 预览：静水深流，字要看得清	Eelvaade: veel vesi, tekst peaks jääma loetavaks
+例如：今天适合开始新计划吗？	Kas tänane päev on hea uue plaani jaoks?
 关闭后主界面回到纯工作台样式	Väljalülitamisel naaseb peaekraan tavalise tööruumi välimusele
+命中统计、响应复用与缓存管理	Hit statistika, vastuse taaskasutamine ja vahemälu haldamine
 按钮、标题与说明文字都跟着换	Nupud, pealkirjad ja kirjeldused kõik lülituvad liiga
 这个连接还没有读到模型列表。	Selle ühenduse jaoks ei ole veel mudeliloendit loetud.
 这台主机上没有发现兼容端点。	Sellel masinal ei leitud ühilduvat lõpp-punkti.
+1 到 100，看你能几次猜中	Number 1 kuni 100 - kui vähe oletusi saate võita?
+你一句我一句，让故事一直讲下去	Käige kordamööda ja hoidke lugu käigus
 关闭后保留文档但不注入工具清单	Väljalülitamisel jäävad dokumendid alles, kuid tööriistade nimekirja ei süstita
 多源选择、每源密钥与连通性测试	Vali allikad, lisa lähtekoodi võtmed, testi ühenduvus
 接口地址、密钥、模型与多配置档	Lõpp-punkt, võti, mudelid ja mitu profiili
 深度研究工作流、实验记录与报告	Süvauuringute töövoog, katsepäevik ja aruanded
+猜一个 1 到 100 的数字	Arvake number vahemikus 1 kuni 100
+请输入 1 到 100 的整数	Sisestage täisarv vahemikus 1 kuni 100
+默念一个问题，摇一摇看它怎么答	Mõtle küsimusele, raputa vastuseks
+你一句我一句，让故事一直讲下去。	Tehke kordamööda ja hoidke lugu edasi.
 先完成推理再输出结论，只显示摘要	Kõigepealt põhjus, siis vastus; näidatakse ainult kokkuvõtet
 公益站额度导航 · 社区持续更新	Ühenduse kvootide nimekiri · ühenduse ajakohastatud
 切换不丢失内容；每份预设独立保存	Lülitamine säilitab teksti; iga eelseadistus salvestatakse eraldi
 发送格式、视觉能力判定与图片诊断	Vormingu, nägemise tuvastamise ja pildidiagnostika saatmine
+和我来几局，纯靠运气，不花流量。	Paar vooru minuga - puhas õnn, andmeid ei kasutata.
 已启用的源 · 点开填密钥或端点	Allikate lubamine · võtme või lõpp-punkti lisamine
 每次调用的参数、请求体与响应原文	Parameetrid, päringuorgan ja töötlemata vastus iga kõne puhul
 没有发现服务，检查反代是否已启动	Teenust ei leitud – kontrolli, kas relee töötab
@@ -218,70 +418,107 @@ AI 用这种语言回答	AI vastab selles keeles
 自动压缩到 320px，仅存本地	Survestatud kuni 320px, salvestatud ainult kohapeal
 自定义头像、名字、性格与角色设定	Kohandatud avatar, nimi, isiksus ja roll
 不写入磁盘，仅保留在本次会话内存中	Salvestatud ainult selle seansi mällu, pole kunagi kettale kirjutatud
+圆桌会议、模拟人生与 7 个小游戏	Ümarlaud, Life Simulator ja 7 minimängu
+把纠结的选项写进去，让轮盘替你决定	Loetle oma valikud ja lase rattal otsustada
 探测公开的免密钥模型，能对话才列出	Proovige avalikke võtmeta mudeleid ja loetlege ainult need, mis vastavad
+沿用聊天界面正在使用的连接与模型。	Kasutatakse vestlustes aktiivset ühendust ja mudelit.
+由 AI 根据议题生成，可手动修改	Teemast genereeritud AI; redigeeritav
 19 套主题、自定义配色、圆角与字号	19 teemat, kohandatud värvid, nurgad ja teksti suurus
 会真发一句极短的问题，消耗少量额度。	Saadab ühe väga lühikese küsimuse ja kasutab väikest kvooti.
 保存参数与响应原文，最多 120 条	Salvesta parameetrid ja töötlemata vastused, kuni 120 kirjet
+只清统计与列表，不影响已缓存的回答。	Puhastab ainult statistikat ja nimekirja; vahemälus vastused säilitatakse.
 朗读与语音输入，免费与付费引擎都可切	Read-aloud ja häälsisend, tasuta ja tasulised mootorid
 sk-…（本地 Ollama 可留空）	sk-... (jäta kohaliku Ollama puhul tühjaks)
 只打开系统确认页，需你亲手点保存才生效	Avab ainult süsteemilehe; midagi ei muutu enne, kui puudutad Salvesta
 把开源 xx2api 项目接成一条连接	Avatud lähtekoodiga xx2api projekti ühendamine ühendusega
 界面、回答、语音识别三套语言，独立设置	Liides-, vastus- ja dikteerimiskeeled – kolm sõltumatut seadistust
 该会话的所有消息将被移除，且无法恢复。	Kõik sõnumid selles vestluses eemaldatakse jäädavalt.
+隔离工作区内读写、任务脚本（沙箱保护）	Lugemine/kirjutamine isoleeritud tööruumis ja ülesannete skriptides (liivakastis)
+20 次提问用完了，点重新开始再来一局。	Kõik 20 küsimust. Klõps taaskäivitub uuesti mängimiseks.
+同一天抽到的签不会变，明天再来会有新签。	Tänane õnn jääb samaks; tule homme uue pärast tagasi.
+已手动调整单项授权，不对应任何预设档位。	Üksiklube on käsitsi muudetud; eelseadistatud taset ei kohaldata.
+心里默念一个问题，摇一摇，看它怎么回答。	Mõelge küsimusele, andke raputada, vaadake, mida see ütleb.
 所有连接配置的密钥将被清除，且无法恢复。	Iga ühenduse profiili võtmed kustutatakse jäädavalt.
+把纠结的选项都写进去，让轮盘替你做决定。	Loetlege kõik valikud, mille vahele rebitakse, ja laske rattal otsustada.
 没有匹配的项目，换个关键词或点「全部」。	Midagi ei sobi - proovige teist märksõna või puudutage kõiki.
 没识别到有效地址，需要以 http 开头	Korrektset URL- i ei leitud; see peab algama http- ga
+添加连接并选定模型后，模型会显示在这里。	Mudelid ilmuvad siin, kui lisate ühenduse ja valite selle.
 真实 usage 优先，未返回时本地估算	Tegelik kasutamine esimesena; hinnanguline kohapeal, kui puudub
 还没有启用任何源，联网搜索不会发起检索。	Lähtekoodi pole lubatud, seega veebiotsing ei tööta.
+还没有连接，请先到「连接与模型」里添加。	Ühendusi veel pole. Lisa üks "Ühendused ja mudelid" alla.
 System Prompt 预设与变量插值	Süsteemi algseadistused ja muutujate interpoleerimine
+之后相同的请求会重新发起，直到再次被缓存。	Samad taotlused saadetakse uuesti, kuni need on uuesti vahemälus.
+尚未配置接口，请先到设置里填好连接与模型。	Ühendust pole seadistatud. Seadistustes seadke kõigepealt lõpp- punkt ja mudel.
+已为游戏单独指定模型，随时可换或恢复默认。	Mängudele on määratud spetsiaalne mudel; seda igal ajal muuta või vaikeväärtus taastada.
 检索 → 大纲 → 逐节展开 → 汇总报告	Otsing → ülevaade → eelnõu → raport
 还没有拉到模型列表，点右上角「刷新」读取。	Mudelite nimekirja veel ei ole - puudutage paremal ülaosas värskendust.
+还没有添加任何连接，所以这里没有可用模型。	Ühendust ei ole veel lisatud, seega pole siin mudeleid saadaval.
+这个连接还没有缓存模型，可在下方手动输入。	Selle ühenduse jaoks pole puhverdatud mudeleid; sisesta üks käsitsi allpool.
+先选一家运营商（连接），再进入模型列表挑选。	Valige kõigepealt teenusepakkuja (ühendus), seejärel valige oma mudeliloendist.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Väljalülitamisel käitub täpselt nagu tavaline vestlusklient, kellel pole tööriistu süstitud
 写文件、打开应用等动作在界面上等你点「允许」	Failide kirjutamine, rakenduste avamine ja sarnased toimingud ootavad teie "Allow" kraani
+创建角色，由 AI 生成事件与抉择，走完一生	Loo iseloomu; AI genereerib sündmusi ja valikuid läbi kogu elu
 只读工具随时可用；其余按上面的授权分组生效。	Ainult lugemisvahendid töötavad alati; kõik muu järgib ülaltoodud rühmi.
 圆角只作用于卡片、按钮与输入台，不影响排版。	Ümardamine kehtib kaartide, nuppude ja helilooja kohta, mitte paigutuse kohta.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Ava installitud rakendused, käivita brauser, jaga, kirjuta lõikepuhvrisse
+模型想一个东西，你用是非题在 20 次内猜中	Mudel mõtleb millelegi; arva ära 20 jah/ei küsimusega
+每天一支签，同一天不会变。图个乐子，别当真。	Üks varandus päevas, päeva jooksul muutumatuna.
+每行一条，讨论时所有参会者都会看到这份大纲。	Iga osaleja näeb seda päevakorda.
 读取公开网页正文（禁止内网 / 元数据地址）	Loe avaliku lehekülje teksti (privaatne ja metaandmete aadress on blokeeritud)
 127.0.0.1 或 192.168.1.5	127.0.0.1 või 192.168.1.5
+AI 玩法会调用你所选的模型，按实际用量计费。	AI-mängud kutsuvad teie valitud mudelit ja arveldatakse tegeliku kasutuse järgi.
 例如：端侧小模型在 2025 年的推理优化路径	Nt seadmepõhised väikesed mudelid ja järelduste optimeerimine 2025. aastal
 可为当前这个工作台单独指定，不影响其它工作台。	See kehtib ainult selle tööruumi kohta; teised tööruumid jätavad oma valiku.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Mitme ringi otsingud → ülevaade → eelnõu → raport
+所有剧情由你配置的模型实时生成，只保存在本机。	Iga sündmus genereeritakse teie mudeli abil ja salvestatakse ainult selles seadmes.
 输入关键词，可在这个连接和所有其他连接里查找。	Kirjuta märksõna, et otsida seda ühendust ja kõiki teisi.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Otsinguallikas pole veel lubatud – lülita see sisse menüüs Seadistused → Otsing
 回收站里的备份与被删文件将被真正删除，无法恢复。	Varukoopiad ja kustutatud failid prügikastis kustutatakse jäädavalt.
 搜索语言，如 英语 / English / 冰岛	Otsingukeeled, nt inglise / 冰岛
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Privaatse tööruumi lugemine/kirjutamine, ülesannete skriptide käivitamine (liivakastiga, vaikimisi lubatud)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Järgib vaikimisi aktiivset vestlusmudelit. Puuduta spetsiaalset.
 Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / visioon
 分两批并发，单个超时 25 秒；有本机服务时会更快	Kaks samaaegset partiid, iga 25-s aegumine; kiirem, kui leitakse kohalik teenus
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Ainult tekst - rea kõrgused ja vahekaugused jäävad paigale, nii et suuremad suurused ei murra kunagi nuppe.
+我想好了一个东西，你用是非题在 20 次内猜出来。	Ma mõtlesin midagi välja, arvan, et 20 jah/ei küsimuse peale.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Seadme info, privaatne tööruum, rakendused / kalender / häired
 等宽原样呈现，不解析 Markdown、不转换引用	Näidatakse nagu- on monoruumis: ei ole Markdowni parsimist, ei ole tsitaatide teisendamist
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Seadme toiminguid veel pole. Iga samm on logitud ja seda saab hiljem üle vaadata.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Valige pakkuja (ühendus), seejärel valige oma loendist mudel.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Volikirjad on ainult selles seadmes AES-krüptitud; päringud lähevad otse sisestatud lõpp-punkti.
 可留空，留空时请求不带 Authorization。	Valikuline – kui see on tühi, saadetakse päringud ilma autoriseerimise päiseta.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Vali erinevad ühendused või mudelid. Isegi üks mudel võib erinevate rollide korral endaga mitte nõustuda.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Puuduta lubamiseks, klõpsa uuesti keelamiseks. Veebiotsinguks kasutatakse ainult lubatud allikaid.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Dikteerimiskeel mõjutab ainult kõne-teksti; vale paneb selle teise keelde transkribeerima.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Loe vastuseid valjusti. Vabad kanalid võivad igal ajal töötamise lõpetada, süsteemikõne töötab alati.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	One-tap test saadab igale pakkujale tõelise taotluse ja loetleb ainult need, mis läbivad.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Taotle reaalset kasutamist; kui lõpp-punkti vead, lülita see välja ja lange tagasi ≈ hinnangutele.
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Ma peidan numbrit vahemikus 1 kuni 100, kui vähe sa suudad seda teha?
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	Reaalne kasutamine võidab; kui värav jätab selle välja, hindame tähemärkide järgi ja märgistame selle ≈-ga.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Valige 3–5 mudelit erinevatest pakkujatest, arutage üle voorude, saate kokkuvõtte
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Puudub veel tabamus. Kasuta mõnda aega ümarlauda või minimängu ning siin näidatakse andmeid.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Proovi lühemat aliast (4o / ds / qwen) või kasuta seda ID-d sellisena nagu see on.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Sisesta 0, et jätta hinnahinnangud vahele. Hindu kasutatakse ainult kohalikult, mitte kunagi ei saadeta kuhugi.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline mängud ei helista kunagi mudelile ega kasuta andmeid; AI mängud arveldatakse teie valitud mudelile.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Markdown renderdamise ega tsiteerimise markereid ei ole – toorteksti näidatakse monoruumis.
 在电脑上跑着 g4f / chat2api / Ollama？	G4f / chat2api / Ollama käivitamine teie arvutis?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Pole veel isikut. Loo üks allpool - avatar, nimi ja kõnestiil on kõik sinu määrata.
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	Lugemiskaitstud: seadme info, paigaldatud rakendused ja failinimekirjad. Ei kirjuta midagi ega ava ühtegi muud rakendust.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Mitme ringi otsimine → ülevaade → sektsioonide kaupa draft → lõppraport. Katkesta igal ajal.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Otsingumudelid või müüjad, nt gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Otsinguprojektid, platvormid või mudelid, nt deepseek / kimi / gateway
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Puhastage selle rakenduse vahemälud, leidke ja kustutage failid ligipääsetavates kaustades (soovitatav ainult täielikuks juurdepääsuks)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Praegu tühi. Palu agendil "salvestada tulemus märkmetele /" ja see ilmub allpool.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Volitamata toiminguid ei teostata; mudel saab „vajaliku loa ja selgitab selle asemel tekstis.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Salvestamine peatub, kui oled vaikne. Transkript läheb sisendkasti – märgi see ära, siis saada.
 请求体附带 stream_options.include_usage	Taotlusvorm sisaldab järgmist: stream options.include usage
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Määra hind 0, et jätta kuluarvestus vahele. Käsitsi sisestatud hinnad jäävad kehtima, kui sa just ei värskenda live- hindu.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Tõmbab käivitamisel taustale avaliku hinnatabeli ja sobib aktiivse mudeliga. Kasutamisandmeid ei laadita kunagi üles.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Allikad otsitakse paralleelselt, deduplitseeritakse URL-iga ja liidetakse interleaveeritud tsitaatideks; üks puudulik allikas ei mõjuta teisi.
 按路径筛选，如 app_state / AndroidManifest	Filter asukoha järgi, nt app state / AndroidManifest
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Peab olema OpenAI- ga ühilduv lõpp- punkt, mis ei vaja võtit. Seda testitakse kohe pärast lisamist.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Kontrollige järjekorras: teenus töötab, port sobib, tulemüür võimaldab seda ja telefon ei ole külaliste võrgus.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Määrab, mida agent saab selles telefonis teha ühes kraanis. Tase muudab ainult õigusi, riskantsed toimingud nõuavad siiski kinnitust ükshaaval.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Vale keele tavaline sümptom on "see kuuleb mind, aga transkribeerib teise keele". Aktsentsendiga vali sama keele piirkondlik variant.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Järgi küsimust" ei lisa keeleõpet ja laseb mudelil otsustada. Valitud keel kirjutatakse süsteemi kiiresti.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://example.com/v1 gpt-4o-mini\nÜks rea kohta; mudeli nimi ei ole kohustuslik
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Neli anonüümset kanalit ja tosin mudelit, kõik testitud ühe kraaniga. Ainult mudelinimekiri on eksitav: paljud väravad loetlevad kõik ja tagastavad siis reaalsel kõnel 402 või 429.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	"Automaatse salvestamise eksperimentide" lubamine menüükäsuga Seadistused. Iga kõne - tavalises vestluses või süvauuringutes - on arhiveeritud oma parameetrite, redigeeritud päringuorgani ja mudeli toorväljundiga, kuni 120 kirjet.
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Relee töötab tavaliselt arvutis või ruuteris. Liitu sama Wi-Fi-ga, sisesta selle masina LAN IP (nt 192.168.1.5) ja puuduta Skaneerimist, et proovida ühiseid porte.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Identsed mittevoogesituse päringud ümarlaudades, Life SIM-is, minimängudes ja süvauuringutes taaskasutavad eelmist vastust 6 tunni jooksul – ei mingit taotlust ega tasu. Põhivestlus voogesitab ja tõmbab alati värske vastuse.
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Vaikimisi vastab mudel ainult küsimustele. Lülita see sisse ja saab lugeda seadmest reaalset infot ning tegutseda vastavalt sellele, mida lubad: lugeda ja kirjutada privaatset tööruumi, avada rakendusi ja veebilehti, luua kalendrisündmusi, määrata häireid.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Salvestatakse mõlemat tüüpi tabamused: teenusepakkuja tagastatud kiirvahemälu žetoonide eest makstakse allahindlust; kohalik taaskasutus ei saada üldse päringut. Säästu hinnatakse määratud sisendhinna, mitte arve põhjal.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Iga tööruum võib oma persona ülemise riba avatarilt tühistada. Rollikirjeldus kirjutatakse süsteemi päringusse identiteedimärkena; see muudab tooni ja stiili, mitte seda, mida mudel tegelikult suudab.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Kulu = pakkuja tagastatud tegelikud märgid × ühikuhind. Kui pakkuja jätab kasutuse kasutamata, hinnatakse märke teksti põhjal ja need võivad olla veidi väljas. See on ainult kohalik hinnang, ametlik arve on sinu teenusepakkuja konsoolis.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Saadaolevad muutujad: {{query}} {{time}} {{model}} {{language}} {{sources}} {{tier}} – asendatud reaalsete väärtustega enne saatmist.
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Porte 8000 ja 3000 jagatakse mitme projektiga, nii et ainult üks saab töötada ühe masina kohta, vahetada porti või juurutada eraldi mõlema käivitamiseks. Ametlik komplekt vajab võtit, kuid sellel on tasuta kvoot. Ühenduse eksemplarid on kellegi teise teenus - nad võivad igal ajal võrgust välja minna, nii et nende kaudu ei saa kunagi isiklikke andmeid saata.
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Kasuta {{query}} {{time}} {{modell}} {{language}} {{sources}} {{tier}}, need asendatakse enne saatmist reaalsete väärtustega.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Vabad kanalid kasutavad avalikke veebi lõpp-punkte ning võivad igal ajal töötamise lõpetada või muutuda kiirusepiiranguks. Võtmed on krüptitud ainult selles seadmes ja neid ei sünkroonita kunagi. Klõpsa valjusti lugemiseks lainenuppu üleval paremal või vajuta pikalt mulli. Koputa mikrofon heliredaktoris rääkimiseks; salvestamine peatub, kui oled vait, ning tekst maandub sisendkasti, et seda enne saatmist üle vaadata.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Pildid saadetakse inline kujul base64, pikim serv 1280, kvaliteet 72. Kui pildipäring tagastab 400 / 413 / ühendus suletud, lükkab mudel või värav tõenäoliselt inline pildid tagasi - lülitage ülaltoodud vormingut, et seda kitsendada.
-1 轮	1 ring
-2 轮	2 vooru
-3 轮	3 ringi
-AI 圆桌会议	AI ümarlaud
-AI 实验室	AI Lab
-下一段人生尚未发生	Järgmine peatükk pole veel alanud
-也可以自己写一个目标	Või kirjutada oma eesmärk
-人生事件	Elusündmus
-人生存档	Päästetud elud
-人生履历	Elulugu
-人生目标	Elueesmärk
-人生评分 · 满分 100	Elu skoor · 100st
-从已有连接补齐 5 个模型	Täida 5 mudelit ühendustest
-会议大纲	Agenda
-会议结论	Järeldus
-会议议题	Topic
-会议记录	Kohtumise ajalugu
-位参会者	osalejate
-你会怎么选？	Mida sa teed?
-例如：分析者	nt analüütik
-停止会议	Peatage koosolek
-创建角色	Sümboli loomine
-删除席位	Eemaldage
-判定结果失败	Tulemuse lahendamine nurjus
-参会模型	Osalejad
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Vali erinevad ühendused või mudelid. Isegi üks mudel võib erinevate rollide korral endaga mitte nõustuda.
-名称	Nimi
-多模型圆桌会议 · 3~5 个 AI 开会	AI ümarlaud · 3–5 mudelit arutelul
-导出人生履历	Ekspordi elulugu
-导出纪要	Ekspordiminutid
-尚未配置接口，请先到设置里填好连接与模型。	Ühendust pole seadistatud. Seadistustes seadke kõigepealt lõpp- punkt ja mudel.
-岁	yrs
-已复制到剪贴板	Koopia lõikepuhvrisse
-已完结	Lõpetasin
-席位设置	Istmete seadistused
-开始会议	Alusta koosolekut
-开始这一生	Alusta seda elu
-性别	Soolise
-所有剧情由你配置的模型实时生成，只保存在本机。	Iga sündmus genereeritakse teie mudeli abil ja salvestatakse ainult selles seadmes.
-推进人生	Edasine elu
-新建会议	Uus koosolek
-新的人生	Uus elu
-时代背景	Era
-暂无历史会议	Salvestatud koosolekuid pole
-暂无参会席位	Osalejaid veel pole
-未发言	Vastuseta
-未命名议题	Pealkirjata teema
-条发言	muutub
-模型 ID	Mudeli ID
-模拟人生	Life Simulator
-模拟人生 · AI 生成剧情与抉择	Life Simulator · AI loodud lugu ja valikud
-正在停止	Peatamine
-正在撰写人生总结	Elu kokkuvõtte kirjutamine
-段经历	sündmusi
-每行一条，讨论时所有参会者都会看到这份大纲。	Iga osaleja näeb seda päevakorda.
-添加席位	Lisage istekoht
-生成事件失败	Sündmuse genereerimine nurjus
-生成传记失败	Eluloo kirjutamine nurjus
-生成大纲	Päevakorra loomine
-由 AI 根据议题生成，可手动修改	Teemast genereeritud AI; redigeeritav
-留空将自动取名。	Jäta suvalise nime jaoks tühjaks.
-盖棺定论	Lõplik kohtuotsus
-结束这一生	Lõpeta see elu
-给 TA 起个名字	Anna neile nimi
-自定义立场描述	Kohandatud hoiak
-至少需要一个可用的参会模型	Vaja on vähemalt ühte töömudelit
-角色立场	Roll ja hoiak
-讨论记录	Transkript
-讨论轮数	Ringid
-请先填写会议议题	Sisesta kõigepealt koosoleku teema
-输入这次要讨论的问题	Mida peaks sellel kohtumisel arutama?
-返回	Tagasi
-还没有存档	Elusid pole veel päästetud
-还没有故事	Lugusid veel pole
-连接	Ühendus
-选择	Valik
-健康	Tervis
-才智	Pea meeles
-魅力	Charm
-财富	Rikkus
-声望	Kuulsus
-幸福	Joy
-现代都市 · 2026 年	Moodne linn · 2026
-九十年代 · 小城旧事	1990ndad · väikelinn
-古代 · 书香门第	Iidsed ajad · õpetlik perekond
-近未来 · 赛博都市	Lähitulevik · küberlinn
-顺其自然，过好每一天	Võta elu nii nagu tuleb
-事业有成，闯出一番名堂	Ehita edukat karjääri
-家人平安，守住平凡幸福	Hoidke pere turvalisena ja õnnelikuna
-见世面，走遍天涯	Vaata maailma
-求知到底，成为某个领域的行家	Magister teadmiste valdkonnas
-主持人	Moderaator
-分析者	Analüütik
-质疑者	Skeptiline
-创意者	Loov
-务实派	Pragmaatik
-女	Naine
-男	Isane
-其他	Teised
-1 到 100，看你能几次猜中	Number 1 kuni 100 - kui vähe oletusi saate võita?
-20 次提问用完了，点重新开始再来一局。	Kõik 20 küsimust. Klõps taaskäivitub uuesti mängimiseks.
-AI 玩法	Tehisintellektimängud
-AI 玩法会调用你所选的模型，按实际用量计费。	AI-mängud kutsuvad teie valitud mudelit ja arveldatakse tegeliku kasutuse järgi.
-一共用了	sisse
-一只猫	kassi
-一把雨伞	vihmavarju
-一本书	raamatu
-一杯咖啡	tassi kohvi
-一点小惊喜正在路上，留意身边不显眼的机会。	Väike üllatus on tulemas; märka vaikseid võimalusi enda lähedal.
-上上签	Parim õnn
-上签	Õnn kaasa
-不进不退，也是一日。守住眼前，就是守住运气。	Ei edasi ega tagasi ei ole veel päev, vaid selle hoidmine, mis siin on, hoiab su õnne.
-个 AI 玩法	Tehisintellektimängud
-个模型	modelle
-个离线小游戏	võrguühenduseta minimängud
-个选项	valikuid
-中签	Õiglane õnn
-二十问	20 küsimust
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Pilved lahkuvad ja kuu paistab eredalt, iga tee on avatud. Hea päev astuda üks samm sellele, mida oled ammu tahtnud teha.
-今日签	Tänane varandus
-你	Sina
-你一句我一句，让故事一直讲下去	Käige kordamööda ja hoidke lugu käigus
-你一句我一句，让故事一直讲下去。	Tehke kordamööda ja hoidke lugu edasi.
-你赢了	Võidad
-使用	Kasuta
-例如：今天适合开始新计划吗？	Kas tänane päev on hea uue plaani jaoks?
-候选选项	Valikud
-先给故事起个主题吧	Anna loole esimene teema
-先选一家运营商（连接），再进入模型列表挑选。	Valige kõigepealt teenusepakkuja (ühendus), seejärel valige oma mudeliloendist.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Valige pakkuja (ühendus), seejärel valige oma loendist mudel.
-再玩一局	Mängi uuesti
-再看看	Jälle
-写下接下来发生的事…	Kirjuta, mis järgmisena juhtub..
-冰淇淋	jäätise
-出拳	Sinu käik
-创建角色，由 AI 生成事件与抉择，走完一生	Loo iseloomu; AI genereerib sündmusi ja valikuid läbi kogu elu
-别急着决定，先睡一觉。	Maga enne otsustamist.
-剩余提问	Küsimused vasakule
-剪刀	Käärid
-同一天抽到的签不会变，明天再来会有新签。	Tänane õnn jääb samaks; tule homme uue pärast tagasi.
-和我来几局，纯靠运气，不花流量。	Paar vooru minuga - puhas õnn, andmeid ei kasutata.
-圆桌会议、模拟人生与 7 个小游戏	Ümarlaud, Life Simulator ja 7 minimängu
-埃菲尔铁塔	Eiffeli torni
-多模型	Mitmemudeliline
-大了	Liiga kõrge
-大概率可以，但留个后手。	Tõenäoliselt jah, aga varukoopia.
-宇宙说：再问一次。	Universum ütleb: küsi uuesti.
-对话	Vestlus
-小了	Liiga madal
-小吉	Väike õnnistus
-就选这个	Mine sellega
-已为游戏单独指定模型，随时可换或恢复默认。	Mängudele on määratud spetsiaalne mudel; seda igal ajal muuta või vaikeväärtus taastada.
-已猜	Arvab
-布	Paber
-平	Tõmba
-平局	See on viik
-平签	Kindel õnn
-开始	Alusta
-当前对话模型	Aktiivne vestlusmudel
-当前连接	Praegune
-待时	Võta aega
-心里默念一个问题	Mõtle küsimusele
-心里默念一个问题，摇一摇，看它怎么回答。	Mõelge küsimusele, andke raputada, vaadake, mida see ütleb.
-恢复默认	Vaikimisi taastamine
-想不通的事，出去走一圈大概就有答案了。	Mida te ei suuda läbi mõelda, lühike jalutuskäik toob tõenäoliselt vastuse.
-我	Mina
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Ma peidan numbrit vahemikus 1 kuni 100, kui vähe sa suudad seda teha?
-我想好了一个东西，你用是非题在 20 次内猜出来。	Ma mõtlesin midagi välja, arvan, et 20 jah/ei küsimuse peale.
-我赢了	Võitsin
-手动输入模型 ID	Sisesta mudeli ID käsitsi
-抉择轮盘	Otsustusratas
-把纠结的选项写进去，让轮盘替你决定	Loetle oma valikud ja lase rattal otsustada
-把纠结的选项都写进去，让轮盘替你做决定。	Loetlege kõik valikud, mille vahele rebitakse, ja laske rattal otsustada.
-抽一支签	Joonista varandus
-换个角度想想会更好。	Proovi teist vaatenurka.
-搜索模型 ID	Otsingumudeli ID
-摇一摇	Raputa
-故事接龙	Story Chain
-月亮	Kuu
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Mõned võidud, mõned kaotused, ühtlane mõistus püsib kõige paremini.
-未指定连接	Ühendust pole
-未设置模型	Mudelikomplekti pole
-未选择连接	Ühendust pole valitud
-本局使用的模型	Selle mängu mudel
-来几局，纯靠运气	Paar raundi, puhas õnn
-模型想一个东西，你用是非题在 20 次内猜中	Mudel mõtleb millelegi; arva ära 20 jah/ei küsimusega
-模型调用失败	Mudelkõne nurjus
-次	oletab
-每天一支签，同一天不会变。图个乐子，别当真。	Üks varandus päevas, päeva jooksul muutumatuna.
-每天一支签，图个乐子	Üks varandus päevas, lihtsalt lõbu pärast
-每日一签	Igapäevane õnn
-每行一个，或用逗号隔开	Üks rea kohta või eraldatud komadega
-没有匹配的模型	Sobivaid mudeleid pole
-沿用聊天界面正在使用的连接与模型。	Kasutatakse vestlustes aktiivset ühendust ja mudelit.
-游戏	Mängud
-点开始，由模型先说第一句。	Koputage ja laske mudelil esimesena rääkida.
-点这里选择运营商与模型	Puudutus pakkuja ja mudeli valimiseks
-猜一个 1 到 100 的数字	Arvake number vahemikus 1 kuni 100
-猜中了！就是	Sain kätte!
-猜对了！答案是	Õige, vastus oli
-猜数字	Arva number
-猜！	Arva!
-现在还看不清，再等等。	Liiga vara öelda, oota natuke.
-用一个是非题提问…	Küsi jah/ei küsimust..
-看起来不错，放手去做。	Näeb hea välja. Lase käia.
-眼下还不是最好的时机，先攒力气，等风来。	Praegu pole õige aeg, kogu oma jõud ja oota tuult.
-石头	Rock
-石头剪刀布	Kivipaberikäärid
-离线小游戏	Ühenduseta minimängud
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline mängud ei helista kunagi mudelile ega kasuta andmeid; AI mängud arveldatakse teie valitud mudelile.
-答案是肯定的。	Jah, kindlasti.
-胜	Võida
-自行车	jalgratta
-请输入 1 到 100 的整数	Sisestage täisarv vahemikus 1 kuni 100
-负	Kaota
-转起来	Spin
-还没有连接，请先到「连接与模型」里添加。	Ühendusi veel pole. Lisa üks "Ühendused ja mudelid" alla.
-这个连接还没有缓存模型，可在下方手动输入。	Selle ühenduse jaoks pole puhverdatud mudeleid; sisesta üks käsitsi allpool.
-这次恐怕不行。	Ilmselt mitte seekord.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Valige 3–5 mudelit erinevatest pakkujatest, arutage üle voorude, saate kokkuvõtte
-选择游戏模型	Mängumudeli valimine
-重新开始	Taaskäivitus
-钢琴	klaverit
-长城	Suure müüri
-静一静心，点下面抽签	Hingake sisse ja joonistage alla
-顺签	Sujuv purjetamine
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Tuul pehmeneb, vesi rahuneb. See, mis on sinu käes, vastab õigel ajal, pole vaja kiirustada.
-魔法八球	Magic 8-ball
-默念一个问题，摇一摇看它怎么答	Mõtle küsimusele, raputa vastuseks
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Järgib vaikimisi aktiivset vestlusmudelit. Puuduta spetsiaalset.
-（模型没有回复）	(Mudelilt vastust ei saadud)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	Ametlikel rakendusliidestel (nt OpenAI / Anthropic) ei ole avalikku lõpp- punkti, mis tagastaks kõnehinna; arvelduspäringud vajavad eraldi administraatorivõtit, mida klient ei tohiks kunagi hoida. Seega pärinevad hinnad avalikest LiteLLM / OpenRouteri hinnatabelitest, mis on korrutatud kohalikult registreeritud tegelike märgiarvudega.

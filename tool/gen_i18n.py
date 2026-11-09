@@ -103,11 +103,37 @@ class FakeSent:
 
 
 def translate_all(code, pairs, manual):
+    # 繁体中文没有 en→zh-TW 的 Argos 模型。把英文机翻回中文既慢又不准，
+    # 正确做法是对中文原文做简繁转换；已有译文一律保留，只补新增词条。
+    if code == 'zh-TW':
+        try:
+            import zhconv
+
+            def conv(s):
+                return zhconv.convert(s, 'zh-tw')
+        except ImportError:
+            # 没装 zhconv 时退回简体原文：功能不受影响，check_i18n 仍能通过。
+            def conv(s):
+                return s
+
+        path = os.path.join(ROOT, 'assets', 'i18n', 'zh-TW.tsv')
+        existing = {}
+        if os.path.exists(path):
+            for line in open(path, encoding='utf-8').read().split('\n'):
+                if '\t' in line:
+                    k, v = line.split('\t', 1)
+                    existing[k.replace(r'\n', '\n')] = v.replace(r'\n', '\n')
+        out = {k: existing.get(k) or conv(k) for k in pairs}
+        out.update(manual)
+        return out
+
     import argostranslate.translate as T
 
     path = os.path.join(CACHE, f'{code}.json')
     done = json.load(open(path, encoding='utf-8')) if os.path.exists(path) else {}
-    todo = [k for k in pairs if k not in done]
+    # 空串也算没翻出来：Argos 偶尔对个别长句返回空，若不重翻，
+    # write_tsv 会跳过这一行，check_i18n 就会报缺词条。
+    todo = [k for k in pairs if not done.get(k)]
     if todo:
         tr = T.get_translation_from_codes('en', code)
         tr.underlying.sentencizer = FakeSent()
@@ -125,6 +151,10 @@ def translate_all(code, pairs, manual):
                   ensure_ascii=False, indent=0)
     out = dict(done)
     out.update(manual)  # 人工短语优先，机翻不覆盖
+    # 机翻仍是空串时回退英文原文，绝不让词表缺行。
+    for k in list(out):
+        if not out[k]:
+            out[k] = pairs.get(k, k)
     return out
 
 

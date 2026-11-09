@@ -56,16 +56,19 @@ void main() {
       final route = SoftPageRoute<void>(builder: (_) => const SizedBox());
       expect(route.transitionDuration, const Duration(milliseconds: 240));
       expect(route.reverseTransitionDuration, const Duration(milliseconds: 200));
-      // 一级页面不透明：下层被 Overlay 摘掉，省一次全屏合成。
-      expect(route.opaque, isTrue);
+      // v4.25：全站默认保留下层 onstage。以前只有设置子页这么做，
+      // 点按钮返回时下层要从 offstage 恢复、首帧重建整页，正是卡顿来源。
+      expect(route.keepBelow, isTrue);
+      expect(route.opaque, isFalse);
     });
 
-    test('二级页面保留下层：opaque 为 false，返回时不用重建整页', () {
+    test('显式关掉 keepBelow 才恢复不透明', () {
       final route = SoftPageRoute<void>(
-        keepBelow: true,
+        keepBelow: false,
         builder: (_) => const SizedBox(),
       );
-      expect(route.opaque, isFalse);
+      expect(route.keepBelow, isFalse);
+      expect(route.opaque, isTrue);
     });
 
   });

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import '../models/models.dart';
+import 'cache_store.dart';
 
 class LlmChunk {
   final String content;
@@ -137,6 +138,14 @@ class ModelFetchResult {
 /// OpenAI Chat Completions 兼容客户端（SSE 流式）。
 class LlmClient {
   final Dio _dio;
+
+  /// 全局默认响应缓存。圆桌会议 / 模拟人生 / 小游戏会自己 new 一个
+  /// LlmClient，用静态默认值才能保证它们也走同一份缓存。
+  /// 由 AppState 在启动时注入；未注入时缓存完全不生效（测试不受影响）。
+  static ResponseCache? defaultCache;
+
+  /// 命中时回调，AppState 用它把命中写进台账并刷新界面。
+  static void Function(CacheHitEntry entry)? onCacheHit;
 
   LlmClient()
       : _dio = Dio(BaseOptions(
@@ -382,8 +391,30 @@ class LlmClient {
   }
 
   /// 深度研究工作流需要同时拿到正文与 token 用量。
-  Future<({String text, TokenUsage? usage})> completeWithUsage(LlmRequest req,
-      {CancelToken? cancel}) async {
+  Future<({String text, TokenUsage? usage, bool fromCache})>
+      completeWithUsage(LlmRequest req, {CancelToken? cancel}) async {
+    // 只缓存「一次性完整回答」的调用。主对话走流式 chat()，不经过这里，
+    // 所以用户重新问同一个问题永远拿到新回答，不会被旧答案糊弄。
+    final cache = defaultCache;
+    final cacheable = cache != null && cache.enabled && req.model.trim().isNotEmpty;
+    final key = cacheable ? ResponseCache.keyFor(req) : null;
+
+    if (key != null) {
+      final hit = cache!.get(key);
+      if (hit != null) {
+        final saved = hit.usage?.total ??
+            TokenUsage.estimate('', hit.text).total;
+        LlmClient.onCacheHit?.call(CacheHitEntry(
+          at: DateTime.now().millisecondsSinceEpoch,
+          model: req.model,
+          kind: CacheHitKind.response,
+          tokens: saved,
+          summary: ResponseCache.summaryOf(req),
+        ));
+        return (text: hit.text, usage: hit.usage, fromCache: true);
+      }
+    }
+
     final buf = StringBuffer();
     TokenUsage? usage;
     await for (final c in chat(req, cancel: cancel)) {
@@ -392,7 +423,12 @@ class LlmClient {
       buf.write(c.content);
       if (c.usage != null) usage = c.usage;
     }
-    return (text: buf.toString(), usage: usage);
+    final text = buf.toString();
+    // 出错 / 空回答绝不入缓存，否则一次故障会被反复复用。
+    if (key != null && text.trim().isNotEmpty) {
+      cache!.put(key, text, usage);
+    }
+    return (text: text, usage: usage, fromCache: false);
   }
 
   /// 把一个 SSE 事件数据解析为 chunk；解析不了返回 null

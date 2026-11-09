@@ -17,7 +17,9 @@ import '../state/app_state.dart';
 import '../i18n.dart';
 import '../theme.dart';
 import 'agent_panel.dart';
+import 'billing_panel.dart';
 import 'brand_icon.dart';
+import 'cache_panel.dart';
 import 'free_pool_panel.dart';
 import 'games_hub.dart';
 import 'lang_picker_sheet.dart';
@@ -193,6 +195,10 @@ List<SettingsCat> get kSettingsCats => [
       ['提示词', 'system', 'prompt', '预设', '变量', '注入', '人设']),
   SettingsCat('usage', t('Token 用量'), t('累计消耗、单价、明细与导出'), Icons.data_usage_outlined,
       ['token', '用量', '费用', '价格', '单价', '统计', 'csv', '消耗']),
+  SettingsCat('cache', t('缓存命中'), t('命中统计、响应复用与缓存管理'), Icons.cached_outlined,
+      ['缓存', '命中', '复用', '省钱', 'cache', 'hit', 'prompt cache']),
+  SettingsCat('billing', t('费用与价格'), t('实时价格、按模型与按天花费'), Icons.payments_outlined,
+      ['费用', '价格', '花了多少钱', '计费', '账单', '汇率', 'price', 'cost']),
   SettingsCat('games', t('游戏'), t('圆桌会议、模拟人生与 7 个小游戏'), Icons.sports_esports_outlined,
       ['游戏', '玩', '娱乐', '圆桌', '会议', '模拟人生', '轮盘', '猜数字', '剪刀', '抽签', '八球', '二十问', '接龙', 'game']),
 ];
@@ -765,7 +771,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
       '偏好设置',
       ['language', 'appearance', 'persona', 'voice', 'agent', 'search', 'research']
     ),
-    ('数据与高级', ['presets', 'usage']),
+    ('数据与高级', ['presets', 'usage', 'cache', 'billing']),
     ('游戏', ['games']),
   ];
 
@@ -986,9 +992,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
           s.agentAllowExternal,
           s.agentAllowSystem,
           s.agentAllowNetwork,
+          s.agentAllowDevice,
         ].where((e) => e).length;
         return s.agentEnabled
-            ? '已启用 · $n 组授权 · 每次确认${s.agentConfirmEach ? "开" : "关"}'
+            ? '${_permName(s.agentPermissionLevel)} · $n 组授权 · 每次确认${s.agentConfirmEach ? "开" : "关"}'
             : '未启用 · 仅回答问题';
       }
       case 'capability':
@@ -1009,10 +1016,22 @@ class _SettingsScreenState extends State<SettingsScreen> {
             '${days > 1 ? ' · $days 天' : ''}';
       case 'games':
         return '2 ${t('个 AI 玩法')} · 7 ${t('个离线小游戏')}';
+      case 'cache':
+        return '命中 ${st.cacheLedger.hits} 次 · ${st.responseCache.size} 条缓存';
+      case 'billing':
+        final c = st.totalCost;
+        return c == null ? '未设置单价' : '累计约 ¥${c.toStringAsFixed(4)}';
       default:
         return '';
     }
   }
+
+  String _permName(int lv) => switch (lv) {
+        AppSettings.kPermMinimal => t('少量权限'),
+        AppSettings.kPermStandard => t('标准权限'),
+        AppSettings.kPermFull => t('完全权限'),
+        _ => t('自定义'),
+      };
 
   String _voiceBrief(AppSettings s) {
     final tts = ttsEngineById(s.ttsEngineId)?.name ?? '系统语音';
@@ -1086,6 +1105,10 @@ class _SettingsScreenState extends State<SettingsScreen> {
         return _presetCard(dark, s);
       case 'usage':
         return _usageCard(dark);
+      case 'cache':
+        return CachePanel(dark: dark);
+      case 'billing':
+        return BillingPanel(dark: dark);
       case 'games':
         return GamesHub(dark: dark);
       default:

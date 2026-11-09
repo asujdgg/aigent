@@ -236,4 +236,122 @@ class DeviceBridge {
   /// 应用专属外部目录下的工作区绝对路径；拿不到时返回 null，
   /// 由 [AgentWorkspace] 退回 `getApplicationDocumentsDirectory()`。
   Future<String?> workspaceRoot() => _call<String>('workspace.root');
+
+  // -------------------------------------------------- v4.25 设备清理 / 找文件
+
+  /// 只读：缓存、临时文件、工作区各自占多少，系统还剩多少空间。
+  Future<StorageSummary?> storageSummary() async {
+    final r = await _call<Map<dynamic, dynamic>>('storage.summary');
+    if (r == null) return null;
+    return StorageSummary.fromJson(Map<String, dynamic>.from(r));
+  }
+
+  /// 在**本应用可访问的目录**里按文件名找文件。
+  /// Android 沙箱不允许遍历别的应用私有目录，这里不会假装做得到。
+  Future<List<FoundFile>> searchFiles(String query, {int limit = 60}) async {
+    final r = await _call<List<dynamic>>(
+        'files.search', {'query': query, 'limit': limit});
+    if (r == null) return const <FoundFile>[];
+    return r
+        .whereType<Map<dynamic, dynamic>>()
+        .map((e) => FoundFile.fromJson(Map<String, dynamic>.from(e)))
+        .toList();
+  }
+
+  /// 清理本应用缓存、code_cache 与临时文件（不碰用户数据、不碰别的应用）。
+  Future<CleanResult?> cleanCache() async {
+    final r = await _call<Map<dynamic, dynamic>>('storage.clean');
+    if (r == null) return null;
+    return CleanResult.fromJson(Map<String, dynamic>.from(r));
+  }
+
+  /// 删除一个文件。原生侧会校验路径必须落在允许的根目录内，
+  /// 越界一律拒绝，避免模型拼一个 `/sdcard/...` 就把别的东西删了。
+  Future<bool> deleteFile(String path) =>
+      _call<bool>('files.delete', {'path': path}).then((v) => v == true);
+
+  /// 打开系统存储设置 / 本应用详情页。其它 App 的缓存只能由用户
+  /// 或系统在这里清，第三方应用从 Android 7 起已无权代劳。
+  Future<bool> openStorageSettings() =>
+      _call<bool>('storage.openSettings').then((v) => v == true);
+}
+
+/// 存储占用快照，单位都是字节。
+class StorageSummary {
+  final int cacheBytes;
+  final int tempBytes;
+  final int workspaceBytes;
+  final int freeBytes;
+  final int totalBytes;
+  final int cacheFiles;
+
+  const StorageSummary({
+    this.cacheBytes = 0,
+    this.tempBytes = 0,
+    this.workspaceBytes = 0,
+    this.freeBytes = 0,
+    this.totalBytes = 0,
+    this.cacheFiles = 0,
+  });
+
+  int get reclaimable => cacheBytes + tempBytes;
+  int get usedBytes => totalBytes - freeBytes;
+
+  factory StorageSummary.fromJson(Map<dynamic, dynamic> j) => StorageSummary(
+        cacheBytes: (j['cacheBytes'] as num?)?.toInt() ?? 0,
+        tempBytes: (j['tempBytes'] as num?)?.toInt() ?? 0,
+        workspaceBytes: (j['workspaceBytes'] as num?)?.toInt() ?? 0,
+        freeBytes: (j['freeBytes'] as num?)?.toInt() ?? 0,
+        totalBytes: (j['totalBytes'] as num?)?.toInt() ?? 0,
+        cacheFiles: (j['cacheFiles'] as num?)?.toInt() ?? 0,
+      );
+
+  /// 人话版大小：KB / MB / GB 两档小数。
+  static String human(int bytes) {
+    if (bytes <= 0) return '0 B';
+    if (bytes < 1024) return '$bytes B';
+    if (bytes < 1024 * 1024) {
+      return '${(bytes / 1024).toStringAsFixed(1)} KB';
+    }
+    if (bytes < 1024 * 1024 * 1024) {
+      return '${(bytes / 1024 / 1024).toStringAsFixed(1)} MB';
+    }
+    return '${(bytes / 1024 / 1024 / 1024).toStringAsFixed(2)} GB';
+  }
+}
+
+class FoundFile {
+  final String path;
+  final String name;
+  final int size;
+  final int modified;
+  final bool isDir;
+
+  const FoundFile({
+    required this.path,
+    required this.name,
+    this.size = 0,
+    this.modified = 0,
+    this.isDir = false,
+  });
+
+  factory FoundFile.fromJson(Map<dynamic, dynamic> j) => FoundFile(
+        path: (j['path'] ?? '').toString(),
+        name: (j['name'] ?? '').toString(),
+        size: (j['size'] as num?)?.toInt() ?? 0,
+        modified: (j['modified'] as num?)?.toInt() ?? 0,
+        isDir: j['isDir'] == true,
+      );
+}
+
+class CleanResult {
+  final int freedBytes;
+  final int removedFiles;
+
+  const CleanResult({this.freedBytes = 0, this.removedFiles = 0});
+
+  factory CleanResult.fromJson(Map<dynamic, dynamic> j) => CleanResult(
+        freedBytes: (j['freed'] as num?)?.toInt() ?? 0,
+        removedFiles: (j['files'] as num?)?.toInt() ?? 0,
+      );
 }

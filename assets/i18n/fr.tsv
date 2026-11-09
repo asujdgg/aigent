@@ -1,21 +1,41 @@
+你	Toi
+共	entrées
+岁	ans
+平	Dessiner
+我	Moi
+条	entrées
+次	devine
+胜	Gagner
+负	Perdre
 主色	Couleur d’accent
 主题	Thème
 今日	Aujourd'hui
+使用	Utilisation
 保存	Enregistrer
 停止	Arrêter
 允许	Permettre
 关闭	Fermer
+出拳	Votre mouvement
 删除	Supprimer
 刷新	Actualiser
 发送	Envoyer
 取消	Annuler
+名称	Dénomination
 圆角	Arrondi
 复制	Copier
 外观	Apparence
+大了	Trop haut
 字号	Taille du texte
 密钥	Clé
+对话	Conversation
+小了	Trop bas
 工具	Outils
+已猜	Devine
+平局	C'est un tirage
+开始	Démarrer
+当前	Actuellement
 忽略	Ignorer
+性别	Sexe
 恢复	Restauration
 接入	Connexion
 新建	Nouveau
@@ -24,8 +44,12 @@
 模型	Modèle
 添加	Ajouter
 清空	Effacer
+游戏	Jeux
+猜！	Devinez !
+百万	M
 确定	OK
 离线	Hors ligne
+管理	Gérer
 累计	Total général
 编辑	Modifier
 视觉	Vision
@@ -33,184 +57,360 @@
 语音	Voix
 请求	Demande
 跳过	Sauter
+返回	Précédent
+选择	Choix
 部署	Déployer
 销毁	Détruire
+1 轮	1 tour
+2 轮	2 tours
+3 轮	3 tours
+个模型	modèles
+个选项	options
+二十问	20 Questions
+今日签	La fortune d'aujourd'hui
+你赢了	Tu gagnes
+再看看	Encore
 去设置	Ouvrir les paramètres
+多模型	Multimodèle
 已停更	Arrêt
 已复制	Copié
+已完结	Achevé
 待检测	Non testé
+我赢了	Je gagne
+摇一摇	Agiter
+未匹配	Non apparié
+未发言	Pas de réponse
+条发言	tourne
+段经历	événements
 源代码	Source
+猜数字	Devine le numéro
 生成中	Génération
 知道了	Compris
 自定义	Personnalisé
+转起来	Tourner
 重命名	Renommer
 + 新建	+ Nouveau
+一共用了	en
 一键接入	Tout connecter
 人物形象	Persona
+人生事件	Événements de vie
+人生存档	Sauvé des vies
+人生履历	Histoire de vie
+人生目标	Objectif de vie
+价格来源	Prix source
+会议大纲	Ordre du jour
+会议结论	Conclusion
+会议议题	Thème
+会议记录	Historique de la réunion
+估算省下	Est. sauvé
+位参会者	participants
+候选选项	Options
+停止会议	Arrête de te rencontrer
 停止朗读	Arrête de lire
 免密模型	Modèles sans clé
+再玩一局	Rejouer
+创建角色	Créer un caractère
+删除席位	Supprimer le siège
 删除形象	Supprimer persona
 删除配置	Supprimer le profil
+剩余提问	Questions laissées
+匹配模型	Modèle assorti
 原始输出	Production brute
+参会模型	Participants
+命中概览	Cache frappe
+命中次数	Coups
 图片诊断	Diagnostic des images
 复制一份	Dupliquer
 复制全文	Copier tout
 复制内容	Copier le texte
 外观主题	Apparence
+完全权限	Accès complet
+实时价格	Prix en direct
 实验记录	Journal des expériences
 对话语言	Langue des réponses
+导出纪要	Minutes d'exportation
+少量权限	Accès minimal
+尚未获取	Pas encore récupéré
+就选这个	Allez avec ça
+席位设置	Réglages des sièges
+开始会议	Début de la réunion
 开始检测	Essai de démarrage
 开始说话	Commencez à parler
 当前会话	Cette conversation
 当前模型	Modèle actuel
+当前连接	Actuellement
 当前预设	Préréglage actuel
 待填密钥	Clé nécessaire
+恢复默认	Restaurer par défaut
+抉择轮盘	Roue de décision
+抽一支签	Tire une fortune
+拉取失败	La saisie a échoué
+按天花费	Coût journalier
 授权范围	Autorisations
 接入最快	Plus rapide à configurer
 接口地址	URL d'extrémité
+推进人生	Durée de vie supérieure
 插件系统	Greffons
 搜索模型	Modèles de recherche
 搜索设置	Paramètres de recherche
 收起搜索	Masquer la recherche
+故事接龙	Chaîne d'histoire
+新建会议	Nouvelle réunion
+新的人生	Une nouvelle vie
+时代背景	Ere
 明暗模式	Lumière/obscurité
+更新时间	Mise à jour
+最近命中	Résultats récents
 未设模型	Pas de modèle
+本地复用	Réutilisation locale
+权限档位	Niveau autorisé
+标准权限	Accès standard
+模拟人生	Simulateur de vie
+正在停止	Arrêt
+每日一签	Une fortune quotidienne
 测试连通	Connexion d'essai
 深度思考	Pensée profonde
 深度研究	Recherche approfondie
 添加地址	Ajouter le paramètre
+添加席位	Ajouter un siège
+添加连接	Ajouter une connexion
+生成大纲	Générer l'ordre du jour
 用量追踪	Suivi de l'utilisation
 界面语言	Langue de l’interface
+盖棺定论	Arrêt définitif
 系统当前	Système
+累计估算	Montant estimatif
+缓存命中	Cache frappe
+缓存条目	Réponses en cache
+缓存省下	Enregistré par cache
+缓存设置	Paramètres de cache
 网页抓取	Recherche de page
+美元汇率	Taux de change USD
 联网搜索	Recherche Web
 能力开关	Interrupteurs de capacité
 能力档位	Niveau de capacité
+角色立场	Rôle & position
+讨论记录	Transcription
+讨论轮数	Rondes
 语音输入	Entrée vocale
 说点什么	Dites quelque chose
+请求次数	Demandes
+输入单价	Prix des intrants
+输出单价	Prix à la production
 这台设备	Ce dispositif
 连接配置	Profils de connexion
 选择形象	Choisir persona
-选择模型	Choisir un modèle
+选择模型	Choisir le modèle
 配置名称	Nom du profil
 配置连接	Configuration de la connexion
+重新开始	Redémarrer
 页面底色	Fond de page
 预设名称	Nom prédéfini
+魔法八球	Magic 8-Ball
+AI 玩法	Jeux AI
 会话与设置	Chats et paramètres
 删除工作台	Supprimer l'espace de travail
 删除此形象	Supprimer cette persona
+单价与汇率	Prix unitaire & FX
+去添加连接	Ajouter une connexion
 反代与网关	Relay & passerelle
 命令已复制	Commande copiée
 填入输入框	Insérer dans l'entrée
 已复制回答	Réponse copiée
 已开启朗读	Lecture à haute voix
 应用与网页	Applications & web
+开始这一生	Commence cette vie
+按模型花费	Coût par modèle
 提示词预设	Préréglages de prompt
 文件与脚本	Fichiers & scripts
 日历与闹钟	Calendrier & alarmes
+服务端缓存	Cache du fournisseur
 朗读已开启	Lecture à haute voix
+未命名议题	Sujet sans titre
 未指定模型	Aucun modèle sélectionné
+未指定连接	Aucune connexion
+未设置模型	Aucun ensemble de modèles
+未选择连接	Aucune connexion sélectionnée
 查看源代码	Afficher la source
+模型 ID	Numéro de modèle
 源码已复制	Source copiée
 点一下切换	Toucher pour changer
 独立工作区	Espace de travail privé
+石头剪刀布	Ciseaux en papier de roche
 研究工作台	Recherche approfondie
+离线小游戏	Mini-jeux hors ligne
+结束这一生	Fin de cette vie
 网页版反代	Relais web
 联网搜索源	Sources de recherche
+花了多少钱	Combien ai-je dépensé ?
 设备智能体	Agent de l’appareil
 语言与地区	Langue et région
+费用与价格	Coût et prix
 输入任务…	Saisissez une tâche..
-连接与模型	Connexion & modèle
+还没有存档	Pas encore de vies sauvées
+还没有故事	Pas encore d'histoires
+连接与模型	Connexion et modèles
 重命名配置	Renommer le profil
 链接已复制	Lien copié
 顶部形象区	Zone de top persona
 （无内容）	(vide)
+个离线小游戏	mini-jeux hors ligne
+你会怎么选？	Qu'allez-vous faire ?
+例如：分析者	Par exemple, analyste
 先填主机地址	Saisissez d'abord un hôte
+判定结果失败	Échec du résultat
+刷新实时价格	Rafraîchir les prix en direct
 助手消息头像	Répondre aux avatars
 去设置里刷新	Rafraîchir les paramètres
 启用人物形象	Activer persona
 启用本机操作	Activer les actions du périphérique
 图片与多模态	Images et multimodal
 图片发送格式	Format d'image
+导出人生履历	Exporter une histoire de vie
+尚未选择模型	Aucun modèle sélectionné
+尚未配置接口	Non configuré
 已删除该配置	Profil supprimé
 当前 API	API actuelle
+当前对话模型	Modèle de chat actuel
 提示词预设库	Librairie préréglée
 搜索源连通性	Connectivité des sources
 新建连接配置	Nouveau profil de connexion
+暂无历史会议	Pas de réunions enregistrées
+暂无参会席位	Pas encore de participants
 模型能力档位	Niveau de capacité
+模型调用失败	L'appel du modèle a échoué
 每源结果条数	Résultats par source
 添加免密地址	Ajouter un paramètre sans clé
+清空命中记录	Effacer les enregistrements
+清空响应缓存	Effacer le cache de réponse
+点此配置接口	Appuyez sur pour configurer une connexion
+猜中了！就是	Compris !
+生成事件失败	Impossible de générer l'événement
+生成传记失败	Échec de l'écriture de la biographie
 等待模型输出	Attendre le modèle
 自动记录实验	Expériences d'enregistrement automatique
+设备清理已开	Nettoyage des appareils
+设备清理未开	Nettoyage du périphérique
 语音识别语言	Langue de dictée
 请求体已复制	Demander copie du corps
 还没有记录。	Rien encore enregistré.
+选择游戏模型	Choisir le modèle de jeu
 销毁本地凭据	Détruire les pouvoirs locaux
 随便问点什么	Demande-moi n'importe quoi
+AI 圆桌会议	Table ronde sur l'IA
 HTTP 插件	Plugin HTTP
+个 AI 玩法	Jeux AI
 回收站是空的。	La poubelle est vide.
+已复制到剪贴板	Copie sur presse-papiers
 已复制当前配置	Profil actuel copié
 已恢复到工作区	Restauré dans l'espace de travail
 当前预设已生效	Ce préréglage est actif
 按当前单价估算	Estimation aux prix courants
 换个关键词试试	Essayez un autre mot clé
+搜索模型 ID	Numéro du modèle de recherche
 智能体请求执行	Agent demande une action
+服务端缓存命中	Affichage du cache du fournisseur
 朗读上一条回答	Lire la dernière réponse
 本地凭据已销毁	Détruire les pouvoirs locaux
+本局使用的模型	Modèle pour ce jeu
 每次操作先问我	Demandez-moi avant chaque action
+没有匹配的模型	Pas de modèles assortis
 没有匹配的语言	Aucune langue correspondante
 没有匹配的连接	Aucune connexion correspondante
 深度研究工作流	Travaux de recherche approfondis
+清空命中记录？	Des enregistrements clairs ?
+清空响应缓存？	Effacer le cache de réponse ?
+猜对了！答案是	C'est vrai !
 管理 / 切换	Gérer / changer
 自动接入可用项	Connectez-les disponibles
+自定义立场描述	Position personnalisée
 Token 用量	Utilisation de tokens
 在所有连接里查找	Rechercher toutes les connexions
 工作区路径已复制	Chemin de l'espace de travail copié
+心里默念一个问题	Pensez à une question
 扫描已运行的服务	Scanner les services d'exécution
 搜索连接名或地址	Recherche par nom ou URL
 未启用任何搜索源	Aucune source de recherche activée
+来几局，纯靠运气	Quelques rondes, pure chance
+正在撰写人生总结	Écrire le résumé de vie
 永久清空回收站？	Vider définitivement la poubelle ?
 测试已启用搜索源	Sources testées
+留空将自动取名。	Laisser blanc pour un nom aléatoire.
+缓存 token	Cacheaux
+自动获取实时价格	Obtenez automatiquement les prix en direct
+请先填写会议议题	Entrez d'abord un sujet de réunion
+（模型没有回复）	(Aucune réponse du modèle)
+下一段人生尚未发生	Le chapitre suivant n'a pas commencé
 会话已复制到剪贴板	Conversation copiée dans le presse-papiers
 允许模型调用该插件	Permettre au modèle d'appeler ce plugin
+先给故事起个主题吧	Donnez à l'histoire un thème d'abord
+填 0 表示不计算	0 pour désactiver les coûts
 填入该服务商的密钥	Saisissez la clé du fournisseur
+复用相同请求的回答	Réutiliser des requêtes identiques
 手动填写模型 ID	Saisissez manuellement un ID du modèle
+手动输入模型 ID	Saisissez manuellement l'ID du modèle
 点击头像从相册选择	Appuyez sur l'avatar pour choisir dans votre galerie
+用一个是非题提问…	Posez une question oui/non..
+给 TA 起个名字	Donnez-leur un nom
+设备清理与文件删除	Nettoyage des périphériques & suppression des fichiers
 AI 用这种语言回答	L'IA répond dans cette langue
+也可以自己写一个目标	Ou écrivez votre propre but
+仅显示最近 30 条	Affichage des dernières 30 entrées
+写下接下来发生的事…	Écrivez ce qui se passe ensuite..
 单次任务最多执行几步	Étapes maximales par tâche
 在线 · 需 Key	En ligne · clé requise
 已创建，可在下方编辑	Création — modifier ci-dessous
 当前会话的能力与连接	Capacités et connexion pour cette conversation
+每天一支签，图个乐子	Une fortune par jour, juste pour s'amuser
 自定义搜索引擎 ID	ID du moteur de recherche personnalisé
 至少需要保留一份配置	Gardez au moins un profil
+输入这次要讨论的问题	De quoi devrait parler cette réunion?
 还没有可以朗读的回答	Pas encore de réponse à lire à haute voix
+静一静心，点下面抽签	Respirez, puis tirez en bas
 临时凭据（用完即销毁）	Pouvoirs temporaires (détruits après utilisation)
 已还原此预设的内置内容	Contenu intégré restauré pour ce préréglage
+每行一个，或用逗号隔开	Une par ligne, ou séparée par des virgules
+点这里选择运营商与模型	Appuyez sur pour choisir un fournisseur et un modèle
 研究报告已复制到剪贴板	Rapport copié dans le presse-papiers
 主色 · 页面 · 圆角	Accent · page · coins
 打不开浏览器，链接已复制	Impossible d'ouvrir un navigateur; lien copié
 朗读上一条回答（已静音）	Lire la dernière réponse (muté)
 每条回答前显示形象小头像	Afficher une petite personne avatar avant chaque réponse
+人生评分 · 满分 100	Score de vie · sur 100
+从已有连接补齐 5 个模型	Remplir 5 modèles de connexions
 发送前预览 · 最终请求体	Pré-envoi de l'aperçu · corps de requête final
 向网关索取真实 usage	Demander la passerelle pour une utilisation réelle
+实时价格、按模型与按天花费	Prix en direct, coût par modèle et par jour
 朗读已静音 · 长按可恢复	Read-aloud muted · longue pression à unmuet
 档位、深度思考与联网总开关	Tier, pensée profonde et le commutateur de maître de recherche web
 正在准备朗读 · 点击取消	Préparation du discours · tap pour annuler
 正在并行测试已启用搜索源…	Essai des sources activées en parallèle..
 消息列表上方显示头像与名字	Afficher avatar et nom au-dessus de la liste des messages
+点开始，由模型先说第一句。	Appuyez sur Démarrer et laissez le modèle parler en premier.
 累计消耗、单价、明细与导出	Dépenses totales, prix, ventilation et exportations
+至少需要一个可用的参会模型	Au moins un modèle de travail est requis
 预览：静水深流，字要看得清	Aperçu: l'eau calme, le texte doit rester lisible
+例如：今天适合开始新计划吗？	Par exemple, aujourd'hui est-il bon pour un nouveau plan?
 关闭后主界面回到纯工作台样式	Lorsque l'écran principal est éteint, il retourne à l'espace de travail simple
+命中统计、响应复用与缓存管理	Affichage des statistiques, réutilisation des réponses et gestion du cache
 按钮、标题与说明文字都跟着换	Boutons, titres et descriptions changent aussi
 这个连接还没有读到模型列表。	Aucune liste de modèles n'a encore été lue pour cette connexion.
 这台主机上没有发现兼容端点。	Aucun paramètre compatible trouvé sur cet hôte.
+1 到 100，看你能几次猜中	Un nombre de 1 à 100 — combien de suppositions pouvez - vous gagner?
+你一句我一句，让故事一直讲下去	Tourne-toi et continue l'histoire
 关闭后保留文档但不注入工具清单	Lorsque vous êtes absent, les documents restent mais la liste des outils n'est pas injectée
 多源选择、每源密钥与连通性测试	Choisir des sources, ajouter des clés par source, tester la connectivité
 接口地址、密钥、模型与多配置档	Point d'extrémité, clé, modèles et profils multiples
 深度研究工作流、实验记录与报告	Déroulement de la recherche approfondie, journal des expériences et rapports
+猜一个 1 到 100 的数字	Devinez un nombre de 1 à 100
+请输入 1 到 100 的整数	Saisissez un nombre entier de 1 à 100
+默念一个问题，摇一摇看它怎么答	Pensez à une question, secouez-vous pour une réponse
+你一句我一句，让故事一直讲下去。	Tourne-toi et continue l'histoire.
 先完成推理再输出结论，只显示摘要	Raison d'abord, puis répondre; seul le résumé est affiché
 公益站额度导航 · 社区持续更新	Liste des quotas communautaires · mise à jour par la communauté
 切换不丢失内容；每份预设独立保存	La commutation conserve votre texte ; chaque préréglage est stocké séparément
 发送格式、视觉能力判定与图片诊断	Envoyer format, détection de vision et diagnostic d'image
+和我来几局，纯靠运气，不花流量。	Quelques tours avec moi — pure chance, aucune donnée utilisée.
 已启用的源 · 点开填密钥或端点	Sources activées · ouvrir une pour ajouter une clé ou un paramètre
 每次调用的参数、请求体与响应原文	Paramètres, corps de demande et réponse brute pour chaque appel
 没有发现服务，检查反代是否已启动	Aucun service trouvé — vérifiez que le relais fonctionne
@@ -218,70 +418,107 @@ AI 用这种语言回答	L'IA répond dans cette langue
 自动压缩到 320px，仅存本地	Comprimé à 320px, stocké localement seulement
 自定义头像、名字、性格与角色设定	Avatar personnalisé, nom, personnalité et rôle
 不写入磁盘，仅保留在本次会话内存中	Conservé en mémoire pour cette session seulement, jamais écrit sur disque
+圆桌会议、模拟人生与 7 个小游戏	Table ronde, simulateur de vie et 7 mini-jeux
+把纠结的选项写进去，让轮盘替你决定	Énumérez vos options et laissez la roue décider
 探测公开的免密钥模型，能对话才列出	Sonde des modèles publics sans clé et liste seulement ceux qui répondent
+沿用聊天界面正在使用的连接与模型。	Utilisez la connexion et le modèle actuellement actifs dans le chat.
+由 AI 根据议题生成，可手动修改	AI généré à partir du sujet; modifiable
 19 套主题、自定义配色、圆角与字号	19 thèmes, couleurs personnalisées, coins et taille du texte
 会真发一句极短的问题，消耗少量额度。	Envoie une question très courte et utilise un petit quota.
 保存参数与响应原文，最多 120 条	Enregistrer les paramètres et les réponses brutes, jusqu'à 120 entrées
+只清统计与列表，不影响已缓存的回答。	Seulement efface les statistiques et la liste; les réponses mises en cache sont conservées.
 朗读与语音输入，免费与付费引擎都可切	Entrée voix et voix, moteurs gratuits et payants
 sk-…（本地 Ollama 可留空）	sk-... (laisser vide pour Ollama local)
 只打开系统确认页，需你亲手点保存才生效	Ouvre la feuille système seulement ; rien ne change jusqu'à ce que vous touchez Enregistrer
 把开源 xx2api 项目接成一条连接	Filer un projet open-source xx2api dans une connexion
 界面、回答、语音识别三套语言，独立设置	Langues d'interface, de réponse et de dictée — trois paramètres indépendants
 该会话的所有消息将被移除，且无法恢复。	Chaque message de cette conversation sera supprimé de façon permanente.
+隔离工作区内读写、任务脚本（沙箱保护）	Lire/écrire dans l'espace de travail et les scripts de tâches isolés (sandboxed)
+20 次提问用完了，点重新开始再来一局。	Toutes les 20 questions utilisées. Appuyez sur redémarrer pour jouer à nouveau.
+同一天抽到的签不会变，明天再来会有新签。	La fortune d'aujourd'hui reste la même; revenez demain pour une nouvelle.
+已手动调整单项授权，不对应任何预设档位。	Les autorisations individuelles ont été modifiées manuellement; aucun niveau prédéfini ne s'applique.
+心里默念一个问题，摇一摇，看它怎么回答。	Pensez à une question, faites-la trembler, voyez ce qu'elle dit.
 所有连接配置的密钥将被清除，且无法恢复。	Les clés de chaque profil de connexion seront effacées en permanence.
+把纠结的选项都写进去，让轮盘替你做决定。	Énumérez toutes les options entre lesquelles vous êtes déchiré et laissez la roue décider.
 没有匹配的项目，换个关键词或点「全部」。	Rien ne correspond — essayez un autre mot clé ou appuyez sur Tout.
 没识别到有效地址，需要以 http 开头	Aucune URL valide trouvée; elle doit commencer par http
+添加连接并选定模型后，模型会显示在这里。	Les modèles apparaissent ici une fois que vous ajoutez une connexion et choisissez une.
 真实 usage 优先，未返回时本地估算	Utilisation réelle d'abord; estimée localement quand il manque
 还没有启用任何源，联网搜索不会发起检索。	Aucune source activée, donc la recherche sur le Web ne s'exécute pas.
+还没有连接，请先到「连接与模型」里添加。	Pas encore de connexions. Ajoutez-en un sous "Connexions et modèles".
 System Prompt 预设与变量插值	Préréglages rapides du système et interpolation variable
+之后相同的请求会重新发起，直到再次被缓存。	Les demandes identiques seront envoyées à nouveau jusqu'à ce qu'elles soient mises en cache une fois de plus.
+尚未配置接口，请先到设置里填好连接与模型。	Pas de connexion configurée. Configurez d'abord un paramètre et un modèle dans Paramètres.
+已为游戏单独指定模型，随时可换或恢复默认。	Un modèle dédié est défini pour les jeux; le modifier ou restaurer par défaut à tout moment.
 检索 → 大纲 → 逐节展开 → 汇总报告	Recherche → contour → projet → rapport
 还没有拉到模型列表，点右上角「刷新」读取。	Pas encore de liste de modèles — appuyez sur Actualiser en haut à droite.
+还没有添加任何连接，所以这里没有可用模型。	Aucune connexion n'a encore été ajoutée, il n'y a donc pas de modèles disponibles ici.
+这个连接还没有缓存模型，可在下方手动输入。	Pas de modèles mis en cache pour cette connexion; entrez un manuellement ci-dessous.
+先选一家运营商（连接），再进入模型列表挑选。	Choisissez d'abord un fournisseur (connection), puis choisissez dans sa liste de modèles.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Lorsqu'il est éteint, il se comporte exactement comme un client de chat sans outil injecté
 写文件、打开应用等动作在界面上等你点「允许」	En écrivant des fichiers, en ouvrant des applications et des actions similaires, attendez votre touche "Allow"
+创建角色，由 AI 生成事件与抉择，走完一生	Créer un caractère ; l'IA génère des événements et des choix à travers toute une vie
 只读工具随时可用；其余按上面的授权分组生效。	Les outils en lecture seule fonctionnent toujours; tout le reste suit les groupes ci-dessus.
 圆角只作用于卡片、按钮与输入台，不影响排版。	L'arrondi s'applique aux cartes, aux boutons et au compositeur — pas à la mise en page.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Ouvrez les applications installées, lancez le navigateur, partagez, écrivez au presse-papiers
+模型想一个东西，你用是非题在 20 次内猜中	Le modèle pense à quelque chose; devinez-le en 20 questions oui/non
+每天一支签，同一天不会变。图个乐子，别当真。	Une fortune par jour, inchangée dans la journée.
+每行一条，讨论时所有参会者都会看到这份大纲。	Chaque participant voit cet ordre du jour.
 读取公开网页正文（禁止内网 / 元数据地址）	Lire le texte de la page publique (adresses privées et métadonnées bloquées)
 127.0.0.1 或 192.168.1.5	127.0.0.1 ou 192.168.1.5
+AI 玩法会调用你所选的模型，按实际用量计费。	Les jeux AI appellent votre modèle sélectionné et sont facturés par utilisation réelle.
 例如：端侧小模型在 2025 年的推理优化路径	Par exemple, petits modèles sur les appareils et optimisations des inférences en 2025
 可为当前这个工作台单独指定，不影响其它工作台。	S'applique uniquement à cet espace de travail; d'autres espaces de travail gardent leur propre choix.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Recherche multi-round → contour → ébauche → rapport
+所有剧情由你配置的模型实时生成，只保存在本机。	Chaque événement est généré en direct par votre modèle et stocké uniquement sur cet appareil.
 输入关键词，可在这个连接和所有其他连接里查找。	Saisissez un mot-clé pour rechercher cette connexion et tous les autres.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Aucune source de recherche n'est encore activée — allumez-la dans Paramètres → Recherche
 回收站里的备份与被删文件将被真正删除，无法恢复。	Les sauvegardes et les fichiers supprimés dans la corbeille seront définitivement effacés.
 搜索语言，如 英语 / English / 冰岛	Les langues de recherche, p.ex. français /
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Lire/écrire un espace de travail privé, exécuter des scripts de tâches (sandboxed, permis par défaut)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Suivre le modèle de chat actuel par défaut; appuyez sur pour en définir un dédié.
 Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / vision
 分两批并发，单个超时 25 秒；有本机服务时会更快	Deux lots simultanés, 25s timeout chacun; plus vite lorsqu'un service local est trouvé
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Texte seulement — hauteurs de ligne et espacement restent mis, si grandes tailles ne cassent jamais les boutons.
+我想好了一个东西，你用是非题在 20 次内猜出来。	J'ai pensé à quelque chose.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Informations sur les périphériques, espace de travail privé, applications / calendrier / alarmes
 等宽原样呈现，不解析 Markdown、不转换引用	Montré as-is dans le monospace : pas d'analyse Markdown, pas de conversion de citation
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Aucune action pour l'instant. Chaque étape est enregistrée et peut être revue plus tard.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Choisissez un fournisseur (connection), puis choisissez un modèle dans sa liste.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Les lettres de créances sont codées par AES uniquement sur ce périphérique ; les requêtes vont directement au paramètre que vous entrez.
 可留空，留空时请求不带 Authorization。	Facultatif — lorsque vide, les demandes sont envoyées sans en-tête Autorisation.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Choisissez différentes connexions ou modèles. Même un modèle peut être en désaccord avec lui-même sous différents rôles.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Appuyez pour activer, appuyez à nouveau pour désactiver. Seules les sources activées sont utilisées pour la recherche web.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Le langage de dictée n'affecte que la parole au texte; le mauvais le fait transcrire dans une autre langue.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Lire les réponses à haute voix. Les canaux libres peuvent arrêter de travailler à tout moment; la parole système fonctionne toujours.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	Un-tap test envoie une vraie demande à chaque fournisseur et liste seulement ceux qui passent.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Demander une utilisation réelle; si les erreurs de fin de série, éteignez cette option et revenez aux estimations de la valeur.
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Je cache un numéro de 1 à 100
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	L'usage réel gagne ; lorsque la passerelle l'omission, nous estimons par caractères et le marquons avec .
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Choisissez 3–5 modèles de différents fournisseurs, discutez-en des tours, obtenez un résumé
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Pas encore de succès. Utilisez une table ronde ou un mini jeu pendant un moment et les données vont apparaître ici.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Essayez un alias plus court (4o / ds / qwen), ou utilisez cet ID tel quel.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Entrez 0 pour sauter les estimations de coûts. Les prix sont utilisés seulement localement, jamais envoyé nulle part.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jeux hors ligne ne jamais appeler un modèle ou utiliser des données; les jeux d'IA sont facturés à votre modèle choisi.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Pas de marqueurs de rendu ou de citation Markdown — le texte brut est affiché dans le monoespace.
 在电脑上跑着 g4f / chat2api / Ollama？	Exécuter g4f / chat2api / Ollama sur votre ordinateur?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Pas encore de personnage. Créez-en un ci-dessous — avatar, nom et style de parole sont tous à vous de définir.
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	En lecture seule : informations sur l'appareil, applications installées et listes de fichiers. N'écrit rien et n'ouvre aucune autre application.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Recherche multi-round → contour → ébauche section par section → rapport final. Interruption à tout moment.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Modèles de recherche ou fournisseurs, p.ex. gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Recherche de projets, plateformes ou modèles, p.ex. deepseek / kimi / passerelle
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Effacer les caches de cette application, trouver et supprimer des fichiers dans des dossiers accessibles (recommandé pour un accès complet seulement)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Videz pour l'instant. Demandez à l'agent d'enregistrer le résultat aux notes et il apparaîtra ci-dessous.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Les actions non autorisées ne sont pas exécutées ; le modèle reçoit la permission requise et explique plutôt dans le texte.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	L'enregistrement s'arrête lorsque vous allez au silence. La transcription va dans la case d'entrée — cochez-la, puis envoyez.
 请求体附带 stream_options.include_usage	Le corps de demande inclut stream options.include usage
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Définissez un prix de 0 pour sauter le calcul des coûts. Les prix inscrits manuellement restent sauf si vous rafraîchissez les prix en direct.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Fetches une table de tarif public en arrière-plan au démarrage et correspond au modèle actuel. Les données d'utilisation ne sont jamais téléchargées.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Les sources sont posées en parallèle, dédoublées par URL et fusionnées en citations interlevées; une source défaillante n'affecte pas les autres.
 按路径筛选，如 app_state / AndroidManifest	Filtrer par chemin, p.ex. app state / AndroidManifest
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Doit être un paramètre compatible OpenAI qui n'a pas besoin de clé. Il est testé une fois juste après l'ajout.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Check in order: le service est en cours d'exécution, le port correspond, le pare-feu le permet, et le téléphone n'est pas sur un réseau invité.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Définissez ce que l'agent peut faire sur ce téléphone dans un seul clic. Un niveau ne change que les permissions; les actions risquées demandent toujours confirmation un par un.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Le symptôme habituel d'une mauvaise langue est qu'il m'entend mais transcrit une autre langue. Avec un accent, choisissez la variante régionale de la même langue.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	Suivre la question n'ajoute aucune instruction de langue et laisse le modèle décider. Une langue choisie est écrite dans l'invite du système.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://exemple.com/v1 gpt-4o-mini\nUn par ligne; le nom du modèle est optionnel
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Quatre canaux anonymes et une douzaine de modèles, tous testés en un seul clic. Une seule liste de modèles est trompeuse: beaucoup de passerelles listent tout et retournent ensuite 402 ou 429 sur un appel réel.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Activer les expériences d'enregistrement automatique dans les paramètres. Chaque appel — en chat normal ou en recherche profonde — est archivé avec ses paramètres, un corps de requête expurgé et la sortie du modèle brut, jusqu'à 120 entrées.
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	Un relais fonctionne habituellement sur un ordinateur ou un routeur. Rejoignez le même Wi-Fi, saisissez cette machine LAN IP (p. ex. 192.168.1.5) et appuyez sur Scan pour essayer les ports communs.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Demandes identiques non-streaming dans les tables rondes, la vie sim, mini jeux et la recherche profonde réutiliser la réponse précédente dans les 6 heures — pas de demande, pas de frais.
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Par défaut, le modèle ne répond qu'aux questions. Activez ceci et il peut lire les informations réelles de cet appareil et agir dans ce que vous autorisez : lire et écrire un espace de travail privé, des applications ouvertes et des pages Web, créer des événements de calendrier, définir des alarmes.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Les deux types de hits sont enregistrés : les jetons rapides retournés par le fournisseur sont facturés à un rabais; une réutilisation locale n'envoie aucune demande du tout. Les économies sont estimées à partir du prix d'entrée que vous définissez, pas à partir d'une facture.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Chaque espace de travail peut passer outre son personnage de l'avatar dans la barre supérieure. La description de rôle est écrite dans le système comme une lettre d'identité; il change de ton et de style, pas ce que le modèle peut réellement faire.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Coût = jetons réels retournés par le fournisseur × prix unitaire. Lorsque le fournisseur omet l'utilisation, les jetons sont estimés à partir du texte et peuvent être légèrement désactivés. Ceci est une estimation locale seulement; la facture officielle est dans la console de votre fournisseur.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Variables disponibles : {{query}} {{date}} {{time}} {{model}} {{langue}} {{sources}} {{tier}} — remplacée par des valeurs réelles avant l'envoi.
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Les ports 8000 et 3000 sont partagés par plusieurs projets, de sorte qu'un seul peut fonctionner par machine; changer le port ou déployer séparément pour exécuter les deux. L'ensemble officiel a besoin d'une clé mais a un quota gratuit.
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Utilisez {{query}} {{date}} {{time}} {{model}} {{langue}} {{sources}} {{tier}} dans l'invite; ils sont remplacés par des valeurs réelles avant d'envoyer.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Les canaux libres utilisent des paramètres Web publics et peuvent arrêter de travailler ou obtenir des taux limités à tout moment. Les clés sont cryptées uniquement sur cet appareil et ne sont jamais synchronisées. Appuyez sur le bouton d'onde en haut à droite, ou appuyez sur une bulle longue, pour lire à haute voix. Appuyez sur le microphone dans le compositeur pour parler; l'enregistrement s'arrête lorsque vous allez au calme, et le texte atterrit dans la boîte d'entrée pour examen avant d'envoyer.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Les images sont envoyées en ligne comme base64, bord le plus long 1280, qualité 72. Si une requête d'image retourne 400 / 413 / Connexion fermée, le modèle ou la passerelle rejette probablement les images en ligne — changez le format ci-dessus pour le réduire.
-1 轮	1 tour
-2 轮	2 tours
-3 轮	3 tours
-AI 圆桌会议	Table ronde IA
-AI 实验室	Laboratoire AI
-下一段人生尚未发生	Le chapitre suivant n'a pas commencé
-也可以自己写一个目标	Ou écrivez votre propre but
-人生事件	Événements de vie
-人生存档	Sauvé des vies
-人生履历	Histoire de vie
-人生目标	Objectif de vie
-人生评分 · 满分 100	Score de vie · sur 100
-从已有连接补齐 5 个模型	Remplir 5 modèles de connexions
-会议大纲	Ordre du jour
-会议结论	Conclusion
-会议议题	Sujet
-会议记录	Historique de la réunion
-位参会者	participants
-你会怎么选？	Qu'allez-vous faire ?
-例如：分析者	Par exemple, analyste
-停止会议	Arrête de te rencontrer
-创建角色	Créer un caractère
-删除席位	Supprimer le siège
-判定结果失败	Échec du résultat
-参会模型	Participants
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Choisissez différentes connexions ou modèles. Même un modèle peut être en désaccord avec lui-même sous différents rôles.
-名称	Dénomination
-多模型圆桌会议 · 3~5 个 AI 开会	Table ronde sur l'IA · 3-5 modèles en discussion
-导出人生履历	Exporter une histoire de vie
-导出纪要	Minutes d'exportation
-尚未配置接口，请先到设置里填好连接与模型。	Pas de connexion configurée. Configurez d'abord un paramètre et un modèle dans Paramètres.
-岁	ans
-已复制到剪贴板	Copie sur presse-papiers
-已完结	Achevé
-席位设置	Réglages des sièges
-开始会议	Démarrer la réunion
-开始这一生	Commencer cette vie
-性别	Sexe
-所有剧情由你配置的模型实时生成，只保存在本机。	Chaque événement est généré en direct par votre modèle et stocké uniquement sur cet appareil.
-推进人生	Durée de vie supérieure
-新建会议	Nouvelle réunion
-新的人生	Une nouvelle vie
-时代背景	Ere
-暂无历史会议	Pas de réunions enregistrées
-暂无参会席位	Pas encore de participants
-未发言	Pas de réponse
-未命名议题	Sujet sans titre
-条发言	tourne
-模型 ID	Numéro de modèle
-模拟人生	Simulateur de vie
-模拟人生 · AI 生成剧情与抉择	Simulateur de vie · Histoire et choix générés par l'IA
-正在停止	Arrêt
-正在撰写人生总结	Écrire le résumé de vie
-段经历	événements
-每行一条，讨论时所有参会者都会看到这份大纲。	Chaque participant voit cet ordre du jour.
-添加席位	Ajouter un siège
-生成事件失败	Impossible de générer l'événement
-生成传记失败	Échec de l'écriture de la biographie
-生成大纲	Générer l'ordre du jour
-由 AI 根据议题生成，可手动修改	AI généré à partir du sujet; modifiable
-留空将自动取名。	Laisser blanc pour un nom aléatoire.
-盖棺定论	Arrêt définitif
-结束这一生	Terminer cette vie
-给 TA 起个名字	Donnez-leur un nom
-自定义立场描述	Position personnalisée
-至少需要一个可用的参会模型	Au moins un modèle de travail est requis
-角色立场	Rôle & position
-讨论记录	Transcription
-讨论轮数	Rondes
-请先填写会议议题	Entrez d'abord un sujet de réunion
-输入这次要讨论的问题	De quoi devrait parler cette réunion?
-返回	Précédent
-还没有存档	Pas encore de vies sauvées
-还没有故事	Pas encore d'histoires
-连接	Connexion
-选择	Choix
-健康	Santé
-才智	Esprit
-魅力	Charme
-财富	Richesse
-声望	Fame
-幸福	Joie
-现代都市 · 2026 年	Ville moderne · 2026
-九十年代 · 小城旧事	Les années 90 · petite ville
-古代 · 书香门第	Anciens temps · famille des savants
-近未来 · 赛博都市	Bientôt · cyberville
-顺其自然，过好每一天	Prenez la vie comme elle vient
-事业有成，闯出一番名堂	Bâtir une carrière réussie
-家人平安，守住平凡幸福	Garder la famille en sécurité et heureuse
-见世面，走遍天涯	Voir le monde
-求知到底，成为某个领域的行家	Maîtriser un domaine de connaissances
-主持人	Animateur
-分析者	Analyste
-质疑者	Sensible
-创意者	Créatif
-务实派	Pragmatiste
-女	Femmes
-男	Hommes
-其他	Autres
-1 到 100，看你能几次猜中	Un nombre de 1 à 100 — combien de suppositions pouvez - vous gagner?
-20 次提问用完了，点重新开始再来一局。	Toutes les 20 questions utilisées. Appuyez sur redémarrer pour jouer à nouveau.
-AI 玩法	Jeux IA
-AI 玩法会调用你所选的模型，按实际用量计费。	Les jeux AI appellent votre modèle sélectionné et sont facturés par utilisation réelle.
-一共用了	en
-一只猫	un chat
-一把雨伞	un parapluie
-一本书	un livre
-一杯咖啡	une tasse de café
-一点小惊喜正在路上，留意身边不显眼的机会。	Une petite surprise est en route; remarquez les chances tranquilles près de vous.
-上上签	Meilleure fortune
-上签	Bonne chance
-不进不退，也是一日。守住眼前，就是守住运气。	Ni avant ni arrière n'est encore un jour.
-个 AI 玩法	Jeux AI
-个模型	modèles
-个离线小游戏	mini-jeux hors ligne
-个选项	options
-中签	Bonne fortune
-二十问	20 questions
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	La partie nuages et la lune brillent; chaque route est ouverte. Une bonne journée pour faire un pas sur quelque chose que vous avez longtemps voulu faire.
-今日签	La fortune d'aujourd'hui
-你	Toi
-你一句我一句，让故事一直讲下去	Tourne-toi et continue l'histoire
-你一句我一句，让故事一直讲下去。	Tourne-toi et continue l'histoire.
-你赢了	Tu gagnes
-使用	Utilisation
-例如：今天适合开始新计划吗？	Par exemple, aujourd'hui est-il bon pour un nouveau plan?
-候选选项	Options
-先给故事起个主题吧	Donnez à l'histoire un thème d'abord
-先选一家运营商（连接），再进入模型列表挑选。	Choisissez d'abord un fournisseur (connection), puis choisissez dans sa liste de modèles.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Choisissez un fournisseur (connection), puis choisissez un modèle dans sa liste.
-再玩一局	Rejouer
-再看看	Encore
-写下接下来发生的事…	Écrivez ce qui se passe ensuite..
-冰淇淋	crème glacée
-出拳	Votre mouvement
-创建角色，由 AI 生成事件与抉择，走完一生	Créer un caractère ; l'IA génère des événements et des choix à travers toute une vie
-别急着决定，先睡一觉。	Dormez dessus avant de décider.
-剩余提问	Questions laissées
-剪刀	Ciseaux
-同一天抽到的签不会变，明天再来会有新签。	La fortune d'aujourd'hui reste la même; revenez demain pour une nouvelle.
-和我来几局，纯靠运气，不花流量。	Quelques tours avec moi — pure chance, aucune donnée utilisée.
-圆桌会议、模拟人生与 7 个小游戏	Table ronde, simulateur de vie et 7 mini-jeux
-埃菲尔铁塔	la Tour Eiffel
-多模型	Multimodèle
-大了	Trop haut
-大概率可以，但留个后手。	Probablement oui, mais gardez un renfort.
-宇宙说：再问一次。	L'univers dit : redemandez.
-对话	Conversation
-小了	Trop bas
-小吉	Petite bénédiction
-就选这个	Allez avec ça
-已为游戏单独指定模型，随时可换或恢复默认。	Un modèle dédié est défini pour les jeux; le modifier ou restaurer par défaut à tout moment.
-已猜	Devine
-布	Papier
-平	Dessiner
-平局	C'est un tirage
-平签	Une fortune stable
-开始	Démarrer
-当前对话模型	Modèle de chat actuel
-当前连接	Actuellement
-待时	Prenez votre temps
-心里默念一个问题	Pensez à une question
-心里默念一个问题，摇一摇，看它怎么回答。	Pensez à une question, faites-la trembler, voyez ce qu'elle dit.
-恢复默认	Restaurer par défaut
-想不通的事，出去走一圈大概就有答案了。	Pour ce que vous ne pouvez pas penser, une courte promenade apportera probablement la réponse.
-我	Moi
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Je cache un numéro de 1 à 100
-我想好了一个东西，你用是非题在 20 次内猜出来。	J'ai pensé à quelque chose.
-我赢了	Je gagne
-手动输入模型 ID	Saisissez manuellement l'ID du modèle
-抉择轮盘	Roue de décision
-把纠结的选项写进去，让轮盘替你决定	Énumérez vos options et laissez la roue décider
-把纠结的选项都写进去，让轮盘替你做决定。	Énumérez toutes les options entre lesquelles vous êtes déchiré et laissez la roue décider.
-抽一支签	Tire une fortune
-换个角度想想会更好。	Essayez un angle différent.
-搜索模型 ID	Numéro du modèle de recherche
-摇一摇	Agiter
-故事接龙	Histoire à deux
-月亮	la Lune
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Certains gains, une certaine perte; un esprit même tient mieux. Prenez-le un peu plus lentement aujourd'hui.
-未指定连接	Aucune connexion
-未设置模型	Aucun ensemble de modèles
-未选择连接	Aucune connexion sélectionnée
-本局使用的模型	Modèle pour ce jeu
-来几局，纯靠运气	Quelques rondes, pure chance
-模型想一个东西，你用是非题在 20 次内猜中	Le modèle pense à quelque chose; devinez-le en 20 questions oui/non
-模型调用失败	L'appel du modèle a échoué
-次	devine
-每天一支签，同一天不会变。图个乐子，别当真。	Une fortune par jour, inchangée dans la journée.
-每天一支签，图个乐子	Une fortune par jour, juste pour s'amuser
-每日一签	Horoscope du jour
-每行一个，或用逗号隔开	Une par ligne, ou séparée par des virgules
-没有匹配的模型	Pas de modèles assortis
-沿用聊天界面正在使用的连接与模型。	Utilisez la connexion et le modèle actuellement actifs dans le chat.
-游戏	Jeux
-点开始，由模型先说第一句。	Appuyez sur Démarrer et laissez le modèle parler en premier.
-点这里选择运营商与模型	Appuyez sur pour choisir un fournisseur et un modèle
-猜一个 1 到 100 的数字	Devinez un nombre de 1 à 100
-猜中了！就是	Compris !
-猜对了！答案是	C'est vrai !
-猜数字	Deviner le nombre
-猜！	Devinez !
-现在还看不清，再等等。	Trop tôt pour le dire; attendez un peu.
-用一个是非题提问…	Posez une question oui/non..
-看起来不错，放手去做。	Ça a l'air bien, vas-y.
-眼下还不是最好的时机，先攒力气，等风来。	Ce n'est pas tout à fait le moment. Rassemblez votre force et attendez le vent.
-石头	Roche
-石头剪刀布	Pierre Feuille Ciseaux
-离线小游戏	Mini-jeux hors ligne
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jeux hors ligne ne jamais appeler un modèle ou utiliser des données; les jeux d'IA sont facturés à votre modèle choisi.
-答案是肯定的。	Oui, certainement.
-胜	Gagner
-自行车	une bicyclette
-请输入 1 到 100 的整数	Saisissez un nombre entier de 1 à 100
-负	Perdre
-转起来	Tourner
-还没有连接，请先到「连接与模型」里添加。	Pas encore de connexions. Ajoutez-en un sous "Connexions et modèles".
-这个连接还没有缓存模型，可在下方手动输入。	Pas de modèles mis en cache pour cette connexion; entrez un manuellement ci-dessous.
-这次恐怕不行。	Probablement pas cette fois.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Choisissez 3–5 modèles de différents fournisseurs, discutez-en des tours, obtenez un résumé
-选择游戏模型	Choisir le modèle de jeu
-重新开始	Redémarrer
-钢琴	un piano
-长城	la Grande Muraille
-静一静心，点下面抽签	Respirez, puis tirez en bas
-顺签	Voile lisse
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Le vent adoucit, l'eau se calme. Ce qui est dans vos mains répondra à temps; pas besoin de le précipiter.
-魔法八球	Boule 8 magique
-默念一个问题，摇一摇看它怎么答	Pensez à une question, secouez-vous pour une réponse
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Suivre le modèle de chat actuel par défaut; appuyez sur pour en définir un dédié.
-（模型没有回复）	(Aucune réponse du modèle)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	Les API officielles telles qu'OpenAI / Anthropic n'ont aucun paramètre public qui renvoie un prix par appel; les requêtes de facturation ont besoin d'une clé Admin séparée que le client ne devrait jamais tenir. Les prix proviennent donc des tables de taux LiteLLM / OpenRouter publiques, multipliées par les nombres de jetons réels enregistrés localement.

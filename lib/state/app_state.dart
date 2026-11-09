@@ -7,6 +7,7 @@ import 'package:flutter/widgets.dart';
 import '../models/models.dart';
 import '../services/agent_tools.dart';
 import '../services/agent_workspace.dart';
+import '../services/cache_store.dart';
 import '../services/device_bridge.dart';
 import '../services/file_extract.dart';
 import '../services/history_store.dart';
@@ -15,6 +16,7 @@ import '../services/llm_client.dart';
 import '../services/model_catalog.dart';
 import '../services/model_probe.dart';
 import '../services/plugin_service.dart';
+import '../services/price_catalog.dart';
 import '../services/search_service.dart';
 import '../services/think_splitter.dart';
 import '../services/secure_store.dart';
@@ -66,7 +68,9 @@ class AppState extends ChangeNotifier {
   final LlmClient llm = LlmClient();
   final SearchService searchSvc = SearchService();
 
-  late AppSettings settings;
+  // 给一份默认实例（而不是 late）：缓存开关要在 notifyListeners 里读取它，
+  // 而通知有可能在 boot() 之前就发生。boot 里会用存档覆盖。
+  AppSettings settings = AppSettings();
   List<Conversation> conversations = [];
   String activeId = '';
   bool ready = false;
@@ -82,6 +86,18 @@ class AppState extends ChangeNotifier {
 
   /// 累计 token 用量（按天 / 按模型，随历史一起落盘）。
   TokenStats tokenStats = TokenStats();
+
+  // ---- v4.25 命中缓存 ----
+  /// 命中台账（累计数字 + 最近记录）与本地响应缓存，独立于会话历史落盘。
+  final CacheLedger cacheLedger = CacheLedger();
+  final ResponseCache responseCache = ResponseCache();
+  CacheStore cacheStore = CacheStore();
+
+  // ---- v4.25 实时价格 ----
+  final PriceCatalog priceCatalog = PriceCatalog();
+
+  /// 本次会话拉到的公开费率表（只在内存里，刷新即更新）。
+  Map<String, ModelPrice> priceTable = {};
 
   /// 会话历史本地存储（文件，不进 SharedPreferences）。测试可替换。
   HistoryStore historyStore = HistoryStore();
@@ -122,7 +138,120 @@ class AppState extends ChangeNotifier {
         external: settings.agentAllowExternal,
         system: settings.agentAllowSystem,
         network: settings.agentAllowNetwork,
+        device: settings.agentAllowDevice,
       );
+
+  // ------------------------------------------------------------ 命中缓存
+
+  /// 所有状态变更都走 notifyListeners，顺手把缓存开关同步给响应缓存，
+  /// 这样设置页一拨开关立刻生效，不用重启也不用逐处记得同步。
+  @override
+  void notifyListeners() {
+    responseCache.enabled = settings.responseCacheEnabled;
+    super.notifyListeners();
+  }
+
+  void _installCache() {
+    LlmClient.defaultCache = responseCache;
+    LlmClient.onCacheHit = _onResponseCacheHit;
+    responseCache.enabled = settings.responseCacheEnabled;
+  }
+
+  void _onResponseCacheHit(CacheHitEntry e) {
+    cacheLedger.add(e);
+    unawaited(_saveCache());
+    notifyListeners();
+  }
+
+  Future<void> _saveCache() => cacheStore.save(cacheLedger, responseCache);
+
+  /// 服务端提示词缓存命中（usage 里带 cached_tokens）记一笔。
+  void _recordPromptCache(TokenUsage? usage, String model) {
+    if (usage == null || usage.cached <= 0) return;
+    cacheLedger.add(CacheHitEntry(
+      at: DateTime.now().millisecondsSinceEpoch,
+      model: model,
+      kind: CacheHitKind.prompt,
+      tokens: usage.cached,
+      summary: '服务端提示词缓存命中',
+    ));
+    unawaited(_saveCache());
+  }
+
+  Future<void> clearCacheRecords() async {
+    cacheLedger.clear();
+    await _saveCache();
+    notifyListeners();
+  }
+
+  Future<void> clearResponseCache() async {
+    responseCache.clear();
+    await _saveCache();
+    notifyListeners();
+  }
+
+  // ------------------------------------------------------------ 实时价格
+
+  /// 拉公开费率表、按当前模型匹配单价并写回设置（单价会持久化）。
+  Future<String> refreshPrices() async {
+    final r = await priceCatalog.refresh();
+    if (!r.ok) return '价格表拉取失败：${r.error}';
+    priceTable = r.prices;
+    final p = PriceCatalog.lookup(r.prices, settings.model);
+    if (p == null) {
+      return '已获取 ${r.count} 条报价，但没有匹配到当前模型「${settings.model}」，可手动填写单价。';
+    }
+    final rate = settings.usdToCny;
+    final i = p.inputPerM * rate;
+    final o = p.outputPerM * rate;
+    await patch((x) {
+      x.priceInPerM = i;
+      x.priceOutPerM = o;
+      x.priceUpdatedAt = DateTime.now().millisecondsSinceEpoch;
+      x.priceSource = r.source;
+      x.priceMatchedModel = p.id;
+    });
+    return '已按 ${r.source} 匹配 ${p.id}：输入 ¥${i.toStringAsFixed(2)} / '
+        '输出 ¥${o.toStringAsFixed(2)}（每百万 token）';
+  }
+
+  /// 单个模型的单价（¥ / 百万）。价格表里有就按模型各自算，
+  /// 没有就退回用户手填 / 上次刷新写入的全局单价。
+  ({double input, double output, double cached}) priceFor(String model) {
+    final p = PriceCatalog.lookup(priceTable, model);
+    if (p != null) {
+      return (
+        input: p.inputPerM * settings.usdToCny,
+        output: p.outputPerM * settings.usdToCny,
+        cached: p.effectiveCachedPerM * settings.usdToCny,
+      );
+    }
+    return (
+      input: settings.priceInPerM,
+      output: settings.priceOutPerM,
+      cached: settings.priceInPerM * 0.5,
+    );
+  }
+
+  double? _costOf(int prompt, int completion) {
+    if (settings.priceInPerM <= 0 && settings.priceOutPerM <= 0) return null;
+    return PriceCatalog.costOf(
+      prompt: prompt,
+      completion: completion,
+      inputPerM: settings.priceInPerM,
+      outputPerM: settings.priceOutPerM,
+    );
+  }
+
+  double? get totalCost => _costOf(tokenStats.prompt, tokenStats.completion);
+  double? get todayCost =>
+      _costOf(tokenStats.todayPrompt, tokenStats.todayCompletion);
+
+  /// 缓存命中省下的钱（按当前输入单价折算；缓存通常打折，这里是上限）。
+  double get cacheSaving {
+    if (settings.priceInPerM <= 0) return 0;
+    return cacheLedger.promptTokens / 1000000 * settings.priceInPerM;
+  }
 
   // ---- 端侧离线语音包（v4.8）----
   /// 离线模型状态。首次安装为 missing，下载完成后 ready。
@@ -374,6 +503,10 @@ class AppState extends ChangeNotifier {
     // activate 会重新对齐 apiKey 镜像（load 时密钥尚未注入）。
     settings.activate(settings.activeProfileId);
 
+    // 命中台账与响应缓存：独立于会话历史，冷启动即可用。
+    await cacheStore.load(cacheLedger, responseCache);
+    _installCache();
+
     final cached = store.loadPluginCache();
     if (cached != null) {
       try {
@@ -389,6 +522,15 @@ class AppState extends ChangeNotifier {
     Future.microtask(_autoFetchModels);
     unawaited(_initAgent());
     unawaited(_initSpeechModel());
+    // 开了「自动获取实时价格」就在后台拉一次公开费率表，失败静默忽略：
+    // 没网 / 价格源不通都不该影响启动，单价会沿用上次成功写入的值。
+    if (settings.priceAuto) unawaited(_autoRefreshPrices());
+  }
+
+  Future<void> _autoRefreshPrices() async {
+    try {
+      await refreshPrices();
+    } catch (_) {}
   }
 
   Future<void> _initSpeechModel() async {
@@ -1085,6 +1227,15 @@ class AppState extends ChangeNotifier {
     final text = raw.trim();
     if (text.isEmpty && conv.draftAttachments.isEmpty) return;
 
+    // 全新安装不再预设模型名。没有模型就不发请求，否则会带着空的
+    // `model` 打到接口上，用户只会看到一句莫名其妙的 401 / 400。
+    if (settings.model.trim().isEmpty) {
+      globalError = '尚未选择模型。请先到「设置 → 连接与模型」添加连接并选定一个模型。';
+      conv.status = '尚未选择模型';
+      notifyListeners();
+      return;
+    }
+
     // 新消息一发出就停掉上一段朗读：否则回答边生成边被旧声音盖住，
     // 也会把刚合成的音频白白播完。
     unawaited(VoiceService.instance.stop());
@@ -1380,6 +1531,7 @@ class AppState extends ChangeNotifier {
           apiUsage ?? TokenUsage.estimate(promptSnapshot, answer.content);
       answer.usage = usage;
       tokenStats.add(usage, model: settings.model);
+      _recordPromptCache(usage, settings.model);
       scheduleHistorySave();
 
       if (settings.autoRecord) {
@@ -1544,7 +1696,12 @@ class AppState extends ChangeNotifier {
     );
     final r = await llm.completeWithUsage(req, cancel: cancel);
     final usage = r.usage ?? TokenUsage.estimate('$system\n$user', r.text);
-    tokenStats.add(usage, model: settings.model);
+    // 命中本地响应缓存时并没有发出请求，不能把同一笔 token 再算进累计
+    // 用量与花费；命中记录已由 LlmClient.onCacheHit 写进缓存台账。
+    if (!r.fromCache) {
+      tokenStats.add(usage, model: settings.model);
+      _recordPromptCache(usage, settings.model);
+    }
     scheduleHistorySave();
     if (settings.autoRecord) {
       final body = req.toBody();
@@ -1569,7 +1726,7 @@ class AppState extends ChangeNotifier {
         usage: usage,
       ));
     }
-    return r;
+    return (text: r.text, usage: usage);
   }
 
   static List<String> _parseSections(String outline, int n) {

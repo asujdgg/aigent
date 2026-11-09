@@ -17,6 +17,7 @@ import android.net.Uri
 import android.os.BatteryManager
 import android.os.Build
 import android.os.Bundle
+import android.os.Environment
 import android.os.Handler
 import android.os.Looper
 import android.os.StatFs
@@ -252,9 +253,10 @@ class MainActivity : FlutterActivity() {
 
     // ------------------------------------------------------------ 设备智能体
     //
-    // 设计边界：这里只做「读」和「调起系统界面」，不做静默写入。
-    // 日历 / 闹钟 / 分享都会打开对应系统 App 的确认页，用户不点保存就不会
-    // 产生任何变更；文件类操作一律交给 Dart 侧的隔离工作区，绝不接触外部路径。
+    // 设计边界：日历 / 闹钟 / 分享都会打开对应系统 App 的确认页，用户不点
+    // 保存就不会产生任何变更。v4.25 起增加设备清理与文件查找，但写入范围
+    // 严格限制在本应用 cache / code_cache / 隔离工作区内，且删除前校验路径；
+    // 其它应用的数据一律不碰，需要用户操作的就调起系统设置页。
 
     private fun handleDeviceCall(call: MethodCall, result: MethodChannel.Result) {
         try {
@@ -275,6 +277,16 @@ class MainActivity : FlutterActivity() {
                     result.success(true)
                 }
                 "workspace.root" -> result.success(workspaceRoot())
+                "storage.summary" -> result.success(storageSummary())
+                "storage.clean" -> result.success(cleanCache())
+                "files.search" -> result.success(
+                    searchFiles(
+                        call.argument<String>("query") ?: "",
+                        call.argument<Number>("limit")?.toInt() ?: 60
+                    )
+                )
+                "files.delete" -> result.success(deleteAccessibleFile(call.argument<String>("path")))
+                "storage.openSettings" -> result.success(openStorageSettings())
                 else -> result.notImplemented()
             }
         } catch (e: Exception) {
@@ -460,6 +472,217 @@ class MainActivity : FlutterActivity() {
     private fun workspaceRoot(): String {
         val base = getExternalFilesDir(null) ?: filesDir
         return File(base, "aigent_workspace").absolutePath
+    }
+
+    // ------------------------------------------------ v4.25 设备清理 / 找文件
+    //
+    // 边界：Android 7 起第三方应用已无法清理别的应用缓存，也读不到别的应用
+    // 私有目录。这里只处理本应用自己的 cache / code_cache / 临时文件与隔离
+    // 工作区，并在可访问的公共目录里按文件名查找。删除前校验路径必须落在
+    // 可删除根目录内，越界一律拒绝；其它 App 的缓存交给系统设置页由用户处理。
+
+    /** 扫描用的根目录：应用专属目录 + 公共下载目录（能列到多少算多少）。 */
+    private fun accessibleRoots(): List<File> {
+        val out = LinkedHashMap<String, File>()
+        fun add(f: File?) {
+            if (f == null) return
+            try {
+                out[f.canonicalPath] = f
+            } catch (_: Exception) {
+            }
+        }
+        add(filesDir)
+        add(cacheDir)
+        add(codeCacheDir)
+        for (d in externalCacheDirs) add(d)
+        for (d in getExternalFilesDirs(null)) add(d)
+        try {
+            @Suppress("DEPRECATION")
+            add(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS))
+        } catch (_: Exception) {
+        }
+        return out.values.filter { it.exists() }
+    }
+
+    /** 允许删除的根：只含缓存与隔离工作区，绝不碰应用数据与其它目录。 */
+    private fun deletableRoots(): List<File> {
+        val out = ArrayList<File>()
+        out.add(cacheDir)
+        out.add(codeCacheDir)
+        for (d in externalCacheDirs) out.add(d)
+        out.add(File(workspaceRoot()))
+        return out
+    }
+
+    /** 返回 (总字节, 文件数)，限制递归深度，避免异常目录把主线程拖住。 */
+    private fun dirSize(f: File, depth: Int = 0): Pair<Long, Int> {
+        if (depth > 12) return Pair(0L, 0)
+        return try {
+            if (f.isFile) {
+                Pair(f.length(), 1)
+            } else {
+                var bytes = 0L
+                var count = 0
+                for (c in f.listFiles() ?: emptyArray()) {
+                    val r = dirSize(c, depth + 1)
+                    bytes += r.first
+                    count += r.second
+                }
+                Pair(bytes, count)
+            }
+        } catch (_: Exception) {
+            Pair(0L, 0)
+        }
+    }
+
+    private fun storageSummary(): Map<String, Any?> {
+        val cache = dirSize(cacheDir)
+        val codeCache = dirSize(codeCacheDir)
+        var tempBytes = 0L
+        var tempFiles = 0
+        for (f in cacheDir.listFiles() ?: emptyArray()) {
+            if (!f.isDirectory && (f.name.endsWith(".tmp") || f.name.startsWith("temp"))) {
+                tempBytes += f.length()
+                tempFiles++
+            }
+        }
+        val ws = dirSize(File(workspaceRoot()))
+        val stat = try {
+            StatFs(filesDir.absolutePath)
+        } catch (_: Exception) {
+            null
+        }
+        return mapOf(
+            "cacheBytes" to cache.first + codeCache.first,
+            "tempBytes" to tempBytes,
+            "workspaceBytes" to ws.first,
+            "cacheFiles" to cache.second + codeCache.second + tempFiles,
+            "freeBytes" to (stat?.availableBytes ?: 0L),
+            "totalBytes" to (stat?.totalBytes ?: 0L)
+        )
+    }
+
+    private fun deleteRecursively(f: File): Boolean = try {
+        if (f.isDirectory) {
+            for (c in f.listFiles() ?: emptyArray()) deleteRecursively(c)
+        }
+        f.delete()
+    } catch (_: Exception) {
+        false
+    }
+
+    private fun cleanCache(): Map<String, Any?> {
+        var freed = 0L
+        var removed = 0
+        for (root in deletableRoots()) {
+            // 工作区是用户数据，只清其中的临时子目录，不整体删掉。
+            val children = try {
+                if (root.name == "aigent_workspace") {
+                    root.listFiles()?.filter { it.name == "tmp" || it.name == "cache" }
+                        ?.toTypedArray() ?: emptyArray()
+                } else {
+                    root.listFiles() ?: emptyArray()
+                }
+            } catch (_: Exception) {
+                emptyArray()
+            }
+            for (c in children) {
+                val size = dirSize(c)
+                if (deleteRecursively(c)) {
+                    freed += size.first
+                    removed += size.second
+                }
+            }
+        }
+        return mapOf("freed" to freed, "files" to removed)
+    }
+
+    private fun searchFiles(query: String, limit: Int): List<Map<String, Any?>> {
+        val q = query.trim().toLowerCase(Locale.ROOT)
+        val safeLimit = limit.coerceIn(1, 200)
+        val out = ArrayList<Map<String, Any?>>()
+        val seen = HashSet<String>()
+        for (root in accessibleRoots()) {
+            walkFiles(root, 0, q, safeLimit, out, seen)
+            if (out.size >= safeLimit) break
+        }
+        // 最近修改的排前面，方便「帮我找刚下载的那个文件」。
+        val sorted = out.sortedByDescending { (it["modified"] as? Number)?.toLong() ?: 0L }
+        return sorted.take(safeLimit)
+    }
+
+    private fun walkFiles(
+        dir: File,
+        depth: Int,
+        q: String,
+        limit: Int,
+        out: MutableList<Map<String, Any?>>,
+        seen: MutableSet<String>
+    ) {
+        if (depth > 8 || out.size >= limit) return
+        val children = try {
+            dir.listFiles()
+        } catch (_: Exception) {
+            null
+        } ?: return
+        for (f in children) {
+            if (out.size >= limit) return
+            try {
+                if (!seen.add(f.canonicalPath)) continue
+                val name = f.name
+                if (q.isEmpty() || name.toLowerCase(Locale.ROOT).contains(q)) {
+                    out.add(
+                        mapOf(
+                            "path" to f.absolutePath,
+                            "name" to name,
+                            "size" to (if (f.isFile) f.length() else 0L),
+                            "modified" to f.lastModified(),
+                            "isDir" to f.isDirectory
+                        )
+                    )
+                }
+                if (f.isDirectory) walkFiles(f, depth + 1, q, limit, out, seen)
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    // 不能叫 deleteFile：Context 已有同名的 public 方法，会报「削弱访问权限」。
+    private fun deleteAccessibleFile(path: String?): Boolean {
+        if (path.isNullOrEmpty()) return false
+        return try {
+            val target = File(path).canonicalFile
+            if (target.isDirectory) return false
+            val allowed = deletableRoots().any { root ->
+                try {
+                    val r = root.canonicalFile
+                    target.path.startsWith(r.path + File.separator)
+                } catch (_: Exception) {
+                    false
+                }
+            }
+            if (!allowed) return false
+            target.delete()
+        } catch (_: Exception) {
+            false
+        }
+    }
+
+    private fun openStorageSettings(): Boolean {
+        val candidates = listOf(
+            Intent(android.provider.Settings.ACTION_INTERNAL_STORAGE_SETTINGS),
+            Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+                .setData(Uri.parse("package:$packageName"))
+        )
+        for (i in candidates) {
+            try {
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                startActivity(i)
+                return true
+            } catch (_: Exception) {
+            }
+        }
+        return false
     }
 
     private fun emit(data: Map<String, Any?>) {

@@ -580,4 +580,93 @@ const Map<String, String> kEnUi = {
   '钢琴': 'a piano',
   '长城': 'the Great Wall',
   '冰淇淋': 'ice cream',
+  'OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。':
+      'Official APIs such as OpenAI / Anthropic have no public endpoint that returns a per-call price; billing queries need a separate Admin Key that the client should never hold. So prices come from the public LiteLLM / OpenRouter rate tables, multiplied by the real token counts recorded locally.',
+  '一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。':
+      'Set what the agent can do on this phone in one tap. A level only changes permissions; risky actions still ask for confirmation one by one.',
+  '两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。':
+      'Both kinds of hits are recorded: prompt-cache tokens returned by the provider are billed at a discount; a local reuse sends no request at all. Savings are estimated from the input price you set, not from a bill.',
+  '之后相同的请求会重新发起，直到再次被缓存。':
+      'Identical requests will be sent again until they are cached once more.',
+  '仅显示最近 30 条': 'Showing the latest 30 entries',
+  '价格来源': 'Price source',
+  '估算省下': 'Est. saved',
+  '共': 'entries',
+  '刷新实时价格': 'Refresh live prices',
+  '匹配模型': 'Matched model',
+  '单价与汇率': 'Unit price & FX',
+  '单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。':
+      'Set a price of 0 to skip cost calculation. Manually entered prices stay unless you refresh live prices.',
+  '去添加连接': 'Add a connection',
+  '只清统计与列表，不影响已缓存的回答。':
+      'Only clears the stats and list; cached answers are kept.',
+  '只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。':
+      'Read-only: device info, installed apps and file listings. Writes nothing and opens no other app.',
+  '启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。':
+      'Fetches a public rate table in the background at startup and matches the current model. Usage data is never uploaded.',
+  '命中概览': 'Cache hits',
+  '命中次数': 'Hits',
+  '命中统计、响应复用与缓存管理': 'Hit stats, response reuse and cache management',
+  '圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。':
+      'Identical non-streaming requests in roundtables, life sim, mini games and deep research reuse the previous answer within 6 hours — no request, no charge. Main chat is streaming and always fetches a fresh answer.',
+  '填 0 表示不计算': '0 to disable costing',
+  '复用相同请求的回答': 'Reuse identical requests',
+  '完全权限': 'Full access',
+  '实时价格': 'Live prices',
+  '实时价格、按模型与按天花费': 'Live prices, cost by model and by day',
+  '少量权限': 'Minimal access',
+  '尚未获取': 'Not fetched yet',
+  '尚未选择模型': 'No model selected',
+  '尚未配置接口': 'Not configured',
+  '已手动调整单项授权，不对应任何预设档位。':
+      'Individual permissions have been changed manually; no preset level applies.',
+  '当前': 'Current',
+  '拉取失败': 'Fetch failed',
+  '按天花费': 'Cost by day',
+  '按模型花费': 'Cost by model',
+  '更新时间': 'Updated',
+  '最近命中': 'Recent hits',
+  '服务端缓存': 'Provider cache',
+  '服务端缓存命中': 'Provider cache hits',
+  '未匹配': 'Not matched',
+  '本地复用': 'Local reuse',
+  '权限档位': 'Permission level',
+  '条': 'entries',
+  '标准权限': 'Standard access',
+  '添加连接': 'Add connection',
+  '添加连接并选定模型后，模型会显示在这里。':
+      'Models appear here once you add a connection and pick one.',
+  '清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）':
+      'Clear this app\'s caches, find and delete files in accessible folders (recommended for Full access only)',
+  '清空命中记录': 'Clear hit records',
+  '清空命中记录？': 'Clear hit records?',
+  '清空响应缓存': 'Clear response cache',
+  '清空响应缓存？': 'Clear response cache?',
+  '点此配置接口': 'Tap to set up a connection',
+  '百万': 'M',
+  '管理': 'Manage',
+  '累计估算': 'Estimated total',
+  '缓存 token': 'Cached tokens',
+  '缓存命中': 'Cache hits',
+  '缓存条目': 'Cached answers',
+  '缓存省下': 'Saved by cache',
+  '缓存设置': 'Cache settings',
+  '美元汇率': 'USD exchange rate',
+  '自动获取实时价格': 'Fetch live prices automatically',
+  '花了多少钱': 'How much have I spent',
+  '设备清理与文件删除': 'Device cleanup & file deletion',
+  '设备清理已开': 'Device cleanup on',
+  '设备清理未开': 'Device cleanup off',
+  '请求次数': 'Requests',
+  '费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。':
+      'Cost = real tokens returned by the provider × unit price. When the provider omits usage, tokens are estimated from text and may be slightly off. This is a local estimate only; the official bill is in your provider\'s console.',
+  '费用与价格': 'Cost & pricing',
+  '输入单价': 'Input price',
+  '输出单价': 'Output price',
+  '还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。':
+      'No hits yet. Use a roundtable or a mini game for a while and data will show up here.',
+  '还没有添加任何连接，所以这里没有可用模型。':
+      'No connection has been added yet, so there are no models available here.',
+  '隔离工作区内读写、任务脚本（沙箱保护）':
+      'Read/write in the isolated workspace and task scripts (sandboxed)',
 };

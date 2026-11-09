@@ -189,33 +189,55 @@ class _AgentPanelState extends State<AgentPanel> {
           const SizedBox(height: 10),
           _link('重新读取设备信息', Icons.refresh_rounded, _refreshAll),
         ]),
+        _permissionSection(s, st),
         _section(t('授权范围'), [
           Text(t('未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。'),
               style: meta(dark, size: 11.5, height: 1.5)),
           const SizedBox(height: 12),
           SwitchRow(
             title: t('文件与脚本'),
-            subtitle: t('隔离工作区内读写、任务脚本（沙箱保护，默认放开）'),
+            subtitle: t('隔离工作区内读写、任务脚本（沙箱保护）'),
             value: s.agentAllowWorkspace,
-            onChanged: (v) => st.patch((x) => x.agentAllowWorkspace = v),
+            onChanged: (v) => st.patch((x) {
+              x.agentAllowWorkspace = v;
+              x.markCustomPermission();
+            }),
           ),
           SwitchRow(
             title: t('应用与网页'),
             subtitle: t('打开已装应用、调起系统浏览器、分享、写剪贴板'),
             value: s.agentAllowExternal,
-            onChanged: (v) => st.patch((x) => x.agentAllowExternal = v),
+            onChanged: (v) => st.patch((x) {
+              x.agentAllowExternal = v;
+              x.markCustomPermission();
+            }),
           ),
           SwitchRow(
             title: t('日历与闹钟'),
             subtitle: t('只打开系统确认页，需你亲手点保存才生效'),
             value: s.agentAllowSystem,
-            onChanged: (v) => st.patch((x) => x.agentAllowSystem = v),
+            onChanged: (v) => st.patch((x) {
+              x.agentAllowSystem = v;
+              x.markCustomPermission();
+            }),
           ),
           SwitchRow(
             title: t('网页抓取'),
             subtitle: t('读取公开网页正文（禁止内网 / 元数据地址）'),
             value: s.agentAllowNetwork,
-            onChanged: (v) => st.patch((x) => x.agentAllowNetwork = v),
+            onChanged: (v) => st.patch((x) {
+              x.agentAllowNetwork = v;
+              x.markCustomPermission();
+            }),
+          ),
+          SwitchRow(
+            title: t('设备清理与文件删除'),
+            subtitle: t('清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）'),
+            value: s.agentAllowDevice,
+            onChanged: (v) => st.patch((x) {
+              x.agentAllowDevice = v;
+              x.markCustomPermission();
+            }),
           ),
           SwitchRow(
             title: t('每次操作先问我'),
@@ -572,6 +594,72 @@ class _AgentPanelState extends State<AgentPanel> {
           ),
         ),
       );
+
+  // ---------------------------------------------------------- 权限档位
+
+  String _permLabel(int lv) => switch (lv) {
+        AppSettings.kPermMinimal => t('少量权限'),
+        AppSettings.kPermStandard => t('标准权限'),
+        AppSettings.kPermFull => t('完全权限'),
+        _ => t('自定义'),
+      };
+
+  String _permNote(int lv) => switch (lv) {
+        AppSettings.kPermMinimal =>
+          t('只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。'),
+        AppSettings.kPermStandard => t(
+            '在少量权限基础上，允许隔离工作区读写与任务脚本、打开应用与网页、分享与剪贴板。'),
+        AppSettings.kPermFull => t(
+            '开放全部能力：日历与闹钟、网页抓取，以及设备缓存清理与可访问文件删除。'),
+        _ => t('已手动调整单项授权，不对应任何预设档位。'),
+      };
+
+  Widget _permissionSection(AppSettings s, AppState st) {
+    final cur = s.agentPermissionLevel;
+    return _section(t('权限档位'), [
+      Text(t('一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。'),
+          style: sub(dark, size: 12.5)),
+      const SizedBox(height: 12),
+      Row(
+        children: [
+          for (final lv in const [
+            AppSettings.kPermMinimal,
+            AppSettings.kPermStandard,
+            AppSettings.kPermFull,
+          ]) ...[
+            Expanded(child: _permChip(lv, cur, st)),
+            if (lv != AppSettings.kPermFull) const SizedBox(width: 8),
+          ],
+        ],
+      ),
+      const SizedBox(height: 12),
+      _note(_permNote(cur)),
+      const SizedBox(height: 8),
+      Text('${t('当前')}：${_permLabel(cur)} · ${st.agentGrant.allows('device') ? t('设备清理已开') : t('设备清理未开')}',
+          style: meta(dark, size: 11.5)),
+    ]);
+  }
+
+  Widget _permChip(int lv, int cur, AppState st) {
+    final on = lv == cur;
+    return GestureDetector(
+      onTap: () => st.patch((x) => x.applyPermissionLevel(lv)),
+      child: Container(
+        height: 38,
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          color: on ? C.brand : fieldOf(dark),
+          borderRadius: BorderRadius.circular(D.r),
+          border: Border.all(color: on ? C.brand : borderOf(dark), width: 0.8),
+        ),
+        child: Text(_permLabel(lv),
+            style: ts(dark,
+                size: 12.5,
+                weight: FontWeight.w600,
+                color: on ? Colors.white : (dark ? C.dInk2 : C.ink2))),
+      ),
+    );
+  }
 
   Widget _section(String title, List<Widget> children) => Container(
         margin: const EdgeInsets.only(bottom: 16),

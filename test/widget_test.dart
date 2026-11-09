@@ -718,7 +718,8 @@ void main() {
 
   group('设置页 v3.5：分类导航与搜索', () {
     test('分类目录覆盖全部设置域且 id 唯一', () {
-      expect(kSettingsCats.length, 15);
+      // 分类会随版本增加，断言「覆盖这些域」而不是写死总数。
+      expect(kSettingsCats.length, greaterThanOrEqualTo(17));
       final ids = kSettingsCats.map((c) => c.id).toSet();
       expect(ids.length, kSettingsCats.length);
       expect(
@@ -737,6 +738,8 @@ void main() {
             'research',
             'presets',
             'usage',
+            'cache',
+            'billing',
             'games'
           ]),
           isTrue);
@@ -2258,8 +2261,21 @@ void main() {
           ),
         );
 
+    testWidgets('全新安装不显示假模型，也不假装已有连接', (tester) async {
+      final st = AppState()..settings = AppSettings();
+      await tester.pumpWidget(wrap(st));
+      await tester.pumpAndSettle();
+      // 回归 v4.25：以前写死 gpt-4o-mini，一个连接都没配却挂着这个
+      // 既不能选也不能用的名字，点开模型列表还是空的。
+      expect(find.text('gpt-4o-mini'), findsNothing);
+      expect(find.text('添加连接'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
+
     testWidgets('输入台常驻当前模型，点开就能直接选常用模型', (tester) async {
       final st = AppState()..settings = AppSettings();
+      // v4.25 起全新安装不预设模型；这里模拟「已经选过模型」的正常使用态。
+      st.settings.model = 'gpt-4o-mini';
       st.settings.cachedModels = [
         'gpt-4o-mini',
         'claude-3-5-sonnet',
@@ -2307,6 +2323,7 @@ void main() {
 
     testWidgets('搜索框能跨系列锁定模型，无命中可按 ID 使用', (tester) async {
       final st = AppState()..settings = AppSettings();
+      st.settings.model = 'gpt-4o-mini';
       st.settings.cachedModels = ['gpt-4o-mini', 'deepseek-chat'];
       await tester.pumpWidget(wrap(st));
       await tester.pumpAndSettle();

@@ -8,8 +8,8 @@ const String kDefaultSystemPrompt =
     'When sources are provided, ground claims in them and cite them as [1], [2].';
 
 /// 单一版本来源：界面、关于页、设备信息都读这里，避免各页各写一份。
-const String kAppVersion = '4.24.0';
-const int kAppBuild = 43;
+const String kAppVersion = '4.25.0';
+const int kAppBuild = 44;
 const String kAppIconAsset = 'assets/brand/app_icon.png';
 
 enum Tier { lite, standard, deep, expert }
@@ -999,31 +999,46 @@ class TokenUsage {
   final int completion;
   final bool estimated;
 
+  /// 本次请求里**命中了服务端提示词缓存**的输入 token 数。
+  ///
+  /// OpenAI 放在 `usage.prompt_tokens_details.cached_tokens`；Anthropic 用
+  /// `cache_read_input_tokens`；不少国产网关用 `prompt_cache_hit_tokens`
+  /// / `cached_tokens`。这部分 token 通常按 1~2 折计价，是「命中缓存」
+  /// 统计与省钱估算的原始数据。接口不返回时为 0。
+  final int cached;
+
   const TokenUsage({
     required this.prompt,
     required this.completion,
     this.estimated = false,
+    this.cached = 0,
   });
 
   int get total => prompt + completion;
   bool get isEmpty => total <= 0;
 
+  /// 有缓存命中（哪怕网关没给 token 明细，也可由本地响应缓存补记）。
+  bool get hasCacheHit => cached > 0;
+
   TokenUsage operator +(TokenUsage o) => TokenUsage(
         prompt: prompt + o.prompt,
         completion: completion + o.completion,
         estimated: estimated || o.estimated,
+        cached: cached + o.cached,
       );
 
   Map<String, dynamic> toJson() => {
         'prompt': prompt,
         'completion': completion,
         'estimated': estimated,
+        if (cached > 0) 'cached': cached,
       };
 
   factory TokenUsage.fromJson(Map<dynamic, dynamic> j) => TokenUsage(
         prompt: (j['prompt'] as num?)?.toInt() ?? 0,
         completion: (j['completion'] as num?)?.toInt() ?? 0,
         estimated: j['estimated'] == true,
+        cached: (j['cached'] as num?)?.toInt() ?? 0,
       );
 
   /// 兼容 OpenAI / Anthropic / Gemini / Ollama 的常见 usage 字段。
@@ -1039,11 +1054,31 @@ class TokenUsage {
         _int(j['candidatesTokenCount']) ??
         0;
     final t = _int(j['total_tokens']) ?? _int(j['totalTokenCount']);
+    final cached = _cachedTokens(j);
     if (p == 0 && c == 0) {
       if (t == null || t <= 0) return null;
-      return TokenUsage(prompt: t, completion: 0);
+      return TokenUsage(prompt: t, completion: 0, cached: cached);
     }
-    return TokenUsage(prompt: p, completion: c);
+    return TokenUsage(prompt: p, completion: c, cached: cached);
+  }
+
+  /// 把各家「命中缓存」的写法归一成一个数字。
+  static int _cachedTokens(Map<dynamic, dynamic> j) {
+    final details = j['prompt_tokens_details'];
+    final candidates = <dynamic>[
+      if (details is Map) details['cached_tokens'],
+      j['cache_read_input_tokens'],
+      j['prompt_cache_hit_tokens'],
+      j['cached_tokens'],
+      if (j['usage_details'] is Map)
+        (j['usage_details'] as Map)['cached_tokens'],
+      if (j['cache_tokens_details'] is Map)
+        (j['cache_tokens_details'] as Map)['cached'],
+    ];
+    for (final v in candidates) {
+      if (v is num && v > 0) return v.toInt();
+    }
+    return 0;
   }
 
   static int? _int(dynamic v) => v is num ? v.toInt() : null;
@@ -1082,6 +1117,7 @@ class DayUsage {
 
   int get prompt => models.values.fold(0, (a, b) => a + b.prompt);
   int get completion => models.values.fold(0, (a, b) => a + b.completion);
+  int get cached => models.values.fold(0, (a, b) => a + b.cached);
   int get total => prompt + completion;
   bool get isEmpty => total <= 0 && requests == 0;
 
@@ -1126,6 +1162,10 @@ class TokenStats {
   int requests = 0;
   int estimatedRequests = 0;
 
+  /// 累计命中服务端提示词缓存的输入 token，以及发生命中的请求数。
+  int cachedTokens = 0;
+  int cacheHitRequests = 0;
+
   /// 全时段按模型汇总，供概览直接用。
   final Map<String, TokenUsage> byModel = {};
 
@@ -1157,6 +1197,10 @@ class TokenStats {
     completion += u.completion;
     requests++;
     if (u.estimated) estimatedRequests++;
+    if (u.cached > 0) {
+      cachedTokens += u.cached;
+      cacheHitRequests++;
+    }
     final old = byModel[model];
     byModel[model] = old == null ? u : old + u;
     (byDay[k] ??= DayUsage()).add(model, u);
@@ -1165,9 +1209,11 @@ class TokenStats {
   Map<String, dynamic> toJson() => {
         'prompt': prompt,
         'completion': completion,
-        'requests': requests,
-        if (estimatedRequests > 0) 'estimatedRequests': estimatedRequests,
-        'byModel': {
+    'requests': requests,
+    if (estimatedRequests > 0) 'estimatedRequests': estimatedRequests,
+    if (cachedTokens > 0) 'cachedTokens': cachedTokens,
+    if (cacheHitRequests > 0) 'cacheHitRequests': cacheHitRequests,
+    'byModel': {
           for (final e in byModel.entries) e.key: e.value.toJson(),
         },
         'days': {
@@ -1181,6 +1227,8 @@ class TokenStats {
     t.completion = (j['completion'] as num?)?.toInt() ?? 0;
     t.requests = (j['requests'] as num?)?.toInt() ?? 0;
     t.estimatedRequests = (j['estimatedRequests'] as num?)?.toInt() ?? 0;
+    t.cachedTokens = (j['cachedTokens'] as num?)?.toInt() ?? 0;
+    t.cacheHitRequests = (j['cacheHitRequests'] as num?)?.toInt() ?? 0;
     final bm = j['byModel'];
     if (bm is Map) {
       bm.forEach((k, v) {
@@ -1207,6 +1255,8 @@ class TokenStats {
     completion = 0;
     requests = 0;
     estimatedRequests = 0;
+    cachedTokens = 0;
+    cacheHitRequests = 0;
     byModel.clear();
     byDay.clear();
   }
@@ -1498,7 +1548,11 @@ class AppSettings {
 
   String baseUrl = 'https://api.openai.com/v1';
   String apiKey = '';
-  String model = 'gpt-4o-mini';
+  /// 全新安装时**不预设任何模型**。以前这里写死 `gpt-4o-mini`，于是设备
+  /// 明明一个连接都没配，顶栏却挂着一个既不能选也不能用的 GPT 模型名，
+  /// 点开模型列表还是空的。留空后各处统一显示「未配置 / 去添加连接」，
+  /// 只有用户真正选定模型（或从旧配置读回来）才会出现模型名。
+  String model = '';
   Tier tier = Tier.standard;
   bool deepThinking = false;
   bool webSearch = false;
@@ -1562,6 +1616,20 @@ class AppSettings {
   /// 每百万 token 单价（¥），用于本地估算费用；0 表示不计算。
   double priceInPerM = 0;
   double priceOutPerM = 0;
+
+  // ---- v4.25 命中缓存 ----
+  /// 复用完全相同的非流式请求结果（圆桌 / 模拟人生 / 小游戏 / 深度研究）。
+  /// 主对话是流式的，永远不受影响。
+  bool responseCacheEnabled = true;
+
+  // ---- v4.25 实时价格与计费 ----
+  /// 从公开价格表按当前模型名自动匹配单价；关掉则只用手动单价。
+  bool priceAuto = false;
+  int priceUpdatedAt = 0;
+  String priceSource = '';
+  String priceMatchedModel = '';
+  /// 公开价格表以美元报价，这里换算成人民币显示。
+  double usdToCny = 7.2;
 
   // ---- 人物形象 ----
   /// 形象库：只有用户自己建的形象，没建就是空。
@@ -1657,11 +1725,83 @@ class AppSettings {
   bool agentAllowSystem = false;
   bool agentAllowNetwork = false;
 
+  /// v4.25 新增：设备清理与全盘文件查找。属于高敏感能力，默认关闭。
+  bool agentAllowDevice = false;
+
+  /// 权限档位：0 少量 / 1 标准 / 2 完全。UI 上一键切换下面五组授权，
+  /// 用户仍能逐项微调；微调后档位会自动回落到「自定义」(-1)。
+  int agentPermissionLevel = 1;
+
   /// 一次发送里最多执行几步工具调用，防止模型陷入循环（1~8）。
   int agentMaxSteps = 4;
 
   /// 用户已读过风险说明，不再重复弹提示。
   bool agentRiskAck = false;
+
+  static const int kPermMinimal = 0;
+  static const int kPermStandard = 1;
+  static const int kPermFull = 2;
+  static const int kPermCustom = -1;
+
+  /// 档位名称（中文原文，交给 t() 翻译）。
+  static String permissionLabel(int level) => switch (level) {
+        kPermMinimal => '少量权限',
+        kPermStandard => '标准权限',
+        kPermFull => '完全权限',
+        _ => '自定义',
+      };
+
+  /// 档位说明：切换前就能看清这一档到底能做什么。
+  static String permissionNote(int level) => switch (level) {
+        kPermMinimal => '只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。',
+        kPermStandard =>
+          '在少量权限基础上，允许隔离工作区读写与任务脚本、打开应用与网页、分享与剪贴板。',
+        kPermFull => '开放全部能力：日历与闹钟、网页抓取，以及设备缓存清理与可访问文件删除。',
+        _ => '已手动调整单项授权，不对应任何预设档位。',
+      };
+
+  /// 一键套用档位。只改授权，不动「每次确认」与「总开关」——
+  /// 完全权限也不等于静默执行，危险动作仍会逐条弹确认。
+  void applyPermissionLevel(int level) {
+    if (level != kPermMinimal && level != kPermStandard && level != kPermFull) {
+      agentPermissionLevel = kPermCustom;
+      return;
+    }
+    agentPermissionLevel = level;
+    agentAllowWorkspace = level >= kPermStandard;
+    agentAllowExternal = level >= kPermStandard;
+    agentAllowSystem = level >= kPermFull;
+    agentAllowNetwork = level >= kPermFull;
+    agentAllowDevice = level >= kPermFull;
+  }
+
+  /// 单项开关被手动拨过后，档位标记为自定义。
+  void markCustomPermission() => agentPermissionLevel = kPermCustom;
+
+  int _inferPermissionLevel() {
+    if (!agentAllowWorkspace &&
+        !agentAllowExternal &&
+        !agentAllowSystem &&
+        !agentAllowNetwork &&
+        !agentAllowDevice) {
+      return kPermMinimal;
+    }
+    if (agentAllowWorkspace &&
+        agentAllowExternal &&
+        agentAllowSystem &&
+        agentAllowNetwork &&
+        agentAllowDevice) {
+      return kPermFull;
+    }
+    if (agentAllowWorkspace &&
+        agentAllowExternal &&
+        !agentAllowSystem &&
+        !agentAllowNetwork &&
+        !agentAllowDevice) {
+      return kPermStandard;
+    }
+    return kPermCustom;
+  }
 
   void ensurePersonas() {
     // v4.9.2：内置形象一律不进列表——包括旧版那条「不使用形象」占位。
@@ -1841,6 +1981,12 @@ class AppSettings {
         'researchDepth': researchDepth,
         'priceInPerM': priceInPerM,
         'priceOutPerM': priceOutPerM,
+        'responseCacheEnabled': responseCacheEnabled,
+        'priceAuto': priceAuto,
+        'priceUpdatedAt': priceUpdatedAt,
+        'priceSource': priceSource,
+        'priceMatchedModel': priceMatchedModel,
+        'usdToCny': usdToCny,
         'personas': personas.map((p) => p.toJson()).toList(),
         'activePersonaId': activePersonaId,
         'personaEnabled': personaEnabled,
@@ -1895,6 +2041,8 @@ class AppSettings {
         'agentAllowExternal': agentAllowExternal,
         'agentAllowSystem': agentAllowSystem,
         'agentAllowNetwork': agentAllowNetwork,
+        'agentAllowDevice': agentAllowDevice,
+        'agentPermissionLevel': agentPermissionLevel,
         'agentMaxSteps': agentMaxSteps,
         'agentRiskAck': agentRiskAck,
         // 语音默认值迁移标记：只迁移一次，之后用户显式选离线会被保留。
@@ -1925,6 +2073,12 @@ class AppSettings {
     researchDepth = (j['researchDepth'] as num?)?.toInt().clamp(1, 3) ?? 2;
     priceInPerM = (j['priceInPerM'] as num?)?.toDouble() ?? 0;
     priceOutPerM = (j['priceOutPerM'] as num?)?.toDouble() ?? 0;
+    responseCacheEnabled = j['responseCacheEnabled'] != false;
+    priceAuto = j['priceAuto'] == true;
+    priceUpdatedAt = (j['priceUpdatedAt'] as num?)?.toInt() ?? 0;
+    priceSource = (j['priceSource'] ?? '').toString();
+    priceMatchedModel = (j['priceMatchedModel'] ?? '').toString();
+    usdToCny = ((j['usdToCny'] as num?)?.toDouble() ?? 7.2).clamp(0.1, 100.0);
 
     // 人物形象：只保留用户自建的形象，读入时丢掉旧版预置人设和
     // v4.8 那条「不使用形象」占位——没有形象就是空列表。
@@ -2075,8 +2229,18 @@ class AppSettings {
     agentAllowExternal = j['agentAllowExternal'] == true;
     agentAllowSystem = j['agentAllowSystem'] == true;
     agentAllowNetwork = j['agentAllowNetwork'] == true;
+    agentAllowDevice = j['agentAllowDevice'] == true;
     agentMaxSteps = ((j['agentMaxSteps'] as num?)?.toInt() ?? 4).clamp(1, 8);
     agentRiskAck = j['agentRiskAck'] == true;
+    // 旧配置没有档位字段：从已保存的授权反推，避免升级后界面显示
+    // 「标准权限」却实际没打开对应开关，也绝不借升级偷偷放开新权限。
+    final savedLevel = j['agentPermissionLevel'];
+    if (savedLevel is num) {
+      final v = savedLevel.toInt();
+      agentPermissionLevel = v < -1 ? -1 : (v > 2 ? 2 : v);
+    } else {
+      agentPermissionLevel = _inferPermissionLevel();
+    }
 
     // ---- 多连接配置 ----
     // 旧版只有一份全局连接：无损迁移为「默认连接」，用户不需要重新填写。

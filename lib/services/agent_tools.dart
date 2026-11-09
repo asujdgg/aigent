@@ -16,11 +16,15 @@ class AgentGrant {
   final bool system;
   final bool network;
 
+  /// v4.25：设备缓存清理与可访问文件删除，只有「完全权限」才放开。
+  final bool device;
+
   const AgentGrant({
     this.workspace = false,
     this.external = false,
     this.system = false,
     this.network = false,
+    this.device = false,
   });
 
   bool allows(String grant) => switch (grant) {
@@ -29,6 +33,7 @@ class AgentGrant {
         'external' => external,
         'system' => system,
         'network' => network,
+        'device' => device,
         _ => false,
       };
 
@@ -37,6 +42,7 @@ class AgentGrant {
         'external' => '应用与网页',
         'system' => '日历与闹钟',
         'network' => '网页抓取',
+        'device' => '设备清理',
         _ => '只读',
       };
 }
@@ -229,6 +235,46 @@ const List<AgentTool> kAgentTools = [
     risk: AgentRisk.system,
     grant: 'system',
   ),
+
+  // ---- v4.25 设备清理与文件查找 ----
+  AgentTool(
+    id: 'agent.storage.info',
+    name: '查看存储占用',
+    summary: '只读：本应用缓存、临时文件、工作区各占多少空间，手机还剩多少可用',
+    usage: '无参数',
+    risk: AgentRisk.read,
+  ),
+  AgentTool(
+    id: 'agent.files.search',
+    name: '查找文件',
+    summary: '按文件名关键词在本应用可访问的目录里查找，只读列出路径与大小',
+    usage: 'query(文件名关键词，可空), limit(默认 60)',
+    risk: AgentRisk.read,
+  ),
+  AgentTool(
+    id: 'agent.storage.clean',
+    name: '清理缓存与临时文件',
+    summary: '清理本应用缓存、code_cache 与工作区临时文件，回收存储空间',
+    usage: '无参数',
+    risk: AgentRisk.system,
+    grant: 'device',
+  ),
+  AgentTool(
+    id: 'agent.files.delete',
+    name: '删除缓存文件',
+    summary: '删除一个文件（仅限缓存与工作区目录内，越界路径一律拒绝）',
+    usage: 'path(必填，完整路径，来自「查找文件」的结果)',
+    risk: AgentRisk.system,
+    grant: 'device',
+  ),
+  AgentTool(
+    id: 'agent.storage.settings',
+    name: '打开系统存储设置',
+    summary: '打开系统存储页，由用户自行清理其它应用的缓存',
+    usage: '无参数',
+    risk: AgentRisk.external,
+    grant: 'external',
+  ),
 ];
 
 AgentTool? agentToolById(String id) {
@@ -267,10 +313,15 @@ String buildAgentPrompt({
   b.writeln('[本机能力] 你运行在用户这台手机上，可以真正操作设备，而不只是回答问题。'
       '默认仍然直接回答；只有用户明确要求你「打开 / 查找 / 保存 / 设置 / 运行」时才调用工具。');
   b.writeln('[设备信息] ${info.promptSummary}');
-  b.writeln('[隔离工作区] 你有一个专属文件夹（$workspaceRoot），所有文件操作只能在这里进行。'
+  b.writeln('[隔离工作区] 你有一个专属文件夹（$workspaceRoot），写文件、跑脚本都在这里进行。'
       '只接受相对路径；绝对路径、..、隐藏文件、符号链接一律被拒绝。'
-      '覆盖写会自动备份旧版，删除只是移入回收站，不会真正丢失文件。'
-      '绝不要求或诱导用户提供工作区之外的文件路径，也不要声称能读写手机里其它文件。');
+      '覆盖写会自动备份旧版，删除只是移入回收站，不会真正丢失文件。');
+  b.writeln('[设备清理与找文件] agent.storage.info 看占用、agent.files.search 按文件名查找、'
+      'agent.storage.clean 清理本应用缓存、agent.files.delete 删除缓存文件、'
+      'agent.storage.settings 打开系统存储页。'
+      'Android 沙箱限制：只能访问本应用目录与可访问的公共目录，'
+      '**无法**清理其它应用的缓存或读取它们的私有文件。遇到这类请求请如实说明，'
+      '并调起系统存储设置让用户自己操作，绝不声称已经帮用户清理了整台手机。');
   b.writeln('[工具调用格式] 需要调用工具时，只输出一行 JSON，不附加解释、不要放进代码块：');
   b.writeln('{"tool":"agent.工具ID","arguments":{"参数名":"值"}}');
   b.writeln('可用工具（共 ${kAgentTools.length} 个，方括号为当前授权状态）：');
@@ -287,7 +338,8 @@ String buildAgentPrompt({
   }
   b.writeln(AgentScriptRunner.syntaxPrompt);
   b.writeln('[硬边界] 你不能执行任意系统命令、安装软件、读取其它应用的数据、'
-      '修改系统设置或删除用户文件。做不到的请求直接说明原因并给出替代做法。');
+      '修改系统设置、清理其它应用的缓存或删除工作区之外的用户文件。'
+      '做不到的请求直接说明原因并给出替代做法。');
   return b.toString();
 }
 
@@ -379,6 +431,9 @@ class AgentRuntime {
       'agent.share.text' => '调起分享：${_arg(a, 'text')}',
       'agent.clipboard.set' => '写入剪贴板：${_arg(a, 'text')}',
       'agent.toast' => '屏幕提示：${_arg(a, 'text')}',
+      'agent.storage.clean' => '清理本应用缓存与临时文件',
+      'agent.files.delete' => '删除文件：${_arg(a, 'path')}',
+      'agent.files.search' => '查找文件：${_arg(a, 'query', '全部')}',
       _ => '${t.name} ${_arg(a, 'path')}'.trim(),
     };
   }
@@ -584,6 +639,59 @@ class AgentRuntime {
         return ok
             ? '已打开系统时钟的「设置闹钟」页（$h:$m），需你点保存才会生效'
             : '未能调起系统时钟，请确认手机已安装时钟应用';
+
+      // ---- v4.25 设备清理与文件查找 ----
+      case 'agent.storage.info': {
+        final s = await device.storageSummary();
+        if (s == null) return '未能读取存储信息（此设备可能不支持）';
+        return '缓存 ${StorageSummary.human(s.cacheBytes)} · '
+            '临时文件 ${StorageSummary.human(s.tempBytes)} · '
+            '工作区 ${StorageSummary.human(s.workspaceBytes)}；'
+            '手机可用 ${StorageSummary.human(s.freeBytes)} / '
+            '共 ${StorageSummary.human(s.totalBytes)}，'
+            '可清理约 ${StorageSummary.human(s.reclaimable)}。';
+      }
+
+      case 'agent.files.search': {
+        final q = _arg(a, 'query');
+        final files = await device.searchFiles(q, limit: _int(a, 'limit', 60));
+        if (files.isEmpty) {
+          return q.isEmpty
+              ? '当前可访问目录里没有文件。'
+              : '没有找到文件名包含「$q」的文件。'
+                  'Android 沙箱限制：只能搜索本应用目录与可访问的公共目录。';
+        }
+        final b = StringBuffer('找到 ${files.length} 个文件：\n');
+        for (final f in files.take(20)) {
+          b.writeln('- ${f.name} · ${StorageSummary.human(f.size)} · ${f.path}');
+        }
+        if (files.length > 20) b.writeln('（还有 ${files.length - 20} 个未列出）');
+        return b.toString().trim();
+      }
+
+      case 'agent.storage.clean': {
+        final r = await device.cleanCache();
+        if (r == null) return '清理失败：设备未返回清理结果';
+        return '已释放 ${StorageSummary.human(r.freedBytes)}，'
+            '清理 ${r.removedFiles} 个文件。'
+            '其它应用的缓存需由你在系统存储设置里手动清理。';
+      }
+
+      case 'agent.files.delete': {
+        final path = _arg(a, 'path');
+        if (path.isEmpty) return '缺少 path 参数';
+        final ok = await device.deleteFile(path);
+        return ok
+            ? '已删除：$path'
+            : '删除被拒绝：$path 不在允许删除的缓存 / 工作区目录内，或文件不存在。';
+      }
+
+      case 'agent.storage.settings': {
+        final ok = await device.openStorageSettings();
+        return ok
+            ? '已打开系统存储设置，请在这里手动清理其它应用的缓存。'
+            : '未能打开系统存储设置';
+      }
 
       default:
         return '工具尚未实现：${t.id}';

@@ -296,27 +296,41 @@ class _ModelPickerSheetState extends State<ModelPickerSheet> {
     );
   }
 
-  Widget _emptyModels() => Padding(
-        padding: const EdgeInsets.fromLTRB(D.pagePad, 18, D.pagePad, 16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(t('这个连接还没有读到模型列表。'), style: sub(dark, size: 13)),
-            const SizedBox(height: 10),
-            GestureDetector(
-              onTap: () {
-                Navigator.of(context).pop();
-                widget.onOpenSettings?.call();
-              },
-              child: Text(t('去设置里刷新'),
-                  style: ts(dark,
-                      size: 13,
-                      weight: FontWeight.w600,
-                      color: accentOf(dark))),
-            ),
-          ],
-        ),
-      );
+  Widget _emptyModels() {
+    // 全新安装既没有密钥也没有模型：这里不该出现「刷新」这种暗示已经
+    // 配好了的动作，而是直接告诉用户先去添加一条连接。
+    final noConnection = st.settings.apiKey.trim().isEmpty &&
+        st.settings.baseUrl.startsWith('https://api.openai.com');
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(D.pagePad, 18, D.pagePad, 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            noConnection
+                ? t('还没有添加任何连接，所以这里没有可用模型。')
+                : t('这个连接还没有读到模型列表。'),
+            style: sub(dark, size: 13),
+          ),
+          const SizedBox(height: 6),
+          Text(t('添加连接并选定模型后，模型会显示在这里。'),
+              style: meta(dark, size: 11.5)),
+          const SizedBox(height: 12),
+          GestureDetector(
+            onTap: () {
+              Navigator.of(context).pop();
+              widget.onOpenSettings?.call();
+            },
+            child: Text(noConnection ? t('去添加连接') : t('去设置里刷新'),
+                style: ts(dark,
+                    size: 13,
+                    weight: FontWeight.w600,
+                    color: accentOf(dark))),
+          ),
+        ],
+      ),
+    );
+  }
 
   Widget _searchList(List<ModelEntry> hits, String q, String current) {
     if (hits.isEmpty) {

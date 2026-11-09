@@ -2296,9 +2296,14 @@ class _ComposerBarState extends State<ComposerBar> {
     final narrow = MediaQuery.sizeOf(context).width < 360;
     final sub = MuseC.sub(dark);
     final accent = MuseC.accent(dark);
-    final model = st.settings.model.trim().isEmpty
-        ? t('未指定模型')
-        : st.settings.model.trim();
+    // 全新安装时 model 是空的（不再预设任何 GPT 模型名）。此时不要挂一个
+    // 点开却是空列表的假模型：直接把入口写成「添加连接」，点了就去设置。
+    final hasModel = st.settings.model.trim().isNotEmpty;
+    final configured = st.settings.apiKey.trim().isNotEmpty ||
+        !st.settings.baseUrl.startsWith('https://api.openai.com');
+    final model = hasModel
+        ? st.settings.model.trim()
+        : (configured ? t('选择模型') : t('添加连接'));
     return Row(
       children: [
         Expanded(
@@ -2367,6 +2372,15 @@ class _ComposerBarState extends State<ComposerBar> {
 
   void _openModelPicker(AppState st) {
     _focus.unfocus();
+    // 一个模型都没有、连接也没配好时，弹层里只会是一片空白，用户点进来
+    // 还得再找一次设置入口。这里直接把人送到连接页，少一次无效跳转。
+    final noModel = st.settings.model.trim().isEmpty;
+    final noConnection = st.settings.apiKey.trim().isEmpty &&
+        st.settings.baseUrl.startsWith('https://api.openai.com');
+    if (noModel && noConnection && widget.onOpenSettings != null) {
+      widget.onOpenSettings!.call();
+      return;
+    }
     unawaited(showModelPickerSheet(
       context,
       dark: widget.dark,

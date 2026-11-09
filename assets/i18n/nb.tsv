@@ -1,21 +1,41 @@
+你	Du
+共	oppføringer
+岁	yrs
+平	Tegning
+我	Jeg
+条	oppføringer
+次	Gjetting
+胜	Vinn
+负	Tap
 主色	Accent
 主题	Tema
 今日	I dag
+使用	Bruk
 保存	Lagre
 停止	Stopp
 允许	Tillat
 关闭	Lukk
+出拳	Ditt trekk
 删除	Slett
 刷新	Oppdater
 发送	Send
 取消	Avbryt
+名称	Navn
 圆角	Hjørner
 复制	Kopier
 外观	Utseende
+大了	For høy
 字号	Tekststørrelse
 密钥	Nøkkel
+对话	Kontakt
+小了	For lav
 工具	Verktøy
+已猜	Guesses
+平局	Det er tegnet
+开始	Start
+当前	Nåværende
 忽略	Ignorer
+性别	Kjønn
 恢复	Gjenopprett
 接入	Koble til
 新建	Ny
@@ -24,8 +44,12 @@
 模型	Modell
 添加	Legg til
 清空	Fjern
+游戏	Spill
+猜！	Gjett!
+百万	M
 确定	OK
 离线	Frakoblet
+管理	Administrer
 累计	Totalt
 编辑	Rediger
 视觉	Visjon
@@ -33,184 +57,360 @@
 语音	Stemme
 请求	Forespørsel
 跳过	Hopp
+返回	Tilbake
+选择	Valg
 部署	Deploy
 销毁	Ødelegg
+1 轮	1 runde
+2 轮	2 runder
+3 轮	3 runder
+个模型	modeller
+个选项	alternativer
+二十问	20 Spørsmål
+今日签	Dagens formue
+你赢了	Du vinner
+再看看	På nytt
 去设置	Åpne innstillinger
+多模型	Multi-modell
 已停更	Avsluttet
 已复制	Kopiert
+已完结	Ferdig
 待检测	Ikke testet
+我赢了	Jeg vinner
+摇一摇	Skake
+未匹配	Ikke matchet
+未发言	Ingen svar
+条发言	svinger
+段经历	hendelser
 源代码	Kilde
+猜数字	Gjett nummeret
 生成中	Utvikling
 知道了	Fikk den
 自定义	Tilpasset
+转起来	Spin
 重命名	Endre navn
 + 新建	+ Ny
+一共用了	i
 一键接入	Koble til alle
 人物形象	Persona
+人生事件	Livsbegivenhet
+人生存档	Reddet liv
+人生履历	Livshistorie
+人生目标	Livsmål
+价格来源	Priskilde
+会议大纲	Agenda
+会议结论	Konklusjon
+会议议题	Emne
+会议记录	Møtehistorie
+估算省下	Est. lagret
+位参会者	Deltakere
+候选选项	Alternativer
+停止会议	Slutt å møte
 停止朗读	Slutt å lese
 免密模型	Nøkkelløse modeller
+再玩一局	Spill igjen
+创建角色	Opprett tegn
+删除席位	Fjern sete
 删除形象	Slett persona
 删除配置	Slett profil
+剩余提问	Spørsmål left
+匹配模型	Matchet modell
 原始输出	Rå utgang
+参会模型	Deltakere
+命中概览	Cache hits
+命中次数	Hits
 图片诊断	Bildediagnostikk
 复制一份	Duplisert
 复制全文	Kopier alle
 复制内容	Kopier tekst
 外观主题	Utseende
+完全权限	Full adgang
+实时价格	Levende priser
 实验记录	Eksperimentslogg
 对话语言	Svarspråk
+导出纪要	Eksporter minutter
+少量权限	Minimal tilgang
+尚未获取	Ikke hentet enda
+就选这个	Gå med denne
+席位设置	Seteinnstillinger
+开始会议	Start møte
 开始检测	Starttest
 开始说话	Begynn å snakke
 当前会话	Denne samtalen
 当前模型	Nåværende modell
+当前连接	Nåværende
 当前预设	Nåværende forhåndsinnstilling
 待填密钥	Nøkkel nødvendig
+恢复默认	Gjenopprett standard
+抉择轮盘	Beslutningshjul
+抽一支签	Tegne en formue
+拉取失败	Henting mislykkes
+按天花费	Kostnad for dag
 授权范围	Tillatelser
 接入最快	Raskest å sette opp
 接口地址	URL til sluttpunkt
+推进人生	Forhåndsliv
 插件系统	Programtillegg
 搜索模型	Søk modeller
 搜索设置	Søkeinnstillinger
 收起搜索	Skjul søk
+故事接龙	Story Chain
+新建会议	Nytt møte
+新的人生	Nytt liv
+时代背景	Era
 明暗模式	Lys/mørk
+更新时间	Oppdatert
+最近命中	Nylige treff
 未设模型	Ingen modell
+本地复用	Lokal gjenbruk
+权限档位	Tilgangsnivå
+标准权限	Standard tilgang
+模拟人生	Life Simulator
+正在停止	Stopper
+每日一签	Daily Fortune
 测试连通	Testtilkobling
 深度思考	Dyp tenkning
 深度研究	Dyb forskning
 添加地址	Legg til endepunkt
+添加席位	Legg til sete
+添加连接	Legg til tilkobling
+生成大纲	Opprette agenda
 用量追踪	Brukssporing
 界面语言	Grensesnittspråk
+盖棺定论	Sluttdom
 系统当前	System
+累计估算	Anslått total
+缓存命中	Cache hits
+缓存条目	Cachede svar
+缓存省下	Lagret av cache
+缓存设置	Cacheinnstillinger
 网页抓取	Sidehenting
+美元汇率	USD valutakurs
 联网搜索	Nettsøk
 能力开关	Kapabilitetsbrytere
 能力档位	Kapabilitetsnivå
+角色立场	Rolle & holdning
+讨论记录	Transcript
+讨论轮数	Runder
 语音输入	Stemmeinngang
 说点什么	Si noe
+请求次数	Forespørsler
+输入单价	Inngangspris
+输出单价	Utgangspris
 这台设备	Denne enheten
 连接配置	Tilkoblingsprofiler
 选择形象	Velg persona
-选择模型	Velg en modell
+选择模型	Velg modell
 配置名称	Profilnavn
 配置连接	Konfigurer tilkobling
+重新开始	Start på nytt
 页面底色	Sidebakgrunn
 预设名称	Forvalgsnavn
+魔法八球	Magic 8-ball
+AI 玩法	AI spill
 会话与设置	Chatter og innstillinger
 删除工作台	Slett arbeidsområde
 删除此形象	Slett denne personena
+单价与汇率	Enhetspris & FX
+去添加连接	Legg til en tilkobling
 反代与网关	Relay & gateway
 命令已复制	Kommando kopiert
 填入输入框	Sett inn i inndata
 已复制回答	Svar kopiert
 已开启朗读	Les på
 应用与网页	Apps & web
+开始这一生	Begynn dette livet
+按模型花费	Kostnad etter modell
 提示词预设	Spør forhåndsinnstillinger
 文件与脚本	Filer og skript
 日历与闹钟	Kalender og alarmer
+服务端缓存	Tilbyder cache
 朗读已开启	Les på
+未命名议题	Uten tittel
 未指定模型	Ingen modell valgt
+未指定连接	Ingen tilkobling
+未设置模型	Ingen modellsett
+未选择连接	Ingen tilkobling valgt
 查看源代码	Vis kilde
+模型 ID	Modell-ID
 源码已复制	Kopiert kilde
 点一下切换	Trykk for å bytte
 独立工作区	Privat arbeidsområde
+石头剪刀布	Rock Paper Scissors
 研究工作台	Forskningsarbeidsområde
+离线小游戏	Offline mini-spill
+结束这一生	Avslutt dette livet
 网页版反代	Web relé
 联网搜索源	Nettsøk kilder
+花了多少钱	Hvor mye har jeg brukt
 设备智能体	Enhetsagent
 语言与地区	Språk og region
+费用与价格	Kostnad og pris
 输入任务…	Skriv inn en oppgave..
-连接与模型	Tilkobling & modell
+还没有存档	Ingen reddet liv ennå
+还没有故事	Ingen historier ennå
+连接与模型	Tilkobling og modeller
 重命名配置	Endre navn på profil
 链接已复制	Link kopiert
 顶部形象区	Topp persona område
 （无内容）	(tom)
+个离线小游戏	offline mini-spill
+你会怎么选？	Hva vil du gjøre?
+例如：分析者	For eksempel analyse
 先填主机地址	Skriv inn en vert først
+判定结果失败	Klarte ikke å løse resultatet
+刷新实时价格	Oppdatere live priser
 助手消息头像	Svar avatarer
 去设置里刷新	Oppdater i innstillinger
 启用人物形象	Aktiver persona
 启用本机操作	Aktiver enhetshandlinger
 图片与多模态	Bilder og multimodal
 图片发送格式	Bildeformat
+导出人生履历	Eksporter livshistorie
+尚未选择模型	Ingen modell valgt
+尚未配置接口	Ikke konfigurert
 已删除该配置	Profil slettet
 当前 API	Gjeldende API
+当前对话模型	Gjeldende chatmodell
 提示词预设库	Spør forvalgt bibliotek
 搜索源连通性	Kildetilkobling
 新建连接配置	Ny tilkoblingsprofil
+暂无历史会议	Ingen lagrede møter
+暂无参会席位	Ingen deltakere ennå
 模型能力档位	Kapabilitetsnivå
+模型调用失败	Modellsamtale mislyktes
 每源结果条数	Resultater per kilde
 添加免密地址	Legg til et nøkkelløst endepunkt
+清空命中记录	Fjern hitposter
+清空响应缓存	Tøm svarbufferen
+点此配置接口	Trykk for å sette opp en tilkobling
+猜中了！就是	Det var det
+生成事件失败	Klarte ikke å generere hendelse
+生成传记失败	Klarte ikke å skrive biografi
 等待模型输出	Venter på modellen
 自动记录实验	Auto-registrer eksperimenter
+设备清理已开	Enhetens rengjøring på
+设备清理未开	Enheten rengjøring av
 语音识别语言	Diktspråk
 请求体已复制	Forespørselsinstans kopiert
 还没有记录。	Ingenting registrert ennå.
+选择游戏模型	Velg spillmodell
 销毁本地凭据	Ødelegg lokale legitimasjoner
 随便问点什么	Spør meg hva som helst
+AI 圆桌会议	AI Roundtable
 HTTP 插件	HTTP-tillegg
+个 AI 玩法	AI spill
 回收站是空的。	Resirkulasjonen er tom.
+已复制到剪贴板	Kopiert til utklippstavle
 已复制当前配置	Nåværende profil kopiert
 已恢复到工作区	Gjenopprettt til arbeidsområdet
 当前预设已生效	Denne forhåndsinnstillingen er aktiv
 按当前单价估算	Estimert til gjeldende priser
 换个关键词试试	Prøv et nytt søkeord
+搜索模型 ID	Søkemodell-ID
 智能体请求执行	Agent ber om handling
+服务端缓存命中	Tilbyder cache hits
 朗读上一条回答	Les det siste svaret
 本地凭据已销毁	Lokale legitimasjoner ødelagt
+本局使用的模型	Modell for dette spillet
 每次操作先问我	Spør før hver handling
+没有匹配的模型	Ingen matchende modeller
 没有匹配的语言	Ingen matchende språk
 没有匹配的连接	Ingen matchende tilkobling
 深度研究工作流	Dype forskning arbeidsflyt
+清空命中记录？	Fjerne hitplater?
+清空响应缓存？	Tøm responsbufferen?
+猜对了！答案是	Svaret var
 管理 / 切换	Håndter/bryter
 自动接入可用项	Koble til tilgjengelige
+自定义立场描述	Custom holdning
 Token 用量	Token bruk
 在所有连接里查找	Søk i alle forbindelser
 工作区路径已复制	Kopiert arbeidsområdesti
+心里默念一个问题	Tenk på et spørsmål
 扫描已运行的服务	Søk etter driftstjenester
 搜索连接名或地址	Søk etter navn eller URL
 未启用任何搜索源	Ingen søkekilde aktivert
+来几局，纯靠运气	Noen runder, ren lykke
+正在撰写人生总结	Skrive livsoppsummering
 永久清空回收站？	Tømmer resirkuleringsboksen permanent?
 测试已启用搜索源	Test aktiverte kilder
+留空将自动取名。	La tom for et tilfeldig navn.
+缓存 token	Cachede polletter
+自动获取实时价格	Hent livepriser automatisk
+请先填写会议议题	Skriv inn et møteemne først
+（模型没有回复）	(Ingen respons fra modellen)
+下一段人生尚未发生	Neste kapittel har ikke begynt
 会话已复制到剪贴板	Samtale kopiert til utklippstavla
 允许模型调用该插件	La modellen ringe dette programtillegget
+先给故事起个主题吧	Gi historien et tema først
+填 0 表示不计算	0 å deaktivere kostnader
 填入该服务商的密钥	Skriv inn leverandørens nøkkel
+复用相同请求的回答	Bruk identiske forespørsler
 手动填写模型 ID	Skriv inn en modell-ID manuelt
+手动输入模型 ID	Skriv inn modell-ID manuelt
 点击头像从相册选择	Trykk på avataren for å velge fra galleriet ditt
+用一个是非题提问…	Still et ja/ingen tvil..
+给 TA 起个名字	Gi dem et navn
+设备清理与文件删除	Opprydning av enhet og fil
 AI 用这种语言回答	AI svarer på dette språket
+也可以自己写一个目标	Eller skrive ditt eget mål
+仅显示最近 30 条	Viser de siste 30 oppføringene
+写下接下来发生的事…	Skriv hva som skjer neste..
 单次任务最多执行几步	Maks. trinn per oppgave
 在线 · 需 Key	Online · nøkkel nødvendig
 已创建，可在下方编辑	Laget - rediger det nedenfor
 当前会话的能力与连接	Funksjoner og tilkobling til denne samtalen
+每天一支签，图个乐子	En formue om dagen, bare for moro skyld
 自定义搜索引擎 ID	Tilpasset søkemotor ID
 至少需要保留一份配置	Hold minst én profil
+输入这次要讨论的问题	Hva bør dette møtet diskutere?
 还没有可以朗读的回答	Ikke noe svar på å lese høyt ennå
+静一静心，点下面抽签	Ta et pust og dra ned
 临时凭据（用完即销毁）	Midlertidige legitimasjoner (utnyttet etter bruk)
 已还原此预设的内置内容	Innebygd innhold gjenopprettet for denne forhåndsinnstillingen
+每行一个，或用逗号隔开	En per linje, eller separert med komma
+点这里选择运营商与模型	Trykk for å velge leverandør og modell
 研究报告已复制到剪贴板	Rapporter kopiert til utklippstavle
 主色 · 页面 · 圆角	Accent · side · hjørner
 打不开浏览器，链接已复制	Kunne ikke åpne en nettleser; link kopiert
 朗读上一条回答（已静音）	Les det siste svaret (muted)
 每条回答前显示形象小头像	Vis en liten persona avatar før hvert svar
+人生评分 · 满分 100	Livsscore · ut av 100
+从已有连接补齐 5 个模型	Fyll ut 5 modeller fra tilkoblinger
 发送前预览 · 最终请求体	Forhåndsvisning · Forespørselsorgan
 向网关索取真实 usage	Spør gatewayen om ekte bruk
+实时价格、按模型与按天花费	Levepriser, kostnader etter modell og dag
 朗读已静音 · 长按可恢复	Les-alod dempet · langtrykk til å unmute
 档位、深度思考与联网总开关	Tier, dyp tenkning og websøk master bryter
 正在准备朗读 · 点击取消	Forbereder tale · trykk for å avbryte
 正在并行测试已启用搜索源…	Testing aktivert kilder parallelt..
 消息列表上方显示头像与名字	Vis avatar og navn over meldingslisten
+点开始，由模型先说第一句。	Trykk på start og la modellen snakke først.
 累计消耗、单价、明细与导出	Totale utgifter, priser, neddeling og eksport
+至少需要一个可用的参会模型	Det kreves minst én arbeidsmodell
 预览：静水深流，字要看得清	Forhåndsvisning: Stille vann, tekst bør holde seg leselig
+例如：今天适合开始新计划吗？	For eksempel er det bra i dag for en ny plan?
 关闭后主界面回到纯工作台样式	Når av, hovedskjermen returnerer til det vanlige arbeidsområdet ser ut
+命中统计、响应复用与缓存管理	Slå statistikk, responder og cache-håndtering
 按钮、标题与说明文字都跟着换	Knapper, titler og beskrivelser også
 这个连接还没有读到模型列表。	Ingen modellliste har blitt lest for denne forbindelsen ennå.
 这台主机上没有发现兼容端点。	Ingen kompatible endepunkter funnet på denne verten.
+1 到 100，看你能几次猜中	Et nummer fra 1 til 100 - hvor få gjetninger kan du vinne i?
+你一句我一句，让故事一直讲下去	Ta turer og hold historien i gang
 关闭后保留文档但不注入工具清单	Når det er avlagt, blir dokumenter, men verktøylisten ikke injisert
 多源选择、每源密钥与连通性测试	Velg kilder, legg til per-kilde-nøkler, testtilkobling
 接口地址、密钥、模型与多配置档	Sluttpunkt, nøkkel, modeller og flere profiler
 深度研究工作流、实验记录与报告	Dype forskningsarbeidsflyt, eksperimentlogg og rapporter
+猜一个 1 到 100 的数字	Gjett et tall fra 1 til 100
+请输入 1 到 100 的整数	Skriv inn et helt tall fra 1 til 100
+默念一个问题，摇一摇看它怎么答	Tenk på et spørsmål, rist for et svar
+你一句我一句，让故事一直讲下去。	Ta turer og hold historien i gang.
 先完成推理再输出结论，只显示摘要	Grunn først, så svar; bare sammendraget er vist
 公益站额度导航 · 社区持续更新	Samfunnskvoteliste · Oppdatert av samfunnet
 切换不丢失内容；每份预设独立保存	Bytting beholder teksten din; hver forhåndsinnstilling lagres separat
 发送格式、视觉能力判定与图片诊断	Send format, visjon deteksjon og bildediagnostikk
+和我来几局，纯靠运气，不花流量。	Noen få runder med meg - ren hell, ingen data brukt.
 已启用的源 · 点开填密钥或端点	Aktiverte kilder · Åpne en for å legge til en nøkkel eller endepunkt
 每次调用的参数、请求体与响应原文	Parametere, be om kropp og rå respons for hvert anrop
 没有发现服务，检查反代是否已启动	Ingen tjeneste funnet — sjekk at stafetten kjører
@@ -218,70 +418,107 @@ AI 用这种语言回答	AI svarer på dette språket
 自动压缩到 320px，仅存本地	Kompressert til 320px, lagret lokalt kun
 自定义头像、名字、性格与角色设定	Egendefinert avatar, navn, personlighet og rolle
 不写入磁盘，仅保留在本次会话内存中	Holdt i minnet for denne sesjonen bare, aldri skrevet til disk
+圆桌会议、模拟人生与 7 个小游戏	Rundbord, Life Simulator & 7 minispill
+把纠结的选项写进去，让轮盘替你决定	Vis dine alternativer og la hjulet bestemme
 探测公开的免密钥模型，能对话才列出	Probe offentlige nøkkelløse modeller og liste bare de som svarer
+沿用聊天界面正在使用的连接与模型。	Bruk tilkoblingen og modellen som er aktiv i chatten.
+由 AI 根据议题生成，可手动修改	AI-generert fra emnet; redigerbar
 19 套主题、自定义配色、圆角与字号	19 temaer, tilpassede farger, hjørner og tekststørrelse
 会真发一句极短的问题，消耗少量额度。	Sender et veldig kort spørsmål og bruker litt kvote.
 保存参数与响应原文，最多 120 条	Lagre parametre og rå svar, opp til 120 oppføringer
+只清统计与列表，不影响已缓存的回答。	Bare tømmer statistikk og liste; cachede svarene holdes.
 朗读与语音输入，免费与付费引擎都可切	Lese- og stemmeinngang, gratis og betalte motorer
 sk-…（本地 Ollama 可留空）	sk-... (lat tom for lokal Ollama)
 只打开系统确认页，需你亲手点保存才生效	Åpner kun systemark; ingenting endres før du trykker på Lagre
 把开源 xx2api 项目接成一条连接	Tråde et åpen kildekode xx2api-prosjekt til en tilkobling
 界面、回答、语音识别三套语言，独立设置	Grensesnitt, svar og diktingsspråk — tre uavhengige innstillinger
 该会话的所有消息将被移除，且无法恢复。	Hver melding i denne samtalen vil bli fjernet permanent.
+隔离工作区内读写、任务脚本（沙箱保护）	Les/skriv i det isolerte arbeidsområdet og oppgaveskriptene (sandbokset)
+20 次提问用完了，点重新开始再来一局。	Alle 20 spørsmål som brukes. Trykk på omstart for å spille igjen.
+同一天抽到的签不会变，明天再来会有新签。	Dagens formue forblir den samme; komme tilbake i morgen for en ny.
+已手动调整单项授权，不对应任何预设档位。	Individuelle tillatelser har blitt endret manuelt; ingen forhåndsdefinerte nivåer gjelder.
+心里默念一个问题，摇一摇，看它怎么回答。	Tenk på et spørsmål, gi det en rist, se hva det sier.
 所有连接配置的密钥将被清除，且无法恢复。	Nøkkelene til hver tilkoblingsprofil vil bli slettet permanent.
+把纠结的选项都写进去，让轮盘替你做决定。	Vis alle alternativene du er revet mellom og la hjulet bestemme.
 没有匹配的项目，换个关键词或点「全部」。	Ingenting matchet - prøv et annet søkeord eller trykk på alle.
 没识别到有效地址，需要以 http 开头	Ingen gyldig URL funnet; den må begynne med http
+添加连接并选定模型后，模型会显示在这里。	Modellene vises her når du legger til en tilkobling og velger en.
 真实 usage 优先，未返回时本地估算	Real bruk først; estimert lokalt når man mangler
 还没有启用任何源，联网搜索不会发起检索。	Ingen kilde aktivert, så websøk vil ikke kjøres.
+还没有连接，请先到「连接与模型」里添加。	Ingen tilkoblinger ennå. Legg til en under "Connections & Models".
 System Prompt 预设与变量插值	Systempromptinnstillinger og variabel interpolasjon
+之后相同的请求会重新发起，直到再次被缓存。	Identiske forespørsler vil bli sendt igjen til de er cached igjen.
+尚未配置接口，请先到设置里填好连接与模型。	Ingen tilkobling konfigurert. Sett opp et endepunkt og modell i innstillinger først.
+已为游戏单独指定模型，随时可换或恢复默认。	En dedikert modell er satt for spill; endre det eller gjenopprette standard når som helst.
 检索 → 大纲 → 逐节展开 → 汇总报告	Søk → kontur → utkast → rapport
 还没有拉到模型列表，点右上角「刷新」读取。	Ingen modellliste ennå — trykk på Oppdater øverst til høyre.
+还没有添加任何连接，所以这里没有可用模型。	Ingen tilkobling er lagt til ennå, så det er ingen modeller tilgjengelig her.
+这个连接还没有缓存模型，可在下方手动输入。	Ingen cachemodeller for denne tilkoblingen; skriv en manuelt nedenfor.
+先选一家运营商（连接），再进入模型列表挑选。	Velg en leverandør (tilkobling) først, og velg deretter fra sin modellliste.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Når av, oppfører seg akkurat som en vanlig chat klient uten verktøy injisert
 写文件、打开应用等动作在界面上等你点「允许」	Skrive filer, åpne apper og lignende handlinger venter på \"Tillat\"-knappen
+创建角色，由 AI 生成事件与抉择，走完一生	Opprette en karakter; AI genererer hendelser og valg gjennom et helt liv
 只读工具随时可用；其余按上面的授权分组生效。	Lesbare verktøy fungerer alltid; alt annet følger gruppene ovenfor.
 圆角只作用于卡片、按钮与输入台，不影响排版。	Avrunding gjelder kort, knapper og komponist - ikke layout.
 打开已装应用、调起系统浏览器、分享、写剪贴板	Åpne installerte apper, starte nettleseren, dele, skrive til utklippstavle
+模型想一个东西，你用是非题在 20 次内猜中	Modellen tenker på noe; gjett det i 20 ja/ingen spørsmål
+每天一支签，同一天不会变。图个乐子，别当真。	En formue om dagen.
+每行一条，讨论时所有参会者都会看到这份大纲。	Hver deltaker ser denne agendaen.
 读取公开网页正文（禁止内网 / 元数据地址）	Les offentlig sidetekst (private og metadata-adresser blokkert)
 127.0.0.1 或 192.168.1.5	127.0.1 eller 192.168.1,5
+AI 玩法会调用你所选的模型，按实际用量计费。	AI-spill kaller din valgte modell og faktureres av faktisk bruk.
 例如：端侧小模型在 2025 年的推理优化路径	f.eks. små modeller og inferensoptimalisering i 2025
 可为当前这个工作台单独指定，不影响其它工作台。	Gjelder kun dette arbeidsområdet; andre arbeidsplasser holder sitt eget valg.
 多轮检索 → 大纲 → 逐节展开 → 汇总报告	Multi-runde søk → kontur → utkast → rapport
+所有剧情由你配置的模型实时生成，只保存在本机。	Hver hendelse genereres live av modellen din og lagres kun på denne enheten.
 输入关键词，可在这个连接和所有其他连接里查找。	Skriv inn et søkeord for å søke denne tilkoblingen og alle andre.
 还没有启用的搜索源，去 设置 → 搜索 里勾选	Ingen søkekilde aktivert enda — slå på en i Innstillinger → Søk
 回收站里的备份与被删文件将被真正删除，无法恢复。	Sikkerhetskopier og slettede filer i resirkuleringsboksen vil bli permanent slettet.
 搜索语言，如 英语 / English / 冰岛	Søk i språk, f.eks. Engelsk / 冰岛
-隔离工作区内读写、任务脚本（沙箱保护，默认放开）	Les/skriv et privat arbeidsområde, kjør oppgaveskripter (sandbokset, tillatt som standard)
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Følger gjeldende chat-modell som standard; trykk for å angi en dedikert.
 Swagger / OpenAPI JSON 地址	Swagger / OpenAPI JSON URL
 gpt-4o / claude / 通义 / 视觉	gpt-4o / claude / qwen / visjon
 分两批并发，单个超时 25 秒；有本机服务时会更快	To samtidige partier, 25s tidsavbrudd hver; raskere når en lokal tjeneste er funnet
 只缩放文字，不改行高与间距，调大也不会把按钮撑破。	Tekst bare - linjehøyder og avstand forblir satt, så større størrelser aldri bryte knapper.
+我想好了一个东西，你用是非题在 20 次内猜出来。	Jeg har tenkt på noe.
 本机信息、隔离工作区与应用 / 日历 / 闹钟操作	Enhetsinformasjon, privat arbeidsområde, apper / kalender / alarmer
 等宽原样呈现，不解析 Markdown、不转换引用	Vist as-is i monospace: no Markdown-tolking, no citat konvertering
 还没有执行过本机操作。每一步都会留痕，可随时回溯。	Ingen enhetshandlinger ennå. Hvert steg er logget og kan gjennomgås senere.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Velg en leverandør (tilkobling), og velg deretter en modell fra listen.
 凭据经 AES 加密仅存本机，请求直发你填写的接口。	Bekreftelser er bare AES-kryptert på denne enheten; forespørsler går rett til endepunktet du angir.
 可留空，留空时请求不带 Authorization。	Valgfritt — når du er tom, sendes forespørsler uten autorisasjonshode.
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Velg ulike forbindelser eller modeller. Selv én modell kan være uenig med seg selv under ulike roller.
 点一下启用，再点关闭。只有启用的源才会参与联网检索。	Trykk for å aktivere, trykk igjen for å deaktivere. Bare aktiverte kilder brukes til websøk.
 识别语言只影响听写；说错语种时转写会串到另一门语言。	Diktspråket påvirker kun tale-til-tekst; den feil som gjør det transskribere til et annet språk.
 把回答读出来。免费通道随时可能失效，系统语音永远可用。	Les svar høyt. Gratis kanaler kan slutte å jobbe når som helst; systemtale fungerer alltid.
 点「一键测试」会对每家真实发一次请求，通过才列进可用。	One-tap test sender en reell forespørsel til hver leverandør og lister bare de som passerer.
 索取真实 usage；若接口报错可关闭，退化为估算 ≈	Be om reell bruk; Hvis endepunktet feil, slå av dette og falle tilbake til ≈ estimater.
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Jeg skjuler et tall fra 1 til 100
 真实 usage 优先；网关未返回时按字符估算并标 ≈。	Ekte bruk vinner; når gatewayen omsetter det, anslår vi med tegn og markerer det med ≈.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Velg 3-5 modeller fra forskjellige leverandører, diskutere over runder, få et sammendrag
+还没有命中记录。用一会儿圆桌会议或小游戏，这里就会有数据。	Ingen treff ennå. Bruk en rundbord eller et minispill for en stund, og data vil dukke opp her.
 可换个简写（4o / ds / 通义），或直接用这个 ID。	Prøv et kortere alias (4o / ds / qwen), eller bruk denne ID som er.
 填 0 表示不计算费用。价格只用于本地估算，不联网、不上传。	Skriv inn 0 for å hoppe over kostnadsoverslag. Prisene brukes kun lokalt, aldri sendt noe sted.
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline spill aldri ringe en modell eller bruke data; AI spill er fakturert til din valgte modell.
 回答不做 Markdown 渲染与引用角标转换，等宽原样呈现。	Ingen markerings- eller referansemarkører — råteksten er vist i monospace.
 在电脑上跑着 g4f / chat2api / Ollama？	Kjører g4f / chat2api / Ollama på datamaskinen?
 还没有形象。点下面新建一个，头像、名字、说话方式都可以自己定。	Ingen persona ennå. Opprett en nedenfor - avatar, navn og talestil er alle dine å sette.
+只读本机信息、已装应用与文件清单；不写任何数据，不调起其它应用。	Lesbar: enhetsinfo, installerte apper og fillister. Skriver ingenting og åpner ingen annen app.
 多轮检索 → 拟定大纲 → 逐节展开 → 汇总报告，可随时中断。	Multi-runde søk → omriss → avsnitt-for-seksjon utkast → sluttrapport. Avbrudd når som helst.
 搜模型名 / 厂商，如 gpt-4o / claude / 通义	Søk modeller eller leverandører, for eksempel gpt-4o / claude / qwen
 搜项目、平台或模型，如 deepseek / kimi / 网关	Søk i prosjekter, plattformer eller modeller, f.eks. deepseek / kimi / gateway
+清理本应用缓存、查找并删除可访问目录里的文件（完全权限才建议开）	Tøm appens cacheer, finn og slette filer i tilgjengelige mapper (bare anbefalt for full tilgang)
 暂时是空的。让智能体「把结果保存到 notes/」就会出现在下面。	Tomt for nå. Be agenten om å \"lagre resultatet til notater/\" og det vil dukke opp nedenfor.
 未授权的动作不会执行，模型会收到「需要授权」的结果并改用文字说明。	Uautoriserte handlinger utføres ikke; modellen mottar \"opptak som kreves\" og forklarer i stedet i tekst.
 说完静音自动停止，识别出的句子放进输入框；确认没识别错，再点发送。	Opptak stopper når du går stille. Utskriften går inn i inngangsboksen - sjekk den, og send deretter.
 请求体附带 stream_options.include_usage	Forespørsel kroppen inkluderer stream options.include usage
+单价填 0 表示不计算费用；手填单价不会被实时价格覆盖，除非主动刷新。	Angi en pris på 0 for å hoppe over kostnadsberegningen. Manuelt oppgitte priser opphold med mindre du oppdaterer live priser.
+启动后在后台拉取公开费率表，按当前模型自动匹配单价；用量数据不会上传。	Henter en offentlig rentetabell i bakgrunnen ved oppstart og samsvarer med gjeldende modell. Bruksdata lastes aldri opp.
 多源并行检索，按 URL 去重并交错合并引用；单个源失败不影响其他源。	Kilder er parallelt, deduplisert av URL og fusjonert til sammenføyde siteringer; en sviktende kilde påvirker ikke de andre.
 按路径筛选，如 app_state / AndroidManifest	Filtrer på bane, for eksempel app state / AndroidManifest
 必须是不需要 Key 的 OpenAI 兼容地址，添加后会立刻检测一次。	Må være et OpenAI-kompatielt endepunkt som ikke trenger noen nøkkel. Det testes en gang rett etter å ha lagt til.
 依次确认：服务已启动、端口对得上、防火墙放行该端口、手机没有连到访客网络。	Sjekk i rekkefølge: tjenesten kjører, porten matcher, brannmuren tillater det, og telefonen er ikke på et gjestenettverk.
+一键设定智能体在这台手机上能做什么。档位只改授权范围，危险动作仍会逐条弹确认。	Angi hva agenten kan gjøre på denne telefonen i ett trykk. Et nivå bare endrer tillatelser; Rigtige handlinger ber fortsatt om bekreftelse én etter én.
 选错语种最常见的表现是「听得到、但转成另一门语言」。带口音时优先选同语种的地区版本。	Det vanlige symptomet på et feil språk er \"det hører meg men omskriver et annet språk\". Med en aksent velger du den regionale varianten av det samme språket.
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	«Følg spørsmålet» legger til ingen språkinstruksjon og lar modellen bestemme. Et valgt språk er skrevet i systemprompten.
 https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://døme.com/v1 gpt-4o-mini\nEn per linje; Modellnavnet er valgfritt
@@ -291,241 +528,14 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://d�
 四家匿名通道、十来个模型，点一次全部测完。只看模型列表会被骗：不少网关列得很全，真调用时回 402 或 429。	Fire anonyme kanaler og et dusin modeller, alle testet i ett trykk. En modellliste alene er villedende: massevis av gateways lister alt og deretter returnere 402 eller 429 på en reell samtale.
 在设置页打开「自动记录实验」，之后每次普通对话与深度研究的每一轮调用都会连同参数、脱敏请求体和模型原文一起留档，最多 120 条。	Aktivere \"Auto-registrer eksperimenter\" i Innstillinger. Hvert anrop - i normal chat eller dyp forskning - er arkivert med sine parametre, en omdelt forespørselskropp og råmodellutgang, opptil 120 oppføringer.
 反代一般跑在电脑或路由器上。手机和它连同一个 Wi-Fi，填电脑的内网 IP（如 192.168.1.5），点扫描会自动试常见端口。	En relé kjører vanligvis på en datamaskin eller ruter. Bli med i samme Wi-Fi, skriv inn maskinens LAN IP (f.eks. 192.168.1,5), og trykk på Scan for å prøve de felles portene.
+圆桌会议、模拟人生、小游戏与深度研究里完全相同的请求，6 小时内直接复用上次结果，不再发起请求也不计费。主对话是流式的，永远拿新回答。	Identielt ikke-strømming forespørsler i rundbord, liv sim, mini spill og dyp forskning gjenbruke det forrige svaret innen 6 timer - ingen forespørsel, ingen kostnad. Hovedchatt streaming og alltid henter et nytt svar.
 默认只回答问题。打开后，模型能读到这台设备的真实信息，并在你授权的范围内真正做事：读写独立工作区、打开应用与网页、新建日历日程、设置闹钟。	Som standard svarer modellen bare på spørsmål. Slå på dette, og det kan lese reell informasjon fra denne enheten og handle i det du autoriserer: les og skrive et privat arbeidsområde, åpne apper og nettsider, opprette kalenderhendelser, angi alarmer.
+两种命中都会被记录：服务端返回的提示词缓存 token 只按折扣计价；本地复用则连请求都不发。省钱金额按你当前填写的输入单价估算，不是账单。	Begge slag av hits er registrert: but-cache polletter som returneres av leverandøren faktureres til en rabatt; en lokal gjenbruk sender ingen forespørsel i det hele tatt. Sparinger er estimert fra inngangsprisen du angir, ikke fra en regning.
 每个工作台还可在顶栏头像处单独指定形象；角色设定会作为身份说明写入 System Prompt，只影响语气与风格，不改变模型本身的能力边界。	Hvert arbeidsområde kan overstyre sin persona fra avatar i den øverste linjen. Rollebeskrivelsen er skrevet i systemet som en identitetsnote; det endrer tone og stil, ikke hva modellen faktisk kan gjøre.
+费用 = 网关返回的真实 token 数 × 单价。网关没返回 usage 时按字符估算，会略偏。这里只做本地自查，正式账单以服务商后台为准。	Kostnad = ekte polletter som returneres av leverandøren × enhetspris. Når leverandøren om dens bruk, er polletter estimert fra tekst og kan være litt av. Dette er bare et lokalt estimat; den offisielle regningen er i leverandørens konsoll.
 可用变量：{{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前替换为真实值。	Tilgjengelige variabler: {{query}} {{date}} {{time}} {{model}} {{language} {{sources}} {{tier}} — erstattet med reelle verdier før sending.
 8000 和 3000 被多个项目共用，同一台机器只能起一个；要同时用就改端口或分开部署。官方那组要 Key，只是有免费额度；公益实例是别人的服务，随时可能下线，别放隐私内容。	Porter 8000 og 3000 deles av flere prosjekter, så bare man kan kjøre per maskin; endre porten eller distribuere separat for å kjøre begge. Det offisielle settet trenger en nøkkel men har en gratis kvote. Fellesskapsinstanser er noen andres tjeneste - de kan gå offline når som helst, så aldri sende private data gjennom dem.
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Bruk {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}} i spørringen; de erstattes med reelle verdier før du sender.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Gratis kanaler bruker offentlige nettendpoints og kan slutte å fungere eller få hastighetsbegrenset når som helst. Taster er kryptert på denne enheten bare og aldri synkronisert. Trykk på bølgeknappen øverst til høyre, eller trykk på en boble for å lese høyt. Trykk mikrofonen i komponisten for å snakke; opptak stopper når du går stille, og teksten lander i inngangsboksen for gjennomgang før du sender.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Bilder sendes inn som base64, lengste kant 1280, kvalitet 72. Hvis et bildeforespørsel returnerer 400 / 413 / Tilkobling stengt, avviser modellen eller gateway sannsynligvis inline bilder - bytte format over for å begrense det.
-1 轮	1 runde
-2 轮	2 runder
-3 轮	3 runder
-AI 圆桌会议	AI Roundtable
-AI 实验室	AI Lab
-下一段人生尚未发生	Neste kapittel har ikke begynt
-也可以自己写一个目标	Eller skrive ditt eget mål
-人生事件	Livsbegivenhet
-人生存档	Reddet liv
-人生履历	Livshistorie
-人生目标	Livsmål
-人生评分 · 满分 100	Livsscore · ut av 100
-从已有连接补齐 5 个模型	Fyll ut 5 modeller fra tilkoblinger
-会议大纲	Agenda
-会议结论	Konklusjon
-会议议题	Emne
-会议记录	Møtehistorie
-位参会者	Deltakere
-你会怎么选？	Hva vil du gjøre?
-例如：分析者	For eksempel analyse
-停止会议	Slutt å møte
-创建角色	Opprett tegn
-删除席位	Fjern sete
-判定结果失败	Klarte ikke å løse resultatet
-参会模型	Deltakere
-可选不同连接或不同模型；同一模型换立场也能形成分歧。	Velg ulike forbindelser eller modeller. Selv én modell kan være uenig med seg selv under ulike roller.
-名称	Navn
-多模型圆桌会议 · 3~5 个 AI 开会	AI rundbord · 3–5 modeller i diskusjon
-导出人生履历	Eksporter livshistorie
-导出纪要	Eksporter minutter
-尚未配置接口，请先到设置里填好连接与模型。	Ingen tilkobling konfigurert. Sett opp et endepunkt og modell i innstillinger først.
-岁	yrs
-已复制到剪贴板	Kopiert til utklippstavle
-已完结	Ferdig
-席位设置	Seteinnstillinger
-开始会议	Start møte
-开始这一生	Begynn dette livet
-性别	Kjønn
-所有剧情由你配置的模型实时生成，只保存在本机。	Hver hendelse genereres live av modellen din og lagres kun på denne enheten.
-推进人生	Forhåndsliv
-新建会议	Nytt møte
-新的人生	Nytt liv
-时代背景	Era
-暂无历史会议	Ingen lagrede møter
-暂无参会席位	Ingen deltakere ennå
-未发言	Ingen svar
-未命名议题	Uten tittel
-条发言	svinger
-模型 ID	Modell-ID
-模拟人生	Life Simulator
-模拟人生 · AI 生成剧情与抉择	Life Simulator · AI-generert historie og valg
-正在停止	Stopper
-正在撰写人生总结	Skrive livsoppsummering
-段经历	hendelser
-每行一条，讨论时所有参会者都会看到这份大纲。	Hver deltaker ser denne agendaen.
-添加席位	Legg til sete
-生成事件失败	Klarte ikke å generere hendelse
-生成传记失败	Klarte ikke å skrive biografi
-生成大纲	Opprette agenda
-由 AI 根据议题生成，可手动修改	AI-generert fra emnet; redigerbar
-留空将自动取名。	La tom for et tilfeldig navn.
-盖棺定论	Sluttdom
-结束这一生	Avslutt dette livet
-给 TA 起个名字	Gi dem et navn
-自定义立场描述	Custom holdning
-至少需要一个可用的参会模型	Det kreves minst én arbeidsmodell
-角色立场	Rolle & holdning
-讨论记录	Transcript
-讨论轮数	Runder
-请先填写会议议题	Skriv inn et møteemne først
-输入这次要讨论的问题	Hva bør dette møtet diskutere?
-返回	Tilbake
-还没有存档	Ingen reddet liv ennå
-还没有故事	Ingen historier ennå
-连接	Tilkobling
-选择	Valg
-健康	Helse
-才智	Mind
-魅力	Charm
-财富	Rikdom
-声望	Fame
-幸福	Joy
-现代都市 · 2026 年	Moderne by · 2026
-九十年代 · 小城旧事	1990-tallet · liten by
-古代 · 书香门第	Gamle tider · lærde familie
-近未来 · 赛博都市	Nær fremtid · cyber by
-顺其自然，过好每一天	Ta livet som det kommer
-事业有成，闯出一番名堂	Bygg en vellykket karriere
-家人平安，守住平凡幸福	Hold familien trygg og lykkelig
-见世面，走遍天涯	Se verden
-求知到底，成为某个领域的行家	Master et kunnskapsfelt
-主持人	Moderator
-分析者	Analyse
-质疑者	Skeptic
-创意者	Creative
-务实派	Pragmatist
-女	Kvinne
-男	Mann
-其他	Andre
-1 到 100，看你能几次猜中	Et nummer fra 1 til 100 - hvor få gjetninger kan du vinne i?
-20 次提问用完了，点重新开始再来一局。	Alle 20 spørsmål som brukes. Trykk på omstart for å spille igjen.
-AI 玩法	AI spill
-AI 玩法会调用你所选的模型，按实际用量计费。	AI-spill kaller din valgte modell og faktureres av faktisk bruk.
-一共用了	i
-一只猫	en katt
-一把雨伞	en paraply
-一本书	en bok
-一杯咖啡	En kopp kaffe
-一点小惊喜正在路上，留意身边不显眼的机会。	En liten overraskelse er på vei; Legg merke til de stille sjansene i nærheten.
-上上签	Beste lykke
-上签	God lykke
-不进不退，也是一日。守住眼前，就是守住运气。	Verken fremover eller tilbake er fortsatt en dag. Holde det som er her holder lykke.
-个 AI 玩法	AI spill
-个模型	modeller
-个离线小游戏	offline mini-spill
-个选项	alternativer
-中签	Rettferdig lykke
-二十问	20 Spørsmål
-云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Skyene og månen lyser lyse; hver vei er åpen. En god dag å ta ett skritt på noe du lenge har ønsket å gjøre.
-今日签	Dagens formue
-你	Du
-你一句我一句，让故事一直讲下去	Ta turer og hold historien i gang
-你一句我一句，让故事一直讲下去。	Ta turer og hold historien i gang.
-你赢了	Du vinner
-使用	Bruk
-例如：今天适合开始新计划吗？	For eksempel er det bra i dag for en ny plan?
-候选选项	Alternativer
-先给故事起个主题吧	Gi historien et tema først
-先选一家运营商（连接），再进入模型列表挑选。	Velg en leverandør (tilkobling) først, og velg deretter fra sin modellliste.
-先选运营商（连接），再从该运营商的模型列表里挑一个。	Velg en leverandør (tilkobling), og velg deretter en modell fra listen.
-再玩一局	Spill igjen
-再看看	På nytt
-写下接下来发生的事…	Skriv hva som skjer neste..
-冰淇淋	iskrem
-出拳	Ditt trekk
-创建角色，由 AI 生成事件与抉择，走完一生	Opprette en karakter; AI genererer hendelser og valg gjennom et helt liv
-别急着决定，先睡一觉。	Sov på det før du bestemmer deg.
-剩余提问	Spørsmål left
-剪刀	Scissors
-同一天抽到的签不会变，明天再来会有新签。	Dagens formue forblir den samme; komme tilbake i morgen for en ny.
-和我来几局，纯靠运气，不花流量。	Noen få runder med meg - ren hell, ingen data brukt.
-圆桌会议、模拟人生与 7 个小游戏	Rundbord, Life Simulator & 7 minispill
-埃菲尔铁塔	Eiffeltårnet
-多模型	Multi-modell
-大了	For høy
-大概率可以，但留个后手。	Sannsynligvis ja, men hold en backup.
-宇宙说：再问一次。	Universet sier: spør igjen.
-对话	Kontakt
-小了	For lav
-小吉	Små velsignelser
-就选这个	Gå med denne
-已为游戏单独指定模型，随时可换或恢复默认。	En dedikert modell er satt for spill; endre det eller gjenopprette standard når som helst.
-已猜	Guesses
-布	Papir
-平	Tegning
-平局	Det er tegnet
-平签	Stille formue
-开始	Start
-当前对话模型	Gjeldende chatmodell
-当前连接	Nåværende
-待时	Bide din tid
-心里默念一个问题	Tenk på et spørsmål
-心里默念一个问题，摇一摇，看它怎么回答。	Tenk på et spørsmål, gi det en rist, se hva det sier.
-恢复默认	Gjenopprett standard
-想不通的事，出去走一圈大概就有答案了。	For det du ikke kan tenke gjennom, vil en kort spasertur sannsynligvis gi svaret.
-我	Jeg
-我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Jeg skjuler et tall fra 1 til 100
-我想好了一个东西，你用是非题在 20 次内猜出来。	Jeg har tenkt på noe.
-我赢了	Jeg vinner
-手动输入模型 ID	Skriv inn modell-ID manuelt
-抉择轮盘	Beslutningshjul
-把纠结的选项写进去，让轮盘替你决定	Vis dine alternativer og la hjulet bestemme
-把纠结的选项都写进去，让轮盘替你做决定。	Vis alle alternativene du er revet mellom og la hjulet bestemme.
-抽一支签	Tegne en formue
-换个角度想想会更好。	Prøv en annen vinkel.
-搜索模型 ID	Søkemodell-ID
-摇一摇	Skake
-故事接龙	Story Chain
-月亮	månen
-有得有失，平常心最稳。今天宜把节奏放慢一点。	Noen gevinster, noe tap; et selv sinn holder best. Ta det litt langsommere i dag.
-未指定连接	Ingen tilkobling
-未设置模型	Ingen modellsett
-未选择连接	Ingen tilkobling valgt
-本局使用的模型	Modell for dette spillet
-来几局，纯靠运气	Noen runder, ren lykke
-模型想一个东西，你用是非题在 20 次内猜中	Modellen tenker på noe; gjett det i 20 ja/ingen spørsmål
-模型调用失败	Modellsamtale mislyktes
-次	Gjetting
-每天一支签，同一天不会变。图个乐子，别当真。	En formue om dagen.
-每天一支签，图个乐子	En formue om dagen, bare for moro skyld
-每日一签	Daily Fortune
-每行一个，或用逗号隔开	En per linje, eller separert med komma
-没有匹配的模型	Ingen matchende modeller
-沿用聊天界面正在使用的连接与模型。	Bruk tilkoblingen og modellen som er aktiv i chatten.
-游戏	Spill
-点开始，由模型先说第一句。	Trykk på start og la modellen snakke først.
-点这里选择运营商与模型	Trykk for å velge leverandør og modell
-猜一个 1 到 100 的数字	Gjett et tall fra 1 til 100
-猜中了！就是	Det var det
-猜对了！答案是	Svaret var
-猜数字	Gjett nummeret
-猜！	Gjett!
-现在还看不清，再等等。	For snart å si det; vent litt.
-用一个是非题提问…	Still et ja/ingen tvil..
-看起来不错，放手去做。	Ser bra ut - gå for det.
-眼下还不是最好的时机，先攒力气，等风来。	Nå er det ikke helt øyeblikket. Samle styrken din og vent på vinden.
-石头	Rock
-石头剪刀布	Rock Paper Scissors
-离线小游戏	Offline mini-spill
-离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline spill aldri ringe en modell eller bruke data; AI spill er fakturert til din valgte modell.
-答案是肯定的。	Ja, definitivt.
-胜	Vinn
-自行车	en sykkel
-请输入 1 到 100 的整数	Skriv inn et helt tall fra 1 til 100
-负	Tap
-转起来	Spin
-还没有连接，请先到「连接与模型」里添加。	Ingen tilkoblinger ennå. Legg til en under "Connections & Models".
-这个连接还没有缓存模型，可在下方手动输入。	Ingen cachemodeller for denne tilkoblingen; skriv en manuelt nedenfor.
-这次恐怕不行。	Sannsynligvis ikke denne gangen.
-选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Velg 3-5 modeller fra forskjellige leverandører, diskutere over runder, få et sammendrag
-选择游戏模型	Velg spillmodell
-重新开始	Start på nytt
-钢琴	et piano
-长城	den store muren
-静一静心，点下面抽签	Ta et pust og dra ned
-顺签	Smooth seiling
-风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vinden mykner, vannet roer. Hva som er i hendene dine vil svare i tide; ingen grunn til å skynde det.
-魔法八球	Magic 8-ball
-默念一个问题，摇一摇看它怎么答	Tenk på et spørsmål, rist for et svar
-默认跟随当前对话的模型；点这里可为游戏单独指定。	Følger gjeldende chat-modell som standard; trykk for å angi en dedikert.
-（模型没有回复）	(Ingen respons fra modellen)
+OpenAI / Anthropic 等官方接口没有「按次返回单价」的公开端点，账单查询需要单独的 Admin Key，客户端不该持有。因此这里从 LiteLLM / OpenRouter 的公开费率表取价，再乘以本地已记录的真实 token 数。	Offisielle APIer som OpenAI / Antropic har ikke noe offentlig endepunkt som returnerer en per-samtalepris; faktureringsforespørsler trenger en separat Admin Key som klienten aldri bør holde. Så prisene kommer fra den offentlige LiteLLM / OpenRouter rate tabeller, multiplisert med de virkelige tokentallene registrert lokalt.
