@@ -90,7 +90,7 @@
 这台设备	Diese Vorrichtung
 连接配置	Anschlussprofile
 选择形象	Wählen Sie Persona
-选择模型	Wählen Sie Modell
+选择模型	Wählen Sie ein Modell
 配置名称	Profilbezeichnung
 配置连接	Konfigurieren der Verbindung
 页面底色	Seitenhintergrund
@@ -119,7 +119,7 @@
 设备智能体	Geräteagent
 语言与地区	Sprache & Region
 输入任务…	Geben Sie eine Aufgabe ein..
-连接与模型	Verbindung & Modelle
+连接与模型	Verbindung & Modell
 重命名配置	Umbenennungsprofil
 链接已复制	Link kopiert
 顶部形象区	Top Persona Bereich
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Weiblich
 男	Männlich
 其他	Andere
+1 到 100，看你能几次猜中	Eine Zahl von 1 bis 100 - wie wenige Vermutungen können Sie gewinnen?
+20 次提问用完了，点重新开始再来一局。	Alle 20 Fragen wurden verwendet. Tippen Sie auf Neustart, um erneut abzuspielen.
+AI 玩法	KI-Spiele
+AI 玩法会调用你所选的模型，按实际用量计费。	KI-Spiele rufen Ihr ausgewähltes Modell auf und werden nach der tatsächlichen Nutzung abgerechnet.
+一共用了	in
+一只猫	a Katze
+一把雨伞	einen Regenschirm
+一本书	ein Buch
+一杯咖啡	Eine Tasse Kaffee
+一点小惊喜正在路上，留意身边不显眼的机会。	Eine kleine Überraschung ist auf dem Weg; Beachten Sie die ruhigen Chancen in Ihrer Nähe.
+上上签	Bestes Vermögen
+上签	Gutes Vermögen
+不进不退，也是一日。守住眼前，就是守住运气。	Weder vorwärts noch zurück ist immer noch ein Tag.
+个 AI 玩法	KI-Spiele
+个模型	Modelle
+个离线小游戏	Offline Minispiele
+个选项	Optionen
+中签	Faires Vermögen
+二十问	20 Fragen
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Die Wolken teilen sich und der Mond scheint hell; jede Straße ist offen. Ein guter Tag, um einen Schritt auf etwas zu machen, das Sie schon lange tun wollten.
+今日签	Das heutige Vermögen
+你	Sie
+你一句我一句，让故事一直讲下去	Abwechselnd und halte die Geschichte am Laufen
+你一句我一句，让故事一直讲下去。	Wechselt euch ab und haltet die Geschichte am Laufen.
+你赢了	Du gewinnst
+使用	Verwendung
+例如：今天适合开始新计划吗？	Ist heute gut für einen neuen Plan?
+候选选项	Optionen
+先给故事起个主题吧	Gib der Geschichte zuerst ein Thema
+先选一家运营商（连接），再进入模型列表挑选。	Wählen Sie zuerst einen Anbieter (Verbindung) und wählen Sie dann aus seiner Modellliste.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Wählen Sie einen Anbieter (Verbindung), dann wählen Sie ein Modell aus seiner Liste.
+再玩一局	Wieder spielen
+再看看	Wieder einmal
+写下接下来发生的事…	Schreibe, was als nächstes passiert..
+冰淇淋	Eiscreme
+出拳	Dein Umzug
+创建角色，由 AI 生成事件与抉择，走完一生	Erstellen Sie einen Charakter; AI generiert Ereignisse und Entscheidungen durch ein ganzes Leben
+别急着决定，先睡一觉。	Schlafen Sie darauf, bevor Sie sich entscheiden.
+剩余提问	Verbleibende Fragen
+剪刀	Schere
+同一天抽到的签不会变，明天再来会有新签。	Das heutige Glück bleibt gleich; komm morgen für ein neues zurück.
+和我来几局，纯靠运气，不花流量。	Ein paar Runden mit mir - pures Glück, keine Daten verwendet.
+圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 Minispiele
+埃菲尔铁塔	Der Eiffelturm
+多模型	Multimodell
+大了	Zu hoch
+大概率可以，但留个后手。	Wahrscheinlich ja, aber halten Sie ein Backup.
+宇宙说：再问一次。	Das Universum sagt: Frag noch einmal.
+对话	Gespräch
+小了	Zu niedrig
+小吉	Kleiner Segen
+就选这个	Gehen Sie mit diesem
+已为游戏单独指定模型，随时可换或恢复默认。	Ein dediziertes modell ist für spiele festgelegt; ändern sie es oder stellen sie jederzeit standardmäßig wieder her.
+已猜	Guesses
+布	Papier
+平	Zeichnung
+平局	Es ist ein Draw
+平签	Stetiges Vermögen
+开始	Start
+当前对话模型	Aktuelles Chat-Modell
+当前连接	Aktuell
+待时	Bleiben Sie Ihre Zeit
+心里默念一个问题	Denken Sie an eine Frage
+心里默念一个问题，摇一摇，看它怎么回答。	Denken Sie an eine Frage, schütteln Sie sie, sehen Sie, was sie sagt.
+恢复默认	Standardwiederherstellung
+想不通的事，出去走一圈大概就有答案了。	Für das, was Sie nicht durchdenken können, wird ein kurzer Spaziergang wahrscheinlich die Antwort bringen.
+我	Meso
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Ich verstecke eine Zahl von 1 bis 100. In wie wenigen Vermutungen kann man das machen?
+我想好了一个东西，你用是非题在 20 次内猜出来。	Ich habe mir etwas ausgedacht.
+我赢了	Ich gewinne
+手动输入模型 ID	Modell-ID manuell eingeben
+抉择轮盘	Entscheidungsrad
+把纠结的选项写进去，让轮盘替你决定	Listen Sie Ihre Optionen auf und lassen Sie das Rad entscheiden
+把纠结的选项都写进去，让轮盘替你做决定。	Listen Sie alle Optionen auf, zwischen denen Sie hin- und hergerissen sind, und lassen Sie das Rad entscheiden.
+抽一支签	Ziehen Sie ein Vermögen
+换个角度想想会更好。	Versuchen Sie einen anderen Blickwinkel.
+搜索模型 ID	ID des Suchmodells
+摇一摇	Schütteln
+故事接龙	Kettengeschichte
+月亮	Der Mond
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Etwas Gewinn, etwas Verlust; ein ausgeglichener Geist hält am besten. Nehmen Sie es heute etwas langsamer.
+未指定连接	Keine Verbindung
+未设置模型	Kein Modell
+未选择连接	Keine Verbindung ausgewählt
+本局使用的模型	Modell für dieses Spiel
+来几局，纯靠运气	Ein paar Runden, pures Glück
+模型想一个东西，你用是非题在 20 次内猜中	Das Modell denkt an etwas; raten Sie es in 20 Ja / Nein Fragen
+模型调用失败	Modellanruf gescheitert
+次	Vermutungen
+每天一支签，同一天不会变。图个乐子，别当真。	Ein Vermögen am Tag, unverändert am Tag. Nur zum Spaß.
+每天一支签，图个乐子	Ein Vermögen am Tag, nur zum Spaß
+每日一签	Tagesorakel
+每行一个，或用逗号隔开	Eine pro Zeile oder durch Kommas getrennt
+没有匹配的模型	Keine passenden Modelle
+沿用聊天界面正在使用的连接与模型。	Verwenden sie die verbindung und das modell, die derzeit im chat aktiv sind.
+游戏	Spiele
+点开始，由模型先说第一句。	Tippen Sie auf Start und lassen Sie das Modell zuerst sprechen.
+点这里选择运营商与模型	Tippen Sie auf einen Anbieter und ein Modell
+猜一个 1 到 100 的数字	Raten Sie eine Zahl von 1 bis 100
+猜中了！就是	Bekam es! Es war
+猜对了！答案是	Richtig! Die Antwort war
+猜数字	Zahl erraten
+猜！	Ratet mal!
+现在还看不清，再等等。	Zu früh, um es zu sagen; warte ein wenig.
+用一个是非题提问…	Stellen Sie eine Ja/Nein-Frage..
+看起来不错，放手去做。	Sieht gut aus - mach es.
+眼下还不是最好的时机，先攒力气，等风来。	Jetzt ist nicht der richtige Moment. Sammle deine Kraft und warte auf den Wind.
+石头	Rock
+石头剪刀布	Schere Stein Papier
+离线小游戏	Offline-Minispiele
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline-spiele rufen niemals ein modell auf oder verwenden daten; ki-spiele werden ihrem gewählten modell in rechnung gestellt.
+答案是肯定的。	Ja, definitiv.
+胜	Gewinn
+自行车	ein Fahrrad
+请输入 1 到 100 的整数	Geben Sie eine ganze Zahl von 1 bis 100 ein
+负	Verlust
+转起来	Spin
+还没有连接，请先到「连接与模型」里添加。	Noch keine Verbindungen. Fügen Sie eine unter "Verbindungen & Modelle" hinzu.
+这个连接还没有缓存模型，可在下方手动输入。	Keine zwischengespeicherten Modelle für diese Verbindung; geben Sie eine manuell unten ein.
+这次恐怕不行。	Wahrscheinlich diesmal nicht.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Wählen Sie 3-5 Modelle von verschiedenen Anbietern, diskutieren Sie über Runden, erhalten Sie eine Zusammenfassung
+选择游戏模型	Wählen Sie das Spielmodell
+重新开始	Neustart
+钢琴	ein Klavier
+长城	Die Große Mauer
+静一静心，点下面抽签	Atmen Sie ein, dann ziehen Sie unten
+顺签	Glattes Segeln
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Der Wind weicht, das Wasser beruhigt. Was in deinen Händen ist, wird mit der Zeit antworten; es ist nicht nötig, es zu überstürzen.
+魔法八球	Magic 8-Ball
+默念一个问题，摇一摇看它怎么答	Denken Sie an eine Frage, schütteln Sie für eine Antwort
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Folgt standardmäßig dem aktuellen chat-modell; tippen sie, um ein dediziertes zu setzen.
+（模型没有回复）	(Keine Antwort vom Modell)

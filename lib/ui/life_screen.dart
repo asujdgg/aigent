@@ -6,9 +6,11 @@ import 'package:provider/provider.dart';
 import '../i18n.dart';
 import '../services/feature_store.dart';
 import '../services/life_sim.dart';
+import '../services/model_source.dart';
 import '../state/app_state.dart';
 import '../theme.dart';
 import 'feature_kit.dart';
+import 'game_model_bar.dart';
 
 /// 模拟人生页：创建角色 → AI 生成事件与抉择 → 结算属性 → 传记收尾。
 class LifeScreen extends StatefulWidget {
@@ -34,6 +36,9 @@ class _LifeScreenState extends State<LifeScreen> {
   bool busy = false;
   bool showTimeline = false;
   String? notice;
+
+  /// 本局使用的模型。null 时等价于「跟随当前对话」，由 GameModelBar 回调赋值。
+  ModelChoice? gameModel;
 
   // 创建表单
   String gender = '女';
@@ -82,15 +87,21 @@ class _LifeScreenState extends State<LifeScreen> {
     setState(() => booting = false);
   }
 
-  SeatLike get conn => SeatLike(
-        baseUrl: st.settings.baseUrl,
-        apiKey: st.settings.apiKey,
-        model: st.settings.model,
-      );
+  ModelChoice get model =>
+      gameModel ?? currentChatChoice(st.settings);
+
+  SeatLike get conn {
+    final m = model;
+    return SeatLike(
+      baseUrl: m.baseUrl,
+      apiKey: m.apiKey,
+      model: m.model,
+    );
+  }
 
   bool get configured =>
-      st.settings.apiKey.trim().isNotEmpty ||
-      !st.settings.baseUrl.startsWith('https://api.openai.com');
+      model.apiKey.trim().isNotEmpty ||
+      !model.baseUrl.startsWith('https://api.openai.com');
 
   @override
   Widget build(BuildContext context) {
@@ -119,6 +130,13 @@ class _LifeScreenState extends State<LifeScreen> {
                     children: [
                       if (notice != null)
                         featureNotice(dark, notice!, error: busy == false && notice!.contains('失败')),
+                      GameModelBar(
+                        dark: dark,
+                        store: store,
+                        onChanged: (m) {
+                          if (mounted) setState(() => gameModel = m);
+                        },
+                      ),
                       if (!configured)
                         featureNotice(dark, t('尚未配置接口，请先到设置里填好连接与模型。')),
                       if (life == null)

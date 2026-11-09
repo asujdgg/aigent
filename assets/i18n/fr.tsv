@@ -90,7 +90,7 @@
 这台设备	Ce dispositif
 连接配置	Profils de connexion
 选择形象	Choisir persona
-选择模型	Choisir le modèle
+选择模型	Choisir un modèle
 配置名称	Nom du profil
 配置连接	Configuration de la connexion
 页面底色	Fond de page
@@ -119,7 +119,7 @@
 设备智能体	Agent de l’appareil
 语言与地区	Langue et région
 输入任务…	Saisissez une tâche..
-连接与模型	Connexion et modèles
+连接与模型	Connexion & modèle
 重命名配置	Renommer le profil
 链接已复制	Lien copié
 顶部形象区	Zone de top persona
@@ -397,3 +397,135 @@ AI 实验室	Laboratoire AI
 女	Femmes
 男	Hommes
 其他	Autres
+1 到 100，看你能几次猜中	Un nombre de 1 à 100 — combien de suppositions pouvez - vous gagner?
+20 次提问用完了，点重新开始再来一局。	Toutes les 20 questions utilisées. Appuyez sur redémarrer pour jouer à nouveau.
+AI 玩法	Jeux IA
+AI 玩法会调用你所选的模型，按实际用量计费。	Les jeux AI appellent votre modèle sélectionné et sont facturés par utilisation réelle.
+一共用了	en
+一只猫	un chat
+一把雨伞	un parapluie
+一本书	un livre
+一杯咖啡	une tasse de café
+一点小惊喜正在路上，留意身边不显眼的机会。	Une petite surprise est en route; remarquez les chances tranquilles près de vous.
+上上签	Meilleure fortune
+上签	Bonne chance
+不进不退，也是一日。守住眼前，就是守住运气。	Ni avant ni arrière n'est encore un jour.
+个 AI 玩法	Jeux AI
+个模型	modèles
+个离线小游戏	mini-jeux hors ligne
+个选项	options
+中签	Bonne fortune
+二十问	20 questions
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	La partie nuages et la lune brillent; chaque route est ouverte. Une bonne journée pour faire un pas sur quelque chose que vous avez longtemps voulu faire.
+今日签	La fortune d'aujourd'hui
+你	Toi
+你一句我一句，让故事一直讲下去	Tourne-toi et continue l'histoire
+你一句我一句，让故事一直讲下去。	Tourne-toi et continue l'histoire.
+你赢了	Tu gagnes
+使用	Utilisation
+例如：今天适合开始新计划吗？	Par exemple, aujourd'hui est-il bon pour un nouveau plan?
+候选选项	Options
+先给故事起个主题吧	Donnez à l'histoire un thème d'abord
+先选一家运营商（连接），再进入模型列表挑选。	Choisissez d'abord un fournisseur (connection), puis choisissez dans sa liste de modèles.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Choisissez un fournisseur (connection), puis choisissez un modèle dans sa liste.
+再玩一局	Rejouer
+再看看	Encore
+写下接下来发生的事…	Écrivez ce qui se passe ensuite..
+冰淇淋	crème glacée
+出拳	Votre mouvement
+创建角色，由 AI 生成事件与抉择，走完一生	Créer un caractère ; l'IA génère des événements et des choix à travers toute une vie
+别急着决定，先睡一觉。	Dormez dessus avant de décider.
+剩余提问	Questions laissées
+剪刀	Ciseaux
+同一天抽到的签不会变，明天再来会有新签。	La fortune d'aujourd'hui reste la même; revenez demain pour une nouvelle.
+和我来几局，纯靠运气，不花流量。	Quelques tours avec moi — pure chance, aucune donnée utilisée.
+圆桌会议、模拟人生与 7 个小游戏	Table ronde, simulateur de vie et 7 mini-jeux
+埃菲尔铁塔	la Tour Eiffel
+多模型	Multimodèle
+大了	Trop haut
+大概率可以，但留个后手。	Probablement oui, mais gardez un renfort.
+宇宙说：再问一次。	L'univers dit : redemandez.
+对话	Conversation
+小了	Trop bas
+小吉	Petite bénédiction
+就选这个	Allez avec ça
+已为游戏单独指定模型，随时可换或恢复默认。	Un modèle dédié est défini pour les jeux; le modifier ou restaurer par défaut à tout moment.
+已猜	Devine
+布	Papier
+平	Dessiner
+平局	C'est un tirage
+平签	Une fortune stable
+开始	Démarrer
+当前对话模型	Modèle de chat actuel
+当前连接	Actuellement
+待时	Prenez votre temps
+心里默念一个问题	Pensez à une question
+心里默念一个问题，摇一摇，看它怎么回答。	Pensez à une question, faites-la trembler, voyez ce qu'elle dit.
+恢复默认	Restaurer par défaut
+想不通的事，出去走一圈大概就有答案了。	Pour ce que vous ne pouvez pas penser, une courte promenade apportera probablement la réponse.
+我	Moi
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Je cache un numéro de 1 à 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	J'ai pensé à quelque chose.
+我赢了	Je gagne
+手动输入模型 ID	Saisissez manuellement l'ID du modèle
+抉择轮盘	Roue de décision
+把纠结的选项写进去，让轮盘替你决定	Énumérez vos options et laissez la roue décider
+把纠结的选项都写进去，让轮盘替你做决定。	Énumérez toutes les options entre lesquelles vous êtes déchiré et laissez la roue décider.
+抽一支签	Tire une fortune
+换个角度想想会更好。	Essayez un angle différent.
+搜索模型 ID	Numéro du modèle de recherche
+摇一摇	Agiter
+故事接龙	Histoire à deux
+月亮	la Lune
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Certains gains, une certaine perte; un esprit même tient mieux. Prenez-le un peu plus lentement aujourd'hui.
+未指定连接	Aucune connexion
+未设置模型	Aucun ensemble de modèles
+未选择连接	Aucune connexion sélectionnée
+本局使用的模型	Modèle pour ce jeu
+来几局，纯靠运气	Quelques rondes, pure chance
+模型想一个东西，你用是非题在 20 次内猜中	Le modèle pense à quelque chose; devinez-le en 20 questions oui/non
+模型调用失败	L'appel du modèle a échoué
+次	devine
+每天一支签，同一天不会变。图个乐子，别当真。	Une fortune par jour, inchangée dans la journée.
+每天一支签，图个乐子	Une fortune par jour, juste pour s'amuser
+每日一签	Horoscope du jour
+每行一个，或用逗号隔开	Une par ligne, ou séparée par des virgules
+没有匹配的模型	Pas de modèles assortis
+沿用聊天界面正在使用的连接与模型。	Utilisez la connexion et le modèle actuellement actifs dans le chat.
+游戏	Jeux
+点开始，由模型先说第一句。	Appuyez sur Démarrer et laissez le modèle parler en premier.
+点这里选择运营商与模型	Appuyez sur pour choisir un fournisseur et un modèle
+猜一个 1 到 100 的数字	Devinez un nombre de 1 à 100
+猜中了！就是	Compris !
+猜对了！答案是	C'est vrai !
+猜数字	Deviner le nombre
+猜！	Devinez !
+现在还看不清，再等等。	Trop tôt pour le dire; attendez un peu.
+用一个是非题提问…	Posez une question oui/non..
+看起来不错，放手去做。	Ça a l'air bien, vas-y.
+眼下还不是最好的时机，先攒力气，等风来。	Ce n'est pas tout à fait le moment. Rassemblez votre force et attendez le vent.
+石头	Roche
+石头剪刀布	Pierre Feuille Ciseaux
+离线小游戏	Mini-jeux hors ligne
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jeux hors ligne ne jamais appeler un modèle ou utiliser des données; les jeux d'IA sont facturés à votre modèle choisi.
+答案是肯定的。	Oui, certainement.
+胜	Gagner
+自行车	une bicyclette
+请输入 1 到 100 的整数	Saisissez un nombre entier de 1 à 100
+负	Perdre
+转起来	Tourner
+还没有连接，请先到「连接与模型」里添加。	Pas encore de connexions. Ajoutez-en un sous "Connexions et modèles".
+这个连接还没有缓存模型，可在下方手动输入。	Pas de modèles mis en cache pour cette connexion; entrez un manuellement ci-dessous.
+这次恐怕不行。	Probablement pas cette fois.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Choisissez 3–5 modèles de différents fournisseurs, discutez-en des tours, obtenez un résumé
+选择游戏模型	Choisir le modèle de jeu
+重新开始	Redémarrer
+钢琴	un piano
+长城	la Grande Muraille
+静一静心，点下面抽签	Respirez, puis tirez en bas
+顺签	Voile lisse
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Le vent adoucit, l'eau se calme. Ce qui est dans vos mains répondra à temps; pas besoin de le précipiter.
+魔法八球	Boule 8 magique
+默念一个问题，摇一摇看它怎么答	Pensez à une question, secouez-vous pour une réponse
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Suivre le modèle de chat actuel par défaut; appuyez sur pour en définir un dédié.
+（模型没有回复）	(Aucune réponse du modèle)

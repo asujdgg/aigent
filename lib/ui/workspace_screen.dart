@@ -14,8 +14,6 @@ import 'model_picker_sheet.dart';
 import 'muse.dart';
 import 'persona.dart';
 import 'research_sheet.dart';
-import 'roundtable_screen.dart';
-import 'life_screen.dart';
 import 'settings_screen.dart';
 import 'source_browser.dart';
 import 'tool_drawer.dart';
@@ -623,23 +621,9 @@ class WorkspaceDrawer extends StatelessWidget {
                     Navigator.pop(context);
                     onResearch?.call();
                   }),
-                  _drawerAction(dark, Icons.forum_rounded, 'AI 圆桌会议', () {
-                    Navigator.pop(context);
-                    Navigator.of(context).push(SoftPageRoute(
-                      keepBelow: true,
-                      builder: (_) => const RoundtableScreen(),
-                    ));
-                  }),
-                  _drawerAction(
-                      dark, Icons.auto_stories_rounded, '模拟人生', () {
-                    Navigator.pop(context);
-                    Navigator.of(context).push(SoftPageRoute(
-                      keepBelow: true,
-                      builder: (_) => const LifeScreen(),
-                    ));
-                  }),
                   // 功能 / 配置 两组之间留一点空隙，不画线、不加小标题：
-                  // 五条同款入口堆在一起，只靠图标区分太难扫。
+                  // 同款入口堆在一起，只靠图标区分太难扫。
+                  // 圆桌会议与模拟人生已移到「设置 → 游戏」，不再占侧边栏。
                   const SizedBox(height: 6),
                   _drawerAction(dark, Icons.settings_rounded, '设置', () {
                     Navigator.pop(context);

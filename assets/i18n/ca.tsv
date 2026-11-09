@@ -90,7 +90,7 @@
 这台设备	Aquest dispositiu
 连接配置	Perfils de connexió
 选择形象	Tria persona
-选择模型	Escolliu model
+选择模型	Escolliu un model
 配置名称	Nom del perfil
 配置连接	Configura la connexió
 页面底色	Fons de pàgina
@@ -397,3 +397,135 @@ AI 实验室	LabAI
 女	Dona
 男	Home
 其他	Altres
+1 到 100，看你能几次猜中	Un número d'un a 100 Luxemburg en què poques suposicions pots guanyar?
+20 次提问用完了，点重新开始再来一局。	Totes les 20 preguntes usades. Tap torna a jugar.
+AI 玩法	Jocs de la IA
+AI 玩法会调用你所选的模型，按实际用量计费。	Els jocs de la IA anomenen el model seleccionat i estan carregats per ús real.
+一共用了	in
+一只猫	un gat
+一把雨伞	un paraigües
+一本书	un llibre
+一杯咖啡	un cafè
+一点小惊喜正在路上，留意身边不显眼的机会。	Una petita sorpresa està en el seu camí, noteu les poques oportunitats a prop vostre.
+上上签	La millor fortuna
+上签	Bona fortuna
+不进不退，也是一日。守住眼前，就是守住运气。	Ni cap enrere ni un dia.
+个 AI 玩法	Jocs de la IA
+个模型	models
+个离线小游戏	Minis de fora de línia
+个选项	opcions
+中签	Fortuna justa
+二十问	20 preguntes
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	La part dels núvols i la lluna brilla brillant, cada camí està obert.
+今日签	La fortuna d' avui
+你	Vós
+你一句我一句，让故事一直讲下去	Agafa torns i manté la història
+你一句我一句，让故事一直讲下去。	Feu torns i manteniu la història.
+你赢了	Tu guanyes
+使用	Ús
+例如：今天适合开始新计划吗？	És avui un nou pla?
+候选选项	Opcions
+先给故事起个主题吧	Primer doneu un tema a la història
+先选一家运营商（连接），再进入模型列表挑选。	Primer escolliu un proveïdor (connexió), després escolliu la llista de models.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Escolliu un proveïdor (connexió), després escolliu un model de la llista.
+再玩一局	Torna a jugar
+再看看	Torna
+写下接下来发生的事…	Escriu què passa després..
+冰淇淋	gelat
+出拳	El vostre moviment
+创建角色，由 AI 生成事件与抉择，走完一生	Crea un caràcter; IA genera esdeveniments i opcions a través de tota una vida
+别急着决定，先睡一觉。	Dorm-hi abans de decidir-ho.
+剩余提问	Preguntes restants
+剪刀	Tisores
+同一天抽到的签不会变，明天再来会有新签。	La fortuna d'avui és igual; torna demà per un nou.
+和我来几局，纯靠运气，不花流量。	Unes quantes rondes amb mi pura sort, sense dades usades.
+圆桌会议、模拟人生与 7 个小游戏	Arrodonible, Simulador de vida i set mini de joc
+埃菲尔铁塔	la Torre Eiffel
+多模型	Multi- model
+大了	Massa alt
+大概率可以，但留个后手。	Probablement sí, però tingues una còpia de seguretat.
+宇宙说：再问一次。	L'univers diu: pregunta de nou.
+对话	Conversa
+小了	Massa baixa
+小吉	Petita benedicció
+就选这个	Vés amb això
+已为游戏单独指定模型，随时可换或恢复默认。	Un model dedicat està establert per a jocs, el canvia o restaura per defecte en qualsevol moment.
+已猜	Suposoes
+布	Paper
+平	Dibuixa
+平局	És un dibuix
+平签	Fortuna constant
+开始	Inicia
+当前对话模型	Model de xat actual
+当前连接	Actual
+待时	Bide el teu temps
+心里默念一个问题	Pensa en una pregunta
+心里默念一个问题，摇一摇，看它怎么回答。	Pensa en una pregunta, dóna-li un batut, mira què diu.
+恢复默认	Restaura per defecte
+想不通的事，出去走一圈大概就有答案了。	Per al que no pots pensar, un curt passeig probablement portarà la resposta.
+我	Jo
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Estic amagant un número de 1 a 100. en quantes suposicions pots fer-ho?
+我想好了一个东西，你用是非题在 20 次内猜出来。	He pensat en alguna cosa.
+我赢了	Guanyo
+手动输入模型 ID	Introduïu manualment l' ID del model
+抉择轮盘	Roda de decisions
+把纠结的选项写进去，让轮盘替你决定	Llista les vostres opcions i deixa que decideixi la roda
+把纠结的选项都写进去，让轮盘替你做决定。	Llista totes les opcions que esteu entrellaçat i deixa que decideixi la roda.
+抽一支签	Dibuixa una fortuna
+换个角度想想会更好。	Prova un altre angle.
+搜索模型 ID	ID del model de cerca
+摇一摇	"Espolsar"
+故事接龙	Cadena de la història
+月亮	la Lluna
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Alguns beneficis, una mica de pèrdua, una ment millor.
+未指定连接	Sense connexió
+未设置模型	No s' ha establert cap model
+未选择连接	No s' ha seleccionat cap connexió
+本局使用的模型	Model per a aquest joc
+来几局，纯靠运气	Unes quantes rondes, pura sort
+模型想一个东西，你用是非题在 20 次内猜中	El model pensa en alguna cosa, endevina-ho en 20 preguntes sí/no
+模型调用失败	Ha fallat la crida al model
+次	suposicions
+每天一支签，同一天不会变。图个乐子，别当真。	Un dia la fortuna, sense canvis en el dia.
+每天一支签，图个乐子	Un dia la fortuna, només per divertir-se
+每日一签	Daily Fortune
+每行一个，或用逗号隔开	Una per línia o separades per comes
+没有匹配的模型	Sense models coincidents
+沿用聊天界面正在使用的连接与模型。	Usa la connexió i el model actualment actiu al xat.
+游戏	Jocs
+点开始，由模型先说第一句。	Comença i deixa que el model parli primer.
+点这里选择运营商与模型	Tap per triar un proveïdor i model
+猜一个 1 到 100 的数字	Suposo que un número d' 1 a 100
+猜中了！就是	Ho tinc!
+猜对了！答案是	Correcte, la resposta ha estat
+猜数字	Endevina el número
+猜！	Suposo!
+现在还看不清，再等等。	Massa aviat per dir-ho, esperar una mica.
+用一个是非题提问…	Pregunta un sí/no una pregunta..
+看起来不错，放手去做。	Sembla que l'Atkavyen li serveix.
+眼下还不是最好的时机，先攒力气，等风来。	Ara no és un bon moment.
+石头	Rock
+石头剪刀布	Schisors del paper Rock
+离线小游戏	Minis de fora de línia
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Els jocs fora de línia mai criden un model o useu dades; els jocs d' IA s' han carregat al model escollit.
+答案是肯定的。	Sí, definitivament.
+胜	Windows
+自行车	Una bicicleta
+请输入 1 到 100 的整数	Introduïu un nombre sencer des de 1 a 100
+负	Perd
+转起来	Gir
+还没有连接，请先到「连接与模型」里添加。	Encara no hi ha connexions. Afegiu- ne un sota "Connections i models."
+这个连接还没有缓存模型，可在下方手动输入。	No hi ha models de memòria cau per a aquesta connexió; introduïu- ne un manualment a sota.
+这次恐怕不行。	Probablement aquesta vegada no.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Trieu models 335 de diferents proveïdors, discutiu sobre les rondes, feu un resum
+选择游戏模型	Escolliu el model de joc
+重新开始	Reinicia
+钢琴	un piano
+长城	el Gran Mur
+静一静心，点下面抽签	Respira, després dibuixi a sota
+顺签	Navega suau
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	El vent s'esteix, l'aigua calma.
+魔法八球	Bola màgica 8
+默念一个问题，摇一摇看它怎么答	Penseu en una pregunta, tracteu per a una resposta
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Segueix el model de xat actual per omissió; tap per establir- ne un dedicat.
+（模型没有回复）	(No hi ha resposta del model)

@@ -718,15 +718,16 @@ void main() {
 
   group('设置页 v3.5：分类导航与搜索', () {
     test('分类目录覆盖全部设置域且 id 唯一', () {
-      expect(kSettingsCats.length, 14);
+      expect(kSettingsCats.length, 15);
       final ids = kSettingsCats.map((c) => c.id).toSet();
-      expect(ids.length, 14);
+      expect(ids.length, kSettingsCats.length);
       expect(
           ids.containsAll(const [
             'connection',
             'relay',
             'free',
             'appearance',
+            'language',
             'persona',
             'voice',
             'agent',
@@ -735,7 +736,8 @@ void main() {
             'search',
             'research',
             'presets',
-            'usage'
+            'usage',
+            'games'
           ]),
           isTrue);
       for (final c in kSettingsCats) {
@@ -746,9 +748,11 @@ void main() {
     });
 
     test('空关键词返回全部分类', () {
-      expect(kSettingsCats.where((c) => settingsCatMatches(c, '')).length, 14);
+      expect(kSettingsCats.where((c) => settingsCatMatches(c, '')).length,
+          kSettingsCats.length);
       expect(
-          kSettingsCats.where((c) => settingsCatMatches(c, '   ')).length, 14);
+          kSettingsCats.where((c) => settingsCatMatches(c, '   ')).length,
+          kSettingsCats.length);
     });
 
     test('反代关键词可直达网页版反代分类', () {

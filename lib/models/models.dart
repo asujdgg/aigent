@@ -8,8 +8,8 @@ const String kDefaultSystemPrompt =
     'When sources are provided, ground claims in them and cite them as [1], [2].';
 
 /// 单一版本来源：界面、关于页、设备信息都读这里，避免各页各写一份。
-const String kAppVersion = '4.23.0';
-const int kAppBuild = 42;
+const String kAppVersion = '4.24.0';
+const int kAppBuild = 43;
 const String kAppIconAsset = 'assets/brand/app_icon.png';
 
 enum Tier { lite, standard, deep, expert }

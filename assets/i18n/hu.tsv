@@ -90,7 +90,7 @@
 这台设备	Ez az eszköz
 连接配置	Csatlakozási profilok
 选择形象	Válassza ki a személy
-选择模型	Modell kiválasztása
+选择模型	Válasszon egy modellt
 配置名称	A profil neve
 配置连接	Kapcsolat beállítása
 页面底色	Oldal háttere
@@ -119,7 +119,7 @@
 设备智能体	Eszközkezelő
 语言与地区	Nyelv és régió
 输入任务…	Adjon meg egy feladatot..
-连接与模型	Csatlakozási modellek
+连接与模型	Csatlakozás és modell
 重命名配置	A profil átnevezése
 链接已复制	Lemásolt link
 顶部形象区	Top persona area
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Nő
 男	Férfi
 其他	Egyéb
+1 到 100，看你能几次猜中	Egy szám 1-től 100-ig - hány találgatás győzhet?
+20 次提问用完了，点重新开始再来一局。	Mind a 20 felhasznált kérdés. Koppintsunk az újrakezdésre.
+AI 玩法	AI játékok
+AI 玩法会调用你所选的模型，按实际用量计费。	AI játékok hívja a kiválasztott modell, és kiszámlázzák a tényleges használat.
+一共用了	in
+一只猫	egy macska
+一把雨伞	esernyő
+一本书	egy könyv
+一杯咖啡	egy csésze kávét
+一点小惊喜正在路上，留意身边不显眼的机会。	Egy kis meglepetés közeleg, figyelje a csendes esélyeket.
+上上签	Legjobb szerencse
+上签	Sok szerencsét!
+不进不退，也是一日。守住眼前，就是守住运气。	Sem előre, sem hátra nem egy nap.
+个 AI 玩法	AI játékok
+个模型	modellek
+个离线小游戏	offline mini- games
+个选项	opciók
+中签	Szép szerencse
+二十问	20 Kérdés
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	A felhők része, és a hold ragyog fényes; minden út nyitva áll. Egy jó nap, hogy tegyen egy lépést valamit, amit régóta meg akart tenni.
+今日签	A mai szerencse
+你	Te!
+你一句我一句，让故事一直讲下去	Forduljatok és folytassátok a történetet
+你一句我一句，让故事一直讲下去。	Forduljanak meg, és folytassák a történetet.
+你赢了	Nyertél
+使用	Felhasználás
+例如：今天适合开始新计划吗？	Például a mai nap jó egy új tervhez?
+候选选项	Opciók
+先给故事起个主题吧	A történet először egy téma
+先选一家运营商（连接），再进入模型列表挑选。	Válasszon egy szolgáltatót (kapcsolat) először, majd válasszon a modell listájáról.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Válasszon egy szolgáltatót (kapcsolat), majd válasszon egy modellt a listájáról.
+再玩一局	Lejátszás újra
+再看看	Újra
+写下接下来发生的事…	Írd meg, mi következik..
+冰淇淋	jégkrém
+出拳	Te jössz
+创建角色，由 AI 生成事件与抉择，走完一生	Létrehozni egy karaktert; AI generál események és döntések egész életen át
+别急着决定，先睡一觉。	Aludj rá egyet, mielőtt eldöntöd.
+剩余提问	Kérdések maradtak
+剪刀	Olló
+同一天抽到的签不会变，明天再来会有新签。	A mai vagyon ugyanaz marad; holnap gyere vissza egy újért.
+和我来几局，纯靠运气，不花流量。	Néhány töltény velem - tiszta szerencse, nem használt adatok.
+圆桌会议、模拟人生与 7 个小游戏	Kerekasztal, Life Simulator & 7 mini- játékok
+埃菲尔铁塔	az Eiffel-torony
+多模型	Több modell
+大了	Túl magas
+大概率可以，但留个后手。	Valószínűleg igen, de tarts meg egy erősítést.
+宇宙说：再问一次。	Az univerzum azt mondja: kérdezz újra.
+对话	Beszélgetés
+小了	Túl alacsony
+小吉	Kis áldás
+就选这个	Menj ezzel
+已为游戏单独指定模型，随时可换或恢复默认。	Egy külön modell van beállítva a játékok; változtatni, vagy visszaállítani az alapértelmezett bármikor.
+已猜	Tippek
+布	Papír
+平	Rajz
+平局	Ez egy döntetlen
+平签	Szilárd vagyon
+开始	Kezdés
+当前对话模型	Aktuális chat modell
+当前连接	Jelenleg
+待时	Csak nyugodtan
+心里默念一个问题	Gondolj egy kérdésre
+心里默念一个问题，摇一摇，看它怎么回答。	Gondolj egy kérdésre, rázd meg, nézd meg mit mond.
+恢复默认	Alapértelmezés visszaállítása
+想不通的事，出去走一圈大概就有答案了。	Amit nem tudsz átgondolni, egy rövid séta valószínűleg választ hoz.
+我	Me
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Egy számot rejtegetek 1 és 100 között
+我想好了一个东西，你用是非题在 20 次内猜出来。	Gondolom 20 igen / nem kérdés.
+我赢了	Nyertem
+手动输入模型 ID	Adja meg a modell azonosítóját manuálisan
+抉择轮盘	Döntőkerék
+把纠结的选项写进去，让轮盘替你决定	Sorolja fel a lehetőségeket, és hagyja, hogy a kerék döntsön
+把纠结的选项都写进去，让轮盘替你做决定。	Sorold fel az összes opciót, amit széttépsz, és hagyd, hogy a kerék döntsön.
+抽一支签	Rajzolj egy vagyont!
+换个角度想想会更好。	Próbáljon más szögben.
+搜索模型 ID	Keresési modell azonosítója
+摇一摇	Felrázás
+故事接龙	Történetlánc
+月亮	A Hold
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Néhány nyereség, némi veszteség, egy egyenletes elme tartja a legjobban. Vedd egy kicsit lassabban ma.
+未指定连接	Nincs kapcsolat
+未设置模型	Nincs modellkészlet
+未选择连接	Nincs kijelölve kapcsolat
+本局使用的模型	Modell ehhez a játékhoz
+来几局，纯靠运气	Néhány kör, csak szerencse
+模型想一个东西，你用是非题在 20 次内猜中	A modell gondol valamit; tippelj 20 igen / nem kérdések
+模型调用失败	A modellhívás sikertelen
+次	találgatások
+每天一支签，同一天不会变。图个乐子，别当真。	Napi egy vagyon, egy napon belül változatlan.
+每天一支签，图个乐子	Egy vagyon egy nap, csak szórakozásból
+每日一签	Napi szerencse
+每行一个，或用逗号隔开	Egy vonalanként, vagy vesszővel elválasztva
+没有匹配的模型	Nincs egyező modell
+沿用聊天界面正在使用的连接与模型。	Használja a kapcsolat és modell jelenleg aktív chat.
+游戏	Játékok
+点开始，由模型先说第一句。	Koppintson a kezdésre, és hagyja, hogy a modell beszéljen először.
+点这里选择运营商与模型	Koppintsunk a szolgáltató és a modell kiválasztására
+猜一个 1 到 100 的数字	Találjon ki egy számot 1 és 100 között
+猜中了！就是	Megvan!
+猜对了！答案是	A válasz:
+猜数字	Találd ki a számot
+猜！	Találd ki!
+现在还看不清，再等等。	Még korai megmondani, várj egy kicsit.
+用一个是非题提问…	Kérdezz igennel / nemmel..
+看起来不错，放手去做。	Jól néz ki.
+眼下还不是最好的时机，先攒力气，等风来。	Most nincs itt a pillanat, szedd össze az erődet és várj a szélre.
+石头	Rock
+石头剪刀布	Kőpapír olló
+离线小游戏	Offline mini- játékok
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline játékok soha nem hívja a modell vagy adatok használata; AI játékok számlázzák a kiválasztott modell.
+答案是肯定的。	Igen, határozottan.
+胜	Győzelem
+自行车	kerékpár
+请输入 1 到 100 的整数	Adja meg az egész számot 1 és 100 között
+负	Vesztés
+转起来	Pörgetés
+还没有连接，请先到「连接与模型」里添加。	Még nincs kapcsolat. Adjon hozzá egyet a "Connections & Models" alatt.
+这个连接还没有缓存模型，可在下方手动输入。	Ehhez a kapcsolathoz nincs tárolt modell; írja be manuálisan.
+这次恐怕不行。	Valószínűleg most nem.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Válassza ki a 3-5 modellek különböző szolgáltatók, megvitatni a kerek, kap egy összefoglaló
+选择游戏模型	Válassza ki a játékmodellt
+重新开始	Újraindítás
+钢琴	egy zongora
+长城	A Nagy Fal
+静一静心，点下面抽签	Vegyen egy mély levegőt, majd húzza le
+顺签	Sima vitorlázás
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	A szél megenyhül, a víz megnyugszik, a mi a kezeidben van, időben válaszol; nem kell sietni.
+魔法八球	Magic 8- Ball
+默念一个问题，摇一摇看它怎么答	Gondolj egy kérdésre, rázd meg a választ
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Az aktuális chat modellt alapértelmezés szerint követi; koppintson a dedikált modell beállításához.
+（模型没有回复）	(A modell nem válaszol)

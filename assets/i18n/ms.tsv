@@ -90,7 +90,7 @@
 这台设备	Perangkat ini
 连接配置	Profil Sambungan Sambungan VPN
 选择形象	Pilih persona
-选择模型	Model pilihan
+选择模型	Pilihlah model
 配置名称	Nama profil
 配置连接	Konfigurasikan sambungan
 页面底色	Latar belakang halaman
@@ -119,7 +119,7 @@
 设备智能体	Agen perangkat virus
 语言与地区	Bahasa Mandarin & wilayah
 输入任务…	Ini adalah tugas..
-连接与模型	Model SambunganName
+连接与模型	Model Sambungan Sambungan Sambungan Sambungan
 重命名配置	Nama profil
 链接已复制	Disalin
 顶部形象区	Daerah persona top kinada
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Perempuan
 男	Perancis
 其他	Lainnya
+1 到 100，看你能几次猜中	Sejumlah dari 1 sampai 100 — seberapa sedikit tebakan yang dapat Anda menangi?
+20 次提问用完了，点重新开始再来一局。	Semua 20 pertanyaan yang digunakan.
+AI 玩法	Permainan AI
+AI 玩法会调用你所选的模型，按实际用量计费。	Permainan permainan AI memanggil model pilihan Anda dan ditagih dengan penggunaan yang sebenarnya.
+一共用了	dalam
+一只猫	Kucing
+一把雨伞	Payung payung
+一本书	Sebuah buku
+一杯咖啡	Mau secangkir kopi
+一点小惊喜正在路上，留意身边不显眼的机会。	Kejutan kecil sedang dalam perjalanan; perhatikan kesempatan tenang dekat Anda.
+上上签	Nasib terbaik
+上签	Nasib baik
+不进不退，也是一日。守住眼前，就是守住运气。	Memegang apa yang ada di sini memegang keberuntunganmu.
+个 AI 玩法	Permainan AI
+个模型	model
+个离线小游戏	Permain mini offline di luar talian
+个选项	opsi boleh pilih
+中签	Keberuntungan yang besar
+二十问	Pertanyaan
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Bagian awan dan bulan bersinar terang, setiap jalan terbuka.
+今日签	Keberuntungan hari ini
+你	Kau
+你一句我一句，让故事一直讲下去	Bergiliran dan teruskan ceritanya
+你一句我一句，让故事一直讲下去。	Ambil giliran dan teruskan ceritanya.
+你赢了	Kau menang
+使用	Guna
+例如：今天适合开始新计划吗？	Apakah hari ini baik untuk rencana baru?
+候选选项	Opsyen
+先给故事起个主题吧	Pertama, berikan kisahnya sebuah tema
+先选一家运营商（连接），再进入模型列表挑选。	Pertama-tama, Toilet Pilih sebuah penyedia (koneksi) pertama, kemudian pilih dari daftar modelnya.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Tolaki Pilih penyedia (koneksi), kemudian pilih model dari daftarnya.
+再玩一局	Mainkan lagi
+再看看	Sekali Lagi
+写下接下来发生的事…	Apa yang terjadi selanjutnya..
+冰淇淋	es krim
+出拳	Langkah Anda
+创建角色，由 AI 生成事件与抉择，走完一生	AI menghasilkan peristiwa dan pilihan melalui seluruh kehidupan
+别急着决定，先睡一觉。	Tidurlah sebelum memutuskan.
+剩余提问	Pertanyaan di kiri
+剪刀	Scissors
+同一天抽到的签不会变，明天再来会有新签。	Keberuntungan hari ini tetap sama; datang kembali besok untuk yang baru.
+和我来几局，纯靠运气，不花流量。	Beberapa putaran dengan saya — keberuntungan murni, tidak ada data yang digunakan.
+圆桌会议、模拟人生与 7 个小游戏	[3] roundtable, Life Simulator & 7 mini-game
+埃菲尔铁塔	Menara Eiffel
+多模型	Multi-model
+大了	Terlalu tinggi
+大概率可以，但留个后手。	Kemungkinan ya, tapi tetap cadangan.
+宇宙说：再问一次。	Alam semesta mengatakan: tanya lagi.
+对话	Perbincangan
+小了	Terlalu rendah
+小吉	Berkat kecil
+就选这个	Pergilah dengan ini
+已为游戏单独指定模型，随时可换或恢复默认。	Model berdedikasi adalah set untuk permainan; ubah atau kembalikan secara default kapan saja.
+已猜	Guess
+布	Kertas Ukiran
+平	Lukis
+平局	Ini seri
+平签	Keberuntungan Keledai
+开始	Mula
+当前对话模型	Contoh chat saat ini dari {0}
+当前连接	Alfa semasa
+待时	♪ Nikmati waktumu ♪
+心里默念一个问题	Coba pikirkan sebuah pertanyaan
+心里默念一个问题，摇一摇，看它怎么回答。	Pikirkan sebuah pertanyaan, beri getar, lihat apa yang dikatakannya.
+恢复默认	Pulihkan secara default
+想不通的事，出去走一圈大概就有答案了。	Untuk apa yang tidak dapat Anda pikirkan, jalan singkat kemungkinan besar akan membawa jawabannya.
+我	♪ Me
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Aku menyembunyikan nomor 1 sampai 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Aku sudah memikirkan sesuatu.
+我赢了	Aku menang
+手动输入模型 ID	Masukkan model ID secara manual
+抉择轮盘	Roda Keputusan
+把纠结的选项写进去，让轮盘替你决定	Daftar pilihan Anda dan biarkan roda memutuskan
+把纠结的选项都写进去，让轮盘替你做决定。	Daftar semua pilihan Anda robek antara dan biarkan roda memutuskan.
+抽一支签	Gambar kekayaan
+换个角度想想会更好。	Coba sudut yang berbeda.
+搜索模型 ID	ID model pencarian vedinary
+摇一摇	Shake
+故事接龙	Rantai Cerita
+月亮	♪ Bulan ♪
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Beberapa keuntungan, beberapa kerugian, bahkan pikiran memegang yang terbaik.
+未指定连接	Sambungan
+未设置模型	Model tidak ada set
+未选择连接	Sambungan tidak dipilih
+本局使用的模型	Model untuk permainan ini
+来几局，纯靠运气	Beberapa putaran, keberuntungan murni
+模型想一个东西，你用是非题在 20 次内猜中	Model ini memikirkan sesuatu; coba tebak dalam 20 pertanyaan ya/tidak
+模型调用失败	Panggilan model gagal
+次	Tebakan palsu
+每天一支签，同一天不会变。图个乐子，别当真。	Satu keberuntungan sehari, tak berubah dalam sehari.
+每天一支签，图个乐子	Satu keberuntungan sehari, hanya untuk bersenang-senang
+每日一签	Fortune
+每行一个，或用逗号隔开	Satu per baris, atau dipisahkan dengan koma
+没有匹配的模型	Tidak ada model yang cocok
+沿用聊天界面正在使用的连接与模型。	Infanne menggunakan sambungan dan model yang saat ini aktif dalam chat.
+游戏	Permainan
+点开始，由模型先说第一句。	Ayo mulai dan biarkan model berbicara dulu.
+点这里选择运营商与模型	Sapu untuk memilih penyedia dan model
+猜一个 1 到 100 的数字	Tebak angka dari 1 sampai 100
+猜中了！就是	Dapat!
+猜对了！答案是	Jawabannya adalah
+猜数字	Tebak Angkanya
+猜！	Tebak!
+现在还看不清，再等等。	Terlalu cepat untuk memberitahu; tunggu sedikit.
+用一个是非题提问…	Tanya ya/tidak ada pertanyaan..
+看起来不错，放手去做。	Tampaknya bagus — lakukanlah.
+眼下还不是最好的时机，先攒力气，等风来。	Sekarang belum saatnya, kumpulkan kekuatanmu dan tunggu angin.
+石头	Rock
+石头剪刀布	Gunting Kertas Batu
+离线小游戏	Permaian mini luar negeri
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Game luring tidak pernah menyebut model atau menggunakan data; permainan AI ditagih ke model pilihan Anda.
+答案是肯定的。	Ya, pasti.
+胜	Perancis
+自行车	Sepeda
+请输入 1 到 100 的整数	Masukkan nomor bulat dari 1 sampai 100
+负	♪ Lose ♪
+转起来	Spin
+还没有连接，请先到「连接与模型」里添加。	Belum ada koneksi.
+这个连接还没有缓存模型，可在下方手动输入。	Tidak ada model yang dicache untuk sambungan ini; masukkan satu secara manual di bawah.
+这次恐怕不行。	Mungkin tidak kali ini.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Tolak 3–5 model dari penyedia berbeda, diskusikan lebih banyak putaran, dapatkan ringkasan
+选择游戏模型	Model permainan
+重新开始	Hidupkan ulang
+钢琴	piano
+长城	Di Tembok Besar
+静一静心，点下面抽签	Ambil napas, kemudian menggambar di bawah
+顺签	Kelicinan berlayar
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Angin berembus, air tenang, apa yang ada di tanganmu akan menjawab tepat waktu; tidak perlu terburu-buru.
+魔法八球	Magic 8-Ball
+默念一个问题，摇一摇看它怎么答	Pikirkan pertanyaan, goyangkan jawaban
+默认跟随当前对话的模型；点这里可为游戏单独指定。	* Mengikuti model obrolan saat ini secara default; tap untuk menetapkan yang didedikasikan.
+（模型没有回复）	(Tidak ada tanggapan dari model)

@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../i18n.dart';
-import '../models/models.dart';
 import '../services/feature_store.dart';
+import '../services/model_source.dart';
 import '../services/roundtable.dart';
 import '../state/app_state.dart';
 import '../theme.dart';
 import 'feature_kit.dart';
+import 'provider_model_picker.dart';
 
 /// 多模型圆桌会议页。
 ///
@@ -102,6 +103,9 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
   /// 席位存档不保存密钥，启动时按地址从当前连接把 key 补回去。
   void _restoreKeys(List<Seat> seats) {
     for (final s in seats) {
+      if (s.providerName.trim().isEmpty) {
+        s.providerName = providerNameFor(st.settings, s.baseUrl);
+      }
       if (s.apiKey.isNotEmpty) continue;
       for (final p in st.settings.profiles) {
         if (p.baseUrl.trim() == s.baseUrl.trim() && p.apiKey.isNotEmpty) {
@@ -146,8 +150,14 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
         baseUrl: s.baseUrl,
         apiKey: s.apiKey,
         model: s.model,
+        providerName: s.activeProfile.name,
       ));
       i++;
+    }
+    for (final seat in seats) {
+      if (seat.providerName.trim().isEmpty) {
+        seat.providerName = providerNameFor(s, seat.baseUrl);
+      }
     }
     return seats;
   }
@@ -324,7 +334,9 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: ts(dark, size: 13, weight: FontWeight.w600)),
-        subtitle: Text('${t(s.role.split(' · ').first)} · ${s.model}',
+        subtitle: Text(
+            '${s.providerName.trim().isEmpty ? t('未指定连接') : s.providerName}'
+            ' · ${t(s.role.split(' · ').first)} · ${s.model}',
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: meta(dark, size: 11)),
@@ -498,17 +510,15 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
             baseUrl: st.settings.baseUrl,
             apiKey: st.settings.apiKey,
             model: st.settings.model,
+            providerName: st.settings.activeProfile.name,
           )
         : meeting.seats[index].copy();
+    // 旧存档没有运营商名，按地址补一个，界面上才不会空着。
+    if (s.providerName.trim().isEmpty) {
+      s.providerName = providerNameFor(st.settings, s.baseUrl);
+    }
     final nameCtrl = TextEditingController(text: s.name);
     final roleCtrl = TextEditingController(text: s.role);
-    final modelCtrl = TextEditingController(text: s.model);
-    final models = <String>{
-      st.settings.model,
-      for (final m in st.models) m.id,
-      for (final p in st.settings.profiles) ...p.cachedModels,
-      for (final p in st.settings.profiles) p.model,
-    }.where((e) => e.trim().isNotEmpty).toList();
 
     final ok = await showModalBottomSheet<bool>(
       context: context,
@@ -520,9 +530,6 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
         isNew: isNew,
         nameCtrl: nameCtrl,
         roleCtrl: roleCtrl,
-        modelCtrl: modelCtrl,
-        models: models,
-        profiles: st.settings.profiles,
         onDelete: isNew
             ? null
             : () {
@@ -535,7 +542,6 @@ class _RoundtableScreenState extends State<RoundtableScreen> {
     if (ok != true || !mounted) return;
     s.name = nameCtrl.text.trim();
     s.role = roleCtrl.text.trim();
-    s.model = modelCtrl.text.trim();
     setState(() {
       if (isNew) {
         if (meeting.seats.length < 5) meeting.seats.add(s);
@@ -590,9 +596,6 @@ class _SeatSheet extends StatefulWidget {
     required this.isNew,
     required this.nameCtrl,
     required this.roleCtrl,
-    required this.modelCtrl,
-    required this.models,
-    required this.profiles,
     this.onDelete,
   });
 
@@ -601,9 +604,6 @@ class _SeatSheet extends StatefulWidget {
   final bool isNew;
   final TextEditingController nameCtrl;
   final TextEditingController roleCtrl;
-  final TextEditingController modelCtrl;
-  final List<String> models;
-  final List<ApiProfile> profiles;
   final VoidCallback? onDelete;
 
   @override
@@ -611,14 +611,28 @@ class _SeatSheet extends StatefulWidget {
 }
 
 class _SeatSheetState extends State<_SeatSheet> {
-  late String _baseUrl;
-  late String _apiKey;
+  late Seat _seat;
 
   @override
   void initState() {
     super.initState();
-    _baseUrl = widget.seat.baseUrl;
-    _apiKey = widget.seat.apiKey;
+    _seat = widget.seat;
+  }
+
+  Future<void> _pickModel() async {
+    final picked = await showProviderModelPicker(
+      context,
+      dark: widget.dark,
+      currentBaseUrl: _seat.baseUrl,
+      currentModel: _seat.model,
+    );
+    if (picked == null || !mounted) return;
+    setState(() {
+      _seat.baseUrl = picked.baseUrl;
+      _seat.apiKey = picked.apiKey;
+      _seat.model = picked.model;
+      _seat.providerName = picked.providerName;
+    });
   }
 
   @override
@@ -687,62 +701,69 @@ class _SeatSheetState extends State<_SeatSheet> {
                       ),
                       const SizedBox(height: 8),
                       _field(dark, '', widget.roleCtrl, t('自定义立场描述')),
-                      const SizedBox(height: 12),
-                      Text(t('连接'), style: sectionTitle(dark)),
+                      const SizedBox(height: 16),
+                      Text(t('连接与模型'), style: sectionTitle(dark)),
                       const SizedBox(height: 7),
-                      ...[
-                        for (final p in widget.profiles)
-                          RadioListTile<String>(
-                            dense: true,
-                            contentPadding: EdgeInsets.zero,
-                            value: p.baseUrl,
-                            groupValue: _baseUrl,
-                            title: Text('${p.name} · ${p.hostLabel}',
-                                maxLines: 1,
-                                overflow: TextOverflow.ellipsis,
-                                style: ts(dark, size: 12)),
-                            onChanged: (v) {
-                              setState(() {
-                                _baseUrl = v ?? _baseUrl;
-                                _apiKey = p.apiKey;
-                              });
-                            },
+                      InkWell(
+                        borderRadius: BorderRadius.circular(D.r),
+                        onTap: _pickModel,
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 11),
+                          decoration: BoxDecoration(
+                            color: fieldOf(dark),
+                            borderRadius: BorderRadius.circular(D.r),
+                            border:
+                                Border.all(color: hairOf(dark), width: 0.8),
                           ),
-                      ],
-                      const SizedBox(height: 10),
-                      Text(t('模型'), style: sectionTitle(dark)),
-                      const SizedBox(height: 7),
-                      _field(dark, '', widget.modelCtrl, t('模型 ID')),
-                      if (widget.models.isNotEmpty) ...[
-                        const SizedBox(height: 8),
-                        SizedBox(
-                          height: 34,
-                          child: ListView.separated(
-                            scrollDirection: Axis.horizontal,
-                            itemCount: widget.models.length > 12
-                                ? 12
-                                : widget.models.length,
-                            separatorBuilder: (_, __) =>
-                                const SizedBox(width: 6),
-                            itemBuilder: (_, i) => ActionChip(
-                              label: Text(widget.models[i],
-                                  style: ts(dark, size: 11)),
-                              backgroundColor: fieldOf(dark),
-                              side: BorderSide(color: hairOf(dark)),
-                              onPressed: () => widget.modelCtrl.text =
-                                  widget.models[i],
-                            ),
+                          child: Row(
+                            children: [
+                              Icon(Icons.hub_outlined,
+                                  size: 17, color: accentOf(dark)),
+                              const SizedBox(width: 10),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                        _seat.providerName.trim().isEmpty
+                                            ? t('未选择连接')
+                                            : _seat.providerName,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                        style: ts(dark,
+                                            size: 12.5,
+                                            weight: FontWeight.w600)),
+                                    const SizedBox(height: 3),
+                                    Text(
+                                        _seat.model.trim().isEmpty
+                                            ? t('点这里选择运营商与模型')
+                                            : _seat.model,
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                        style: meta(dark, size: 11)),
+                                  ],
+                                ),
+                              ),
+                              Icon(Icons.chevron_right_rounded,
+                                  size: 18,
+                                  color: dark ? C.dInk3 : C.ink3),
+                            ],
                           ),
                         ),
-                      ],
+                      ),
+                      featureHint(
+                          dark, t('先选运营商（连接），再从该运营商的模型列表里挑一个。')),
                       const SizedBox(height: 18),
                       featurePrimary(
                           dark: dark,
                           label: t('保存'),
                           icon: Icons.check_rounded,
                           onPressed: () {
-                            widget.seat.baseUrl = _baseUrl;
-                            widget.seat.apiKey = _apiKey;
+                            widget.seat.baseUrl = _seat.baseUrl;
+                            widget.seat.apiKey = _seat.apiKey;
+                            widget.seat.model = _seat.model;
+                            widget.seat.providerName = _seat.providerName;
                             Navigator.pop(context, true);
                           }),
                     ],

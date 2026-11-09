@@ -90,7 +90,7 @@
 这台设备	Denne enheten
 连接配置	Tilkoblingsprofiler
 选择形象	Velg persona
-选择模型	Velg modell
+选择模型	Velg en modell
 配置名称	Profilnavn
 配置连接	Konfigurer tilkobling
 页面底色	Sidebakgrunn
@@ -119,7 +119,7 @@
 设备智能体	Enhetsagent
 语言与地区	Språk og region
 输入任务…	Skriv inn en oppgave..
-连接与模型	Tilkobling og modeller
+连接与模型	Tilkobling & modell
 重命名配置	Endre navn på profil
 链接已复制	Link kopiert
 顶部形象区	Topp persona område
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Kvinne
 男	Mann
 其他	Andre
+1 到 100，看你能几次猜中	Et nummer fra 1 til 100 - hvor få gjetninger kan du vinne i?
+20 次提问用完了，点重新开始再来一局。	Alle 20 spørsmål som brukes. Trykk på omstart for å spille igjen.
+AI 玩法	AI spill
+AI 玩法会调用你所选的模型，按实际用量计费。	AI-spill kaller din valgte modell og faktureres av faktisk bruk.
+一共用了	i
+一只猫	en katt
+一把雨伞	en paraply
+一本书	en bok
+一杯咖啡	En kopp kaffe
+一点小惊喜正在路上，留意身边不显眼的机会。	En liten overraskelse er på vei; Legg merke til de stille sjansene i nærheten.
+上上签	Beste lykke
+上签	God lykke
+不进不退，也是一日。守住眼前，就是守住运气。	Verken fremover eller tilbake er fortsatt en dag. Holde det som er her holder lykke.
+个 AI 玩法	AI spill
+个模型	modeller
+个离线小游戏	offline mini-spill
+个选项	alternativer
+中签	Rettferdig lykke
+二十问	20 Spørsmål
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Skyene og månen lyser lyse; hver vei er åpen. En god dag å ta ett skritt på noe du lenge har ønsket å gjøre.
+今日签	Dagens formue
+你	Du
+你一句我一句，让故事一直讲下去	Ta turer og hold historien i gang
+你一句我一句，让故事一直讲下去。	Ta turer og hold historien i gang.
+你赢了	Du vinner
+使用	Bruk
+例如：今天适合开始新计划吗？	For eksempel er det bra i dag for en ny plan?
+候选选项	Alternativer
+先给故事起个主题吧	Gi historien et tema først
+先选一家运营商（连接），再进入模型列表挑选。	Velg en leverandør (tilkobling) først, og velg deretter fra sin modellliste.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Velg en leverandør (tilkobling), og velg deretter en modell fra listen.
+再玩一局	Spill igjen
+再看看	På nytt
+写下接下来发生的事…	Skriv hva som skjer neste..
+冰淇淋	iskrem
+出拳	Ditt trekk
+创建角色，由 AI 生成事件与抉择，走完一生	Opprette en karakter; AI genererer hendelser og valg gjennom et helt liv
+别急着决定，先睡一觉。	Sov på det før du bestemmer deg.
+剩余提问	Spørsmål left
+剪刀	Scissors
+同一天抽到的签不会变，明天再来会有新签。	Dagens formue forblir den samme; komme tilbake i morgen for en ny.
+和我来几局，纯靠运气，不花流量。	Noen få runder med meg - ren hell, ingen data brukt.
+圆桌会议、模拟人生与 7 个小游戏	Rundbord, Life Simulator & 7 minispill
+埃菲尔铁塔	Eiffeltårnet
+多模型	Multi-modell
+大了	For høy
+大概率可以，但留个后手。	Sannsynligvis ja, men hold en backup.
+宇宙说：再问一次。	Universet sier: spør igjen.
+对话	Kontakt
+小了	For lav
+小吉	Små velsignelser
+就选这个	Gå med denne
+已为游戏单独指定模型，随时可换或恢复默认。	En dedikert modell er satt for spill; endre det eller gjenopprette standard når som helst.
+已猜	Guesses
+布	Papir
+平	Tegning
+平局	Det er tegnet
+平签	Stille formue
+开始	Start
+当前对话模型	Gjeldende chatmodell
+当前连接	Nåværende
+待时	Bide din tid
+心里默念一个问题	Tenk på et spørsmål
+心里默念一个问题，摇一摇，看它怎么回答。	Tenk på et spørsmål, gi det en rist, se hva det sier.
+恢复默认	Gjenopprett standard
+想不通的事，出去走一圈大概就有答案了。	For det du ikke kan tenke gjennom, vil en kort spasertur sannsynligvis gi svaret.
+我	Jeg
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Jeg skjuler et tall fra 1 til 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Jeg har tenkt på noe.
+我赢了	Jeg vinner
+手动输入模型 ID	Skriv inn modell-ID manuelt
+抉择轮盘	Beslutningshjul
+把纠结的选项写进去，让轮盘替你决定	Vis dine alternativer og la hjulet bestemme
+把纠结的选项都写进去，让轮盘替你做决定。	Vis alle alternativene du er revet mellom og la hjulet bestemme.
+抽一支签	Tegne en formue
+换个角度想想会更好。	Prøv en annen vinkel.
+搜索模型 ID	Søkemodell-ID
+摇一摇	Skake
+故事接龙	Story Chain
+月亮	månen
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Noen gevinster, noe tap; et selv sinn holder best. Ta det litt langsommere i dag.
+未指定连接	Ingen tilkobling
+未设置模型	Ingen modellsett
+未选择连接	Ingen tilkobling valgt
+本局使用的模型	Modell for dette spillet
+来几局，纯靠运气	Noen runder, ren lykke
+模型想一个东西，你用是非题在 20 次内猜中	Modellen tenker på noe; gjett det i 20 ja/ingen spørsmål
+模型调用失败	Modellsamtale mislyktes
+次	Gjetting
+每天一支签，同一天不会变。图个乐子，别当真。	En formue om dagen.
+每天一支签，图个乐子	En formue om dagen, bare for moro skyld
+每日一签	Daily Fortune
+每行一个，或用逗号隔开	En per linje, eller separert med komma
+没有匹配的模型	Ingen matchende modeller
+沿用聊天界面正在使用的连接与模型。	Bruk tilkoblingen og modellen som er aktiv i chatten.
+游戏	Spill
+点开始，由模型先说第一句。	Trykk på start og la modellen snakke først.
+点这里选择运营商与模型	Trykk for å velge leverandør og modell
+猜一个 1 到 100 的数字	Gjett et tall fra 1 til 100
+猜中了！就是	Det var det
+猜对了！答案是	Svaret var
+猜数字	Gjett nummeret
+猜！	Gjett!
+现在还看不清，再等等。	For snart å si det; vent litt.
+用一个是非题提问…	Still et ja/ingen tvil..
+看起来不错，放手去做。	Ser bra ut - gå for det.
+眼下还不是最好的时机，先攒力气，等风来。	Nå er det ikke helt øyeblikket. Samle styrken din og vent på vinden.
+石头	Rock
+石头剪刀布	Rock Paper Scissors
+离线小游戏	Offline mini-spill
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline spill aldri ringe en modell eller bruke data; AI spill er fakturert til din valgte modell.
+答案是肯定的。	Ja, definitivt.
+胜	Vinn
+自行车	en sykkel
+请输入 1 到 100 的整数	Skriv inn et helt tall fra 1 til 100
+负	Tap
+转起来	Spin
+还没有连接，请先到「连接与模型」里添加。	Ingen tilkoblinger ennå. Legg til en under "Connections & Models".
+这个连接还没有缓存模型，可在下方手动输入。	Ingen cachemodeller for denne tilkoblingen; skriv en manuelt nedenfor.
+这次恐怕不行。	Sannsynligvis ikke denne gangen.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Velg 3-5 modeller fra forskjellige leverandører, diskutere over runder, få et sammendrag
+选择游戏模型	Velg spillmodell
+重新开始	Start på nytt
+钢琴	et piano
+长城	den store muren
+静一静心，点下面抽签	Ta et pust og dra ned
+顺签	Smooth seiling
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vinden mykner, vannet roer. Hva som er i hendene dine vil svare i tide; ingen grunn til å skynde det.
+魔法八球	Magic 8-ball
+默念一个问题，摇一摇看它怎么答	Tenk på et spørsmål, rist for et svar
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Følger gjeldende chat-modell som standard; trykk for å angi en dedikert.
+（模型没有回复）	(Ingen respons fra modellen)

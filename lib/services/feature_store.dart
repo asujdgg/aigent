@@ -17,6 +17,7 @@ class FeatureStore {
   static const String _kMeetings = 'feature.meetings.v1';
   static const String _kLives = 'feature.lives.v1';
   static const String _kSeats = 'feature.seats.v1';
+  static const String _kGameModel = 'feature.game_model.v1';
 
   /// 会议记录与人生存档各留最近 30 份，避免无限膨胀。
   static const int _limit = 30;
@@ -113,4 +114,46 @@ class FeatureStore {
   Future<void> saveSeats(List<Seat> seats) async {
     await _write(_kSeats, jsonEncode([for (final s in seats) s.toJson()]));
   }
+
+  // ------------------------------------------------------- 游戏当前模型偏好
+
+  /// 只记地址与模型名，绝不写密钥；读取时按地址从当前连接补回。
+  Future<GameModelPref?> loadGameModel() async {
+    final raw = await _read(_kGameModel);
+    if (raw == null || raw.trim().isEmpty) return null;
+    try {
+      final j = jsonDecode(raw);
+      if (j is Map) return GameModelPref.fromJson(Map<String, dynamic>.from(j));
+    } catch (_) {}
+    return null;
+  }
+
+  Future<void> saveGameModel(GameModelPref p) async {
+    await _write(_kGameModel, jsonEncode(p.toJson()));
+  }
+}
+
+/// 小游戏页面记住的「用哪个模型」，不含密钥。
+class GameModelPref {
+  final String baseUrl;
+  final String model;
+  final String providerName;
+
+  const GameModelPref({
+    required this.baseUrl,
+    required this.model,
+    required this.providerName,
+  });
+
+  Map<String, dynamic> toJson() => {
+        'baseUrl': baseUrl,
+        'model': model,
+        'providerName': providerName,
+      };
+
+  factory GameModelPref.fromJson(Map<dynamic, dynamic> j) => GameModelPref(
+        baseUrl: (j['baseUrl'] ?? '').toString(),
+        model: (j['model'] ?? '').toString(),
+        providerName: (j['providerName'] ?? '').toString(),
+      );
 }

@@ -116,7 +116,7 @@ if [ ! -f "$APK" ]; then
   exit 1
 fi
 
-OUT="$ROOT/Aigent-v4.23.0.apk"
+OUT="$ROOT/Aigent-v4.24.0.apk"
 cp -f "$APK" "$OUT"
 echo ""
 echo "构建完成：$OUT"

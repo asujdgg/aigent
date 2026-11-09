@@ -90,7 +90,7 @@
 这台设备	Acest dispozitiv
 连接配置	Profile în conexiune
 选择形象	Alege persoana
-选择模型	Alegeți modelul
+选择模型	Alegeți un model
 配置名称	Denumirea profilului
 配置连接	Configurare conexiune
 页面底色	Fundal pagină
@@ -119,7 +119,7 @@
 设备智能体	Dispozitiv
 语言与地区	Limba și regiunea
 输入任务…	Introduceți o sarcină..
-连接与模型	& Modele conexiune
+连接与模型	& Model conexiune
 重命名配置	Redenumește profilul
 链接已复制	Link copiat
 顶部形象区	Zona de personalitate superioară
@@ -397,3 +397,135 @@ AI 实验室	Laboratorul AI
 女	Femeie
 男	Masculin
 其他	Altele
+1 到 100，看你能几次猜中	Un numar de la 1 la 100
+20 次提问用完了，点重新开始再来一局。	Toate cele 20 de întrebări folosite. Atingeți reporniți pentru a juca din nou.
+AI 玩法	Jocuri AI
+AI 玩法会调用你所选的模型，按实际用量计费。	Jocurile AI numesc modelul selectat și sunt facturate de utilizarea efectivă.
+一共用了	în
+一只猫	o pisică
+一把雨伞	o umbrelă
+一本书	o carte
+一杯咖啡	o ceaşcă de cafea
+一点小惊喜正在路上，留意身边不显眼的机会。	O mică surpriză este pe drum; observaţi şansele liniştite de lângă voi.
+上上签	Cel mai bun noroc
+上签	Noroc
+不进不退，也是一日。守住眼前，就是守住运气。	Nici înainte, nici înapoi nu este încă o zi.
+个 AI 玩法	Jocuri AI
+个模型	modele
+个离线小游戏	Minijocuri offline
+个选项	opțiuni
+中签	Avere cinstită
+二十问	20 Întrebări
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Partea norilor și luna strălucește; fiecare drum este deschis. O zi bună pentru a lua un pas pe ceva ce le-ați dorit mult timp să facă.
+今日签	Averea de azi
+你	Tu
+你一句我一句，让故事一直讲下去	Fă cu rândul şi continuă povestea
+你一句我一句，让故事一直讲下去。	Fă cu rândul şi continuă povestea.
+你赢了	Ai câştigat
+使用	Utilizare
+例如：今天适合开始新计划吗？	De exemplu, astăzi este bun pentru un nou plan?
+候选选项	Opțiuni
+先给故事起个主题吧	Dă povestea o temă mai întâi
+先选一家运营商（连接），再进入模型列表挑选。	Alege un furnizor (conectare) mai întâi, apoi alege din lista sa model.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Alege un furnizor (conectare), apoi alege un model din lista sa.
+再玩一局	Joaca din nou
+再看看	Din nou
+写下接下来发生的事…	Scrie ce urmează..
+冰淇淋	înghețată
+出拳	E rândul tău
+创建角色，由 AI 生成事件与抉择，走完一生	Creați un caracter; AI generează evenimente și alegeri într-o viață întreagă
+别急着决定，先睡一觉。	Dormi pe ea înainte de a decide.
+剩余提问	Întrebări rămase
+剪刀	Foarfece
+同一天抽到的签不会变，明天再来会有新签。	Norocul de azi rămâne acelaşi; întoarce-te mâine pentru unul nou.
+和我来几局，纯靠运气，不花流量。	Câteva runde cu mine noroc pur, fără date folosite.
+圆桌会议、模拟人生与 7 个小游戏	Masă rotundă, Simulator Life & 7 mini-jocuri
+埃菲尔铁塔	Turnul Eiffel
+多模型	Model multiplu
+大了	Prea sus
+大概率可以，但留个后手。	Probabil că da, dar păstrează o rezervă.
+宇宙说：再问一次。	Universul spune: întreabă din nou.
+对话	Conversație
+小了	Prea jos
+小吉	Mică binecuvântare
+就选这个	Du-te cu asta
+已为游戏单独指定模型，随时可换或恢复默认。	Un model dedicat este setat pentru jocuri; schimba sau restabili implicit oricând.
+已猜	Ghiciri
+布	Hârtie
+平	Trage
+平局	E o remiză
+平签	Avere constantă
+开始	Start
+当前对话模型	Modelul actual de chat
+当前连接	Curent
+待时	Bide timpul
+心里默念一个问题	Gândeşte-te la o întrebare
+心里默念一个问题，摇一摇，看它怎么回答。	Gândiți-vă la o întrebare, da un shake, vezi ce spune.
+恢复默认	Restaurează implicit
+想不通的事，出去走一圈大概就有答案了。	Pentru ceea ce nu poţi gândi, o scurtă plimbare va aduce probabil răspunsul.
+我	Eu
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Am ascuns un număr de la 1 la 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	M-am gândit la ceva.
+我赢了	Am câştigat
+手动输入模型 ID	Introduceți manual modelul ID
+抉择轮盘	Roată de decizie
+把纠结的选项写进去，让轮盘替你决定	Enumeră opţiunile şi lasă roata să decidă
+把纠结的选项都写进去，让轮盘替你做决定。	Enumeraţi toate opţiunile pe care le aveţi între voi şi lăsaţi roata să decidă.
+抽一支签	Trage o avere
+换个角度想想会更好。	Încearcă alt unghi.
+搜索模型 ID	Model de căutare ID
+摇一摇	Se agită
+故事接龙	Lanț poveste
+月亮	Luna
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Unele câştiguri, unele pierderi; o minte egală ţine cel mai bine.
+未指定连接	Nicio legătură
+未设置模型	Niciun set model
+未选择连接	Nicio conexiune selectată
+本局使用的模型	Model pentru acest joc
+来几局，纯靠运气	Câteva runde, noroc pur
+模型想一个东西，你用是非题在 20 次内猜中	Modelul se gândeşte la ceva; ghiceşte în 20 de întrebări da/nu
+模型调用失败	Apelul model a eșuat
+次	presupuneri
+每天一支签，同一天不会变。图个乐子，别当真。	O avere pe zi, neschimbată în timpul zilei.
+每天一支签，图个乐子	O avere pe zi, doar pentru distracţie
+每日一签	Noroc zilnic
+每行一个，或用逗号隔开	Unul pe linie sau separat prin vigmă
+没有匹配的模型	Fără modele de potrivire
+沿用聊天界面正在使用的连接与模型。	Utilizați conexiunea și modelul activ în prezent în chat.
+游戏	Jocuri
+点开始，由模型先说第一句。	Atingeţi uşor startul şi lăsaţi modelul să vorbească primul.
+点这里选择运营商与模型	Atingeți pentru a alege un furnizor și un model
+猜一个 1 到 100 的数字	Ghici un număr de la 1 la 100
+猜中了！就是	A fost!
+猜对了！答案是	Răspunsul a fost:
+猜数字	Ghiciţi numărul
+猜！	Ghici!
+现在还看不清，再等等。	Prea devreme pentru a spune; așteptați un pic.
+用一个是非题提问…	Pune o întrebare da / nu ..
+看起来不错，放手去做。	Arată bine.
+眼下还不是最好的时机，先攒力气，等风来。	Adună-ţi puterile şi aşteaptă vântul.
+石头	Rock
+石头剪刀布	Foarfece din hârtie rock
+离线小游戏	Minijocuri offline
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jocuri offline nu numesc un model sau de a folosi date; jocuri AI sunt facturate la modelul ales.
+答案是肯定的。	Da, cu siguranţă.
+胜	Câştigă
+自行车	o bicicletă
+请输入 1 到 100 的整数	Introduceți un număr întreg de la 1 la 100
+负	Pierde
+转起来	Învârte
+还没有连接，请先到「连接与模型」里添加。	Nu există conexiuni încă. Se adaugă una la "Connections & Models."
+这个连接还没有缓存模型，可在下方手动输入。	Nu există modele cache pentru această conexiune; introduceți unul manual mai jos.
+这次恐怕不行。	Probabil că nu de data asta.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3 / 5 modele de la diferiți furnizori, discuta peste runde, obține un rezumat
+选择游戏模型	Alege modelul jocului
+重新开始	Repornire
+钢琴	un pian
+长城	Marele Zid
+静一静心，点下面抽签	Respiră, apoi trage mai jos
+顺签	Navigare fără probleme
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vântul se înmoaie, apa se calmează, ceea ce este în mâinile tale va răspunde la timp, nu trebuie să te grăbeşti.
+魔法八球	Magic 8-Ball
+默念一个问题，摇一摇看它怎么答	Gandeste-te la o intrebare, scutura pentru un raspuns
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Urmează modelul actual de chat implicit; atingeți pentru a seta unul dedicat.
+（模型没有回复）	(Nici un răspuns din partea modelului)

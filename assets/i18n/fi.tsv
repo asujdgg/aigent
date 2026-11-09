@@ -119,7 +119,7 @@
 设备智能体	Laite
 语言与地区	Kieli ja alue
 输入任务…	Anna tehtävä..
-连接与模型	Yhteysmallit
+连接与模型	Yhteysmalli
 重命名配置	Nimeä profiili uudelleen
 链接已复制	Kopioi linkki
 顶部形象区	Huippuhenkilöalue
@@ -397,3 +397,135 @@ AI 实验室	Al Lab
 女	Naiset
 男	Mies
 其他	Muut
+1 到 100，看你能几次猜中	Numero 1 - 100 . Kuinka harvat arvauksia voit voittaa?
+20 次提问用完了，点重新开始再来一局。	Napauta uudelleen soittaaksesi.
+AI 玩法	Tekoälypelit
+AI 玩法会调用你所选的模型，按实际用量计费。	Tekoälypelit soita valittu malli ja laskutetaan todellinen käyttö.
+一共用了	in
+一只猫	kissa
+一把雨伞	sateenvarjo
+一本书	kirja
+一杯咖啡	kahvia
+一点小惊喜正在路上，留意身边不显眼的机会。	Pieni yllätys on tulossa; huomaa hiljaiset mahdollisuudet lähelläsi.
+上上签	Paras onni
+上签	Onnea matkaan
+不进不退，也是一日。守住眼前，就是守住运气。	Kumpikaan ei ole vielä päivä.
+个 AI 玩法	Tekoälypelit
+个模型	mallit
+个离线小游戏	offline minipelejä
+个选项	optiot
+中签	Hyvä onni
+二十问	20 kysymystä
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Pilvet osa ja kuu loistaa kirkas; jokainen tie on auki. Hyvä päivä ottaa yksi askel jotain olet pitkään halunnut tehdä.
+今日签	Tämän päivän onni
+你	Sinä
+你一句我一句，让故事一直讲下去	Tee vuoroja ja pidä tarina käynnissä
+你一句我一句，让故事一直讲下去。	Tee vuoroja ja jatka juttua.
+你赢了	Sinä voitit
+使用	Käyttö
+例如：今天适合开始新计划吗？	Onko tänään hyvä uusi suunnitelma?
+候选选项	Valinnat
+先给故事起个主题吧	Anna tarinalle teema ensin
+先选一家运营商（连接），再进入模型列表挑选。	Valitse palveluntarjoaja (yhteys) ensin, valitse sen malliluettelo.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Valitse palveluntarjoaja (yhteys), valitse malli sen luettelosta.
+再玩一局	Toista
+再看看	Taas
+写下接下来发生的事…	Kirjoita, mitä seuraavaksi tapahtuu
+冰淇淋	jäätelö
+出拳	Sinun siirtosi
+创建角色，由 AI 生成事件与抉择，走完一生	Luo hahmo; tekoäly luo tapahtumia ja valintoja läpi koko elämän
+别急着决定，先睡一觉。	Nuku yön yli ennen kuin päätät.
+剩余提问	Kysymyksiä jäljellä
+剪刀	Sakset
+同一天抽到的签不会变，明天再来会有新签。	Tänään onni pysyy samana. Tule huomenna hakemaan uusi.
+和我来几局，纯靠运气，不花流量。	Pari erää kanssani puhdasta onnea, ei dataa käytetty.
+圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 minipelejä
+埃菲尔铁塔	Eiffel-torni
+多模型	Monimalli
+大了	Liian korkealla
+大概率可以，但留个后手。	- Todennäköisesti, mutta pidä varasuunnitelma.
+宇宙说：再问一次。	Universumi sanoo: kysy uudestaan.
+对话	Keskustelu
+小了	Liian matala
+小吉	Pieni siunaus
+就选这个	Ota tämä
+已为游戏单独指定模型，随时可换或恢复默认。	Peleille asetetaan oma malli; muutetaan sitä tai palautetaan oletus milloin tahansa.
+已猜	Arviot
+布	Paperi
+平	Piirrä
+平局	Se on tasapeli
+平签	Vakaa onni
+开始	Alku
+当前对话模型	Nykyinen chat-malli
+当前连接	Kuluva
+待时	Aikaa kuluu
+心里默念一个问题	Ajattele kysymystä
+心里默念一个问题，摇一摇，看它怎么回答。	Keksi kysymys, ravista sitä, katso mitä siinä lukee.
+恢复默认	Palauta oletus
+想不通的事，出去走一圈大概就有答案了。	Sillä mitä et voi ajatella läpi, lyhyt kävelymatka tuo todennäköisesti vastauksen.
+我	Lä
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Salaan numeron yhdestä sataan
+我想好了一个东西，你用是非题在 20 次内猜出来。	Olen keksinyt jotain.
+我赢了	Minä voitan
+手动输入模型 ID	Anna mallin tunnus käsin
+抉择轮盘	Päätöspyörä
+把纠结的选项写进去，让轮盘替你决定	Listaa vaihtoehdot ja anna pyörän päättää
+把纠结的选项都写进去，让轮盘替你做决定。	Listaa kaikki vaihtoehdot olet revitty välillä ja anna pyörän päättää.
+抽一支签	Piirrä omaisuutesi
+换个角度想想会更好。	Kokeile eri kulmaa.
+搜索模型 ID	Hakumallin tunniste
+摇一摇	Ravista
+故事接龙	Tarinaketju
+月亮	Kuu
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Voittoa, menetystä, tasa-arvoa.
+未指定连接	Ei yhteyttä
+未设置模型	Mallia ei ole asetettu
+未选择连接	Yhteyttä ei ole valittu
+本局使用的模型	Malli tälle pelille
+来几局，纯靠运气	Pari kierrosta, puhdasta onnea
+模型想一个东西，你用是非题在 20 次内猜中	Malli ajattelee jotain; arvaa se 20 kyllä / ei kysymyksiä
+模型调用失败	Mallipuhelu epäonnistui
+次	arvauksia
+每天一支签，同一天不会变。图个乐子，别当真。	Omaisuus päivässä, muuttumaton päivässä.
+每天一支签，图个乐子	Yksi onni päivässä, huvin vuoksi
+每日一签	Daily Fortune
+每行一个，或用逗号隔开	Yksi riviä kohti tai pilkuilla erotettuna
+没有匹配的模型	Ei vastaavia malleja
+沿用聊天界面正在使用的连接与模型。	Käytä yhteyden ja mallin tällä hetkellä aktiivinen chat.
+游戏	Pelit
+点开始，由模型先说第一句。	Napauta alusta ja anna mallin puhua ensin.
+点这里选择运营商与模型	Napauta valitaksesi palveluntarjoajan ja mallin
+猜一个 1 到 100 的数字	Arvaa numero 1 - 100
+猜中了！就是	Sain sen!
+猜对了！答案是	Oikein!
+猜数字	Arvaa numero
+猜！	Arvaa!
+现在还看不清，再等等。	Liian aikaista sanoa, odota vähän.
+用一个是非题提问…	Kysy kyllä/ei kysymystä
+看起来不错，放手去做。	Näyttää hyvältä.
+眼下还不是最好的时机，先攒力气，等风来。	Kootkaa voimanne ja odottakaa tuulta.
+石头	Rock
+石头剪刀布	Rock Paper Sakset
+离线小游戏	Offline minipelejä
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline-pelit eivät koskaan soita mallia tai käytä dataa; tekoälypelit laskutetaan valitsemaasi malliin.
+答案是肯定的。	- Ehdottomasti.
+胜	Voitto
+自行车	polkupyörä
+请输入 1 到 100 的整数	Anna koko numero 1:stä 100:aan
+负	Häviä
+转起来	Kierre
+还没有连接，请先到「连接与模型」里添加。	Ei yhteyksiä vielä. Lisää yksi kohtaan "Yhteys & Mallit."
+这个连接还没有缓存模型，可在下方手动输入。	Ei välimuistimalleja tälle yhteydelle; kirjoita yksi manuaalisesti alla.
+这次恐怕不行。	Tuskin tällä kertaa.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Valitse 3
+选择游戏模型	Valitse pelimalli
+重新开始	Käynnistä uudelleen
+钢琴	piano
+长城	Suuri muuri
+静一静心，点下面抽签	Hengitä syvään, vedä sitten alle
+顺签	Pehmeä purjehdus
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Tuuli pehmenee, vesi tyyntyy. Mitä on käsissäsi vastaa ajoissa, ei tarvitse kiirehtiä.
+魔法八球	Taika 8-pallo
+默念一个问题，摇一摇看它怎么答	Keksi kysymys, ravista vastausta
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Seuraa nykyistä chat-mallia oletusarvoisesti; napauta asettaaksesi oman.
+（模型没有回复）	(Ei vastausta mallista)

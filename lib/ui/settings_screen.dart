@@ -19,6 +19,7 @@ import '../theme.dart';
 import 'agent_panel.dart';
 import 'brand_icon.dart';
 import 'free_pool_panel.dart';
+import 'games_hub.dart';
 import 'lang_picker_sheet.dart';
 import 'model_search_box.dart';
 import 'persona.dart';
@@ -192,6 +193,8 @@ List<SettingsCat> get kSettingsCats => [
       ['提示词', 'system', 'prompt', '预设', '变量', '注入', '人设']),
   SettingsCat('usage', t('Token 用量'), t('累计消耗、单价、明细与导出'), Icons.data_usage_outlined,
       ['token', '用量', '费用', '价格', '单价', '统计', 'csv', '消耗']),
+  SettingsCat('games', t('游戏'), t('圆桌会议、模拟人生与 7 个小游戏'), Icons.sports_esports_outlined,
+      ['游戏', '玩', '娱乐', '圆桌', '会议', '模拟人生', '轮盘', '猜数字', '剪刀', '抽签', '八球', '二十问', '接龙', 'game']),
 ];
 
 /// 分类搜索匹配（纯函数，便于单测）：标题、描述或关键词别名命中即可。
@@ -763,6 +766,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
       ['language', 'appearance', 'persona', 'voice', 'agent', 'search', 'research']
     ),
     ('数据与高级', ['presets', 'usage']),
+    ('游戏', ['games']),
   ];
 
   Widget _hub(bool dark) {
@@ -1003,6 +1007,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
         return '累计 ${st.tokenStats.total} tok · 今日 ${st.tokenStats.todayTotal}'
             '${models > 0 ? ' · $models 个模型' : ''}'
             '${days > 1 ? ' · $days 天' : ''}';
+      case 'games':
+        return '2 ${t('个 AI 玩法')} · 7 ${t('个离线小游戏')}';
       default:
         return '';
     }
@@ -1080,6 +1086,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
         return _presetCard(dark, s);
       case 'usage':
         return _usageCard(dark);
+      case 'games':
+        return GamesHub(dark: dark);
       default:
         return const SizedBox.shrink();
     }

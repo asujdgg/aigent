@@ -90,7 +90,7 @@
 这台设备	Thiết bị này
 连接配置	Hồ sơ kết nối
 选择形象	Chọn một người
-选择模型	Chọn mô hình
+选择模型	Chọn một mô hình
 配置名称	Tên hồ sơ
 配置连接	Cấu hình kết nối
 页面底色	Nền trang
@@ -397,3 +397,135 @@ AI 实验室	Name
 女	Nữ
 男	Nam
 其他	Khác
+1 到 100，看你能几次猜中	Một số từ 1 đến 100 — bạn có thể đoán được bao nhiêu?
+20 次提问用完了，点重新开始再来一局。	Tất cả 20 câu hỏi được sử dụng.
+AI 玩法	Trò chơi AI
+AI 玩法会调用你所选的模型，按实际用量计费。	Trò chơi AI gọi cho mô hình đã chọn và được tính bằng cách sử dụng thực tế.
+一共用了	in
+一只猫	mèo
+一把雨伞	một cây dù
+一本书	một cuốn sách
+一杯咖啡	Một tách cà phê
+一点小惊喜正在路上，留意身边不显眼的机会。	Một ngạc nhiên nhỏ đang trên đường đến, hãy chú ý cơ hội yên tĩnh gần bạn.
+上上签	Chúc may mắn!
+上签	Chúc may mắn
+不进不退，也是一日。守住眼前，就是守住运气。	Không đi tới hay lùi vẫn là một ngày.
+个 AI 玩法	Trò chơi AI
+个模型	Mô hình
+个离线小游戏	Trò chơi nhỏ ngắt kết nối
+个选项	tùy chọn
+中签	Tài sản công bằng
+二十问	20 Câu hỏi
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Những đám mây và mặt trăng tỏa sáng, mỗi con đường đều mở ra.
+今日签	Của cải hôm nay
+你	Ngươi
+你一句我一句，让故事一直讲下去	Hãy thay phiên nhau và tiếp tục câu chuyện
+你一句我一句，让故事一直讲下去。	Hãy thay phiên nhau và tiếp tục câu chuyện.
+你赢了	Anh thắng rồi
+使用	Dùng
+例如：今天适合开始新计划吗？	Hôm nay có kế hoạch mới không?
+候选选项	Tùy chọn
+先给故事起个主题吧	Cho câu chuyện một chủ đề trước
+先选一家运营商（连接），再进入模型列表挑选。	Trước tiên, hãy chọn nhà cung cấp (kết nối) rồi chọn trong danh sách mô hình.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Hãy chọn một nhà cung cấp (kết nối), rồi chọn một mô hình trong danh sách.
+再玩一局	Phát lại
+再看看	Lại
+写下接下来发生的事…	Viết những gì sẽ xảy ra tiếp theo..
+冰淇淋	Kem
+出拳	Đến lượt anh
+创建角色，由 AI 生成事件与抉择，走完一生	Tạo ra một ký tự; AI tạo ra các sự kiện và sự lựa chọn trong suốt cuộc đời
+别急着决定，先睡一觉。	Ngủ trên nó trước khi quyết định.
+剩余提问	Câu hỏi còn lại
+剪刀	Kéo
+同一天抽到的签不会变，明天再来会有新签。	Vận may ngày hôm nay vẫn như cũ, ngày mai quay lại cho một cái mới.
+和我来几局，纯靠运气，不花流量。	Vài vòng với tôi — chỉ là may mắn, không có dữ liệu sử dụng.
+圆桌会议、模拟人生与 7 个小游戏	Hoàn chỉnh, giả lập cuộc sống & 7 trò chơi nhỏ
+埃菲尔铁塔	Tháp Eiffel
+多模型	Đa mẫu
+大了	Cao quá
+大概率可以，但留个后手。	Rất có thể là có, nhưng cứ tiếp tục hỗ trợ.
+宇宙说：再问一次。	Vũ trụ nói: hãy hỏi lại.
+对话	Trò chuyện
+小了	Quá thấp
+小吉	Phước lành nhỏ
+就选这个	Đi với cái này
+已为游戏单独指定模型，随时可换或恢复默认。	Một mô hình dành riêng được thiết lập cho trò chơi; thay đổi nó hoặc phục hồi mặc định bất cứ lúc nào.
+已猜	Đoán
+布	Giấy
+平	Vẽ
+平局	Đó là một bản vẽ
+平签	Vận may ổn định
+开始	Chạy
+当前对话模型	Mô hình trò chuyện hiện thời
+当前连接	Hiện tại
+待时	Hãy dành thời gian của bạn
+心里默念一个问题	Hãy nghĩ đến một câu hỏi
+心里默念一个问题，摇一摇，看它怎么回答。	Hãy nghĩ về một câu hỏi, lắc nó, xem nó nói gì.
+恢复默认	Mặc định phục hồi
+想不通的事，出去走一圈大概就有答案了。	Đối với những gì bạn không thể suy nghĩ, việc đi bộ ngắn có thể mang lại câu trả lời.
+我	Tôi
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Tôi đang giấu một con số từ 1 đến 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Tôi đã nghĩ ra vài thứ, chắc là trong 20 phút nữa sẽ không có câu hỏi nào.
+我赢了	Tôi thắng
+手动输入模型 ID	Tự nhập mã nhận diện mô hình
+抉择轮盘	Name
+把纠结的选项写进去，让轮盘替你决定	Name
+把纠结的选项都写进去，让轮盘替你做决定。	Liệt kê tất cả các tùy chọn bạn bị xé ra và để cho bánh xe quyết định.
+抽一支签	Kiếm một gia tài
+换个角度想想会更好。	Thử góc độ khác đi.
+搜索模型 ID	ID mô hình tìm kiếm
+摇一摇	Lắc
+故事接龙	Chuỗi truyệnName
+月亮	Mặt trăng
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Một số có được, một số mất mát, thậm chí một tâm trí giữ tốt nhất.
+未指定连接	Không có kết nối
+未设置模型	Chưa đặt mô hình
+未选择连接	Chưa chọn kết nối
+本局使用的模型	Mô hình trò chơi này
+来几局，纯靠运气	Một vài vòng, may mắn
+模型想一个东西，你用是非题在 20 次内猜中	Các mô hình nghĩ về một cái gì đó; đoán nó trong 20 có / không câu hỏi
+模型调用失败	Gọi kiểu mẫu không thành công
+次	Đoán
+每天一支签，同一天不会变。图个乐子，别当真。	Một gia tài một ngày, không thay đổi trong một ngày, chỉ để vui chơi.
+每天一支签，图个乐子	Một gia tài một ngày, chỉ để vui chơi
+每日一签	Vận may hàng ngày
+每行一个，或用逗号隔开	Một trên mỗi dòng, hoặc cách nhau bởi dấu phẩy
+没有匹配的模型	Không có mô hình khớp
+沿用聊天界面正在使用的连接与模型。	Dùng kết nối và mô hình hiện thời đang hoạt động trong trò chuyện.
+游戏	Trò chơi
+点开始，由模型先说第一句。	Tap bắt đầu và để người mẫu nói trước.
+点这里选择运营商与模型	Tap để chọn một nhà cung cấp và mô hình
+猜一个 1 到 100 的数字	Đoán một số từ 1 đến 100
+猜中了！就是	Được rồi!
+猜对了！答案是	Câu trả lời là
+猜数字	Đoán số
+猜！	Đoán đi!
+现在还看不清，再等等。	Quá sớm để nói, chờ đợi một chút.
+用一个是非题提问…	Hỏi có/ không câu hỏi..
+看起来不错，放手去做。	Trông được đấy.
+眼下还不是最好的时机，先攒力气，等风来。	Bây giờ chưa phải là lúc thích hợp, hãy tập trung sức lực và chờ gió.
+石头	Đá
+石头剪刀布	Name
+离线小游戏	Trò chơi nhỏ ngoại tuyến
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Trò chơi điện tử không bao giờ gọi một mô hình hoặc sử dụng dữ liệu; trò chơi AI được tính theo mô hình bạn chọn.
+答案是肯定的。	Chắc chắn rồi.
+胜	Win
+自行车	xe đạp
+请输入 1 到 100 的整数	Nhập một số nguyên từ 1 đến 100
+负	Mất
+转起来	Quay
+还没有连接，请先到「连接与模型」里添加。	Chưa có kết nối. Thêm một trong số đó là "Connections & Models".
+这个连接还没有缓存模型，可在下方手动输入。	Không có mô hình đã lưu tạm cho kết nối này; hãy nhập một vào đây bằng tay.
+这次恐怕不行。	Chắc không phải lần này.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Chọn 3–5 mô hình từ các nhà cung cấp khác nhau, thảo luận qua các vòng, nhận được một tóm tắt
+选择游戏模型	Chọn mô hình trò chơi
+重新开始	Chạy lại
+钢琴	một cây đàn piano
+长城	Bức Tường Lớn
+静一静心，点下面抽签	Hít một hơi, rồi rút xuống dưới
+顺签	Chèo nhẹ nhàng
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Gió làm dịu, nước bèn dứt; Phàm vật gì ở trong tay ngươi sẽ trả lời đúng lúc, không cần phải vội vàng.
+魔法八球	Bóng ma thuật
+默念一个问题，摇一摇看它怎么答	Hãy nghĩ về một câu hỏi, hãy lắc cho một câu trả lời
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Theo mô hình chat hiện thời theo mặc định; gõ để thiết lập một mô hình đã hiến.
+（模型没有回复）	(Không có phản hồi từ mô hình)

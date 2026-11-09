@@ -90,7 +90,7 @@
 这台设备	Mfumo huu
 连接配置	Maelezo ya Connection
 选择形象	Chagua mtu
-选择模型	Kuchagua Model
+选择模型	Chagua mfano
 配置名称	Jina la Wasifu
 配置连接	Kuunganisha Link
 页面底色	Ukurasa wa background
@@ -119,7 +119,7 @@
 设备智能体	Vifaa vya Agent
 语言与地区	Lugha na Mkoa
 输入任务…	Kuingia kwenye kazi ..
-连接与模型	Uhusiano na mifano
+连接与模型	Kuunganisha na Model
 重命名配置	Orodha ya profile
 链接已复制	Link iliyopakuliwa
 顶部形象区	Mkoa wa Juu wa Mtu
@@ -397,3 +397,135 @@ AI 实验室	Lab ya
 女	Mwanamke wa kike
 男	Wanaume wa kiume
 其他	Nyingine nyingine
+1 到 100，看你能几次猜中	Idadi kutoka 1 hadi 100 - ni kiasi gani unaweza kushinda?
+20 次提问用完了，点重新开始再来一局。	Maswali yote 20 yaliyotumiwa. Bonyeza kuanza tena kucheza.
+AI 玩法	Michezo ya
+AI 玩法会调用你所选的模型，按实际用量计费。	AI michezo wito mfano wako kuchaguliwa na ni billed na matumizi halisi.
+一共用了	Ndani ya
+一只猫	Kuwa Cat
+一把雨伞	mwavuli
+一本书	Kitabu cha
+一杯咖啡	Kikombe cha kahawa
+一点小惊喜正在路上，留意身边不显眼的机会。	Hatua ya kwanza; epuka kujidanganya wewe mwenyewe.
+上上签	Utajiri Bora Zaidi
+上签	Bahati nzuri
+不进不退，也是一日。守住眼前，就是守住运气。	Si kwenda mbele wala nyuma bado ni siku, kushikilia nini hapa ni kushikilia bahati yako.
+个 AI 玩法	Michezo ya
+个模型	Mifano ya mifano
+个离线小游戏	Online michezo mini-michezo
+个选项	Chaguzi za chaguzi
+中签	Utajiri wa Kweli
+二十问	Maswali ya 20
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Mawingu sehemu na mwezi kuangaza; kila barabara ni wazi. siku nzuri ya kuchukua hatua moja juu ya kitu wewe kwa muda mrefu alitaka kufanya.
+今日签	Utajiri wa leo
+你	Wewe ni wewe
+你一句我一句，让故事一直讲下去	Chukua hatua na uendelee na hadithi
+你一句我一句，让故事一直讲下去。	Chukua hatua na uendelee na hadithi.
+你赢了	Ushindi wako
+使用	Matumizi ya matumizi
+例如：今天适合开始新计划吗？	Je, leo ni wakati mzuri wa kuwa na mpango mpya?
+候选选项	Chaguzi za kuchagua
+先给故事起个主题吧	Weka historia kwanza
+先选一家运营商（连接），再进入模型列表挑选。	Chagua jina la kikundi, kisha chagua jina la kikundi.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Ingiza jina la kikundi, na kisha bofya kifungo.
+再玩一局	Kucheza tena
+再看看	Kwa mara nyingine tena
+写下接下来发生的事…	Andika kile kinachotokea baadaye ..
+冰淇淋	barafu ya barafu
+出拳	Hatua yako
+创建角色，由 AI 生成事件与抉择，走完一生	Kujenga tabia; AI inazalisha matukio na uchaguzi kupitia maisha yote
+别急着决定，先睡一觉。	Soma juu yake kabla ya kuamua.
+剩余提问	Maswali yaliyoachwa
+剪刀	Wataalamu wa
+同一天抽到的签不会变，明天再来会有新签。	Utajiri wa leo unabakia kuwa ule ule ule; rudisha kesho kwa ajili ya mwingine.
+和我来几局，纯靠运气，不花流量。	Baadhi ya hatua - bahati, hakuna data kutumika.
+圆桌会议、模拟人生与 7 个小游戏	Maisha Simulator & 7 mini-michezo
+埃菲尔铁塔	Mnara wa Eiffel
+多模型	Model nyingi
+大了	Ya juu sana
+大概率可以，但留个后手。	Ndiyo, inawezekana, lakini unaweza kuhifadhi nakala.
+宇宙说：再问一次。	Jibu: Uliza tena.
+对话	Mazungumzo ya mazungumzo
+小了	Kiwango cha chini
+小吉	Neema Ndogo
+就选这个	Nenda kwenye hii
+已为游戏单独指定模型，随时可换或恢复默认。	Mfano wa kujitolea umewekwa kwa michezo; kuibadilisha au kurejesha default wakati wowote.
+已猜	Wa wa wa wa wa
+布	Karatasi ya karatasi
+平	Kuondoa
+平局	Ni hatua ya
+平签	Utajiri wa ajabu
+开始	Mwanzo wa kuanza
+当前对话模型	Mfano wa sasa wa chat
+当前连接	Kwa sasa
+待时	Tumia muda wako
+心里默念一个问题	Fikiria juu ya swali
+心里默念一个问题，摇一摇，看它怎么回答。	Fikiria juu ya swali, kutoa shake, kuona nini anasema.
+恢复默认	Kurejesha default
+想不通的事，出去走一圈大概就有答案了。	Kwa kile ambacho huwezi kufikiria, kutembea kidogo kunaweza kuleta jibu.
+我	Mimi
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Mimi nina swali moja tu kati ya 100 na 100, ni kiasi gani unaweza kufanya hivyo?
+我想好了一个东西，你用是非题在 20 次内猜出来。	Fikiria juu yake katika 20 ndio / hakuna maswali.
+我赢了	Kuwa win
+手动输入模型 ID	Kuingia kwa mfano wa ID manually
+抉择轮盘	Uamuzi wa
+把纠结的选项写进去，让轮盘替你决定	Chagua chaguzi zako na kuruhusu gurudumu kuamua
+把纠结的选项都写进去，让轮盘替你做决定。	Orodha ya chaguzi zote wewe ni torn kati na kuruhusu gurudumu kuamua.
+抽一支签	Kupata utajiri
+换个角度想想会更好。	Jaribu mtazamo tofauti.
+搜索模型 ID	Mfano wa ID
+摇一摇	Shake shake shake
+故事接龙	Hadithi ya Chain
+月亮	Mwezi wa
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Baadhi ya faida, hasara fulani; hata akili inashikilia bora; Chukua polepole kidogo leo.
+未指定连接	Hakuna uhusiano
+未设置模型	Hakuna mfumo wa
+未选择连接	Hakuna uhusiano uliochaguliwa
+本局使用的模型	Mfano wa mchezo huu
+来几局，纯靠运气	Baadhi ya safari, bahati
+模型想一个东西，你用是非题在 20 次内猜中	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ...................................................................
+模型调用失败	Wito wa kushindwa
+次	wa wa wa wa
+每天一支签，同一天不会变。图个乐子，别当真。	Bahati moja kwa siku, unchanged ndani ya siku. tu kwa ajili ya furaha.
+每天一支签，图个乐子	Moja ya bahati kwa siku, tu kwa ajili ya furaha
+每日一签	Fortune ya kila siku
+每行一个，或用逗号隔开	Moja kwa kila mstari au kutengwa na commas
+没有匹配的模型	Hakuna mifano ya kulinganisha
+沿用聊天界面正在使用的连接与模型。	Tumia uunganisho na mfano unaofanya kazi sasa katika mazungumzo.
+游戏	Michezo ya Michezo
+点开始，由模型先说第一句。	Bonyeza kuanza na kuruhusu mfano kuzungumza kwanza.
+点这里选择运营商与模型	Bonyeza kuchagua mtoa huduma na mfano
+猜一个 1 到 100 的数字	Fikiria idadi kutoka 1 hadi 100
+猜中了！就是	Ilikuwa hivyo! ilikuwa
+猜对了！答案是	Jibu lilikuwa ndiyo
+猜数字	Fikiria idadi ya
+猜！	Fikiria mwenyewe!
+现在还看不清，再等等。	Acha tu kusema, subiri kidogo.
+用一个是非题提问…	Swali/ Utakapo ulizwa: Je!
+看起来不错，放手去做。	Nzuri - kwenda kwa ajili yake.
+眼下还不是最好的时机，先攒力气，等风来。	Sasa sio wakati wa kukusanya nguvu zako na kusubiri upepo.
+石头	Mwamba wa Rock Rock Rock
+石头剪刀布	Rock karatasi za kupamba ukuta
+离线小游戏	Michezo ya mini-michezo
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline michezo kamwe wito mfano au kutumia data; AI michezo ni billed kwa mfano wako waliochaguliwa.
+答案是肯定的。	Ndio, kwa uhakika.
+胜	Ushindi wa ushindi
+自行车	Moja ya baiskeli
+请输入 1 到 100 的整数	Kuingia idadi kamili kutoka 1 hadi 100
+负	Hasara ya kupoteza
+转起来	Spin ya Spin
+还没有连接，请先到「连接与模型」里添加。	Hakuna uhusiano bado. kuongeza moja chini ya "Connections & Models".
+这个连接还没有缓存模型，可在下方手动输入。	Hakuna mifano ya cached kwa uunganisho huu; kuingia moja kwa manually chini.
+这次恐怕不行。	Labda sio wakati huu.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Chagua mifano ya 3-5 kutoka kwa watoa huduma tofauti, kujadili juu ya mzunguko, kupata muhtasari
+选择游戏模型	Kuchagua mtindo wa mchezo
+重新开始	Kuanza upya
+钢琴	Moja ya piano
+长城	Ukuta mkubwa
+静一静心，点下面抽签	Chukua pumzi, kisha vuta chini
+顺签	Usafiri wa uhakika
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Upepo hupunguza, maji hutuliza; Kile kilicho mikononi mwako kitajibu kwa wakati; hakuna haja ya kukimbilia.
+魔法八球	Uchawi wa 8-Ball
+默念一个问题，摇一摇看它怎么答	Fikiria juu ya swali, tafadhali jibu
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Fuata mfano wa sasa wa gumzo kwa default; bonyeza kuweka moja iliyojitolea.
+（模型没有回复）	(Hakuna jibu kutoka kwa mfano)

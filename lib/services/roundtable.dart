@@ -40,6 +40,9 @@ class Seat {
   String model;
   bool enabled;
 
+  /// 选中的运营商（连接）名，仅用于界面展示；不参与请求。
+  String providerName;
+
   Seat({
     required this.id,
     this.name = '',
@@ -48,6 +51,7 @@ class Seat {
     this.apiKey = '',
     this.model = '',
     this.enabled = true,
+    this.providerName = '',
   });
 
   bool get usable => enabled && model.trim().isNotEmpty;
@@ -62,6 +66,7 @@ class Seat {
         'baseUrl': baseUrl,
         'model': model,
         'enabled': enabled,
+        'providerName': providerName,
         // 密钥不落盘：下次进入页面时按 baseUrl 从当前连接重新补全。
       };
 
@@ -72,6 +77,7 @@ class Seat {
         baseUrl: (j['baseUrl'] ?? '').toString(),
         model: (j['model'] ?? '').toString(),
         enabled: j['enabled'] != false,
+        providerName: (j['providerName'] ?? '').toString(),
       );
 
   Seat copy() => Seat(
@@ -82,6 +88,7 @@ class Seat {
         apiKey: apiKey,
         model: model,
         enabled: enabled,
+        providerName: providerName,
       );
 }
 

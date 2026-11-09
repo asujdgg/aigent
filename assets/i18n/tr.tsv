@@ -90,7 +90,7 @@
 这台设备	Bu cihaz
 连接配置	Bağlantı profilleri
 选择形象	Persona seçin
-选择模型	Model seçin
+选择模型	Bir model seçin
 配置名称	Profil adı
 配置连接	Configure connection
 页面底色	Sayfa arka plan
@@ -119,7 +119,7 @@
 设备智能体	Device agent
 语言与地区	Dil & Bölge
 输入任务…	Bir görev girin..
-连接与模型	Bağlantı & modeller
+连接与模型	Bağlantı & model
 重命名配置	Rename profili
 链接已复制	Link kopyalandı
 顶部形象区	Top persona alanı
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Kadın
 男	Erkek Erkek Erkek Erkek
 其他	Diğer Diğer Diğer
+1 到 100，看你能几次猜中	1 ila 100 arasında bir numara – kaç tahminler kazanabiliyor?
+20 次提问用完了，点重新开始再来一局。	Tüm 20 soru kullanılır. Tap tekrar oynamaya yeniden başlar.
+AI 玩法	AI oyunları
+AI 玩法会调用你所选的模型，按实际用量计费。	AI oyunları seçilmiş modelinizi çağırın ve gerçek kullanımla faturalanır.
+一共用了	in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in in
+一只猫	Bir kedi
+一把雨伞	Bir şemsiye
+一本书	Bir kitap
+一杯咖啡	Bir fincan kahve fincanı
+一点小惊喜正在路上，留意身边不显眼的机会。	Küçük bir sürpriz onun yolunda; yakınınızdaki sessiz şansı fark edin.
+上上签	En İyi servet
+上签	İyi servet
+不进不退，也是一日。守住眼前，就是守住运气。	Ne ileri ne de gerisi hala bir gün. Burada olan şey, şansınızı tutuyor.
+个 AI 玩法	AI oyunları
+个模型	modeller modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modelleri modeller modeller modeller modeller modelleri modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modeller modelleri
+个离线小游戏	çevrimdışı mini oyun
+个选项	Seçenek seçenekleri
+中签	Fair servet
+二十问	20 Soru
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Bulutlar ve ay parlak parlar; her yol açık. Uzun zamandır yapmak istediğiniz bir şeye bir adım atmak için iyi bir gün.
+今日签	Bugünkü servet
+你	You You You You You
+你一句我一句，让故事一直讲下去	Döndürün ve hikayeyi devam ettirin
+你一句我一句，让故事一直讲下去。	Döndü ve hikayeyi devam ettirin.
+你赢了	Kazanıyorsun
+使用	Use Use Use Use Use
+例如：今天适合开始新计划吗？	e.g. Bugün yeni bir plan için iyi mi?
+候选选项	Seçenekleri
+先给故事起个主题吧	Hikayeye ilk önce bir tema verin
+先选一家运营商（连接），再进入模型列表挑选。	Önce bir sağlayıcı (bağış) seçin, sonra model listesinden seçin.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Bir sağlayıcı seçin (bağış), sonra listelerinden bir model seçin.
+再玩一局	Tekrar Oyna
+再看看	Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar Tekrar
+写下接下来发生的事…	Bir sonraki ne olduğunu yazın..
+冰淇淋	dondurma
+出拳	Sizin hareketiniz
+创建角色，由 AI 生成事件与抉择，走完一生	Bir karakter oluşturun; AI bütün bir yaşam boyunca olayları ve seçimleri yaratır
+别急着决定，先睡一觉。	Karar vermeden önce uyu.
+剩余提问	Sorular ayrıldı
+剪刀	Scissors
+同一天抽到的签不会变，明天再来会有新签。	Bugünün serveti aynı kalır; yeni bir kişi için yarın geri dönün.
+和我来几局，纯靠运气，不花流量。	Benimle birkaç tur – saf şans, kullanılan hiçbir veri değil.
+圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 mini oyun
+埃菲尔铁塔	Eiffel Kulesi
+多模型	Multi-model
+大了	Çok yüksek
+大概率可以，但留个后手。	Evet gibi, ama bir yedek tut.
+宇宙说：再问一次。	Evren şöyle diyor: Tekrar sorun.
+对话	Konuşma
+小了	Çok düşük
+小吉	Küçük lütuf
+就选这个	Go with this
+已为游戏单独指定模型，随时可换或恢复默认。	Özel bir model oyunlar için ayarlanır; her zaman varsayılan olarak değiştirin.
+已猜	Tahminler
+布	Kağıt
+平	Çizim
+平局	Bu bir çizim
+平签	Steady servet
+开始	Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start Start
+当前对话模型	Şimdiki sohbet modeli
+当前连接	Şimdiki akım
+待时	Bide your time
+心里默念一个问题	Bir soru düşünün
+心里默念一个问题，摇一摇，看它怎么回答。	Bir soru düşünün, onu sallayın, ne dediğini görün.
+恢复默认	Geri yükleme varsayılan varsayılan geri yükleme
+想不通的事，出去走一圈大概就有答案了。	Ne düşünemediğiniz için, kısa bir yürüyüş muhtemelen cevabı getirecektir.
+我	Ben
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	1 ila 100 arasında bir numara saklıyorum. Bunu ne kadar az tahmin yapabilirsiniz?
+我想好了一个东西，你用是非题在 20 次内猜出来。	Bir şey düşündüm. 20 evet/hayır sorularını tahmin edin.
+我赢了	Kazanıyorum
+手动输入模型 ID	Model ID manuel olarak girin
+抉择轮盘	Karar Wheel
+把纠结的选项写进去，让轮盘替你决定	Seçeneklerinizi listeleyin ve tekerleğin karar vermesine izin verin
+把纠结的选项都写进去，让轮盘替你做决定。	Tüm seçenekler arasında yırtıp tekerlek karar vermesine izin verin.
+抽一支签	Bir servet çizin
+换个角度想想会更好。	Farklı bir açı deneyin.
+搜索模型 ID	Arama modeli ID ID
+摇一摇	Shake
+故事接龙	Story Chain
+月亮	Ay Ay
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Bazı kazanç, bazı kayıplar; hatta bir zihin en iyi tutar. Bugün biraz daha yavaşlayın.
+未指定连接	Hiçbir bağlantı yok
+未设置模型	Hiçbir model seti
+未选择连接	Seçilen bağlantı yok
+本局使用的模型	Bu oyun için model
+来几局，纯靠运气	Birkaç tur, saf şans
+模型想一个东西，你用是非题在 20 次内猜中	Model bir şey düşünüyor; 20 evet/hayır sorularını tahmin edin
+模型调用失败	Model çağrısı başarısız oldu
+次	Tahminler
+每天一支签，同一天不会变。图个乐子，别当真。	Bir gün bir servet, gün içinde değişmeden. Sadece eğlence için.
+每天一支签，图个乐子	Bir gün bir servet, sadece eğlence için
+每日一签	Günlük Fortune
+每行一个，或用逗号隔开	Bir per line, ya da komün tarafından ayrı
+没有匹配的模型	Eşleşen modeller yok
+沿用聊天界面正在使用的连接与模型。	Şu anda sohbette aktif olan bağlantı ve modeli kullanın.
+游戏	Oyunlar
+点开始，由模型先说第一句。	Tap başlar ve modelin ilk önce konuşmasına izin verin.
+点这里选择运营商与模型	Bir sağlayıcı ve model seçmek için Tap
+猜一个 1 到 100 的数字	1 ila 100 arasında bir sayı tahmin edin
+猜中了！就是	Got it!
+猜对了！答案是	Doğru! Cevap doğruydu!
+猜数字	Tahmin et Sayı
+猜！	Tahmin edin!
+现在还看不清，再等等。	Çok yakında anlatmak için; biraz bekleyin.
+用一个是非题提问…	Evet/hayır bir soru sorun..
+看起来不错，放手去做。	İyi görünüyor - bunun için gidin.
+眼下还不是最好的时机，先攒力气，等风来。	Şimdi şu anda değil. Gücünü toplayın ve rüzgar için bekleyin.
+石头	Rock Rock
+石头剪刀布	Rock Paper Scisorsors
+离线小游戏	Offline mini oyunlar
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline oyunlar asla bir model veya veri kullanmaz; AI oyunları seçilmiş modelinize faturalanır.
+答案是肯定的。	Evet, kesinlikle.
+胜	Win Win Win
+自行车	Bir bisiklet
+请输入 1 到 100 的整数	1 ila 100 arasında bir bütün sayı girin
+负	Lose
+转起来	Spin Spin Spin Spin
+还没有连接，请先到「连接与模型」里添加。	Henüz bağlantı yok. "Connections & Models" altında bir tane ekleyin.
+这个连接还没有缓存模型，可在下方手动输入。	Bu bağlantı için önbellek modelleri yok; aşağıda bir el girin.
+这次恐怕不行。	Muhtemelen bu sefer değil.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	3-5 farklı sağlayıcıların modellerini seçin, yuvarlakları tartış, bir özet alın
+选择游戏模型	Oyun modelini seçin
+重新开始	Restart
+钢琴	Bir piyano
+长城	Büyük Duvar
+静一静心，点下面抽签	Bir nefes alın, sonra aşağıda çizin
+顺签	Parlak yelken
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Rüzgar yumuşatıyor, su sakinleri. Ellerinizde ne cevap verecek; acele etmeye gerek yok.
+魔法八球	Magic 8-Ball
+默念一个问题，摇一摇看它怎么答	Bir soru düşünün, bir cevap için sallayın
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Mevcut sohbet modelini varsayılan olarak takip edin; adanmış bir tane kurmak için tıklayın.
+（模型没有回复）	( Modelden yanıt yok)

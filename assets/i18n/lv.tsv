@@ -119,7 +119,7 @@
 设备智能体	Ierīces aģents
 语言与地区	Valodas & reģions
 输入任务…	Ievadiet darbu..
-连接与模型	Savienojuma & modeļi
+连接与模型	Pieslēguma & modelis
 重命名配置	Pārdēvēt profilu
 链接已复制	Saikne nokopēta
 顶部形象区	Augšējā persona teritorija
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Sieviete
 男	Vīrietis
 其他	Citi
+1 到 100，看你能几次猜中	Skaitlis no 1 līdz 100 — cik minējumus jūs varat uzvarēt?
+20 次提问用完了，点重新开始再来一局。	Visi 20 izmantotie jautājumi. Lai atskaņotu vēlreiz, piesitiet pārstartēt.
+AI 玩法	AI spēles
+AI 玩法会调用你所选的模型，按实际用量计费。	AI spēles zvanu jūsu izvēlēto modeli un ir jāmaksā par faktisko izmantošanu.
+一共用了	skaits
+一只猫	kaķis
+一把雨伞	lietussargs
+一本书	grāmata
+一杯咖啡	tasi kafijas
+一点小惊喜正在路上，留意身边不显眼的机会。	Neliels pārsteigums ir ceļā; ievērojiet klusās izredzes pie jums.
+上上签	Labākā laime
+上签	Laba laime
+不进不退，也是一日。守住眼前，就是守住运气。	Ne uz priekšu, ne atpakaļ vēl nav diena. Turot to, kas ir šeit tur savu veiksmi.
+个 AI 玩法	AI spēles
+个模型	modeļi
+个离线小游戏	bezsaistes minispēles
+个选项	iespējas līgumi
+中签	Godīga laime
+二十问	20 Jautājumi
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Mākoņi daļa un mēness spīd spoži; katrs ceļš ir atvērts. Labu dienu, lai spertu vienu soli uz kaut ko jums sen gribēja darīt.
+今日签	Mūsdienu bagātība
+你	Jūs
+你一句我一句，让故事一直讲下去	Pagriezienus un turpini stāstu
+你一句我一句，让故事一直讲下去。	Pagriezies un turpini stāstu.
+你赢了	Tu uzvarēji
+使用	Lietot
+例如：今天适合开始新计划吗？	Piemēram, vai šodien ir labi izstrādāt jaunu plānu?
+候选选项	Opcijas
+先给故事起个主题吧	Vispirms piešķir stāstam tēmu
+先选一家运营商（连接），再进入模型列表挑选。	Vispirms izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties no tā modeļu saraksta.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Izvēlieties pakalpojumu sniedzēju (savienojumu), pēc tam izvēlieties modeli no tā saraksta.
+再玩一局	Spēlēt vēlreiz
+再看看	Vēlreiz
+写下接下来发生的事…	Rakstīt, kas notiks tālāk..
+冰淇淋	saldējums
+出拳	Jūsu gājiens
+创建角色，由 AI 生成事件与抉择，走完一生	Izveidot rakstzīmi; MI ģenerē notikumus un izvēles caur visu dzīvi
+别急着决定，先睡一觉。	Pirms lēmuma pieņemšanas guliet tajā.
+剩余提问	Atlikušie jautājumi
+剪刀	Šķēres
+同一天抽到的签不会变，明天再来会有新签。	Šodienas bagātība paliek tāda pati; rīt atgriezieties pēc jaunas.
+和我来几局，纯靠运气，不花流量。	Dažas kārtas ar mani — tīra veiksme, netika izmantoti dati.
+圆桌会议、模拟人生与 7 个小游戏	Apaļais galds, Life Simulator & 7 mini-spēles
+埃菲尔铁塔	Eifeļa tornis
+多模型	Daudzmoduļi
+大了	Pārāk augsts
+大概率可以，但留个后手。	Jā, bet saglabājiet rezerves kopiju.
+宇宙说：再问一次。	Visums saka: jautāt vēlreiz.
+对话	Sarunas
+小了	Pārāk zems
+小吉	Neliela svētība
+就选这个	Iet ar šo
+已为游戏单独指定模型，随时可换或恢复默认。	Specializēts modelis ir iestatīts spēlēm; mainīt to vai atjaunot noklusējuma jebkurā laikā.
+已猜	Guesenes
+布	Papīra
+平	Zīmēt
+平局	Izšķirts
+平签	Stabila laime
+开始	Sākums
+当前对话模型	Pašreizējais tērzēšanas modelis
+当前连接	Laikposms
+待时	Atvēli laiku
+心里默念一个问题	Padomājiet par jautājumu
+心里默念一个问题，摇一摇，看它怎么回答。	Padomājiet par jautājumu, sakratiet, paskatieties, kas tajā teikts.
+恢复默认	Atjaunot noklusēto
+想不通的事，出去走一圈大概就有答案了。	Par to, ko jūs nevarat iedomāties, īsa pastaiga droši vien dos atbildi.
+我	Es
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Es slēpju skaitli no 1 līdz 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Esmu kaut ko domājis.
+我赢了	Es uzvarēju
+手动输入模型 ID	Pašrocīgi ievadiet modeļa ID
+抉择轮盘	Lēmuma ritenis
+把纠结的选项写进去，让轮盘替你决定	Uzrakstiet savas iespējas un ļaujiet ritenim izlemt
+把纠结的选项都写进去，让轮盘替你做决定。	Uzskaitiet visas iespējas, starp kurām esat saplēsis un ļaujiet riteņam izlemt.
+抽一支签	Zīmēt
+换个角度想想会更好。	Izmēģini citu leņķi.
+搜索模型 ID	Meklēšanas modeļa ID
+摇一摇	Sakratiet
+故事接龙	Stāstu ķēde
+月亮	Mēness
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Daži iegūst, daži zaudējumi; pat prāts tur vislabāk. Ņem to nedaudz lēnāk šodien.
+未指定连接	Nav savienojuma
+未设置模型	Nav noteikts modelis
+未选择连接	Nav izvēlēts savienojums
+本局使用的模型	Modelis šai spēlei
+来几局，纯靠运气	Daži raundi, tīra veiksme
+模型想一个东西，你用是非题在 20 次内猜中	Modelis domā par kaut ko; uzminēt to 20 jā / nav jautājumi
+模型调用失败	Neizdevās izsaukt modeli
+次	minējumi
+每天一支签，同一天不会变。图个乐子，别当真。	Viena laime dienā, nemainīga dienas laikā.
+每天一支签，图个乐子	Viena laime dienā, tikai priekam
+每日一签	Dienas bagātība
+每行一个，或用逗号隔开	Viens katrai līnijai vai atdalīts ar komatiem
+没有匹配的模型	Nav atbilstošu modeļu
+沿用聊天界面正在使用的连接与模型。	Izmantot savienojumu un modeli, kas šobrīd ir aktīvs tērzēšanā.
+游戏	Spēles
+点开始，由模型先说第一句。	Piesitiet sākumam un ļaujiet modelim runāt vispirms.
+点这里选择运营商与模型	Piesitiet, lai izvēlētos piegādātāju un modeli
+猜一个 1 到 100 的数字	Uzmini skaitli no 1 līdz 100
+猜中了！就是	Sapratu!
+猜对了！答案是	Atbilde bija pareiza
+猜数字	Uzmini skaitli
+猜！	Uzmini!
+现在还看不清，再等等。	Pārāk drīz pateikt, pagaidiet mazliet.
+用一个是非题提问…	Uzdot jā/nē jautājumu..
+看起来不错，放手去做。	Izskatās labi — dari to.
+眼下还不是最好的时机，先攒力气，等风来。	Tagad nav gluži brīdis. Savāciet savu spēku un gaidīt vēju.
+石头	Roks
+石头剪刀布	Rokpapīra šķēres
+离线小游戏	Bezsaistes minispēles
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Bezsaistes spēles nekad nezvana modeli vai neizmanto datus; AI spēles ir jāmaksā jūsu izvēlētajam modelim.
+答案是肯定的。	Jā, noteikti.
+胜	Win
+自行车	divritenis
+请输入 1 到 100 的整数	Ievadiet veselu skaitli no 1 līdz 100
+负	Loze
+转起来	Spins
+还没有连接，请先到「连接与模型」里添加。	Vēl nav savienojumu. Pievienojiet to sadaļā "Savienojumi un modeļi".
+这个连接还没有缓存模型，可在下方手动输入。	Šim savienojumam nav kešotu modeļu; ievadiet vienu manuāli zemāk.
+这次恐怕不行。	Droši vien ne šoreiz.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Pick 3-5 modeļus no dažādiem piegādātājiem, apspriest pa kārtām, saņemt kopsavilkumu
+选择游戏模型	Izvēlieties spēles modeli
+重新开始	Pārstartēt
+钢琴	klavieru
+长城	Lielais mūris
+静一静心，点下面抽签	Ievelc elpu, tad izvelciet zemāk
+顺签	Gluda kuģošana
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vējš mīkstina, ūdens nomierinās. Tas, kas ir jūsu rokās, atbildēs ar laiku, nav nepieciešams steigties.
+魔法八球	Burvju 8 ball
+默念一个问题，摇一摇看它怎么答	Padomājiet par jautājumu, sakratiet, lai rastu atbildi
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Seko pašreizējam tērzēšanas modelim pēc noklusējuma; piesitiet, lai iestatītu īpašu modeli.
+（模型没有回复）	(Modeļa atbildes nav)

@@ -20,7 +20,7 @@ assignees: ''
 
 ## 环境
 
-- Aigent 版本：v4.22.0
+- Aigent 版本：v4.24.0
 - 机型：
 - Android 版本：
 - 界面语言 / 主题 / 字号：

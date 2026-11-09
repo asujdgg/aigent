@@ -119,7 +119,7 @@
 设备智能体	Zařízení
 语言与地区	Jazyk a region
 输入任务…	Zadejte úkol..
-连接与模型	Připojení a modely
+连接与模型	Připojení a model
 重命名配置	Přejmenovat profil
 链接已复制	Name
 顶部形象区	Oblast top persona
@@ -397,3 +397,135 @@ AI 实验室	AI Lab
 女	Ženy
 男	Muži
 其他	Ostatní
+1 到 100，看你能几次猜中	Počet od 1 do 100 - jak málo hádat můžete vyhrát?
+20 次提问用完了，点重新开始再来一局。	Všech 20 použitých otázek. Klepněte na možnost restartovat.
+AI 玩法	AI hry
+AI 玩法会调用你所选的模型，按实际用量计费。	AI hry volat vybraný model a jsou účtovány skutečné použití.
+一共用了	n
+一只猫	kočka
+一把雨伞	deštník
+一本书	knihu
+一杯咖啡	šálek kávy
+一点小惊喜正在路上，留意身边不显眼的机会。	Malé překvapení je na cestě, všimněte si tiché šance v blízkosti vás.
+上上签	Nejlepší štěstí
+上签	Hodně štěstí
+不进不退，也是一日。守住眼前，就是守住运气。	Ani vpřed, ani zpět není den. Držení toho, co je tady, drží vaše štěstí.
+个 AI 玩法	AI hry
+个模型	modely
+个离线小游戏	offline minihry
+个选项	Možnosti
+中签	Spravedlivé štěstí
+二十问	20 Otázky
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	Mraky části a měsíc svítí jasně, každá cesta je otevřená. Dobrý den udělat jeden krok na něco, co jste dlouho chtěli udělat.
+今日签	Dnešní štěstí
+你	Ty
+你一句我一句，让故事一直讲下去	Take turn and keep the story on
+你一句我一句，让故事一直讲下去。	Střídejte se a pokračujte v příběhu.
+你赢了	Vyhrál jsi
+使用	Použití
+例如：今天适合开始新计划吗？	Je dnes dobrý pro nový plán?
+候选选项	Možnosti
+先给故事起个主题吧	Nejdřív dej tomu příběhu téma
+先选一家运营商（连接），再进入模型列表挑选。	Nejprve si vyberte poskytovatele (připojení), pak si vyberte z jeho seznamu modelů.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Vyberte si poskytovatele (připojení), pak vyberte model ze svého seznamu.
+再玩一局	Zahrajte znovu
+再看看	Znovu
+写下接下来发生的事…	Napiš, co bude dál..
+冰淇淋	zmrzlina
+出拳	Tvůj tah
+创建角色，由 AI 生成事件与抉择，走完一生	Vytvořit charakter; AI generuje události a volby po celý život
+别急着决定，先睡一觉。	Vyspi se na to, než se rozhodneš.
+剩余提问	Zbývající otázky
+剪刀	Nůžky
+同一天抽到的签不会变，明天再来会有新签。	Dnešní štěstí zůstává stejné, zítra se vrať pro nové.
+和我来几局，纯靠运气，不花流量。	Pár kol se mnou - čistě štěstí, žádná data.
+圆桌会议、模拟人生与 7 个小游戏	Kulatý stůl, život simulátor & 7 mini-hry
+埃菲尔铁塔	Eiffelova věž
+多模型	Multimodel
+大了	Moc vysoko
+大概率可以，但留个后手。	Pravděpodobně ano, ale nechte si zálohu.
+宇宙说：再问一次。	Vesmír říká: zeptej se znovu.
+对话	Rozhovor
+小了	Příliš nízko
+小吉	Malé požehnání
+就选这个	Jdi s tím
+已为游戏单独指定模型，随时可换或恢复默认。	Dedikovaný model je nastaven pro hry; změnit nebo obnovit výchozí kdykoliv.
+已猜	Odhady
+布	Papír
+平	Kreslit
+平局	Je to remíza
+平签	Ustálené jmění
+开始	Start
+当前对话模型	Současný model chatu
+当前连接	Běžný měsíc
+待时	Načni svůj čas
+心里默念一个问题	Mysli na otázku
+心里默念一个问题，摇一摇，看它怎么回答。	Mysli na otázku, zatřes s ní, uvidíš, co se tam píše.
+恢复默认	Obnovit výchozí
+想不通的事，出去走一圈大概就有答案了。	Za to, co si nemůžete promyslet, krátká procházka pravděpodobně přinese odpověď.
+我	Př
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Schovávám číslo od1 do100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Něco mě napadlo.
+我赢了	Vyhrál jsem
+手动输入模型 ID	Zadejte ID modelu ručně
+抉择轮盘	Rozhodnutí kola
+把纠结的选项写进去，让轮盘替你决定	Seznam možností a nech rozhodnout kolo
+把纠结的选项都写进去，让轮盘替你做决定。	Seznam všech možností, mezi kterými jste roztrženi a nechte rozhodnout kolo.
+抽一支签	Nakresli jmění
+换个角度想想会更好。	Zkus jiný úhel.
+搜索模型 ID	ID modelu vyhledávání
+摇一摇	Protřepat
+故事接龙	Řetězec příběhů
+月亮	Měsíc
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Některé zisky, některé ztráty, sudá mysl je nejlepší. Vezměte to trochu pomaleji dnes.
+未指定连接	Žádné spojení
+未设置模型	Žádný model
+未选择连接	Není vybráno žádné spojení
+本局使用的模型	Model pro tuto hru
+来几局，纯靠运气	Pár kol, čiré štěstí
+模型想一个东西，你用是非题在 20 次内猜中	Model něco vymyslí; hádejte za 20 ano / ne otázek
+模型调用失败	Model volání selhal
+次	odhad
+每天一支签，同一天不会变。图个乐子，别当真。	Jedno jmění za den, nezměněné během dne.
+每天一支签，图个乐子	Jedno jmění denně, jen pro zábavu
+每日一签	Denní štěstí
+每行一个，或用逗号隔开	Jeden na řádek, nebo oddělené čárkou
+没有匹配的模型	Žádné odpovídající modely
+沿用聊天界面正在使用的连接与模型。	Použijte připojení a model v současné době aktivní v chatu.
+游戏	Hry
+点开始，由模型先说第一句。	Klepněte na možnost start a nechte model mluvit jako první.
+点这里选择运营商与模型	Klepněte na možnost vybrat poskytovatele a model
+猜一个 1 到 100 的数字	Hádej číslo od 1 do 100
+猜中了！就是	Mám to!
+猜对了！答案是	Správně!
+猜数字	Hádej číslo
+猜！	Hádej!
+现在还看不清，再等等。	Na to je moc brzo, počkej.
+用一个是非题提问…	Ptejte se ano / ne..
+看起来不错，放手去做。	Vypadá to dobře - do toho.
+眼下还不是最好的时机，先攒力气，等风来。	Teď není vhodná chvíle, seber sílu a čekej na vítr.
+石头	Rock
+石头剪刀布	Kamenné nůžky na papír
+离线小游戏	Offline minihry
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Offline hry nikdy volat model nebo použít data; AI hry jsou účtovány na zvolený model.
+答案是肯定的。	Ano, určitě.
+胜	Vyhrát
+自行车	kolo
+请输入 1 到 100 的整数	Zadejte celé číslo od 1 do 100
+负	Prohrát
+转起来	Spin
+还没有连接，请先到「连接与模型」里添加。	Zatím žádné spojení. Přidejte jednu pod "Connections & Models".
+这个连接还没有缓存模型，可在下方手动输入。	Žádné cached modely pro toto připojení; zadejte jeden ručně níže.
+这次恐怕不行。	Tentokrát asi ne.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Vyberte 3-5 modelů od různých poskytovatelů, diskutovat o více kol, získat shrnutí
+选择游戏模型	Vyberte model hry
+重新开始	Obnovit
+钢琴	klavír
+长城	Velká zeď
+静一静心，点下面抽签	Nadechni se a pak natáhni dolů
+顺签	Hladká plavba
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	Vítr změkne, voda se uklidní. Co je ve vašich rukou, odpoví včas, není třeba spěchat.
+魔法八球	Magic 8-Ball
+默念一个问题，摇一摇看它怎么答	Mysli na otázku, zatřes pro odpověď
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Vychází z aktuálního modelu chatu ve výchozím nastavení, klepnutím nastavíte vyhrazený.
+（模型没有回复）	(Od modelu žádná odpověď)

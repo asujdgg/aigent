@@ -90,7 +90,7 @@
 这台设备	Este dispositivo
 连接配置	Perfis de ligação
 选择形象	Escolher persona
-选择模型	Escolher modelo
+选择模型	Escolha um modelo
 配置名称	Nome do perfil
 配置连接	Configurar conexão
 页面底色	Fundo da página
@@ -119,7 +119,7 @@
 设备智能体	Agente do dispositivo
 语言与地区	& Região da língua
 输入任务…	Indique uma tarefa..
-连接与模型	Conexão e modelos
+连接与模型	& Modelo de conexão
 重命名配置	Mudar o nome do perfil
 链接已复制	Ligação copiada
 顶部形象区	Área de persona superior
@@ -397,3 +397,135 @@ AI 实验室	Laboratório de IA
 女	Mulheres
 男	Masculino
 其他	Outros
+1 到 100，看你能几次猜中	Um número de 1 a 100 — quão poucos palpites você pode ganhar?
+20 次提问用完了，点重新开始再来一局。	Todas as 20 perguntas usadas. Toque em reiniciar para jogar novamente.
+AI 玩法	Jogos de IA
+AI 玩法会调用你所选的模型，按实际用量计费。	Os jogos de IA chamam seu modelo selecionado e são faturados pelo uso real.
+一共用了	em
+一只猫	um gato
+一把雨伞	um guarda-chuva
+一本书	um livro
+一杯咖啡	uma xícara de café
+一点小惊喜正在路上，留意身边不显眼的机会。	Uma pequena surpresa está a caminho; observe as chances tranquilas perto de você.
+上上签	Melhor fortuna
+上签	Boa sorte
+不进不退，也是一日。守住眼前，就是守住运气。	Nem para a frente nem para trás ainda é um dia. Segurar o que está aqui está segurando sua sorte.
+个 AI 玩法	Jogos de IA
+个模型	modelos
+个离线小游戏	mini- jogos offline
+个选项	opções
+中签	Sorte justa
+二十问	20 Perguntas
+云开月正明，所行皆顺路。今天适合把一直想做的事往前推一步。	As nuvens partem e a lua brilha; cada estrada está aberta. Um bom dia para dar um passo em algo que você há muito queria fazer.
+今日签	A fortuna de hoje
+你	Você
+你一句我一句，让故事一直讲下去	Revezem-se e mantenham a história a andar
+你一句我一句，让故事一直讲下去。	Revezem-se e mantenham a história.
+你赢了	Ganhaste
+使用	Utilização
+例如：今天适合开始新计划吗？	Por exemplo, hoje é bom para um novo plano?
+候选选项	Opções
+先给故事起个主题吧	Dê à história um tema primeiro
+先选一家运营商（连接），再进入模型列表挑选。	Escolha um provedor (conexão) primeiro, em seguida, escolha a partir de sua lista de modelos.
+先选运营商（连接），再从该运营商的模型列表里挑一个。	Escolha um provedor (conexão), em seguida, escolha um modelo de sua lista.
+再玩一局	Reproduzir novamente
+再看看	Outra vez
+写下接下来发生的事…	Escreva o que acontece a seguir..
+冰淇淋	gelado
+出拳	A tua vez
+创建角色，由 AI 生成事件与抉择，走完一生	Criar um caractere; IA gera eventos e escolhas através de toda uma vida
+别急着决定，先睡一觉。	Dorme nisso antes de decidir.
+剩余提问	Perguntas restantes
+剪刀	Tesoura
+同一天抽到的签不会变，明天再来会有新签。	A fortuna de hoje permanece a mesma. Volte amanhã para uma nova.
+和我来几局，纯靠运气，不花流量。	Algumas rodadas comigo — pura sorte, nenhum dado usado.
+圆桌会议、模拟人生与 7 个小游戏	Mesa Redonda, Simulador de Vida e 7 mini-jogos
+埃菲尔铁塔	a Torre Eiffel
+多模型	Multimodelo
+大了	Muito alto
+大概率可以，但留个后手。	Provavelmente sim, mas mantenha um backup.
+宇宙说：再问一次。	O universo diz: pergunte novamente.
+对话	Conversa
+小了	Muito baixo
+小吉	Pequena bênção
+就选这个	Vai com isto
+已为游戏单独指定模型，随时可换或恢复默认。	Um modelo dedicado é definido para jogos; altere-o ou restaure o padrão a qualquer momento.
+已猜	Adivinha
+布	Papel
+平	Desenhar
+平局	É um empate
+平签	Sorte estável
+开始	Iniciar
+当前对话模型	Modelo de conversa atual
+当前连接	Atual
+待时	Bide seu tempo
+心里默念一个问题	Pensa numa pergunta
+心里默念一个问题，摇一摇，看它怎么回答。	Pensa numa pergunta, dá-lhe uma sacudidela, vê o que diz.
+恢复默认	Restaurar padrão
+想不通的事，出去走一圈大概就有答案了。	Para o que você não pode pensar, uma curta caminhada provavelmente trará a resposta.
+我	Eu
+我心里藏着一个 1 到 100 的数字，看你能几次猜中。	Estou a esconder um número de 1 a 100
+我想好了一个东西，你用是非题在 20 次内猜出来。	Acho que em 20 perguntas sim/não.
+我赢了	Ganhei
+手动输入模型 ID	Digite o ID do modelo manualmente
+抉择轮盘	Roda da decisão
+把纠结的选项写进去，让轮盘替你决定	Liste as suas opções e deixe a roda decidir
+把纠结的选项都写进去，让轮盘替你做决定。	Liste todas as opções que você está dividido entre e deixe a roda decidir.
+抽一支签	Desenhar uma fortuna
+换个角度想想会更好。	Tente um ângulo diferente.
+搜索模型 ID	Procurar o ID do modelo
+摇一摇	Agitar
+故事接龙	Cadeia de histórias
+月亮	a Lua
+有得有失，平常心最稳。今天宜把节奏放慢一点。	Alguns ganham, alguns perdem; uma mente equilibrada é a melhor coisa.
+未指定连接	Sem ligação
+未设置模型	Sem conjunto de modelos
+未选择连接	Nenhuma conexão selecionada
+本局使用的模型	Modelo para este jogo
+来几局，纯靠运气	Algumas rodadas, pura sorte
+模型想一个东西，你用是非题在 20 次内猜中	O modelo pensa em algo; adivinhe em 20 perguntas sim/não
+模型调用失败	A chamada do modelo falhou
+次	palpites
+每天一支签，同一天不会变。图个乐子，别当真。	Uma fortuna por dia, inalterada, só por diversão.
+每天一支签，图个乐子	Uma fortuna por dia, só por diversão
+每日一签	Fortuna Diária
+每行一个，或用逗号隔开	Um por linha, ou separados por vírgulas
+没有匹配的模型	Sem modelos correspondentes
+沿用聊天界面正在使用的连接与模型。	Use a conexão e o modelo atualmente ativo no chat.
+游戏	Jogos
+点开始，由模型先说第一句。	Toque em iniciar e deixe o modelo falar primeiro.
+点这里选择运营商与模型	Toque em para escolher um fornecedor e modelo
+猜一个 1 到 100 的数字	Adivinhe um número de 1 a 100
+猜中了！就是	Consegui!
+猜对了！答案是	A resposta foi:
+猜数字	Adivinhar o Número
+猜！	Adivinha!
+现在还看不清，再等等。	Muito cedo para dizer; espere um pouco.
+用一个是非题提问…	Faça uma pergunta sim/não..
+看起来不错，放手去做。	Parece bom — vá em frente.
+眼下还不是最好的时机，先攒力气，等风来。	Agora não é bem o momento. Reúna suas forças e espere pelo vento.
+石头	Rock
+石头剪刀布	Tesoura de papel rock
+离线小游戏	Mini-jogos off-line
+离线小游戏不调用模型、不花流量；AI 玩法按你选的模型计费。	Jogos offline nunca chamam um modelo ou usam dados; jogos de IA são faturados para o seu modelo escolhido.
+答案是肯定的。	Sim, definitivamente.
+胜	Ganhar
+自行车	uma bicicleta
+请输入 1 到 100 的整数	Digite um número inteiro de 1 a 100
+负	Perder
+转起来	Rodar
+还没有连接，请先到「连接与模型」里添加。	Sem conexões ainda. Adicione uma em "Conexões & Modelos".
+这个连接还没有缓存模型，可在下方手动输入。	Não existem modelos em cache para esta conexão; insira um manualmente abaixo.
+这次恐怕不行。	Provavelmente não desta vez.
+选 3~5 个不同运营商的模型，按大纲多轮讨论并汇总结论	Escolha modelos 3–5 de diferentes fornecedores, discuta ao longo de rodadas, obtenha um resumo
+选择游戏模型	Escolher modelo de jogo
+重新开始	Reiniciar
+钢琴	um piano
+长城	a Grande Muralha
+静一静心，点下面抽签	Respira, depois puxa para baixo
+顺签	Vela suave
+风渐软，水渐平。手上的事会慢慢有回音，不必急着催。	O vento suaviza, a água acalma. O que está em suas mãos responderá com o tempo; não há necessidade de se apressar.
+魔法八球	Bola Mágica 8
+默念一个问题，摇一摇看它怎么答	Pense em uma pergunta, trema por uma resposta
+默认跟随当前对话的模型；点这里可为游戏单独指定。	Segue o modelo de conversação atual por padrão; toque em para definir um dedicado.
+（模型没有回复）	(Nenhuma resposta do modelo)
