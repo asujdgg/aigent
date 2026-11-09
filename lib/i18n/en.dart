@@ -738,4 +738,7 @@ const Map<String, String> kEnUi = {
   '抗打击': 'Resilient',
   '知足': 'Content',
   '继续': 'Continue',
+  '普通': 'Common',
+  '稀有': 'Rare',
+  '传说': 'Legendary',
 };

@@ -325,7 +325,13 @@ class _LifeScreenState extends State<LifeScreen> {
       const Color(0xFF8A73D6),
       const Color(0xFF43B8A8),
     ];
-    const rarityNames = ['普通', '稀有', '传说'];
+    // 用字面量而不是查表：i18n 收集脚本只认 t('...') 的字面量，
+    // 写成 t(list[i]) 会让「普通 / 稀有 / 传说」漏出中文。
+    final rarityName = switch (r.rarity) {
+      2 => t('传说'),
+      1 => t('稀有'),
+      _ => t('普通'),
+    };
     final rarityColor = [
       dark ? C.dInk3 : C.ink3,
       C.brand,
@@ -354,7 +360,7 @@ class _LifeScreenState extends State<LifeScreen> {
                   color: rarityColor.withOpacity(0.12),
                   borderRadius: BorderRadius.circular(5),
                 ),
-                child: Text(t(rarityNames[r.rarity]),
+                child: Text(rarityName,
                     style: ts(dark,
                         size: 10.5,
                         weight: FontWeight.w600,
