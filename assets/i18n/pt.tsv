@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Use {{query}} {{date}} {{time}} {{model}} {{language}} {{sources} {{tier}} no prompt; eles são substituídos por valores reais antes de enviar.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Os canais livres usam endpoints Web públicos e podem parar de funcionar ou ficar limitados a taxas a qualquer momento. As chaves são criptografadas neste dispositivo apenas e nunca sincronizadas. Toque no botão de onda no canto superior direito, ou pressione uma bolha longa, para ler em voz alta. Toque no microfone do compositor para falar; a gravação pára quando você fica quieto, e o texto pousa na caixa de entrada para revisão antes de enviar.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	As imagens são enviadas em linha como base64, borda mais longa 1280, qualidade 72. Se uma solicitação de imagem retorna 400 / 413 / Conexão fechada, o modelo ou gateway provavelmente rejeita imagens em linha — mude o formato acima para reduzi-lo.
+1 轮	1 rodada
+2 轮	2 rodadas
+3 轮	3 rodadas
+AI 圆桌会议	Mesa Redonda AI
+AI 实验室	Laboratório de IA
+下一段人生尚未发生	O próximo capítulo ainda não começou
+也可以自己写一个目标	Ou escreva seu próprio objetivo
+人生事件	Evento da vida
+人生存档	Salvadas vidas
+人生履历	História de vida
+人生目标	Objectivo da vida
+人生评分 · 满分 100	Pontuação de vida · em 100
+从已有连接补齐 5 个模型	Preencha 5 modelos de conexões
+会议大纲	Ordem do dia
+会议结论	Conclusão
+会议议题	Tópico
+会议记录	História da reunião
+位参会者	participantes
+你会怎么选？	O que vais fazer?
+例如：分析者	Por exemplo, analista
+停止会议	Parar a reunião
+创建角色	Criar caractere
+删除席位	Remover o assento
+判定结果失败	Falha ao resolver o resultado
+参会模型	Participantes
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Escolha diferentes conexões ou modelos. Mesmo um modelo pode discordar de si mesmo sob diferentes papéis.
+名称	Nome
+多模型圆桌会议 · 3~5 个 AI 开会	Mesa redonda de IA · 3–5 modelos em discussão
+导出人生履历	Exportar história de vida
+导出纪要	Atas de exportação
+尚未配置接口，请先到设置里填好连接与模型。	Nenhuma conexão configurada. Configure um endpoint e modelo em Configurações primeiro.
+岁	yrs
+已复制到剪贴板	Copiado para a área de transferência
+已完结	Concluído
+席位设置	Configuração do assento
+开始会议	Iniciar reunião
+开始这一生	Começar esta vida
+性别	Sexo
+所有剧情由你配置的模型实时生成，只保存在本机。	Cada evento é gerado ao vivo pelo seu modelo e armazenado apenas neste dispositivo.
+推进人生	Vida avançada
+新建会议	Nova reunião
+新的人生	Nova vida
+时代背景	Era
+暂无历史会议	Sem reuniões salvas
+暂无参会席位	Ainda não há participantes
+未发言	Nenhuma resposta
+未命名议题	Tópico sem título
+条发言	voltas
+模型 ID	ID do modelo
+模拟人生	Simulador de Vida
+模拟人生 · AI 生成剧情与抉择	Life Simulator · História e escolhas geradas por IA
+正在停止	Parar
+正在撰写人生总结	Escrevendo o resumo da vida
+段经历	eventos
+每行一条，讨论时所有参会者都会看到这份大纲。	Cada participante vê esta agenda.
+添加席位	Adicionar lugar
+生成事件失败	Falha ao gerar o evento
+生成传记失败	Não foi possível escrever a biografia
+生成大纲	Gerar agenda
+由 AI 根据议题生成，可手动修改	Gerado por IA do tópico; editável
+留空将自动取名。	Deixe em branco um nome aleatório.
+盖棺定论	Veredito final
+结束这一生	Acabar com esta vida
+给 TA 起个名字	Dá-lhes um nome
+自定义立场描述	Posição personalizada
+至少需要一个可用的参会模型	É necessário pelo menos um modelo de trabalho
+角色立场	& Posição do papel
+讨论记录	Transcrição
+讨论轮数	Rodadas
+请先填写会议议题	Indique primeiro um tópico de reunião
+输入这次要讨论的问题	O que deve ser discutido nesta reunião?
+返回	Voltar
+还没有存档	Ainda não há vidas salvas
+还没有故事	Ainda não há histórias
+连接	Ligação
+选择	Escolha
+健康	Saúde
+才智	Mente
+魅力	Charme
+财富	Riqueza
+声望	Fama
+幸福	Joy
+现代都市 · 2026 年	Cidade moderna · 2026
+九十年代 · 小城旧事	A década de 1990 · cidade pequena
+古代 · 书香门第	Antigos tempos · família escolar
+近未来 · 赛博都市	Futuro próximo · Cidade cibernética
+顺其自然，过好每一天	Toma a vida como ela vem
+事业有成，闯出一番名堂	Construir uma carreira de sucesso
+家人平安，守住平凡幸福	Mantenha a família segura e feliz
+见世面，走遍天涯	Ver o mundo
+求知到底，成为某个领域的行家	Mestre de um campo de conhecimento
+主持人	Moderador
+分析者	Analisador
+质疑者	Cético
+创意者	Criativo
+务实派	Pragmatista
+女	Mulheres
+男	Masculino
+其他	Outros

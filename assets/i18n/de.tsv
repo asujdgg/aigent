@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Verwenden Sie {{Abfrage}} {{Datum}} {{Zeit}} {{Modell}} {{Sprache}} {{Quellen}} {{Tier}} in der Eingabeaufforderung; sie werden vor dem Senden durch reelle Werte ersetzt.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Kostenlose Kanäle nutzen öffentliche Web-Endpunkte und können jederzeit nicht mehr funktionieren oder ratenbegrenzt werden. Tasten werden nur auf diesem Gerät verschlüsselt und nie synchronisiert. Tippen Sie auf die Wellentaste oben rechts oder drücken Sie eine Blase, um laut zu lesen. Tippen Sie auf das Mikrofon im Komponisten, um zu sprechen; die Aufzeichnung stoppt, wenn Sie ruhig werden, und der Text landet in der Eingabebox zur Überprüfung vor dem Senden.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Bilder werden inline als base64, long edge 1280, quality 72 gesendet. Wenn eine Bildanforderung 400/413 / Connection closed zurückgibt, lehnt das Modell oder Gateway höchstwahrscheinlich Inline-Bilder ab - schalten Sie das Format oben, um es einzugrenzen.
+1 轮	1 Runde
+2 轮	2 Runden
+3 轮	3 Runden
+AI 圆桌会议	KI-Rundtisch
+AI 实验室	AI Lab
+下一段人生尚未发生	Das nächste Kapitel hat noch nicht begonnen
+也可以自己写一个目标	Oder schreiben Sie Ihr eigenes Ziel
+人生事件	Lebensereignis
+人生存档	Gespeicherte Leben
+人生履历	Lebenslauf
+人生目标	Lebensziel
+人生评分 · 满分 100	Life Score · von 100
+从已有连接补齐 5 个模型	Füllen Sie 5 Modelle von Anschlüssen aus
+会议大纲	Tagesordnung
+会议结论	Fazit
+会议议题	Thema
+会议记录	Begegnungsgeschichte
+位参会者	Teilnehmer
+你会怎么选？	Was werden Sie tun?
+例如：分析者	z. B. Analyst
+停止会议	Sitzung abbrechen
+创建角色	Erschaffen Sie Charakter
+删除席位	Sitzplatz entfernen
+判定结果失败	Fehlgeschlagen, um das Ergebnis zu lösen
+参会模型	Teilnehmer
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Wählen Sie verschiedene Verbindungen oder Modelle. Sogar ein Modell kann mit sich selbst unter verschiedenen Rollen nicht übereinstimmen.
+名称	Name
+多模型圆桌会议 · 3~5 个 AI 开会	AI Roundtable · 3-5 Modelle im Gespräch
+导出人生履历	Export Life Story
+导出纪要	Exportminuten
+尚未配置接口，请先到设置里填好连接与模型。	Keine Verbindung konfiguriert. Richten Sie zuerst einen Endpunkt und ein Modell in Einstellungen ein.
+岁	yrs
+已复制到剪贴板	Kopieren ins Clipboard
+已完结	Abgeschlossen
+席位设置	Sitzeinstellungen
+开始会议	Sitzung starten
+开始这一生	Dieses Leben beginnen
+性别	Geschlecht
+所有剧情由你配置的模型实时生成，只保存在本机。	Jedes Ereignis wird live von Ihrem Modell generiert und nur auf diesem Gerät gespeichert.
+推进人生	Fortgeschrittene Lebensdauer
+新建会议	Neue Sitzung
+新的人生	Neues Leben
+时代背景	Era
+暂无历史会议	Keine gespeicherten Meetings
+暂无参会席位	Noch keine Teilnehmer
+未发言	Keine Antwort
+未命名议题	Unbetiteltes Thema
+条发言	Wendeln
+模型 ID	Muster-ID
+模拟人生	Lebenssimulation
+模拟人生 · AI 生成剧情与抉择	Life Simulator · AI-generierte Geschichte & Entscheidungen
+正在停止	Anhalten
+正在撰写人生总结	Schreiben der Lebenszusammenfassung
+段经历	Ereignisse
+每行一条，讨论时所有参会者都会看到这份大纲。	Ein Punkt pro Zeile. Jeder Teilnehmer sieht diese Agenda.
+添加席位	Sitz hinzufügen
+生成事件失败	Fehlgeschlagen, um ein Ereignis zu generieren
+生成传记失败	Biografie nicht schreiben
+生成大纲	Tagesordnung erstellen
+由 AI 根据议题生成，可手动修改	AI-generiert aus dem Thema; editierbar
+留空将自动取名。	Lassen Sie leer für einen zufälligen Namen.
+盖棺定论	Endgültiges Urteil
+结束这一生	Dieses Leben beenden
+给 TA 起个名字	Geben Sie ihnen einen Namen
+自定义立场描述	Zolltarif
+至少需要一个可用的参会模型	Mindestens ein Arbeitsmodell ist erforderlich
+角色立场	Rolle und Haltung
+讨论记录	Transkript
+讨论轮数	Runden
+请先填写会议议题	Geben Sie zuerst ein Meeting-Thema ein
+输入这次要讨论的问题	Worüber sollte bei diesem Treffen diskutiert werden?
+返回	Rücken
+还没有存档	Noch keine geretteten Leben
+还没有故事	Noch keine Geschichten
+连接	Anschluss
+选择	Wahlmöglichkeit
+健康	Gesundheit
+才智	Verstand
+魅力	Charm
+财富	Vermögen
+声望	Ruhm
+幸福	Freude
+现代都市 · 2026 年	Moderne Stadt · 2026
+九十年代 · 小城旧事	Die 1990er Jahre · Kleinstadt
+古代 · 书香门第	Alte Zeiten · Gelehrtenfamilie
+近未来 · 赛博都市	Nahe Zukunft · Cyber-Stadt
+顺其自然，过好每一天	Nimm das Leben, wie es kommt
+事业有成，闯出一番名堂	Aufbau einer erfolgreichen Karriere
+家人平安，守住平凡幸福	Halten Sie Familie sicher und glücklich
+见世面，走遍天涯	Sehen Sie die Welt
+求知到底，成为某个领域的行家	Beherrsche ein Wissensgebiet
+主持人	Moderator
+分析者	Analyst
+质疑者	Skeptiker
+创意者	Kreativ
+务实派	Pragmatiker
+女	Weiblich
+男	Männlich
+其他	Andere

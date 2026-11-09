@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Lietojiet {{jautājums}} {{datums}} {{laiks}} {{modelis}} {{valoda}} {{avoti}} {{līmenis}} uzvednē; pirms nosūtīšanas tie tiek aizvietoti ar reālām vērtībām.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Bezmaksas kanāli izmanto publiskos tīmekļa galapunktus un var jebkurā laikā pārtraukt darbu vai samazināt ātrumu. Atslēgas tiek šifrētas tikai uz šīs ierīces un nekad netiek sinhronizētas. Pieskarieties viļņa pogai augšpusē pa labi, vai ilgi nospiediet burbuli, lai lasītu skaļi. Pieskarieties komponistam mikrofonam, lai runātu; ierakstīšana apstājas, kad klusē, un teksts nolaižas ievades lodziņā pārskatīšanai pirms nosūtīšanas.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Attēli tiek nosūtīti inline kā base64, garākā mala 1280, kvalitāte 72. Ja attēla pieprasījums atgriež 400 / 413 / Savienojums aizvērts, modelis vai vārteja visticamāk noraida inline attēlus — pārslēdziet formātu iepriekš, lai sašaurinātu to uz leju.
+1 轮	1 kārta
+2 轮	2 kārtas
+3 轮	3 kārtas
+AI 圆桌会议	AI apaļais galds
+AI 实验室	AI Lab
+下一段人生尚未发生	Nākamā nodaļa nav sākusies
+也可以自己写一个目标	Vai uzrakstīt savu mērķi
+人生事件	Notikums Life
+人生存档	Saglabātās dzīvības
+人生履历	Dzīvesstāsts
+人生目标	Dzīves mērķis
+人生评分 · 满分 100	Dzīvības vērtējums · no 100
+从已有连接补齐 5 个模型	Aizpildīt 5 modeļus no savienojumiem
+会议大纲	Darba kārtība
+会议结论	Secinājums
+会议议题	Temats
+会议记录	Tikšanās vēsture
+位参会者	dalībnieki
+你会怎么选？	Ko tu darīsi?
+例如：分析者	Piemēram, analītiķis
+停止会议	Apturēt tikšanos
+创建角色	Izveidot rakstzīmi
+删除席位	Noņemt sēdekli
+判定结果失败	Neizdevās atrisināt rezultātu
+参会模型	Dalībnieki
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Izvēlēties dažādus savienojumus vai modeļus. Pat viens modelis var nepiekrist ar sevi zem dažādām lomām.
+名称	Nosaukums
+多模型圆桌会议 · 3~5 个 AI 开会	AI apaļā galda diskusijas · 3-5 modeļi
+导出人生履历	Eksportēt dzīvesstāstu
+导出纪要	Eksportēt protokolus
+尚未配置接口，请先到设置里填好连接与模型。	Nav konfigurēts savienojums. Vispirms iestatiet beigu punktu un modeli iestatījumos.
+岁	Yrs
+已复制到剪贴板	Nokopēts starpliktuvē
+已完结	Pabeigts
+席位设置	Sēdekļa iestatījumi
+开始会议	Sākt tikšanos
+开始这一生	Sākt šo dzīvi
+性别	Dzimums
+所有剧情由你配置的模型实时生成，只保存在本机。	Katrs notikums tiek ģenerēts tiešraidē jūsu modelis un glabājas tikai šajā ierīcē.
+推进人生	Avansa dzīve
+新建会议	Jauna sanāksme
+新的人生	Jauna dzīve
+时代背景	Era
+暂无历史会议	Nav saglabātu sanāksmju
+暂无参会席位	Vēl nav dalībnieku
+未发言	Nav atbildes
+未命名议题	Nenosaukts temats
+条发言	pagriezieni
+模型 ID	ID paraugs
+模拟人生	Dzīvības simulators
+模拟人生 · AI 生成剧情与抉择	Dzīvības simulators · AI radīts stāsts & izvēle
+正在停止	Apturēšana
+正在撰写人生总结	Dzīves ilguma kopsavilkuma rakstīšana
+段经历	notikumi
+每行一条，讨论时所有参会者都会看到这份大纲。	Katrs dalībnieks redz šo darba kārtību.
+添加席位	Pievienot vietu
+生成事件失败	Neizdevās ģenerēt notikumu
+生成传记失败	Neizdevās ierakstīt biogrāfiju
+生成大纲	Vispārējs
+由 AI 根据议题生成，可手动修改	Izveidots no tēmas AI- rediģējams
+留空将自动取名。	Atstāt tukšu nejaušam nosaukumam.
+盖棺定论	Galīgais spriedums
+结束这一生	Beigt šo dzīvi
+给 TA 起个名字	Norādīt viņiem vārdu
+自定义立场描述	Pielāgota pozīcija
+至少需要一个可用的参会模型	Vajadzīgs vismaz viens darba modelis
+角色立场	Loma un nostāja
+讨论记录	Ieraksts
+讨论轮数	Rindas
+请先填写会议议题	Vispirms ievadiet tikšanās tēmu
+输入这次要讨论的问题	Par ko būtu jārunā šajā sanāksmē?
+返回	Atpakaļ
+还没有存档	Vēl nav glābtu dzīvību
+还没有故事	Vēl nav stāstu
+连接	Savienojums
+选择	Izvēle
+健康	Veselība
+才智	Prāta
+魅力	Rakstzīme
+财富	Bagātība
+声望	Slava
+幸福	Prieks
+现代都市 · 2026 年	Mūsdienu pilsēta · 2026
+九十年代 · 小城旧事	1990. gadi · mazpilsēta
+古代 · 书香门第	Senie laiki · zinātnieku ģimene
+近未来 · 赛博都市	Tuvākā nākotnē · kiberpilsēta
+顺其自然，过好每一天	Ņemt dzīvi, kā nāk
+事业有成，闯出一番名堂	Veidot veiksmīgu karjeru
+家人平安，守住平凡幸福	Lai ģimene būtu droša un laimīga
+见世面，走遍天涯	Skatīt pasauli
+求知到底，成为某个领域的行家	Apgūt zināšanas
+主持人	Moderators
+分析者	Analītiķis
+质疑者	Skeptisks
+创意者	Radošs
+务实派	Pragmatists
+女	Sieviete
+男	Vīrietis
+其他	Citi

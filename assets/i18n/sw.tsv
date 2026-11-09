@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	{{Fahamuni, na simamisheni Sala, na toeni Zaka, na toeni Zaka, na toeni Zaka.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Vituo vya bure hutumia vituo vya wavuti vya umma na vinaweza kuacha kufanya kazi au kupata kiwango cha ukomo wakati wowote. Keys zimefichwa kwenye kifaa hiki tu na hazijaingiliana. Bofya kitufe cha wimbi kwa kulia juu, au bonyeza Bubble ya muda mrefu, kusoma kwa sauti. Bofya kipaza sauti katika mtunzi kuzungumza; kurekodi kuacha wakati unapokwenda kimya, na ardhi ya maandishi katika sanduku la pembejeo kwa ukaguzi kabla ya kutuma.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Picha zinatumwa kwa mstari kama msingi wa 64, makali ya muda mrefu zaidi ya 1280, ubora wa 72. Ikiwa ombi la picha linarudi 400 / 413 / Connection imefungwa, mfano au lango linaweza kukataa picha za inline - badilisha muundo hapo juu ili kuipunguza.
+1 轮	raundi ya 1
+2 轮	2 Mzunguko wa mzunguko
+3 轮	3 raundi ya raundi
+AI 圆桌会议	Uwasilishaji wa Roundtable
+AI 实验室	Lab ya
+下一段人生尚未发生	Sura ya pili haikuanza
+也可以自己写一个目标	Andika malengo yako mwenyewe
+人生事件	Tukio la Maisha
+人生存档	Kuokoa maisha
+人生履历	Historia ya maisha
+人生目标	Malengo ya maisha
+人生评分 · 满分 100	Alama ya maisha · nje ya 100
+从已有连接补齐 5 个模型	5 mifano ya uhusiano
+会议大纲	Agenda ya Agenda
+会议结论	Mwisho wa Mwisho
+会议议题	Suala la
+会议记录	Mkutano wa Historia
+位参会者	Washiriki washiriki washiriki
+你会怎么选？	Utafanya nini?
+例如：分析者	Mfano wa Mchambuzi
+停止会议	Kuacha mkutano
+创建角色	Kujenga tabia
+删除席位	Kuondoa nafasi
+判定结果失败	Kushindwa kufikia matokeo
+参会模型	Washiriki wa
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Chagua uhusiano tofauti au mifano. Hata mfano mmoja unaweza kutokubaliana na yenyewe chini ya majukumu tofauti.
+名称	Jina la jina
+多模型圆桌会议 · 3~5 个 AI 开会	Mifano ya 3 - 5 katika majadiliano
+导出人生履历	Historia ya maisha ya nje
+导出纪要	Dakika ya mauzo
+尚未配置接口，请先到设置里填好连接与模型。	Hakuna uunganisho uliosanidiwa. Weka mwisho na mfano katika Mipangilio kwanza.
+岁	wa wa wa wa wa wa
+已复制到剪贴板	Bonyeza kwenye clipboard
+已完结	Imekamilishwa
+席位设置	Mipangilio ya Hifadhi
+开始会议	Kuanza mkutano
+开始这一生	Anza maisha haya
+性别	Jinsia ya jinsia
+所有剧情由你配置的模型实时生成，只保存在本机。	Kila tukio linazalishwa kuishi na mfano wako na kuhifadhiwa tu kwenye kifaa hiki.
+推进人生	Maendeleo ya Maisha
+新建会议	Mkutano mpya
+新的人生	Maisha mapya
+时代背景	Kipindi cha
+暂无历史会议	Hakuna mikutano ya siri
+暂无参会席位	Hakuna washiriki bado
+未发言	Hakuna majibu
+未命名议题	Kichwa cha kichwa
+条发言	Kugeuka
+模型 ID	Mfano wa ID
+模拟人生	Maisha simulator
+模拟人生 · AI 生成剧情与抉择	Maisha Simulator · Hadithi inayotokana na AI & uchaguzi
+正在停止	Kuacha
+正在撰写人生总结	Kuandika muhtasari wa maisha
+段经历	Matukio ya matukio
+每行一条，讨论时所有参会者都会看到这份大纲。	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ....................................................................
+添加席位	Ongeza kiti
+生成事件失败	Kushindwa kufanya tukio
+生成传记失败	Kushindwa kuandika wasifu
+生成大纲	Agenda ya maendeleo
+由 AI 根据议题生成，可手动修改	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ...................................................................
+留空将自动取名。	Acha tupu kwa jina la random.
+盖棺定论	Hukumu ya Mwisho
+结束这一生	Mwisho wa maisha haya
+给 TA 起个名字	Waambie majina yao
+自定义立场描述	Msimamo wa kawaida
+至少需要一个可用的参会模型	Angalau mfumo mmoja wa kazi unahitajika
+角色立场	Wajibu & Msimamo
+讨论记录	Barua ya maandishi
+讨论轮数	Raundi ya
+请先填写会议议题	Kuingia mada ya mkutano kwanza
+输入这次要讨论的问题	Mkutano huu unapaswa kujadili nini?
+返回	Kurudi nyuma
+还没有存档	Hakuna maisha yaliyookolewa bado
+还没有故事	Hakuna hadithi bado
+连接	Uhusiano wa Connection Connection
+选择	Uchaguzi wa kuchagua
+健康	Afya ya Afya
+才智	Kuwa makini
+魅力	Sifa ya
+财富	Utajiri wa utajiri
+声望	Umaarufu wa
+幸福	Furaha ya Furaha
+现代都市 · 2026 年	Mji wa kisasa wa 2026
+九十年代 · 小城旧事	Miaka ya 1990 · Mji Mdogo
+古代 · 书香门第	Nyakati za kale · Familia ya wasomi
+近未来 · 赛博都市	Karibu na baadaye · Mji wa cyber
+顺其自然，过好每一天	Fanya maisha kama yalivyo
+事业有成，闯出一番名堂	Kujenga Maisha Yenye Mafanikio
+家人平安，守住平凡幸福	Kuwa salama na familia yako
+见世面，走遍天涯	Angalia ulimwengu
+求知到底，成为某个领域的行家	Mwalimu katika uwanja wa ujuzi
+主持人	Usimamizi wa Moderator
+分析者	Wachambuzi wa
+质疑者	Skeptic
+创意者	Ubunifu wa ubunifu
+务实派	Pragmatis ya kawaida
+女	Mwanamke wa kike
+男	Wanaume wa kiume
+其他	Nyingine nyingine

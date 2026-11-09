@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ö
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	{{query}} {{date}} {{time}} {{model}} {{ dili}} {{sources}} {{tier}} hızlı bir şekilde; göndermeden önce gerçek değerler ile değiştirilirler.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Ücretsiz kanallar halka açık web uç noktaları kullanır ve herhangi bir zamanda çalışma veya oranı sınırlandırabilir. Anahtarlar bu cihazda sadece şifrelenir ve asla senkronize edilmez. Top sağda dalga düğmesine dokun, ya da uzun baskı bir balonu okumak için, bestecide mikrofonu okumak için; kayıt sessiz gittiğinde durursunuz ve gönderilen metin toprakları.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Görüntü isteği 400 / 413 / Bağlantı kapalıysa, model veya ağ geçidi muhtemelen aşağıdaki tabloyu daraltmak için genişletin.
+1 轮	1 yuvarlak
+2 轮	2 rounds
+3 轮	3 rounds
+AI 圆桌会议	AI Roundtable
+AI 实验室	AI Lab
+下一段人生尚未发生	Bir sonraki bölüm başlamadı
+也可以自己写一个目标	Ya da kendi hedefinizi yaz
+人生事件	Yaşam Olayı
+人生存档	Kurtarılan hayatlar
+人生履历	Yaşam hikayesi
+人生目标	Yaşam Hedefi
+人生评分 · 满分 100	Hayat puanı · 100'den fazla
+从已有连接补齐 5 个模型	Bağlantılardan 5 model doldurun
+会议大纲	Agenda
+会议结论	Sonuç Sonuç Sonuç Sonuç
+会议议题	Topic
+会议记录	Toplantı tarihi
+位参会者	Katılımcılar katılımcı
+你会怎么选？	Ne yapacaksınız?
+例如：分析者	e.g. Analist
+停止会议	Toplantıyı Dur
+创建角色	Create character
+删除席位	Kaldır koltuğu kaldır
+判定结果失败	Sonuç çözmede başarısız oldu
+参会模型	Katılımcılar Katılımcılar
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Farklı bağlantıları veya modelleri seçin. Bir model bile farklı roller altında kendini kabul edemez.
+名称	Name Name Name Name Name Name Name Name Name Name Name
+多模型圆桌会议 · 3~5 个 AI 开会	AI roundtable · 3-5 tartışma modelleri
+导出人生履历	İhracat hayat hikayesi
+导出纪要	İhracat dakikaları
+尚未配置接口，请先到设置里填好连接与模型。	No connection configured. Set up an endpoint and model in Settings first.
+岁	yrs
+已复制到剪贴板	Copied to klibi
+已完结	Tamamlandı
+席位设置	Oturma ayarları
+开始会议	Toplantıya başlayın
+开始这一生	Bu hayata başlayın
+性别	Cinsiyet Toplumsal Cinsiyet
+所有剧情由你配置的模型实时生成，只保存在本机。	Her olay modeliniz tarafından canlı olarak üretilir ve sadece bu cihazda depolanır.
+推进人生	Gelişmiş yaşam hayat
+新建会议	Yeni toplantı
+新的人生	Yeni hayat
+时代背景	Era
+暂无历史会议	Hiçbir şey kurtarma toplantıları
+暂无参会席位	Henüz katılımcı yok
+未发言	Yanıt yok
+未命名议题	Untitled topic
+条发言	Döndü dönüş
+模型 ID	Model ID ID
+模拟人生	Life Simulator
+模拟人生 · AI 生成剧情与抉择	Life Simulator · AI tarafından üretilen hikaye ve seçimler
+正在停止	Stopping
+正在撰写人生总结	Yaşam Özeti
+段经历	olaylar olayları olayları
+每行一条，讨论时所有参会者都会看到这份大纲。	Her katılımcı bu gündemi görür.
+添加席位	Ekle koltuğu ekle
+生成事件失败	Olay oluşturmak için başarısız oldu
+生成传记失败	Biyografi yazmak için başarısız oldu
+生成大纲	Genrate gündemi
+由 AI 根据议题生成，可手动修改	AI- konudan üretilen; düzenlenebilir
+留空将自动取名。	Rastgele bir isim için boş bırakın.
+盖棺定论	Son karar
+结束这一生	Bu yaşamı sona erdirmek
+给 TA 起个名字	Onlara bir isim verin
+自定义立场描述	Özel duruş
+至少需要一个可用的参会模型	En az bir çalışma modeli gereklidir
+角色立场	Rol & duruş
+讨论记录	Transcript
+讨论轮数	Rounds
+请先填写会议议题	İlk önce bir toplantı konusu girin
+输入这次要讨论的问题	Bu toplantı ne tartışmalıdır?
+返回	Geri dön
+还没有存档	Henüz hayat kurtarılmadı
+还没有故事	Henüz hikaye yok
+连接	Bağlantı Bağlantısı
+选择	Seçim Seçenekleri
+健康	Sağlık Sağlığı
+才智	Zihin
+魅力	Charm Charm
+财富	Zengin Zengin Zengin Zengin Zengin Zengin
+声望	Fame Fame Fame
+幸福	Joy Joy
+现代都市 · 2026 年	Modern şehir · 2026
+九十年代 · 小城旧事	1990'lar · küçük kasaba
+古代 · 书香门第	Eski zamanlarda · bilimsel aile
+近未来 · 赛博都市	Yakın gelecekte · siber şehir
+顺其自然，过好每一天	Olduğu gibi hayatı alın
+事业有成，闯出一番名堂	Başarılı bir kariyer kurmak
+家人平安，守住平凡幸福	Aileyi güvende ve mutlu tut
+见世面，走遍天涯	Dünyaya bakın
+求知到底，成为某个领域的行家	Master a field of knowledge
+主持人	Moderator
+分析者	Analist
+质疑者	Sk
+创意者	Creative Creative Creative
+务实派	Pragmatist
+女	Kadın
+男	Erkek Erkek Erkek Erkek
+其他	Diğer Diğer Diğer

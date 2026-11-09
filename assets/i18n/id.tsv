@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Gunakan {query} {{{date}} {{{waktu}} {{{model} {{{language}} {{{tier}}} dalam prompt; mereka digantikan dengan nilai sebenarnya sebelum mengirim.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Saluran bebas menggunakan titik akhir web publik dan mungkin berhenti bekerja atau mendapatkan rate-terbatas setiap saat. Kunci dienkripsi pada perangkat ini saja dan tidak pernah disinkronkan. Sentuh tombol gelombang di kanan atas, atau lama-tekan gelembung, untuk membaca keras. Sentuh mikrofon di komposer untuk berbicara; rekaman berhenti ketika Anda pergi diam, dan teks mendarat di kotak masukan untuk meninjau sebelum mengirim.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Gambar dikirim sebagai base64, ujung terpanjang 1280, kualitas 72. Jika permintaan gambar kembali 400 / 413 / Connection ditutup, model atau gateway kemungkinan besar menolak gambar inline - switch format di atas untuk mempersempitnya.
+1 轮	1 putaran
+2 轮	2 putaran
+3 轮	3 putaran
+AI 圆桌会议	Dapat Diputar
+AI 实验室	Lab AI
+下一段人生尚未发生	Bab berikutnya belum dimulai
+也可以自己写一个目标	Atau menulis tujuan Anda sendiri
+人生事件	Event kehidupan
+人生存档	Menyelamatkan nyawa
+人生履历	Kisah hidup
+人生目标	Hidup tujuan
+人生评分 · 满分 100	Nilai hidup dari 100
+从已有连接补齐 5 个模型	Isi 5 model dari koneksi
+会议大纲	Agenda
+会议结论	Kesimpulan
+会议议题	Topik
+会议记录	Rapat riwayat
+位参会者	Peserta
+你会怎么选？	Apa yang akan kau lakukan?
+例如：分析者	Mis. Analis
+停止会议	Berhenti bertemu
+创建角色	Buat karakter
+删除席位	Hapus tempat duduk
+判定结果失败	Gagal menyelesaikan hasil
+参会模型	Peserta
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Pilih koneksi atau model yang berbeda. bahkan satu model pun tidak setuju dengan perannya sendiri.
+名称	Nama
+多模型圆桌会议 · 3~5 个 AI 开会	Model AI dapat dibulatkan dalam diskusi
+导出人生履历	Ekspor kisah hidup
+导出纪要	Ekspor menit
+尚未配置接口，请先到设置里填好连接与模型。	Tidak ada koneksi yang dikonfigurasi. Atur titik akhir dan model dalam Pengaturan pertama.
+岁	Ya
+已复制到剪贴板	Disalin ke papan klip
+已完结	Selesai
+席位设置	Pengaturan tempat duduk
+开始会议	Mulai rapat
+开始这一生	Mulai hidup ini
+性别	Gender
+所有剧情由你配置的模型实时生成，只保存在本机。	Setiap kejadian dihasilkan langsung oleh model Anda dan hanya disimpan di perangkat ini.
+推进人生	Advance life
+新建会议	Pertemuan baru
+新的人生	Kehidupan baru
+时代背景	Era
+暂无历史会议	Tidak ada rapat yang disimpan
+暂无参会席位	Belum ada peserta
+未发言	Tak ada respon
+未命名议题	Topik tanpa judul
+条发言	putaran
+模型 ID	ID Model
+模拟人生	Simulator Hidup
+模拟人生 · AI 生成剧情与抉择	Simulator Hidup
+正在停止	Menghentikan
+正在撰写人生总结	Menulis ringkasan kehidupan
+段经历	kejadian
+每行一条，讨论时所有参会者都会看到这份大纲。	Setiap peserta melihat agenda ini.
+添加席位	Tambah tempat duduk
+生成事件失败	Gagal membuat acara
+生成传记失败	Gagal menulis biografi
+生成大纲	Buat agenda
+由 AI 根据议题生成，可手动修改	AI- dihasilkan dari topik; dapat disunting
+留空将自动取名。	Tinggalkan kosong untuk nama acak.
+盖棺定论	Putusan akhir
+结束这一生	Akhiri hidup ini
+给 TA 起个名字	Beri mereka nama
+自定义立场描述	Sikap kustom
+至少需要一个可用的参会模型	Setidaknya satu model yang bekerja diperlukan
+角色立场	Peran & sikap
+讨论记录	Transkrip
+讨论轮数	Rounds
+请先填写会议议题	Masukkan topik pertemuan dulu
+输入这次要讨论的问题	Apa yang harus dibahas pertemuan ini?
+返回	Mundur
+还没有存档	Belum ada yang selamat
+还没有故事	Belum ada cerita
+连接	Koneksi
+选择	Pilihan
+健康	Kesehatan
+才智	Pikiran
+魅力	Pesona
+财富	Kekayaan
+声望	Ketenaran
+幸福	Joy
+现代都市 · 2026 年	Kota modern
+九十年代 · 小城旧事	Tahun 1990-an
+古代 · 书香门第	Dulu keluarga
+近未来 · 赛博都市	Dekat masa depan
+顺其自然，过好每一天	Ambil kehidupan karena datang
+事业有成，闯出一番名堂	Membangun karir yang sukses
+家人平安，守住平凡幸福	Menjaga keluarga aman dan bahagia
+见世面，走遍天涯	Melihat dunia
+求知到底，成为某个领域的行家	Guru bidang pengetahuan
+主持人	Moderator
+分析者	Analis
+质疑者	Skepsi
+创意者	Kreatif
+务实派	Pragmatist
+女	Perempuan
+男	Pria
+其他	Lainnya

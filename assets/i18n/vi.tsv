@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	Name\nMộ
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Bằng cách sử dụng{query}}}*{date}}*{time}}*{model}}}}*{ sources} trong nháy mắt; chúng được thay thế bằng giá trị thật trước khi gửi.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Các kênh tự do sử dụng điểm kết thúc web công cộng và có thể dừng làm việc hoặc nhận được giới hạn tốc độ bất cứ lúc nào. Phím được mã hóa trên thiết bị này chỉ và không bao giờ đồng bộ hoá. Nhấn nút sóng ở trên bên phải, hoặc ấn một bong bóng, để đọc lớn tiếng. Gõ micro vào bộ soạn thảo để nói; dừng ghi âm khi bạn đi yên tĩnh, và các vùng nhập vào hộp nhập để ôn lại trước khi gửi.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Hình ảnh được gửi trực tiếp là cơ sở64, cạnh dài nhất 1280, chất lượng 72. Nếu một yêu cầu của ảnh trả về 400 / 413 / Kết nối, hình hoặc cổng ra vào có thể bị từ chối — chuyển đổi định dạng bên trên để thu hẹp nó.
+1 轮	1 vòng
+2 轮	2 viên
+3 轮	3 vòng
+AI 圆桌会议	Name
+AI 实验室	Name
+下一段人生尚未发生	Chương tiếp theo chưa bắt đầu
+也可以自己写一个目标	Hay tự viết ra mục tiêu
+人生事件	Sự kiện cuộc sống
+人生存档	Cứu mạng
+人生履历	Chuyện đời
+人生目标	Mục tiêu đời sống
+人生评分 · 满分 100	Điểm sự sống trong số 100
+从已有连接补齐 5 个模型	Điền 5 mô hình từ kết nối
+会议大纲	Agenda
+会议结论	Kết thúc
+会议议题	Mục lục
+会议记录	Name
+位参会者	Người tham gia
+你会怎么选？	Anh sẽ làm gì?
+例如：分析者	e.g. phân tích
+停止会议	Dừng họp
+创建角色	Tạo nhân vật
+删除席位	Bỏ ghế
+判定结果失败	Không thể giải quyết hậu quả
+参会模型	Những người tham gia
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Ngay cả một mô hình có thể không đồng ý với chính nó dưới những vai trò khác nhau.
+名称	Tên
+多模型圆桌会议 · 3~5 个 AI 开会	Name
+导出人生履历	Xuất bản câu chuyện cuộc sống
+导出纪要	Xuất phút
+尚未配置接口，请先到设置里填好连接与模型。	Chưa cấu hình kết nối. Thiết lập điểm kết thúc và mô hình trong Thiết lập trước.
+岁	yrs
+已复制到剪贴板	Sao chép vào bảng nháp
+已完结	Hoàn tất
+席位设置	Thiết lập chỗ ngồi
+开始会议	Bắt đầu họp
+开始这一生	Bắt đầu cuộc sống này
+性别	Giới
+所有剧情由你配置的模型实时生成，只保存在本机。	Mỗi sự kiện được tạo ra trực tiếp bởi mô hình của bạn và chỉ được lưu trữ trên thiết bị này.
+推进人生	Tiến lên
+新建会议	Cuộc họp mới
+新的人生	Cuộc sống mới
+时代背景	Tây lịch
+暂无历史会议	Không có cuộc họp cứu rỗi
+暂无参会席位	Chưa có người tham gia
+未发言	Không trả lời
+未命名议题	Chủ đề không tên
+条发言	Quay
+模型 ID	ID mô hình
+模拟人生	Giả lập cuộc sống
+模拟人生 · AI 生成剧情与抉择	Trình giả lập cuộc sống/ AI - tạo ra câu chuyện và lựa chọn
+正在停止	Dừng
+正在撰写人生总结	Viết tóm tắt cuộc đời
+段经历	sự kiện
+每行一条，讨论时所有参会者都会看到这份大纲。	Mỗi người tham gia đều thấy chương trình này.
+添加席位	Thêm chỗ
+生成事件失败	Lỗi tạo sự kiện
+生成传记失败	Lỗi ghi tiểu sử
+生成大纲	Tạo ra kế hoạch
+由 AI 根据议题生成，可手动修改	Ai được tạo ra từ chủ đề; có thể sửa
+留空将自动取名。	Để trống tên ngẫu nhiên.
+盖棺定论	Phán quyết cuối cùng
+结束这一生	Kết thúc kiếp này
+给 TA 起个名字	Cho họ một cái tên
+自定义立场描述	Tự chọn
+至少需要一个可用的参会模型	Cần ít nhất một mô hình làm việc
+角色立场	& Vị trí vai trò
+讨论记录	Transcript
+讨论轮数	Vòng
+请先填写会议议题	Nhập chủ đề nhóm họp trước
+输入这次要讨论的问题	Buổi họp này nên thảo luận về điều gì?
+返回	Lùi
+还没有存档	Vẫn chưa cứu được người
+还没有故事	Vẫn chưa có câu chuyện nào
+连接	Kết nối
+选择	Chọn
+健康	Sức khỏe
+才智	Tâm trí
+魅力	Biểu tượng
+财富	Giàu có
+声望	Danh tiếng
+幸福	Niềm vui
+现代都市 · 2026 年	Thành phố hiện đại · 2026
+九十年代 · 小城旧事	Thị trấn nhỏ năm 1990
+古代 · 书香门第	Gia đình học giả cổ xưa
+近未来 · 赛博都市	Gần thành phố ảo trong tương lai
+顺其自然，过好每一天	Hãy tận hưởng cuộc sống khi nó đến
+事业有成，闯出一番名堂	Xây dựng một sự nghiệp thành công
+家人平安，守住平凡幸福	Giữ cho gia đình được an toàn và hạnh phúc
+见世面，走遍天涯	Nhìn thế giới
+求知到底，成为某个领域的行家	Làm chủ một lĩnh vực tri thức
+主持人	Bộ điều giải
+分析者	Phân tích
+质疑者	Nghi ngờ
+创意者	Sáng tạo
+务实派	Thực đơn
+女	Nữ
+男	Nam
+其他	Khác

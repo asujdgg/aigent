@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Używaj {{zapytanie}} {{data}} {{czas}} {{model}} {{język}} {{źródła}} {{tier}}}; są one zastąpione wartościami rzeczywistymi przed wysłaniem.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Wolne kanały korzystają z publicznych punktów końcowych internetowych i mogą przestać pracować lub uzyskać rate- ograniczone w dowolnym momencie. Klucze są szyfrowane tylko na tym urządzeniu i nigdy nie synchronizowane. Stuknij przycisk fali w prawym górnym rogu, lub długo naciśnij bańkę, aby przeczytać na głos. Stuknij mikrofon w kompozytorze, aby mówić; nagrywanie zatrzymuje się po cichu, a tekst ląduje w polu wprowadzania do przeglądu przed wysłaniem.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Images are send inline as base64, najdłuższy brzeg 1280, jakość 72. Jeśli żądanie obrazu zwraca 400 / 413 / Connection zamknięty, model lub brama najprawdopodobniej odrzuca obrazy inline - przełącz powyższy format, aby go zawęzić.
+1 轮	1 runda
+2 轮	2 rundy
+3 轮	3 rundy
+AI 圆桌会议	Tablica okrągłych SI
+AI 实验室	Laboratorium AI
+下一段人生尚未发生	Następny rozdział jeszcze się nie rozpoczął
+也可以自己写一个目标	Albo napisz swój własny cel
+人生事件	Wydarzenie życiowe
+人生存档	Ocalił życie
+人生履历	Historia życia
+人生目标	Cel życia
+人生评分 · 满分 100	Wynik życia · z 100
+从已有连接补齐 5 个模型	Wypełnij 5 modeli z połączeń
+会议大纲	Program
+会议结论	Wniosek
+会议议题	Temat
+会议记录	Historia spotkania
+位参会者	uczestnicy
+你会怎么选？	Co zrobisz?
+例如：分析者	np. analityk
+停止会议	Przerwij spotkanie
+创建角色	Utwórz znak
+删除席位	Wyjąć siedzenie
+判定结果失败	Nie udało się rozwiązać wyniku
+参会模型	Uczestnicy
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Wybierz różne połączenia lub modele. Nawet jeden model może się nie zgadzać ze sobą w ramach różnych ról.
+名称	Nazwa
+多模型圆桌会议 · 3~5 个 AI 开会	Okrągły stół AI · 3-5 modeli w dyskusji
+导出人生履历	Eksportuj historię życia
+导出纪要	Protokół wywozowy
+尚未配置接口，请先到设置里填好连接与模型。	Nie skonfigurowano połączenia. Najpierw ustaw punkt końcowy i model w Ustawieniach.
+岁	yrs
+已复制到剪贴板	Skopiowane do schowka
+已完结	Zakończono
+席位设置	Ustawienia siedzenia
+开始会议	Rozpocznij posiedzenie
+开始这一生	Rozpocząć życie
+性别	Płeć
+所有剧情由你配置的模型实时生成，只保存在本机。	Każde zdarzenie jest generowane na żywo przez model i przechowywane tylko na tym urządzeniu.
+推进人生	Życie naprzód
+新建会议	Nowe posiedzenie
+新的人生	Nowe życie
+时代背景	Era
+暂无历史会议	Brak zapisanych spotkań
+暂无参会席位	Brak uczestników
+未发言	Brak odpowiedzi
+未命名议题	Temat bez tytułu
+条发言	obroty
+模型 ID	Wzór ID
+模拟人生	Symulator życia
+模拟人生 · AI 生成剧情与抉择	Życie Symulator · AI- generowane historia i wybory
+正在停止	Zatrzymanie
+正在撰写人生总结	Pisanie podsumowania życia
+段经历	zdarzenia
+每行一条，讨论时所有参会者都会看到这份大纲。	Każdy uczestnik widzi ten program.
+添加席位	Dodaj siedzenie
+生成事件失败	Nie udało się wygenerować zdarzenia
+生成传记失败	Nie udało się napisać biografii
+生成大纲	Generowanie programu
+由 AI 根据议题生成，可手动修改	AI- generowane z tematu; edytowalne
+留空将自动取名。	Zostaw puste dla przypadkowego nazwiska.
+盖棺定论	Ostatni werdykt
+结束这一生	Zakończ to życie
+给 TA 起个名字	Podaj im imię
+自定义立场描述	Niestandardowe stanowisko
+至少需要一个可用的参会模型	Wymagany jest co najmniej jeden model roboczy
+角色立场	Rola i postawa
+讨论记录	Transcript
+讨论轮数	Zagrody
+请先填写会议议题	Wprowadź najpierw temat spotkania
+输入这次要讨论的问题	O czym powinno rozmawiać to spotkanie?
+返回	Tył
+还没有存档	Nikt jeszcze nie uratował życia
+还没有故事	Nie ma jeszcze historii
+连接	Połączenie
+选择	Wybór
+健康	Zdrowie
+才智	Umysł
+魅力	Charm
+财富	Bogactwo
+声望	Sława
+幸福	Radość
+现代都市 · 2026 年	Nowoczesne miasto · 2026
+九十年代 · 小城旧事	Lata dziewięćdziesiąte - małe miasteczko
+古代 · 书香门第	Starożytne czasy · rodzina uczonych
+近未来 · 赛博都市	Blisko przyszłości · cybermiasto
+顺其自然，过好每一天	# Take life as it comes
+事业有成，闯出一番名堂	Budowanie udanej kariery
+家人平安，守住平凡幸福	Zachowaj rodzinę bezpieczną i szczęśliwą
+见世面，走遍天涯	Zobacz świat
+求知到底，成为某个领域的行家	Master a pole wiedzy
+主持人	Moderator
+分析者	Analityk
+质疑者	Sceptyczne
+创意者	Kreatywne
+务实派	Pragmatist
+女	Kobieta
+男	Mężczyzna
+其他	Inne

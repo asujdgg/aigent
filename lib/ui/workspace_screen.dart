@@ -14,6 +14,8 @@ import 'model_picker_sheet.dart';
 import 'muse.dart';
 import 'persona.dart';
 import 'research_sheet.dart';
+import 'roundtable_screen.dart';
+import 'life_screen.dart';
 import 'settings_screen.dart';
 import 'source_browser.dart';
 import 'tool_drawer.dart';
@@ -602,7 +604,13 @@ class WorkspaceDrawer extends StatelessWidget {
             ),
             Container(height: 1, color: hairOf(dark)),
             const SizedBox(height: 6),
-            Padding(
+            // 功能入口增加到 7 条后，矮屏（320×568 一类）会被挤爆：
+            // 这一组改为「最多占剩余空间、超出自己滚」，会话列表仍优先填充。
+            Flexible(
+              flex: 0,
+              child: SingleChildScrollView(
+                physics: const ClampingScrollPhysics(),
+                child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 children: [
@@ -614,6 +622,21 @@ class WorkspaceDrawer extends StatelessWidget {
                       dark, Icons.travel_explore_rounded, '深度研究', () {
                     Navigator.pop(context);
                     onResearch?.call();
+                  }),
+                  _drawerAction(dark, Icons.forum_rounded, 'AI 圆桌会议', () {
+                    Navigator.pop(context);
+                    Navigator.of(context).push(SoftPageRoute(
+                      keepBelow: true,
+                      builder: (_) => const RoundtableScreen(),
+                    ));
+                  }),
+                  _drawerAction(
+                      dark, Icons.auto_stories_rounded, '模拟人生', () {
+                    Navigator.pop(context);
+                    Navigator.of(context).push(SoftPageRoute(
+                      keepBelow: true,
+                      builder: (_) => const LifeScreen(),
+                    ));
                   }),
                   // 功能 / 配置 两组之间留一点空隙，不画线、不加小标题：
                   // 五条同款入口堆在一起，只靠图标区分太难扫。
@@ -641,6 +664,8 @@ class WorkspaceDrawer extends StatelessWidget {
                       trailing: 'v$kAppVersion'),
                 ],
               ),
+              ),
+            ),
             ),
             const SizedBox(height: 12),
           ],

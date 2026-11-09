@@ -7,7 +7,7 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_OUT = ROOT.parent / "Aigent-v4.22.0-source.zip"
+DEFAULT_OUT = ROOT.parent / "Aigent-v4.23.0-source.zip"
 
 INCLUDE_DIRS = ["lib", "test", "tool", "assets"]
 INCLUDE_FILES = [
@@ -64,7 +64,7 @@ def main() -> None:
             if rel in seen:
                 continue
             seen.add(rel)
-            z.write(p, f"Aigent-v4.22.0/{rel}")
+            z.write(p, f"Aigent-v4.23.0/{rel}")
     print(f"{out}: {len(seen)} files, {out.stat().st_size} bytes")
 
 

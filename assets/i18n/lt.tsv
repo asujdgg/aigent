@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	@ info: whatsthis
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Laisvi kanalai naudoja viešojo žiniatinklio reikšmes ir gali nustoti dirbti arba gauti rate-limited bet kuriuo metu. Raktai yra užšifruoti tik šiame įrenginyje ir niekada sinchronizuoti. Bakstelėkite bangos mygtuką viršuje dešinėje, arba long-paspauskite burbulas, skaityti garsiai. Bakstelėkite mikrofonas kompozitoriaus kalbėti; įrašymas sustoja, kai jūs tyliai, ir tekstas įkelia į įvesties langelį peržiūrėti prieš siunčiant.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Images siunčiami į liniją kaip base64, ilgiausias kraštas 1280, kokybė 72. Jei vaizdo prašymas grąžina 400 / 413 / Prisijungimas uždarytas, modelis arba vartai greičiausiai atmeta inline paveikslėlius - perjunkite aukščiau formatą susiaurinti jį žemyn.
+1 轮	1 turas
+2 轮	2 raundai
+3 轮	3 raundai
+AI 圆桌会议	AI apskritasis stalas
+AI 实验室	AI Lab
+下一段人生尚未发生	Kitas skyrius nepradėtas
+也可以自己写一个目标	Arba parašykite savo tikslą
+人生事件	Gyvybės įvykis
+人生存档	Išgelbėtos gyvybės
+人生履历	Gyvenimo istorija
+人生目标	Gyvybės tikslas
+人生评分 · 满分 100	Gyvenimo rezultatas · iš 100
+从已有连接补齐 5 个模型	Užpildykite 5 modelius iš jungčių
+会议大纲	Darbotvarkė
+会议结论	Išvada
+会议议题	Tema
+会议记录	Susitikimų istorija
+位参会者	dalyviai
+你会怎么选？	Ką darysi?
+例如：分析者	Pvz., analitikas
+停止会议	Sustabdyti susitikimą
+创建角色	Sukurti simbolį
+删除席位	Pašalinti sėdynę
+判定结果失败	Nepavyko išspręsti rezultato
+参会模型	Dalyviai
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Pasirinkti skirtingus ryšius ar modelius. Net vienas modelis gali nesutikti su save pagal skirtingus vaidmenis.
+名称	Pavadinimas
+多模型圆桌会议 · 3~5 个 AI 开会	AI apskritasis stalas · 3-5 modeliai diskusijoje
+导出人生履历	Eksportuoti gyvenimo istoriją
+导出纪要	Eksporto protokolas
+尚未配置接口，请先到设置里填好连接与模型。	Nekonfigūruotas ryšys. Pirmiausia nustatymuose nustatykite tikslą ir modelį.
+岁	metai
+已复制到剪贴板	Kopijuota į talpyklę
+已完结	Baigta
+席位设置	Sėdynės nustatymai
+开始会议	Pradėti susitikimą
+开始这一生	Pradėti šį gyvenimą
+性别	Lytis
+所有剧情由你配置的模型实时生成，只保存在本机。	Kiekvienas įvykis generuojamas tiesiogiai pagal jūsų modelį ir saugomas tik šiame įrenginyje.
+推进人生	Išankstinis gyvenimas
+新建会议	Naujas posėdis
+新的人生	Naujas gyvenimas
+时代背景	Era
+暂无历史会议	Neįrašyti posėdžiai
+暂无参会席位	Dar nėra dalyvių
+未发言	Atsako nėra
+未命名议题	Tema be pavadinimo
+条发言	posūkiai
+模型 ID	Pavyzdys ID
+模拟人生	Gyvybės simuliatorius
+模拟人生 · AI 生成剧情与抉择	Gyvenimo simuliatorius · AI- generuojama istorija ir pasirinkimai
+正在停止	Stabdymas
+正在撰写人生总结	Gyvenimo santraukos įrašymas
+段经历	įvykiai
+每行一条，讨论时所有参会者都会看到这份大纲。	Kiekvienas dalyvis mato šią darbotvarkę.
+添加席位	Pridėti sėdynę
+生成事件失败	Nepavyko generuoti įvykio
+生成传记失败	Nepavyko įrašyti biografijos
+生成大纲	Generuoti darbotvarkę
+由 AI 根据议题生成，可手动修改	AI- generuojama iš temos; redaguojamas
+留空将自动取名。	Palikti tuščią atsitiktiniam pavadinimui.
+盖棺定论	Galutinis nuosprendis
+结束这一生	Užbaigti šį gyvenimą
+给 TA 起个名字	Pasakyk jiems vardą
+自定义立场描述	Pasirinktinė padėtis
+至少需要一个可用的参会模型	Reikalingas bent vienas darbo modelis
+角色立场	Vaidmuo ir padėtis
+讨论记录	Scenarijus
+讨论轮数	Roundai
+请先填写会议议题	Pirmiausia įveskite susitikimo temą
+输入这次要讨论的问题	Ką reikėtų aptarti šiame posėdyje?
+返回	Atgal
+还没有存档	Kol kas neišgelbėta gyvybių
+还没有故事	Dar nėra istorijų
+连接	Prisijungimas
+选择	Pasirinkimas
+健康	Sveikata
+才智	Protas
+魅力	Color
+财富	Turtas
+声望	Garsas
+幸福	Džoja
+现代都市 · 2026 年	Modernus miestas · 2026
+九十年代 · 小城旧事	1990 m. · mažas miestas
+古代 · 书香门第	Senovės laikai · mokslinė šeima
+近未来 · 赛博都市	Beveik ateities * kibernetinis miestas
+顺其自然，过好每一天	Imtis gyvenimo, kaip ji ateina
+事业有成，闯出一番名堂	Sukurti sėkmingą karjerą
+家人平安，守住平凡幸福	Saugokite šeimą saugiai ir laimingai
+见世面，走遍天涯	Pamatyti pasaulį
+求知到底，成为某个领域的行家	Kurti žinių sritį
+主持人	Moderatorius
+分析者	Analitikas
+质疑者	Skepzė
+创意者	Kūrybiška
+务实派	Pragmatistas
+女	Moteris
+男	Vyrai
+其他	Kita

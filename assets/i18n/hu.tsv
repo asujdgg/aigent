@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Használja a {{{Query}} {{{Date}} {{Time}} {{model}} {{{language}} {{{sources}} {Teier}} -t az azonnali alkalmazásban; ezeket az adatokat a küldés előtt valós értékekkel helyettesítik.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	A szabad csatornák nyilvános webvégpontokat használnak, és bármikor leállíthatják a munkavégzést, illetve korlátozhatják az árat. A billentyűket csak ezen az eszközön titkosítják, és soha nem szinkronizálják. A jobb felső oldalon koppintsunk a hullám gombjára, vagy hosszú nyomással nyomjunk meg egy buborékot, hogy hangosan olvassuk.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Images are sended inline as base64, leghosszabb edge 1280, quality 72. Ha egy kép kérés visszatér 400 / 413 / Connection zárt, a modell vagy átjáró valószínűleg elutasítja inline képeket - kapcsolja be a fenti formátumot, hogy szűkítse le.
+1 轮	1 kör
+2 轮	2 kör
+3 轮	3 kör
+AI 圆桌会议	MI kerekasztal
+AI 实验室	AI Lab
+下一段人生尚未发生	A következő fejezet még nem kezdődött el
+也可以自己写一个目标	Vagy írd meg a saját célodat
+人生事件	Életesemény
+人生存档	Megmentett életek
+人生履历	Élettörténet
+人生目标	Életcél
+人生评分 · 满分 100	Életpont · a 100-ból
+从已有连接补齐 5 个模型	5 modell kitöltése kapcsolatokból
+会议大纲	Menetrend
+会议结论	Következtetés
+会议议题	Téma
+会议记录	Történelmi találkozók
+位参会者	résztvevők
+你会怎么选？	Mit fogsz csinálni?
+例如：分析者	pl. Analyst
+停止会议	Elég a találkozásból!
+创建角色	A karakter létrehozása
+删除席位	Az ülés eltávolítása
+判定结果失败	Nem sikerült megoldani az eredményt
+参会模型	A résztvevők
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Válassza ki a különböző kapcsolatok vagy modellek. Még egy modell nem ért egyet magával különböző szerepek.
+名称	Név
+多模型圆桌会议 · 3~5 个 AI 开会	MI kerekasztal · 3- 5 modell vita közben
+导出人生履历	Élettörténet exportálása
+导出纪要	Kiviteli jegyzőkönyv
+尚未配置接口，请先到设置里填好连接与模型。	Nincs konfigurálva kapcsolat. Először állítson be egy végpontot és modellt a Beállítások mezőben.
+岁	év
+已复制到剪贴板	A vágólapra másolva
+已完结	Befejezve
+席位设置	Ülésbeállítások
+开始会议	Találkozó megkezdése
+开始这一生	Kezdődjék az élet!
+性别	Nem
+所有剧情由你配置的模型实时生成，只保存在本机。	Minden eseményt élőben generál a modelled, és csak ezen az eszközön tárolja.
+推进人生	Előzetes élettartam
+新建会议	Új ülés
+新的人生	Új élet
+时代背景	Era
+暂无历史会议	Nincs mentett találkozó
+暂无参会席位	Még nincs résztvevő
+未发言	Nincs válasz
+未命名议题	Cím nélküli téma
+条发言	fordulatok
+模型 ID	Személyazonosító minta
+模拟人生	Életszimulátor
+模拟人生 · AI 生成剧情与抉择	Life Simulator · AI- generált történet és választás
+正在停止	Megállás
+正在撰写人生总结	Az életrajz írása
+段经历	események
+每行一条，讨论时所有参会者都会看到这份大纲。	Minden résztvevő látja ezt a napirendet.
+添加席位	Ülés hozzáadása
+生成事件失败	Nem sikerült létrehozni egy eseményt
+生成传记失败	Nem sikerült életrajzot írni
+生成大纲	Napirendek létrehozása
+由 AI 根据议题生成，可手动修改	AI- generált téma; szerkeszthető
+留空将自动取名。	Hagyjuk üresen a nevet.
+盖棺定论	Végső ítélet
+结束这一生	Vess véget ennek az életnek
+给 TA 起个名字	Adj nekik egy nevet
+自定义立场描述	Egyéni helyzet
+至少需要一个可用的参会模型	Legalább egy munkamodell szükséges
+角色立场	Felállás
+讨论记录	Átirat
+讨论轮数	Kerekek
+请先填写会议议题	Először adja meg a találkozó témáját
+输入这次要讨论的问题	Mit kellene megbeszélnünk?
+返回	Vissza
+还没有存档	Még nem mentettek meg senkit
+还没有故事	Még nincs sztori
+连接	Kapcsolat
+选择	Választás
+健康	Egészségügy
+才智	Elme
+魅力	Charm
+财富	Gazdagság
+声望	Hírnév
+幸福	Öröm
+现代都市 · 2026 年	Modern város
+九十年代 · 小城旧事	Az 1990-es évek kisvárosa
+古代 · 书香门第	Ősi idők · tudós család
+近未来 · 赛博都市	Közel a jövőbe
+顺其自然，过好每一天	Take life as it come
+事业有成，闯出一番名堂	Sikeres karrier építése
+家人平安，守住平凡幸福	A család biztonságban és boldogan
+见世面，走遍天涯	Lásd a világot
+求知到底，成为某个领域的行家	A tudás területének elsajátítása
+主持人	Moderátor
+分析者	Analyst
+质疑者	Szkeptikus
+创意者	Kreatív
+务实派	Pragmatiszt
+女	Nő
+男	Férfi
+其他	Egyéb

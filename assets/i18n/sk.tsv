@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Voľné kanály používajú verejné webové koncové body a môžu kedykoľvek prestať pracovať alebo sa im rýchlosť obmedzí. Kľúče sú zašifrované iba na tomto zariadení a nikdy nie sú synchronizované. Ťuknite na tlačidlo vlny vpravo hore, alebo dlho stlačte bublinu, aby ste si nahlas prečítali. Ťuknite na mikrofón v skladateľovi, aby ste prehovorili; nahrávanie sa zastaví, keď budete ticho, a text pristane vo vstupnom poli na preskúmanie pred odoslaním.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Images are send inline as base64, longest edge 1280, quality 72. If an image request returns 400 / 413 / Connection closed, the model or gate s najväčšou pravdepodobnosťou odmietne inline images
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	„Nasleduj otázku" nepridáva jazykovú direktívu; model rozhodne sám. Po výbere sa zapíše do System Promptu.
+1 轮	1 kolo
+2 轮	2 kolá
+3 轮	3 kolá
+AI 圆桌会议	ÁI okrúhly stôl
+AI 实验室	AI Lab
+下一段人生尚未发生	Ďalšia kapitola sa ešte nezačala
+也可以自己写一个目标	Alebo si napíš vlastný cieľ
+人生事件	Životná udalosť
+人生存档	Zachránené životy
+人生履历	Životný príbeh
+人生目标	Životný cieľ
+人生评分 · 满分 100	Skóre života · zo 100
+从已有连接补齐 5 个模型	Vyplňte 5 modelov z pripojení
+会议大纲	Program
+会议结论	Záver
+会议议题	Téma
+会议记录	História stretnutia
+位参会者	účastníci
+你会怎么选？	Čo budeš robiť?
+例如：分析者	napr. Analyst
+停止会议	Zastaviť stretnutie
+创建角色	Vytvoriť znak
+删除席位	Odstrániť sedadlo
+判定结果失败	Nepodarilo sa vyriešiť výsledok
+参会模型	Účastníci
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Vyberte si rôzne pripojenia alebo modely. Dokonca aj jeden model môže so sebou v rôznych rolách nesúhlasiť.
+名称	Názov
+多模型圆桌会议 · 3~5 个 AI 开会	ÁI okrúhly stôl · 3 a 5 modelov v diskusii
+导出人生履历	Exportovať životný príbeh
+导出纪要	Exportovať minúty
+尚未配置接口，请先到设置里填好连接与模型。	Žiadne pripojenie konfigurované. Najprv nastavte koncový bod a model v Nastaveniach.
+岁	rok
+已复制到剪贴板	Kopírované do schránky
+已完结	Dokončené
+席位设置	Nastavenie sedadla
+开始会议	Začiatok schôdze
+开始这一生	Začnite tento život
+性别	Pohlavie
+所有剧情由你配置的模型实时生成，只保存在本机。	Každá udalosť je vytvorená naživo podľa vášho modelu a uložená len na tomto zariadení.
+推进人生	Predčasný život
+新建会议	Nová schôdza
+新的人生	Nový život
+时代背景	Era
+暂无历史会议	Žiadne uložené stretnutia
+暂无参会席位	Zatiaľ žiadni účastníci
+未发言	Žiadna odpoveď
+未命名议题	Bez názvu
+条发言	otočky
+模型 ID	ID modelu
+模拟人生	Simulátor života
+模拟人生 · AI 生成剧情与抉择	Simulátor života · Al-vytvorený príbeh & voľby
+正在停止	Zastavenie
+正在撰写人生总结	Písanie súhrnu života
+段经历	udalosti
+每行一条，讨论时所有参会者都会看到这份大纲。	Každý účastník vidí tento program.
+添加席位	Pridať sedadlo
+生成事件失败	Nepodarilo sa vytvoriť udalosť
+生成传记失败	Nepodarilo sa písať biografiu
+生成大纲	Generovať program
+由 AI 根据议题生成，可手动修改	AI-vyrobené z témy; editovateľné
+留空将自动取名。	Nechať prázdne pre náhodné meno.
+盖棺定论	Konečný rozsudok
+结束这一生	Koniec tohto života
+给 TA 起个名字	Daj im meno
+自定义立场描述	Vlastný postoj
+至少需要一个可用的参会模型	Vyžaduje sa aspoň jeden pracovný model
+角色立场	Pozícia & role
+讨论记录	Transcript
+讨论轮数	Počet kôl
+请先填写会议议题	Najprv zadajte tému stretnutia
+输入这次要讨论的问题	O čom by sa malo hovoriť na tomto stretnutí?
+返回	Späť
+还没有存档	Žiadne zachránené životy zatiaľ
+还没有故事	Zatiaľ žiadne príbehy
+连接	Spojenie
+选择	Výber
+健康	Zdravie
+才智	Myseľ
+魅力	Kúzlo
+财富	Bohatstvo
+声望	Sláva
+幸福	Radosť
+现代都市 · 2026 年	Moderné mesto · 2026
+九十年代 · 小城旧事	1990s · malé mesto
+古代 · 书香门第	Staroveké časy · rodina učencov
+近未来 · 赛博都市	Blízka budúcnosť · kybernetické mesto
+顺其自然，过好每一天	Vezmi si život, ako príde
+事业有成，闯出一番名堂	Vybudovať úspešnú kariéru
+家人平安，守住平凡幸福	Udržujte rodinu v bezpečí a šťastnú
+见世面，走遍天涯	Vidieť svet
+求知到底，成为某个领域的行家	Zvládnite oblasť poznania
+主持人	Moderátor
+分析者	Analytik
+质疑者	Skeptik
+创意者	Kreatívna
+务实派	Pragmatista
+女	Ženy
+男	Muži
+其他	Iné

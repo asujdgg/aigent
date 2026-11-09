@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https: / /
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Brug {{forespørgsel}} {{dato}} {{tid}} {{model}} {sprog}} {kilder}} {{niveau}}} i prompten; de erstattes med rigtige værdier før afsendelse.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Gratis kanaler bruger offentlige webendepunkter og kan til enhver tid stoppe med at arbejde eller få hastigheds- begrænset. Nøglerne krypteres kun på denne enhed og synkroniseres aldrig. Tryk på bølgeknappen øverst til højre eller længere - tryk på en boble for at læse højt. Tryk på mikrofonen i komponisten for at tale; optagelsen stopper, når du går stille, og teksten lander i indlæsningsfeltet til gennemgang, før du sender.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Billeder sendes inline som base64, længste kant 1280, kvalitet 72. Hvis en billedforespørgsel returnerer 400 / 413 / Forbindelse lukket, modellen eller gateway sandsynligvis afviser inline billeder - skifte formatet ovenfor for at indsnævre det ned.
+1 轮	1 omg
+2 轮	2 runder
+3 轮	3 runder
+AI 圆桌会议	AI Roundtable
+AI 实验室	AI Lab
+下一段人生尚未发生	Det næste kapitel er ikke begyndt
+也可以自己写一个目标	Eller skriv dit eget mål
+人生事件	Livsbegivenhed
+人生存档	Reddede liv
+人生履历	Livshistorie
+人生目标	Livsmål
+人生评分 · 满分 100	Livs score · ud af 100
+从已有连接补齐 5 个模型	Udfyld 5 modeller fra tilslutninger
+会议大纲	Dagsordenen
+会议结论	Konklusion
+会议议题	Emne
+会议记录	Mødehistorie
+位参会者	deltagere
+你会怎么选？	Hvad vil du gøre?
+例如：分析者	F.eks. analytiker
+停止会议	Stop mødet
+创建角色	Opret tegn
+删除席位	Fjern sæde
+判定结果失败	Kunne ikke løse resultatet
+参会模型	Deltagere
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Vælg forskellige forbindelser eller modeller. Selv én model kan være uenig med sig selv under forskellige roller.
+名称	Navn
+多模型圆桌会议 · 3~5 个 AI 开会	AI rundbordssamtaler · 3-5 modeller i diskussion
+导出人生履历	Eksportér livshistorie
+导出纪要	Eksportér minutter
+尚未配置接口，请先到设置里填好连接与模型。	Ingen forbindelse indstillet. Indstil et endpoint og model i Indstillinger først.
+岁	år
+已复制到剪贴板	Kopieret til udklipsholder
+已完结	Færdiggjort
+席位设置	Sædeindstillinger
+开始会议	Start møde
+开始这一生	Begynd dette liv
+性别	Køn
+所有剧情由你配置的模型实时生成，只保存在本机。	Hver begivenhed genereres live af din model og gemmes kun på denne enhed.
+推进人生	Forud liv
+新建会议	Nyt møde
+新的人生	Nyt liv
+时代背景	Era
+暂无历史会议	Ingen gemte møder
+暂无参会席位	Ingen deltagere endnu
+未发言	Intet svar
+未命名议题	Unavngivet emne
+条发言	drejninger
+模型 ID	Model ID
+模拟人生	Livssimulator
+模拟人生 · AI 生成剧情与抉择	Life Simulator · AI- genereret historie & valg
+正在停止	Stop
+正在撰写人生总结	Skrivning af livsresumé
+段经历	hændelser
+每行一条，讨论时所有参会者都会看到这份大纲。	Et punkt pr. linje.
+添加席位	Tilføj sæde
+生成事件失败	Kunne ikke generere begivenhed
+生成传记失败	Kunne ikke skrive biografi
+生成大纲	Generér dagsorden
+由 AI 根据议题生成，可手动修改	AI- genereret fra emnet; redigerbare
+留空将自动取名。	Lad et tilfældigt navn stå tomt.
+盖棺定论	Endelig dom
+结束这一生	Slut dette liv
+给 TA 起个名字	Giv dem et navn
+自定义立场描述	Stilling
+至少需要一个可用的参会模型	Der kræves mindst én arbejdsmodel
+角色立场	Rolle & stilling
+讨论记录	Udskrift
+讨论轮数	Rund
+请先填写会议议题	Indtast et mødeemne først
+输入这次要讨论的问题	Hvad skal dette møde diskutere?
+返回	Tilbage
+还没有存档	Ingen reddede liv endnu
+还没有故事	Ingen historier endnu
+连接	Forbindelse
+选择	Valg
+健康	Sundhed
+才智	Sind
+魅力	Charm
+财富	Velstand
+声望	Fame
+幸福	Joy
+现代都市 · 2026 年	Moderne by · 2026
+九十年代 · 小城旧事	1990 'erne · lille by
+古代 · 书香门第	I oldtiden
+近未来 · 赛博都市	Nærfremtid · cyber city
+顺其自然，过好每一天	Tag livet som det kommer
+事业有成，闯出一番名堂	Opbygge en succesfuld karriere
+家人平安，守住平凡幸福	Hold familien sikker og glad
+见世面，走遍天涯	Se verden
+求知到底，成为某个领域的行家	Master et område med viden
+主持人	Moderator
+分析者	Analytiker
+质疑者	Skeptisk
+创意者	Kreativ
+务实派	Pragmatist
+女	Kvinder
+男	Mænd
+其他	Andre varer

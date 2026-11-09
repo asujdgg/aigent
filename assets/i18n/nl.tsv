@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Gebruik {{query} {{datum}} {{time}} {{model}} {{taal}} {{bron}} {{tier}}} in de prompt; ze worden vervangen door echte waarden voordat ze verzonden worden.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Gratis kanalen maken gebruik van publieke web eindpunten en kunnen stoppen met werken of krijgen snelheid beperkt op elk moment. Sleutels worden gecodeerd op dit apparaat alleen en nooit gesynchroniseerd. Tik op de golfknop aan de rechterbovenkant, of lang-druk een bubble, om hardop te lezen. Tik op de microfoon in de componist om te praten; opname stopt wanneer u stil gaat, en de tekst landt in de invoervak voor herziening voordat u verzenden.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Afbeeldingen worden inline verzonden als base64, langste rand 1280, kwaliteit 72. Als een afbeeldingsverzoek terugkomt 400 / 413 / Verbinding gesloten, het model of gateway hoogstwaarschijnlijk afgewezen inline afbeeldingen te schakelen het formaat hierboven om het te beperken.
+1 轮	1 ronde
+2 轮	2 rondes
+3 轮	3 rondes
+AI 圆桌会议	AI Rondetafel
+AI 实验室	AI Lab
+下一段人生尚未发生	Het volgende hoofdstuk is nog niet begonnen
+也可以自己写一个目标	Of schrijf je eigen doel
+人生事件	Life event
+人生存档	Gered levens
+人生履历	Levensverhaal
+人生目标	Levensdoel
+人生评分 · 满分 100	Levensscore · van de 100
+从已有连接补齐 5 个模型	Vul 5 modellen van aansluitingen
+会议大纲	Agenda
+会议结论	Conclusie
+会议议题	Onderwerp
+会议记录	Ontmoetingsgeschiedenis
+位参会者	deelnemers
+你会怎么选？	Wat ga je doen?
+例如：分析者	Bijv. analist
+停止会议	Vergadering stoppen
+创建角色	Teken aanmaken
+删除席位	Plaats verwijderen
+判定结果失败	Oplossen van resultaat mislukt
+参会模型	Deelnemers
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Kies verschillende verbindingen of modellen. Zelfs één model kan het oneens zijn met zichzelf onder verschillende rollen.
+名称	Naam
+多模型圆桌会议 · 3~5 个 AI 开会	AI rondetafel · 3
+导出人生履历	Levensverhaal exporteren
+导出纪要	Minuten exporteren
+尚未配置接口，请先到设置里填好连接与模型。	Geen verbinding geconfigureerd. Stel eerst een eindpunt en model in Instellingen in.
+岁	yrs
+已复制到剪贴板	Naar klembord gekopieerd
+已完结	Voltooid
+席位设置	Stoelinstellingen
+开始会议	Begin vergadering
+开始这一生	Begin dit leven
+性别	Geslacht
+所有剧情由你配置的模型实时生成，只保存在本机。	Elke gebeurtenis wordt live gegenereerd door uw model en alleen op dit apparaat opgeslagen.
+推进人生	Leven vooruit
+新建会议	Nieuwe vergadering
+新的人生	Nieuw leven
+时代背景	Era
+暂无历史会议	Geen opgeslagen vergaderingen
+暂无参会席位	Nog geen deelnemers
+未发言	Geen antwoord
+未命名议题	Naamloos onderwerp
+条发言	draaien
+模型 ID	Model ID
+模拟人生	Life Simulator
+模拟人生 · AI 生成剧情与抉择	Life Simulator · AI-gegenereerde verhaal & keuzes
+正在停止	Stoppen
+正在撰写人生总结	De levenssamenvatting schrijven
+段经历	gebeurtenissen
+每行一条，讨论时所有参会者都会看到这份大纲。	Elke deelnemer ziet deze agenda.
+添加席位	Stoel toevoegen
+生成事件失败	Kon gebeurtenis niet aanmaken
+生成传记失败	Kon biografie niet schrijven
+生成大纲	Agenda genereren
+由 AI 根据议题生成，可手动修改	AI-gegenereerd vanuit het onderwerp; bewerkbaar
+留空将自动取名。	Laat leeg voor een willekeurige naam.
+盖棺定论	Eindoordeel
+结束这一生	Dit leven beëindigen
+给 TA 起个名字	Geef ze een naam
+自定义立场描述	Aangepaste stand
+至少需要一个可用的参会模型	Ten minste één werkmodel is vereist
+角色立场	Rol & positie
+讨论记录	Transcript
+讨论轮数	Rond
+请先填写会议议题	Voer eerst een gespreksonderwerp in
+输入这次要讨论的问题	Wat moet deze vergadering bespreken?
+返回	Terug
+还没有存档	Nog geen gerede levens
+还没有故事	Nog geen verhalen
+连接	Verbinding
+选择	Keuze
+健康	Gezondheid
+才智	Geest
+魅力	Charme
+财富	Rijkdom
+声望	Roem
+幸福	Vreugde
+现代都市 · 2026 年	Moderne stad · 2026
+九十年代 · 小城旧事	De jaren negentig · kleine stad
+古代 · 书香门第	Oude tijden · geleerde familie
+近未来 · 赛博都市	Binnenkort · cyberstad
+顺其自然，过好每一天	Neem leven zoals het komt
+事业有成，闯出一番名堂	Bouw een succesvolle carrière
+家人平安，守住平凡幸福	Familie veilig en gelukkig houden
+见世面，走遍天涯	Zie de wereld
+求知到底，成为某个领域的行家	Meester op het gebied van kennis
+主持人	Moderator
+分析者	Analist
+质疑者	Sceptisch
+创意者	Creatief
+务实派	Pragmatist
+女	Vrouwen
+男	Man
+其他	Andere

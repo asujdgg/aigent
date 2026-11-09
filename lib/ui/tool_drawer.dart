@@ -8,6 +8,8 @@ import '../theme.dart';
 import 'persona.dart';
 import 'plugin_sheet.dart';
 import 'research_sheet.dart';
+import 'roundtable_screen.dart';
+import 'life_screen.dart';
 import 'settings_screen.dart';
 import 'widgets.dart';
 
@@ -158,6 +160,26 @@ class ToolDrawer extends StatelessWidget {
                   () => _openSheet(context, const UsageSheet()), dark),
               _action(context, '实验记录 · ${st.records.length} 条',
                   () => _openSheet(context, const RecordsSheet()), dark),
+            ]),
+            _card(dark, [
+              Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child: Label(t('AI 实验室')),
+              ),
+              _action(context, t('多模型圆桌会议 · 3~5 个 AI 开会'), () {
+                Navigator.pop(context);
+                Navigator.of(context).push(SoftPageRoute(
+                  keepBelow: true,
+                  builder: (_) => const RoundtableScreen(),
+                ));
+              }, dark),
+              _action(context, t('模拟人生 · AI 生成剧情与抉择'), () {
+                Navigator.pop(context);
+                Navigator.of(context).push(SoftPageRoute(
+                  keepBelow: true,
+                  builder: (_) => const LifeScreen(),
+                ));
+              }, dark),
             ]),
             _card(dark, [
               Padding(

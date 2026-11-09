@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Use {{query} {{date} {{time} {{model} {{language} {sources} {{tier}}} {}}} {}}} {}}} en el impulso; son reemplazados por valores reales antes de enviar.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Los canales gratuitos utilizan puntos finales web públicos y pueden dejar de funcionar o limitarse a la velocidad en cualquier momento. Las claves están encriptadas en este dispositivo sólo y nunca sincronizadas. Pulsa el botón de onda en la parte superior derecha, o presiona una burbuja, para leer en voz alta. Pulsa el micrófono en el compositor para hablar; la grabación se detiene cuando se calla, y el texto aterriza en el cuadro de entrada para su revisión antes de envío.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Las imágenes se envían en línea como base64, borde más largo 1280, calidad 72. Si una solicitud de imagen devuelve 400 / 413 / Conexión cerrada, el modelo o puerta de entrada probablemente rechaza las imágenes en línea — cambie el formato anterior para reducirlo.
+1 轮	1 ronda
+2 轮	2 rondas
+3 轮	3 rondas
+AI 圆桌会议	Mesa redonda de IA
+AI 实验室	AI Lab
+下一段人生尚未发生	El próximo capítulo no ha comenzado
+也可以自己写一个目标	O escriba su propio objetivo
+人生事件	Evento de vida
+人生存档	Vidas salvadas
+人生履历	Historia de vida
+人生目标	Objetivo de la vida
+人生评分 · 满分 100	La puntuación de vida · de 100
+从已有连接补齐 5 个模型	Llenar 5 modelos desde conexiones
+会议大纲	Orden del día
+会议结论	Conclusión
+会议议题	Tema
+会议记录	Historia de la reunión
+位参会者	participantes
+你会怎么选？	¿Qué harás?
+例如：分析者	por ejemplo, analista
+停止会议	Parada
+创建角色	Crear carácter
+删除席位	Retire el asiento
+判定结果失败	Failed to resolve outcome
+参会模型	Participantes
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Escoge diferentes conexiones o modelos. Incluso un modelo puede estar en desacuerdo con sí mismo bajo diferentes roles.
+名称	Nombre
+多模型圆桌会议 · 3~5 个 AI 开会	Mesa redonda de AI · 3-5 modelos de discusión
+导出人生履历	Exportar historia de vida
+导出纪要	Exportar minutos
+尚未配置接口，请先到设置里填好连接与模型。	No hay conexión configurada. Configurar primero un punto final y un modelo en Ajustes.
+岁	Yrs
+已复制到剪贴板	Copiado para el portapapeles
+已完结	Completado
+席位设置	Ajustes de asiento
+开始会议	Iniciar reunión
+开始这一生	Empezar esta vida
+性别	Género
+所有剧情由你配置的模型实时生成，只保存在本机。	Cada evento es generado en directo por tu modelo y almacenado sólo en este dispositivo.
+推进人生	Vida anticipada
+新建会议	Nueva reunión
+新的人生	Nueva vida
+时代背景	Era
+暂无历史会议	No se han celebrado reuniones
+暂无参会席位	Todavía no hay participantes
+未发言	No hay respuesta
+未命名议题	Tema sin título
+条发言	turnos
+模型 ID	ID modelo
+模拟人生	Simulador de vida
+模拟人生 · AI 生成剧情与抉择	Simulador de vida · Historia generada por AI
+正在停止	Para
+正在撰写人生总结	Escribir el resumen de la vida
+段经历	eventos
+每行一条，讨论时所有参会者都会看到这份大纲。	Cada participante ve este programa.
+添加席位	Añadir asiento
+生成事件失败	Failed to generate event
+生成传记失败	Failed to write biography
+生成大纲	Generar agenda
+由 AI 根据议题生成，可手动修改	IA generada por el tema; editable
+留空将自动取名。	Deja en blanco un nombre aleatorio.
+盖棺定论	Sentencia final
+结束这一生	Terminar esta vida
+给 TA 起个名字	Dales un nombre
+自定义立场描述	Posición personalizada
+至少需要一个可用的参会模型	Por lo menos se requiere un modelo de trabajo
+角色立场	Role &apos; stance
+讨论记录	Transcripción
+讨论轮数	Rondas
+请先填写会议议题	Ingrese un tema de encuentro primero
+输入这次要讨论的问题	¿Qué debería discutir esta reunión?
+返回	Atrás
+还没有存档	No hay vidas salvas todavía
+还没有故事	Aún no hay historias
+连接	Conexión
+选择	Elección
+健康	Salud
+才智	Mente
+魅力	Charm
+财富	La riqueza
+声望	Fama
+幸福	Joy
+现代都市 · 2026 年	Ciudad moderna · 2026
+九十年代 · 小城旧事	La década de 1990 · pequeña ciudad
+古代 · 书香门第	Tiempos antiguos · familia académica
+近未来 · 赛博都市	Cerca de futuro · Ciudad cibernética
+顺其自然，过好每一天	Toma la vida como viene
+事业有成，闯出一番名堂	Construir una carrera exitosa
+家人平安，守住平凡幸福	Mantenga la familia segura y feliz
+见世面，走遍天涯	Ver el mundo
+求知到底，成为某个领域的行家	Maestro un campo de conocimiento
+主持人	Moderador
+分析者	Analista
+质疑者	Escéptico
+创意者	Creativo
+务实派	Pragmatist
+女	Mujer
+男	Hombre
+其他	Otros

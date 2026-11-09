@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Utilisez {{query}} {{date}} {{time}} {{model}} {{langue}} {{sources}} {{tier}} dans l'invite; ils sont remplacés par des valeurs réelles avant d'envoyer.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Les canaux libres utilisent des paramètres Web publics et peuvent arrêter de travailler ou obtenir des taux limités à tout moment. Les clés sont cryptées uniquement sur cet appareil et ne sont jamais synchronisées. Appuyez sur le bouton d'onde en haut à droite, ou appuyez sur une bulle longue, pour lire à haute voix. Appuyez sur le microphone dans le compositeur pour parler; l'enregistrement s'arrête lorsque vous allez au calme, et le texte atterrit dans la boîte d'entrée pour examen avant d'envoyer.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Les images sont envoyées en ligne comme base64, bord le plus long 1280, qualité 72. Si une requête d'image retourne 400 / 413 / Connexion fermée, le modèle ou la passerelle rejette probablement les images en ligne — changez le format ci-dessus pour le réduire.
+1 轮	1 tour
+2 轮	2 tours
+3 轮	3 tours
+AI 圆桌会议	Table ronde IA
+AI 实验室	Laboratoire AI
+下一段人生尚未发生	Le chapitre suivant n'a pas commencé
+也可以自己写一个目标	Ou écrivez votre propre but
+人生事件	Événements de vie
+人生存档	Sauvé des vies
+人生履历	Histoire de vie
+人生目标	Objectif de vie
+人生评分 · 满分 100	Score de vie · sur 100
+从已有连接补齐 5 个模型	Remplir 5 modèles de connexions
+会议大纲	Ordre du jour
+会议结论	Conclusion
+会议议题	Sujet
+会议记录	Historique de la réunion
+位参会者	participants
+你会怎么选？	Qu'allez-vous faire ?
+例如：分析者	Par exemple, analyste
+停止会议	Arrête de te rencontrer
+创建角色	Créer un caractère
+删除席位	Supprimer le siège
+判定结果失败	Échec du résultat
+参会模型	Participants
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Choisissez différentes connexions ou modèles. Même un modèle peut être en désaccord avec lui-même sous différents rôles.
+名称	Dénomination
+多模型圆桌会议 · 3~5 个 AI 开会	Table ronde sur l'IA · 3-5 modèles en discussion
+导出人生履历	Exporter une histoire de vie
+导出纪要	Minutes d'exportation
+尚未配置接口，请先到设置里填好连接与模型。	Pas de connexion configurée. Configurez d'abord un paramètre et un modèle dans Paramètres.
+岁	ans
+已复制到剪贴板	Copie sur presse-papiers
+已完结	Achevé
+席位设置	Réglages des sièges
+开始会议	Démarrer la réunion
+开始这一生	Commencer cette vie
+性别	Sexe
+所有剧情由你配置的模型实时生成，只保存在本机。	Chaque événement est généré en direct par votre modèle et stocké uniquement sur cet appareil.
+推进人生	Durée de vie supérieure
+新建会议	Nouvelle réunion
+新的人生	Une nouvelle vie
+时代背景	Ere
+暂无历史会议	Pas de réunions enregistrées
+暂无参会席位	Pas encore de participants
+未发言	Pas de réponse
+未命名议题	Sujet sans titre
+条发言	tourne
+模型 ID	Numéro de modèle
+模拟人生	Simulateur de vie
+模拟人生 · AI 生成剧情与抉择	Simulateur de vie · Histoire et choix générés par l'IA
+正在停止	Arrêt
+正在撰写人生总结	Écrire le résumé de vie
+段经历	événements
+每行一条，讨论时所有参会者都会看到这份大纲。	Chaque participant voit cet ordre du jour.
+添加席位	Ajouter un siège
+生成事件失败	Impossible de générer l'événement
+生成传记失败	Échec de l'écriture de la biographie
+生成大纲	Générer l'ordre du jour
+由 AI 根据议题生成，可手动修改	AI généré à partir du sujet; modifiable
+留空将自动取名。	Laisser blanc pour un nom aléatoire.
+盖棺定论	Arrêt définitif
+结束这一生	Terminer cette vie
+给 TA 起个名字	Donnez-leur un nom
+自定义立场描述	Position personnalisée
+至少需要一个可用的参会模型	Au moins un modèle de travail est requis
+角色立场	Rôle & position
+讨论记录	Transcription
+讨论轮数	Rondes
+请先填写会议议题	Entrez d'abord un sujet de réunion
+输入这次要讨论的问题	De quoi devrait parler cette réunion?
+返回	Précédent
+还没有存档	Pas encore de vies sauvées
+还没有故事	Pas encore d'histoires
+连接	Connexion
+选择	Choix
+健康	Santé
+才智	Esprit
+魅力	Charme
+财富	Richesse
+声望	Fame
+幸福	Joie
+现代都市 · 2026 年	Ville moderne · 2026
+九十年代 · 小城旧事	Les années 90 · petite ville
+古代 · 书香门第	Anciens temps · famille des savants
+近未来 · 赛博都市	Bientôt · cyberville
+顺其自然，过好每一天	Prenez la vie comme elle vient
+事业有成，闯出一番名堂	Bâtir une carrière réussie
+家人平安，守住平凡幸福	Garder la famille en sécurité et heureuse
+见世面，走遍天涯	Voir le monde
+求知到底，成为某个领域的行家	Maîtriser un domaine de connaissances
+主持人	Animateur
+分析者	Analyste
+质疑者	Sensible
+创意者	Créatif
+务实派	Pragmatiste
+女	Femmes
+男	Hommes
+其他	Autres

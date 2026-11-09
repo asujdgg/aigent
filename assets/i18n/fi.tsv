@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Vapaat kanavat käyttävät julkisia web-päätteitä ja voivat lopettaa työskentelyn tai saada hintarajoituksen milloin tahansa. Avaimet on salattu vain tällä laitteella, eikä koskaan synkronoitu. Napauta aaltopainiketta oikeassa yläkulmassa, tai pitkä paina kuplaa, lukea ääneen. Napauta mikrofonia säveltäjän puhua, nauhoitus pysähtyy, kun menet hiljainen, ja teksti laskeutuu tuloruutuun tarkistaa ennen lähettämistä.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Kuvat lähetetään base64, pisin reuna 1280, laatu 72. Jos kuvapyyntö palauttaa 400 / 413 / Yhteys suljettu, malli tai yhdyskäytävä todennäköisesti hylkää inline kuvia .
 「跟随提问」不追加任何语言指令，由模型自行判断；选定后会写进 System Prompt。	"Seuraa kysymystä" ei lisää kieliohjetta; malli päättää itse. Valinta kirjoitetaan System Promptiin.
+1 轮	1 erä
+2 轮	2 erää
+3 轮	3 erää
+AI 圆桌会议	Al Roundtable
+AI 实验室	Al Lab
+下一段人生尚未发生	Seuraava luku ei ole alkanut
+也可以自己写一个目标	Tai kirjoita oma tavoitteesi
+人生事件	Elämäntapahtuma
+人生存档	Pelastaa henkiä
+人生履历	Elämäntarina
+人生目标	Elämäntavoite
+人生评分 · 满分 100	Life pisteet · / 100
+从已有连接补齐 5 个模型	Täytä 5 mallia yhteyksistä
+会议大纲	Esityslista
+会议结论	Päätelmä
+会议议题	Aihe
+会议记录	Kokoushistoria
+位参会者	osallistujat
+你会怎么选？	Mitä aiot tehdä?
+例如：分析者	esim
+停止会议	Lopeta tapaaminen
+创建角色	Luo merkki
+删除席位	Poista istuin
+判定结果失败	Tulosta ei voitu ratkaista
+参会模型	Osallistujat
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Valitse erilaisia yhteyksiä tai malleja. Jopa yksi malli voi olla eri mieltä itsensä kanssa eri rooleissa.
+名称	Nimi
+多模型圆桌会议 · 3~5 个 AI 开会	Tekoälyä koskeva pyöreän pöydän keskustelu · 3
+导出人生履历	Vie elämäntarina
+导出纪要	Vie minut
+尚未配置接口，请先到设置里填好连接与模型。	Ei yhteyttä määritetty. Aseta päätepiste ja malli Asetukset ensin.
+岁	yr
+已复制到剪贴板	Kopioi leikepöydälle
+已完结	Valmis
+席位设置	Istuimen asetukset
+开始会议	Aloita kokous
+开始这一生	Aloita tämä elämä
+性别	Sukupuoli
+所有剧情由你配置的模型实时生成，只保存在本机。	Jokainen tapahtuma syntyy suorana mallina ja tallennetaan vain tähän laitteeseen.
+推进人生	Pitkäikäinen
+新建会议	Uusi kokous
+新的人生	Uusi elämä
+时代背景	Era
+暂无历史会议	Tapaamisia ei ole tallennettu
+暂无参会席位	Ei osallistujia vielä
+未发言	Ei vastausta
+未命名议题	Nimetön aihe
+条发言	kierros
+模型 ID	Malli ID
+模拟人生	Life Simulator
+模拟人生 · AI 生成剧情与抉择	Life Simulator · tekoälyn luoma tarina & valinnat
+正在停止	Pysäytetään
+正在撰写人生总结	Elämän yhteenveto
+段经历	tapahtumat
+每行一条，讨论时所有参会者都会看到这份大纲。	Jokainen osallistuja näkee tämän.
+添加席位	Lisää istuin
+生成事件失败	Tapahtumaa ei voitu luoda
+生成传记失败	Elämänkertaa ei voitu kirjoittaa
+生成大纲	Luo ohjelma
+由 AI 根据议题生成，可手动修改	Aiheesta syntynyt tekoäly; muokattavissa
+留空将自动取名。	Jätä tyhjää satunnaisen nimen vuoksi.
+盖棺定论	Lopullinen tuomio
+结束这一生	Lopeta tämä elämä
+给 TA 起个名字	Anna heille nimi
+自定义立场描述	Oma asento
+至少需要一个可用的参会模型	Tarvitaan vähintään yksi toimiva malli
+角色立场	Asento
+讨论记录	Transkripti
+讨论轮数	Kierrokset
+请先填写会议议题	Anna ensin kokousaihe
+输入这次要讨论的问题	Mistä kokouksessa pitäisi keskustella?
+返回	Takaisin
+还没有存档	Ei pelastettuja henkiä vielä
+还没有故事	Ei tarinoita vielä
+连接	Yhteys
+选择	Valinta
+健康	Terveys
+才智	Mieli
+魅力	Viehätys
+财富	Varallisuus
+声望	Kuuluisuus
+幸福	Joy
+现代都市 · 2026 年	Moderni kaupunki · 2026
+九十年代 · 小城旧事	1990-luku · pieni kaupunki
+古代 · 书香门第	Muinaiset ajat · tutkijaperhe
+近未来 · 赛博都市	Lähitulevaisuus · kyberkaupunki
+顺其自然，过好每一天	Ota elämä kun se tulee
+事业有成，闯出一番名堂	Rakenna menestyksekäs ura
+家人平安，守住平凡幸福	Pidä perhe turvassa ja onnellinen
+见世面，走遍天涯	Näe maailma
+求知到底，成为某个领域的行家	Hallitse tietokenttä
+主持人	Moderaattori
+分析者	Analyytikko
+质疑者	Skeptikko
+创意者	Luova
+务实派	Pragmatisti
+女	Naiset
+男	Mies
+其他	Muut

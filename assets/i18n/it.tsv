@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Utilizzare {{query}} {{date}} {{time}} {{model}} {{language}}} {{sources}} {{tier}} nel prompt; sono sostituiti con valori reali prima dell'invio.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	I canali gratuiti utilizzano gli endpoint web pubblici e possono smettere di lavorare o ottenere il tasso limitato in qualsiasi momento. Le chiavi sono crittografate su questo dispositivo solo e mai sincronizzate. Toccare il pulsante d'onda in alto a destra, o premere a lungo una bolla, leggere ad alta voce.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Le immagini vengono inviate in linea come base64, bordo più lungo 1280, qualità 72. Se una richiesta di immagine restituisce 400 / 413 / Collegamento chiuso, il modello o il gateway più probabile rifiuta immagini in linea — passare il formato sopra per restringere giù.
+1 轮	1 giro
+2 轮	2 giri
+3 轮	3 giri
+AI 圆桌会议	AI Tavola rotonda
+AI 实验室	AI Labbra
+下一段人生尚未发生	Il prossimo capitolo non è iniziato
+也可以自己写一个目标	O scrivi il tuo obiettivo
+人生事件	Evento di vita
+人生存档	Vite salvate
+人生履历	Storia della vita
+人生目标	Obiettivo della vita
+人生评分 · 满分 100	Punteggio di vita · su 100
+从已有连接补齐 5 个模型	Riempire 5 modelli da connessioni
+会议大纲	Ordine del giorno
+会议结论	Conclusioni
+会议议题	Argomento
+会议记录	Storia dell'incontro
+位参会者	partecipanti
+你会怎么选？	Cosa farai?
+例如：分析者	per esempio
+停止会议	Smettetela di incontrarci
+创建角色	Creare carattere
+删除席位	Rimuovi il sedile
+判定结果失败	Non riuscito a risolvere il risultato
+参会模型	Partecipanti
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Scegli connessioni o modelli diversi. Anche un modello può non essere d'accordo con se stesso sotto ruoli diversi.
+名称	Nome
+多模型圆桌会议 · 3~5 个 AI 开会	Tavola rotonda AI · modelli 3–5 in discussione
+导出人生履历	Storia della vita di esportazione
+导出纪要	Esportare minuti
+尚未配置接口，请先到设置里填好连接与模型。	Nessuna connessione configurata. Impostare un endpoint e un modello in Impostazioni prima.
+岁	Sì
+已复制到剪贴板	Copied a clipboard
+已完结	Completato
+席位设置	Impostazioni del sedile
+开始会议	Inizio riunione
+开始这一生	Iniziare questa vita
+性别	Genere
+所有剧情由你配置的模型实时生成，只保存在本机。	Ogni evento viene generato dal vivo dal vostro modello e memorizzato solo su questo dispositivo.
+推进人生	Vita avanzata
+新建会议	Nuovo incontro
+新的人生	Nuova vita
+时代背景	Era
+暂无历史会议	Nessuna riunione salvata
+暂无参会席位	Nessun partecipante ancora
+未发言	Nessuna risposta
+未命名议题	Argomento senza titolo
+条发言	giri
+模型 ID	ID modello
+模拟人生	Simulatore di vita
+模拟人生 · AI 生成剧情与抉择	Simulatore di vita · storia e scelte generate dall'IA
+正在停止	Fermare
+正在撰写人生总结	Scrivere il riassunto della vita
+段经历	eventi
+每行一条，讨论时所有参会者都会看到这份大纲。	Ogni partecipante vede questa agenda.
+添加席位	Aggiungi il sedile
+生成事件失败	Non riuscita a generare evento
+生成传记失败	Non scrivere biografia
+生成大纲	Agenda generale
+由 AI 根据议题生成，可手动修改	AI-generato dall'argomento; modificabile
+留空将自动取名。	Lasciare vuoto per un nome casuale.
+盖棺定论	Verdetto finale
+结束这一生	Fine di questa vita
+给 TA 起个名字	Dagli un nome
+自定义立场描述	Posizione doganale
+至少需要一个可用的参会模型	Almeno un modello di lavoro è richiesto
+角色立场	Ruolo e posizione
+讨论记录	Trascrizione
+讨论轮数	Tondi
+请先填写会议议题	Inserire prima un argomento di incontro
+输入这次要讨论的问题	Cosa dovrebbe discutere questa riunione?
+返回	Indietro
+还没有存档	Nessuna vita salvata
+还没有故事	Ancora nessuna storia
+连接	Connessione
+选择	Scelta
+健康	Salute
+才智	#
+魅力	Charm
+财富	Ricchezza
+声望	Fame
+幸福	Gioia
+现代都市 · 2026 年	Città moderna · 2026
+九十年代 · 小城旧事	Gli anni '90 · piccola città
+古代 · 书香门第	Tempi antichi · famiglia studiosa
+近未来 · 赛博都市	Vicino al futuro · città cibernetica
+顺其自然，过好每一天	Prendere la vita come viene
+事业有成，闯出一番名堂	Costruire una carriera di successo
+家人平安，守住平凡幸福	Tenere la famiglia al sicuro e felice
+见世面，走遍天涯	Vedi il mondo
+求知到底，成为某个领域的行家	Padroneggiare un campo di conoscenza
+主持人	Moderatore
+分析者	Analisi
+质疑者	Scheptico
+创意者	Creativo
+务实派	Pragmatite
+女	Femmina
+男	Maschio
+其他	Altri

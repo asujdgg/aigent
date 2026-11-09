@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Utilizaţi { { Query}} {{data}} {timp}} {model}} {limbă} {surse}} {mai mult}}} în prompt; acestea sunt înlocuite cu valori reale înainte de a fi trimise.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Canalele gratuite folosesc obiective web publice și pot opri lucrul sau pot obține rata limitată în orice moment. Cheile sunt criptate doar pe acest dispozitiv și nu se sincronizează niciodată. Atingeți butonul undei din dreapta sus, sau apăsați o bulă lungă, pentru a citi cu voce tare. Atingeți microfonul din compozitor pentru a vorbi; se oprește înregistrarea atunci când mergeți liniștit, iar textul aterizează în caseta de intrare pentru revizuire înainte de a trimite.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Imaginile sunt trimise în linie ca bază64, cea mai lungă margine 1280, calitate 72. În cazul în care o cerere de imagine se întoarce 400 / 413 / Conexiune închisă, modelul sau poarta de acces respinge cel mai probabil imagini în linie
+1 轮	1 rundă
+2 轮	2 runde
+3 轮	3 runde
+AI 圆桌会议	AI Masă rotundă
+AI 实验室	Laboratorul AI
+下一段人生尚未发生	Următorul capitol nu a început
+也可以自己写一个目标	Sau scrie propriul scop
+人生事件	Eveniment de viață
+人生存档	Salvat vieți
+人生履历	Poveste de viaţă
+人生目标	Scopul vieţii
+人生评分 · 满分 100	Scorul vieţii · din 100
+从已有连接补齐 5 个模型	Completați 5 modele din conexiuni
+会议大纲	Agendă
+会议结论	Concluzie
+会议议题	Subiect
+会议记录	Istoricul întâlnirii
+位参会者	participanți
+你会怎么选？	Ce vei face?
+例如：分析者	de exemplu analist
+停止会议	Nu te mai întâlni
+创建角色	Creează caracter
+删除席位	Scoateți scaunul
+判定结果失败	Eșec la rezolvarea rezultatului
+参会模型	Participanţi
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Alege diferite conexiuni sau modele. Chiar și un model poate fi de acord cu ea însăși în roluri diferite.
+名称	Nume
+多模型圆桌会议 · 3~5 个 AI 开会	Masă rotundă AI · 3 (5 modele în discuție)
+导出人生履历	Export poveste de viață
+导出纪要	Proces-verbal de export
+尚未配置接口，请先到设置里填好连接与模型。	Nicio conexiune configurată. Configurați mai întâi un obiectiv și un model în Setări.
+岁	ai
+已复制到剪贴板	Copiat în clipboard
+已完结	Completat
+席位设置	Setări scaune
+开始会议	Începe şedinţa
+开始这一生	Începe această viață
+性别	Sex
+所有剧情由你配置的模型实时生成，只保存在本机。	Fiecare eveniment este generat live de modelul dumneavoastră și stocate numai pe acest dispozitiv.
+推进人生	Viață avansată
+新建会议	Ședință nouă
+新的人生	Viață nouă
+时代背景	Era
+暂无历史会议	Fără întâlniri salvate
+暂无参会席位	Niciun participant încă
+未发言	Niciun răspuns
+未命名议题	Subiect fără titlu
+条发言	rotiri
+模型 ID	Model de identificare
+模拟人生	Simulator Life
+模拟人生 · AI 生成剧情与抉择	Simulator de viață · Poveste generată de AI & opțiuni
+正在停止	Oprirea
+正在撰写人生总结	Scrierea rezumatului vieţii
+段经历	evenimente
+每行一条，讨论时所有参会者都会看到这份大纲。	Fiecare participant vede această agendă.
+添加席位	Adaugă scaun
+生成事件失败	Eșec la generarea evenimentului
+生成传记失败	Nu s-a putut scrie biografia
+生成大纲	Generează agenda
+由 AI 根据议题生成，可手动修改	Al-generat de la subiect; editabil
+留空将自动取名。	Lăsați gol pentru un nume aleatoriu.
+盖棺定论	Verdictul final
+结束这一生	Sfârşitul acestei vieţi
+给 TA 起个名字	Dă-le un nume
+自定义立场描述	Poziţie personalizată
+至少需要一个可用的参会模型	Cel puțin un model de lucru este necesar
+角色立场	& Poziţie rol
+讨论记录	Transcript
+讨论轮数	Rotunde
+请先填写会议议题	Introduceți mai întâi un subiect de întâlnire
+输入这次要讨论的问题	Ce ar trebui să discute această întâlnire?
+返回	Înapoi
+还没有存档	Nu a salvat vieți încă
+还没有故事	Nici o poveste încă
+连接	Conexiune
+选择	Alegerea
+健康	Sănătate
+才智	Minte
+魅力	Farmec
+财富	Bogate
+声望	Faima
+幸福	Bucurie
+现代都市 · 2026 年	Oraș modern · 2026
+九十年代 · 小城旧事	Anii 1990 · orăşel
+古代 · 书香门第	Vechi timpuri · familie de savanţi
+近未来 · 赛博都市	Aproape de viitor · oraşul cibernetic
+顺其自然，过好每一天	Ia viața așa cum vine
+事业有成，闯出一番名堂	Construiește o carieră de succes
+家人平安，守住平凡幸福	Păstrați familia în condiții de siguranță și fericit
+见世面，走遍天涯	Vezi lumea
+求知到底，成为某个领域的行家	Maestru un domeniu de cunoștințe
+主持人	Moderator
+分析者	Analist
+质疑者	Sceptic
+创意者	Creativ
+务实派	Pragmatist
+女	Femeie
+男	Masculin
+其他	Altele

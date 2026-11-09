@@ -298,3 +298,102 @@ https://example.com/v1 gpt-4o-mini\n每行一个，模型名可省略	https://ex
 在提示词里使用 {{query}} {{date}} {{time}} {{model}} {{language}} {{sources}} {{tier}}，发送前会被替换为真实值。	Useu {{ etiqueta}} {{ data}} {{ time}} {{ model}} {{ idioma}} {{ codi}}} {{ tier}} en l' indicatiu; se substitueixen amb valors reals abans d' enviar.
 免费通道来自公开网页接口，随时可能失效或加限制；密钥只加密存在本机，不随配置同步。朗读在右上角声波键或长按气泡呼出；点输入台麦克风即可说话，说完静音自动停止，文字先进输入框，确认后再发送。	Els canals lliures utilitzen els punts d' acabament públic i poden deixar de funcionar o obtenir una taxa limitada en qualsevol moment. Les tecles només s' encriptaran en aquest dispositiu i mai no s' ha sincronitzat. En prémer el botó d' ona a la part superior dreta, o una bombolla llarga, per llegir en veu alta. Tira el micròfon en el compositor per a parlar; l' enregistrament s' atura quan aneu en silenci, i el text terres en la caixa d' entrada per a revisar abans d' enviar.
 图片以 base64 内联发送，单图长边 1280、质量 72。带图请求若报 400 / 413 / Connection closed，多为模型不支持视觉或中转不接受内联图片，可切换上方格式排查。	Les imatges s' envien en línia com a base64, vora 1280, qualitat 72. Si una petició d' imatge retorna 400/ 413 / Connexió tancada, el model o portal probablement rebutja les imatges en línia, canvieu el format anterior per reduir- lo.
+1 轮	1 ronda
+2 轮	2 rondes
+3 轮	3 rondes
+AI 圆桌会议	IA Roundtable
+AI 实验室	LabAI
+下一段人生尚未发生	El següent capítol no ha començat
+也可以自己写一个目标	O escriure el teu propi objectiu
+人生事件	Esdeveniment de vida
+人生存档	Viu desades
+人生履历	Història de la vida
+人生目标	Estil de vida
+人生评分 · 满分 100	Puntuació vital de 100
+从已有连接补齐 5 个模型	Ompliu 5 models de connexions
+会议大纲	Agenda
+会议结论	Conclusió
+会议议题	Tema
+会议记录	Historial de la Reunió
+位参会者	participants
+你会怎么选？	Què faràs?
+例如：分析者	e.g. Analitzeu
+停止会议	Atura la reunió
+创建角色	Crea un caràcter
+删除席位	Elimina seient
+判定结果失败	Ha fallat en resoldre el resultat
+参会模型	Participants
+可选不同连接或不同模型；同一模型换立场也能形成分歧。	Triar connexions o models diferents, fins i tot un model pot estar d'acord amb si mateix amb diferents funcions.
+名称	Nom
+多模型圆桌会议 · 3~5 个 AI 开会	Models d'entrada de la IA
+导出人生履历	Exporta la història de la vida
+导出纪要	Exporta minuts
+尚未配置接口，请先到设置里填好连接与模型。	No s' ha configurat cap connexió. Establiu primer un punt final i model en Arranjament.
+岁	yrs
+已复制到剪贴板	S' ha copiat al portapapers
+已完结	Completat
+席位设置	Arranjaments del mar
+开始会议	Comença la reunió
+开始这一生	Comença aquesta vida
+性别	Gènere
+所有剧情由你配置的模型实时生成，只保存在本机。	Cada esdeveniment és generat en directe pel model i només desat en aquest dispositiu.
+推进人生	Avança la vida
+新建会议	Nova reunió
+新的人生	Nova vida
+时代背景	Etorfrance. kgm
+暂无历史会议	No hi ha reunions desades
+暂无参会席位	Encara no hi ha participants
+未发言	Sense resposta
+未命名议题	Tema sense títol
+条发言	gira
+模型 ID	ID del model
+模拟人生	Simulador de vida
+模拟人生 · AI 生成剧情与抉择	Simulador de vida
+正在停止	S' està aturant
+正在撰写人生总结	Escriure el resum de la vida
+段经历	esdeveniments
+每行一条，讨论时所有参会者都会看到这份大纲。	Cada participant veu aquesta agenda.
+添加席位	Afegeix seient
+生成事件失败	Ha fallat en generar l' esdeveniment
+生成传记失败	Ha fallat en escriure la biografia
+生成大纲	Genera agenda
+由 AI 根据议题生成，可手动修改	Lessonacions de la IA des del tema; editable
+留空将自动取名。	Deixa en blanc per un nom aleatori.
+盖棺定论	Veredicte final
+结束这一生	Acaba aquesta vida
+给 TA 起个名字	Dóna'ls un nom
+自定义立场描述	Posició personalitzada
+至少需要一个可用的参会模型	Cal almenys un model de treball
+角色立场	& Posició del rol
+讨论记录	Transcript
+讨论轮数	Rondes
+请先填写会议议题	Primer introduïu un tema de reunió
+输入这次要讨论的问题	Què hauria de discutir aquesta reunió?
+返回	Enrere
+还没有存档	Encara no hi ha vides desades
+还没有故事	Encara no hi ha històries
+连接	Connexió
+选择	Opció
+健康	Sanitat
+才智	Minut
+魅力	Charmstar name
+财富	Wealthstar name
+声望	Fameecuador. kgm
+幸福	Joy
+现代都市 · 2026 年	Ciutat moderna
+九十年代 · 小城旧事	Els anys 90 són poblets
+古代 · 书香门第	Fa temps antigues
+近未来 · 赛博都市	A prop del futur ciutat cibernètiques
+顺其自然，过好每一天	Pren la vida mentre es tracta
+事业有成，闯出一番名堂	Construeix una carrera correcta
+家人平安，守住平凡幸福	Mantén la família segura i feliç
+见世面，走遍天涯	Veure el món
+求知到底，成为某个领域的行家	Mestre un camp de coneixement
+主持人	Moderador
+分析者	Analitzeu
+质疑者	Skeptic
+创意者	Creative
+务实派	Pramatista
+女	Dona
+男	Home
+其他	Altres
