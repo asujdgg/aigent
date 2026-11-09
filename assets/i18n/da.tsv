@@ -25,6 +25,7 @@
 复制	Kopiér
 外观	Udseende
 大了	For høj
+天赋	Talent
 字号	Tekststørrelse
 密钥	Nøgle
 对话	Samtale
@@ -34,6 +35,7 @@
 平局	Det er en lodtrækning
 开始	Start
 当前	Løbende måned
+心大	Easygoing
 忽略	Ignorér
 性别	Køn
 恢复	Gendan
@@ -47,11 +49,14 @@
 游戏	Spil
 猜！	Gæt!
 百万	Læ
+知足	Indhold
 确定	OK
 离线	Offline
 管理	Håndtering
 累计	I alt
+继续	Fortsæt
 编辑	Redigér
+耐看	Vokser på mennesker
 视觉	Vision
 设置	Indstillinger
 语音	Stemme
@@ -64,20 +69,29 @@
 1 轮	1 omg
 2 轮	2 runder
 3 轮	3 runder
+个城市	byer
 个模型	modeller
 个选项	optioner
 二十问	20 Spørgsmål
+人缘好	Vellidt
 今日签	Dagens formue
+会来事	Sociabel
+会算账	God med penge
 你赢了	Du vinder
 再看看	Igen
+出生地	Fødselssted
 去设置	Åbn indstillinger
 多模型	Multimodel
 已停更	Udgået
 已复制	Kopieret
 已完结	Færdiggjort
+底子硬	Jernforfatning
 待检测	Ikke testet
 我赢了	Jeg vinder
+技术型	Teknisk
+抗打击	Restkoncentration
 摇一摇	Ryst
+有名气	Kendt
 未匹配	Ikke matchet
 未发言	Intet svar
 条发言	drejninger
@@ -86,11 +100,19 @@
 猜数字	Gæt nummeret
 生成中	Generering
 知道了	Fik det
+耐折腾	Hårde som søm
+能上台	Tillid på scenen
 自定义	Brugerdefineret
+自来熟	Mennesker
+被记住	Hukommelse
+读书人	Scholar
+起点稳	Steady start
+身体好	Sund
 转起来	Spin
 重命名	Omdøb
 + 新建	+ Ny
 一共用了	til
+一点就透	Hurtig optagelse
 一键接入	Forbind alle
 人物形象	Persona Formand
 人生事件	Livsbegivenhed
@@ -117,6 +139,7 @@
 匹配模型	Matchet model
 原始输出	Råproduktion
 参会模型	Deltagere
+吃得住苦	Hardy
 命中概览	Cache hits
 命中次数	Hits
 图片诊断	Billeddiagnostik
@@ -124,9 +147,11 @@
 复制全文	Kopiér alle
 复制内容	Kopiér tekst
 外观主题	Udseende
+天赋抽签	Talenttræk
 完全权限	Fuld adgang
 实时价格	Levende priser
 实验记录	Eksperimentellog
+容易开心	Let henrykt
 对话语言	Svar sprog
 导出纪要	Eksportér minutter
 少量权限	Minimal adgang
@@ -144,6 +169,7 @@
 恢复默认	Gendan standard
 抉择轮盘	Beslutningshjul
 抽一支签	Tegn en formue
+抽取天赋	Tegn et talent
 拉取失败	Hent mislykkedes
 按天花费	Omkostninger pr. dag
 授权范围	Tilladelser
@@ -178,6 +204,7 @@
 用量追踪	Brug tracking
 界面语言	Grænsefladesprog
 盖棺定论	Endelig dom
+精打细算	Thrifty
 系统当前	System
 累计估算	Anslået i alt
 缓存命中	Cache hits
@@ -197,13 +224,16 @@
 请求次数	Anmodninger
 输入单价	Inputpris
 输出单价	Udgangspris
+过目不忘	Fotografisk hukommelse
 这台设备	Denne enhed
 连接配置	Forbindelsesprofiler
+选择城市	Vælg by
 选择形象	Vælg person
 选择模型	Vælg model
 配置名称	Profilnavn
 配置连接	Indstil forbindelse
 重新开始	Genstart
+钻得进去	Dybt fokus
 页面底色	Sidebaggrund
 预设名称	Fornavn
 魔法八球	Magic 8-Ball
@@ -216,6 +246,8 @@ AI 玩法	AI spil
 反代与网关	Relæ- gateway
 命令已复制	Kommando kopieret
 填入输入框	Indsæt i input
+学什么都快	Hurtig læring
+家里有余粮	Komfortabel start
 已复制回答	Svar kopieret
 已开启朗读	Lad os gå
 应用与网页	Apps & web
@@ -250,6 +282,7 @@ AI 玩法	AI spil
 还没有存档	Ingen reddede liv endnu
 还没有故事	Ingen historier endnu
 连接与模型	Forbindelsesmodeller
+选择出生地	Vælg fødested
 重命名配置	Omdøb profil
 链接已复制	Link kopieret
 顶部形象区	Top persona område
@@ -287,6 +320,7 @@ AI 玩法	AI spil
 猜中了！就是	Jeg fik det!
 生成事件失败	Kunne ikke generere begivenhed
 生成传记失败	Kunne ikke skrive biografi
+站在人前不怵	Stage tilstedeværelse
 等待模型输出	Venter på modellen
 自动记录实验	Autorekordforsøg
 设备清理已开	Enhedsoprydning på
@@ -308,6 +342,7 @@ HTTP 插件	HTTP- plugin
 按当前单价估算	Anslået i løbende priser
 换个关键词试试	Prøv et andet søgeord
 搜索模型 ID	Søgemodel ID
+搜索省份或城市	Søg provins eller by
 智能体请求执行	Agent anmoder om en handling
 服务端缓存命中	Providercache hits
 朗读上一条回答	Læs det sidste svar
@@ -389,18 +424,25 @@ AI 用这种语言回答	AI svar på dette sprog
 点开始，由模型先说第一句。	Tryk på start og lad modellen tale først.
 累计消耗、单价、明细与导出	Udgifter i alt, priser, fordeling og eksport
 至少需要一个可用的参会模型	Der kræves mindst én arbejdsmodel
+见过你的人都记得你的名字。	Alle, der møder dig, husker dit navn.
+跟谁都能在三句话里熟起来。	Tre sætninger i, du er allerede bekendt med nogen.
 预览：静水深流，字要看得清	Forhåndsvisning: stadig vand, tekst skal forblive læselig
+不算富，但从不缺口粮与学费。	Ikke rig, men der var altid mad på bordet og penge til skolen.
 例如：今天适合开始新计划吗？	Er i dag god til en ny plan?
+先抽一次天赋，再开始这一生。	Tegn et talent først, og begynd så dette liv.
 关闭后主界面回到纯工作台样式	Når de slukkes, vender hovedskærmen tilbage til det almindelige workspace look
 命中统计、响应复用与缓存管理	Hit statistik, respons genbrug og cache management
+天塌下来先睡一觉，醒来再说。	Hvis himlen falder, sover du først og tager dig af det bagefter.
 按钮、标题与说明文字都跟着换	Knapper, titler og beskrivelser alle skifte for
 这个连接还没有读到模型列表。	Der er endnu ikke læst nogen modelliste for denne forbindelse.
 这台主机上没有发现兼容端点。	Intet kompatibelt endepunkt fundet på denne vært.
 1 到 100，看你能几次猜中	Et tal fra 1 til 100 - hvor få gæt kan du vinde?
+一屋子人看着你，你反而更清醒。	Et rum fuld af øjne på dig gør dig kun skarpere.
 你一句我一句，让故事一直讲下去	Skifter og hold historien i gang
 关闭后保留文档但不注入工具清单	Når de slukkes, bliver dokumenterne, men værktøjslisten injiceres ikke
 多源选择、每源密钥与连通性测试	Vælg kilder, tilføje per- source nøgler, test forbindelse
 接口地址、密钥、模型与多配置档	Endepunkt, nøgle, modeller og flere profiler
+没有找到这个城市，试试别的写法	Prøv en anden stavning.
 深度研究工作流、实验记录与报告	Workflow, forsøgslog og rapporter om dybdeforskning
 猜一个 1 到 100 的数字	Gæt et tal fra 1 til 100
 请输入 1 到 100 的整数	Indtast et helt tal fra 1 til 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	AI svar på dette sprog
 先完成推理再输出结论，只显示摘要	Årsag først, derefter svar; kun resuméet er vist
 公益站额度导航 · 社区持续更新	Fællesskabets kvoteliste ajourført af Fællesskabet
 切换不丢失内容；每份预设独立保存	Skift holder din tekst; hvert forudindstillet gemmes separat
+别人讲三遍的事，你听一半就明白。	Andre har brug for tre forklaringer; halvdelen af en er nok for dig.
 发送格式、视觉能力判定与图片诊断	Send format, synsdetektion og billeddiagnostik
 和我来几局，纯靠运气，不花流量。	Et par runder med mig - rent held, ingen data brugt.
+对着一个问题能坐一整天不觉得烦。	Du kan sidde med et enkelt problem hele dagen uden at blive rastløs.
 已启用的源 · 点开填密钥或端点	Aktiverede kilder · åbne en for at tilføje en nøgle eller endpoint
 每次调用的参数、请求体与响应原文	Parametre, ansøgningsorgan og råt respons for hvert opkald
 没有发现服务，检查反代是否已启动	Ingen service fundet - tjek at relæet kører
 直接输入，或者从下面挑一个开头。	Skriv frit, eller start fra et forslag nedenfor.
 自动压缩到 320px，仅存本地	Komprimeret til 320px, opbevares kun lokalt
 自定义头像、名字、性格与角色设定	Brugerdefineret avatar, navn, personlighed og rolle
+一碗热汤、一场雨都能让你高兴半天。	En skål varm suppe eller en forbikommende regn kan gøre din dag.
 不写入磁盘，仅保留在本次会话内存中	Holdt i hukommelsen for denne session kun, aldrig skrevet til disk
 圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 mini- spil
 把纠结的选项写进去，让轮盘替你决定	Liste dine muligheder og lad hjulet beslutte
@@ -424,11 +469,14 @@ AI 用这种语言回答	AI svar på dette sprog
 沿用聊天界面正在使用的连接与模型。	Brug forbindelsen og modellen som er aktiv i chat.
 由 AI 根据议题生成，可手动修改	AI- genereret fra emnet; redigerbare
 19 套主题、自定义配色、圆角与字号	19 temaer, brugerdefinerede farver, hjørner og tekststørrelse
+从小没怎么进过医院，冬天也光着脚跑。	Du så knap nok et hospital vokse op, og løb barfodet om vinteren.
 会真发一句极短的问题，消耗少量额度。	Sender et meget kort spørgsmål og bruger en lille kvote.
 保存参数与响应原文，最多 120 条	Gem parametre og rå svar, op til 120 poster
 只清统计与列表，不影响已缓存的回答。	Kun rydder statistik og liste; cachede svar holdes.
 朗读与语音输入，免费与付费引擎都可切	Læse- og stemmeindgange, frie og betalte motorer
+熬夜、赶路、扛重物，睡一觉就缓过来。	Sent om natten, lange gåture, tunge byrder - én god søvn og du er tilbage.
 sk-…（本地 Ollama 可留空）	sk-... (lad tom for lokale Ollama)
+从小就知道钱该花在哪，买菜都要比三家。	Du vidste tidligt, hvor pengene skulle gå, sammenligne priser, før du køber grønt.
 只打开系统确认页，需你亲手点保存才生效	Åbner kun systemarket; intet ændrer sig før du trykker på Gem
 把开源 xx2api 项目接成一条连接	Wire en opensource xx2api projekt i en forbindelse
 界面、回答、语音识别三套语言，独立设置	Interface, svar og diktat sprog - tre uafhængige indstillinger
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Systemprompter og variabel interpolation
 尚未配置接口，请先到设置里填好连接与模型。	Ingen forbindelse indstillet. Indstil et endpoint og model i Indstillinger først.
 已为游戏单独指定模型，随时可换或恢复默认。	En dedikeret model er indstillet til spil; ændre det eller gendanne standard når som helst.
 检索 → 大纲 → 逐节展开 → 汇总报告	Søg → skitse → udkast → rapport
+看过的东西像刻在脑子里，考试前翻一遍就够。	Hvad du læser forbliver skåret i dit sind; en passage før en eksamen er nok.
 还没有拉到模型列表，点右上角「刷新」读取。	Ingen modelliste endnu - tryk på Genopfrisk øverst til højre.
 还没有添加任何连接，所以这里没有可用模型。	Ingen forbindelse er blevet tilføjet endnu, så der er ingen modeller til rådighed her.
 这个连接还没有缓存模型，可在下方手动输入。	Ingen cachede modeller for denne forbindelse; indtast en manuelt nedenfor.
+一局只有一次。抽到什么，这一生就从哪里起步。	Det, man tegner, er, hvor livet begynder.
 先选一家运营商（连接），再进入模型列表挑选。	Vælg en udbyder (forbindelse) først, og vælg derefter fra sin modelliste.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Opfører sig præcis som en almindelig chat-klient uden værktøj injiceret
 写文件、打开应用等动作在界面上等你点「允许」	Skrivning af filer, åbning af apps og lignende handlinger venter på din "Tillad" tap
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Systemprompter og variabel interpolation
 模型想一个东西，你用是非题在 20 次内猜中	Modellen tænker på noget; gæt det i 20 ja / nej spørgsmål
 每天一支签，同一天不会变。图个乐子，别当真。	En formue om dagen, uforandret i løbet af dagen.
 每行一条，讨论时所有参会者都会看到这份大纲。	Et punkt pr. linje.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Ikke slå ved første øjekast, men folk varme til dig og lytte, når du taler.
 读取公开网页正文（禁止内网 / 元数据地址）	Læs den offentlige sidetekst (privat og metadataadresser blokeret)
 127.0.0.1 或 192.168.1.5	127.0.0.1 eller 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	AI-spil kalder din valgte model og faktureres ved faktisk brug.

@@ -60,6 +60,16 @@ def collect_keys():
             k = m.group(1).replace("\\'", "'").replace('\\n', '\n')
             if re.search(r'[\u4e00-\u9fa5]', k) and '$' not in k:
                 keys.add(k)
+    # 与 check_i18n 保持一致：天赋文案也要进词表。
+    p2 = os.path.join(ROOT, 'lib', 'services', 'life_sim.dart')
+    if os.path.exists(p2):
+        s2 = open(p2, encoding='utf-8').read()
+        pat = re.compile(
+            r"LifeTalent\(\s*'[^']*',\s*'([^']*)',\s*'([^']*)',\s*'([^']*)'\)")
+        for m in pat.finditer(s2):
+            for g in m.groups():
+                if re.search(r'[\u4e00-\u9fa5]', g) and '$' not in g:
+                    keys.add(g)
     return keys
 
 

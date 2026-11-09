@@ -25,6 +25,7 @@
 复制	Nakala ya nakala
 外观	Kuonekana kwa
 大了	Ya juu sana
+天赋	Talent ya Talent
 字号	Ukubwa wa maandishi
 密钥	Muhimu wa Key Key Key Key Key Key
 对话	Mazungumzo ya mazungumzo
@@ -34,6 +35,7 @@
 平局	Ni hatua ya
 开始	Mwanzo wa kuanza
 当前	Kwa sasa
+心大	Rahisi ya
 忽略	Kuwa makini
 性别	Jinsia ya jinsia
 恢复	Kurudishwa upya
@@ -47,11 +49,14 @@
 游戏	Michezo ya Michezo
 猜！	Fikiria mwenyewe!
 百万	M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M
+知足	Maudhui ya Maudhui
 确定	OK OK OK OK OK
 离线	Ya nje
 管理	Usimamizi wa
 累计	Jumla ya jumla
+继续	Endelea Endelea Endelea Endelea Endelea
 编辑	Edit Edit Edit
+耐看	Kukua kwa watu
 视觉	Maono ya maono
 设置	Mipangilio ya Mipangilio
 语音	Sauti ya sauti
@@ -64,20 +69,29 @@
 1 轮	raundi ya 1
 2 轮	2 Mzunguko wa mzunguko
 3 轮	3 raundi ya raundi
+个城市	Miji ya miji
 个模型	Mifano ya mifano
 个选项	Chaguzi za chaguzi
 二十问	Maswali ya 20
+人缘好	Kocha wa
 今日签	Utajiri wa leo
+会来事	Kuwa na huruma
+会算账	Nzuri kwa fedha
 你赢了	Ushindi wako
 再看看	Kwa mara nyingine tena
+出生地	Mahali pa kuzaliwa
 去设置	Mipangilio ya Open
 多模型	Model nyingi
 已停更	Kuendelea
 已复制	Kuwa Copied
 已完结	Imekamilishwa
+底子硬	Katiba ya Iron
 待检测	Hakuna majaribio
 我赢了	Kuwa win
+技术型	Teknolojia ya kiufundi
+抗打击	Kuwa mvumilivu
 摇一摇	Shake shake shake
+有名气	Inajulikana
 未匹配	Sio kinyume cha
 未发言	Hakuna majibu
 条发言	Kugeuka
@@ -86,11 +100,19 @@
 猜数字	Fikiria idadi ya
 生成中	Kuzalisha
 知道了	Kuwa na
+耐折腾	Kuwa kama misumari
+能上台	Kujiamini kwenye Stage
 自定义	Desturi ya
+自来熟	Watu binafsi
+被记住	Kumbukumbu ya
+读书人	Mwalimu
+起点稳	Mwanzo wa Steady
+身体好	Afya ya afya
 转起来	Spin ya Spin
 重命名	Rejina
 + 新建	+ mpya
 一共用了	Ndani ya
+一点就透	Haraka juu ya uptake
 一键接入	Kuunganisha wote
 人物形象	Mtu
 人生事件	Tukio la Maisha
@@ -117,6 +139,7 @@
 匹配模型	Mfano wa kuigwa
 原始输出	Uzalishaji wa Raw
 参会模型	Washiriki wa
+吃得住苦	Hardy ya
 命中概览	Cache ya hits
 命中次数	Mafanikio ya
 图片诊断	Picha za uchunguzi
@@ -124,9 +147,11 @@
 复制全文	Nakala zote
 复制内容	Nakala ya maandishi
 外观主题	Kuonekana kwa
+天赋抽签	Talent ya kuchora
 完全权限	Upatikanaji kamili
 实时价格	Bei ya Kuishi
 实验记录	Jaribio la majaribio
+容易开心	Rahisi sana kufurahia
 对话语言	Majibu ya lugha
 导出纪要	Dakika ya mauzo
 少量权限	Upatikanaji mdogo
@@ -144,6 +169,7 @@
 恢复默认	Kurejesha default
 抉择轮盘	Uamuzi wa
 抽一支签	Kupata utajiri
+抽取天赋	Kuwa talent
 拉取失败	Kushindwa kwa
 按天花费	Gharama ya siku
 授权范围	Ruhusa ya
@@ -178,6 +204,7 @@
 用量追踪	Ufuatiliaji wa matumizi
 界面语言	Lugha ya interface
 盖棺定论	Hukumu ya Mwisho
+精打细算	Kuwa
 系统当前	Mfumo wa Mfumo
 累计估算	Jumla ya makadirio
 缓存命中	Cache ya hits
@@ -197,13 +224,16 @@
 请求次数	Maombi ya
 输入单价	Bei ya chini
 输出单价	Bei ya nje
+过目不忘	Picha ya kumbukumbu
 这台设备	Mfumo huu
 连接配置	Maelezo ya Connection
+选择城市	Chagua mji
 选择形象	Chagua mtu
 选择模型	Kuchagua Model
 配置名称	Jina la Wasifu
 配置连接	Kuunganisha Link
 重新开始	Kuanza upya
+钻得进去	Mtazamo wa kina
 页面底色	Ukurasa wa background
 预设名称	Jina la kwanza
 魔法八球	Uchawi wa 8-Ball
@@ -216,6 +246,8 @@ AI 玩法	Michezo ya
 反代与网关	Ufungaji & Mlango
 命令已复制	Amri ya kunakiliwa
 填入输入框	Ongeza kwenye pembejeo
+学什么都快	Mwalimu wa haraka
+家里有余粮	Mwanzo wa Faraja
 已复制回答	Majibu yaliyochapishwa
 已开启朗读	Soma juu ya
 应用与网页	Apps na Mtandao
@@ -250,6 +282,7 @@ AI 玩法	Michezo ya
 还没有存档	Hakuna maisha yaliyookolewa bado
 还没有故事	Hakuna hadithi bado
 连接与模型	Uhusiano na mifano
+选择出生地	Kuchagua mahali pa kuzaliwa
 重命名配置	Orodha ya profile
 链接已复制	Link iliyopakuliwa
 顶部形象区	Mkoa wa Juu wa Mtu
@@ -287,6 +320,7 @@ AI 玩法	Michezo ya
 猜中了！就是	Ilikuwa hivyo! ilikuwa
 生成事件失败	Kushindwa kufanya tukio
 生成传记失败	Kushindwa kuandika wasifu
+站在人前不怵	Hatua ya uwepo
 等待模型输出	Kuangalia kwa ajili ya Model
 自动记录实验	Majaribio ya Auto-Redio
 设备清理已开	Vifaa vya kusafisha juu
@@ -308,6 +342,7 @@ HTTP 插件	Plugin ya HTTP
 按当前单价估算	Kulipwa kwa bei ya sasa
 换个关键词试试	Jaribu kutumia neno jingine
 搜索模型 ID	Mfano wa ID
+搜索省份或城市	Kutafuta Mkoa au Mji
 智能体请求执行	Waziri ataka hatua zichukuliwe
 服务端缓存命中	Msaada wa cache
 朗读上一条回答	Soma jibu la mwisho
@@ -389,18 +424,25 @@ AI 用这种语言回答	Majibu katika lugha hii
 点开始，由模型先说第一句。	Bonyeza kuanza na kuruhusu mfano kuzungumza kwanza.
 累计消耗、单价、明细与导出	Jumla ya matumizi, bei, kuvunjika na kuuza nje
 至少需要一个可用的参会模型	Angalau mfumo mmoja wa kazi unahitajika
+见过你的人都记得你的名字。	Mtu yeyote ambaye atakuja kwako atakumbuka jina lako.
+跟谁都能在三句话里熟起来。	Kwa maneno mengine, tayari unajua mtu yeyote.
 预览：静水深流，字要看得清	Preview: Maji bado, maandishi lazima yawe halali
+不算富，但从不缺口粮与学费。	Sio tajiri, lakini daima kulikuwa na chakula kwenye meza na pesa kwa shule.
 例如：今天适合开始新计划吗？	Je, leo ni wakati mzuri wa kuwa na mpango mpya?
+先抽一次天赋，再开始这一生。	Fanya kazi kwanza, kisha anza maisha haya.
 关闭后主界面回到纯工作台样式	Wakati wa kuondoka, skrini kuu inarudi kwenye eneo la wazi la kazi
 命中统计、响应复用与缓存管理	Hit stats, majibu reuse na usimamizi cache
+天塌下来先睡一觉，醒来再说。	Ikiwa hewa ni kavu sana, basi unahitaji kumwagilia kwanza.
 按钮、标题与说明文字都跟着换	Buttons, majina na maelezo yote pia kubadili
 这个连接还没有读到模型列表。	Hata hivyo, hakuna orodha ya barua pepe iliyosomwa kwa uhusiano huu.
 这台主机上没有发现兼容端点。	Hakuna kikomo cha mwisho kilichopatikana kwenye mwenyeji huu.
 1 到 100，看你能几次猜中	Idadi kutoka 1 hadi 100 - ni kiasi gani unaweza kushinda?
+一屋子人看着你，你反而更清醒。	Chumba kilichojaa macho yako hukufanya uwe mkali zaidi.
 你一句我一句，让故事一直讲下去	Chukua hatua na uendelee na hadithi
 关闭后保留文档但不注入工具清单	Wakati wa kuondoka, nyaraka hukaa lakini orodha ya zana haijaingizwa
 多源选择、每源密钥与连通性测试	Chagua vyanzo, kuongeza funguo za chanzo, uunganisho wa mtihani
 接口地址、密钥、模型与多配置档	Endpoint, muhimu, mifano na maelezo mengi
+没有找到这个城市，试试别的写法	Hakuna kitu kama hicho, jaribu kutumia lugha nyingine.
 深度研究工作流、实验记录与报告	Kazi ya utafiti wa kina, kumbukumbu ya majaribio na ripoti
 猜一个 1 到 100 的数字	Fikiria idadi kutoka 1 hadi 100
 请输入 1 到 100 的整数	Kuingia idadi kamili kutoka 1 hadi 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	Majibu katika lugha hii
 先完成推理再输出结论，只显示摘要	Jibu la kwanza, kisha jibu; muhtasari tu unaonyeshwa
 公益站额度导航 · 社区持续更新	Orodha ya Umoja wa Mataifa · updated na jamii
 切换不丢失内容；每份预设独立保存	Kubadilisha huweka maandishi yako; kila preset imehifadhiwa tofauti
+别人讲三遍的事，你听一半就明白。	Wengine wanahitaji maelezo matatu; nusu ya moja inatosha kwako.
 发送格式、视觉能力判定与图片诊断	Tuma muundo, kugundua maono na uchunguzi wa picha
 和我来几局，纯靠运气，不花流量。	Baadhi ya hatua - bahati, hakuna data kutumika.
+对着一个问题能坐一整天不觉得烦。	Unaweza kukaa na tatizo moja kila siku bila kupumzika.
 已启用的源 · 点开填密钥或端点	Imewezeshwa vyanzo · kufungua moja ili kuongeza ufunguo au mwisho
 每次调用的参数、请求体与响应原文	Parameters, ombi mwili na majibu ghafi kwa kila simu
 没有发现服务，检查反代是否已启动	Hakuna huduma iliyopatikana - angalia kwamba relay inaendesha
 直接输入，或者从下面挑一个开头。	Chagua kwa uhuru, au kuanza kwa maoni hapa chini.
 自动压缩到 320px，仅存本地	Kuunganishwa kwa 320px, kuhifadhiwa ndani ya nchi
 自定义头像、名字、性格与角色设定	Avatar ya kawaida, jina, utu na jukumu
+一碗热汤、一场雨都能让你高兴半天。	Kunywa maji ya moto au ya moto wakati wa mchana.
 不写入磁盘，仅保留在本次会话内存中	Kept katika kumbukumbu kwa ajili ya kikao hiki tu, kamwe imeandikwa kwa disk
 圆桌会议、模拟人生与 7 个小游戏	Maisha Simulator & 7 mini-michezo
 把纠结的选项写进去，让轮盘替你决定	Chagua chaguzi zako na kuruhusu gurudumu kuamua
@@ -424,11 +469,14 @@ AI 用这种语言回答	Majibu katika lugha hii
 沿用聊天界面正在使用的连接与模型。	Tumia uunganisho na mfano unaofanya kazi sasa katika mazungumzo.
 由 AI 根据议题生成，可手动修改	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ...................................................................
 19 套主题、自定义配色、圆角与字号	Mandhari za 19, rangi za desturi, pembe na ukubwa wa maandishi
+从小没怎么进过医院，冬天也光着脚跑。	Ni nadra sana kuona hospitali ikikua, na kukimbia bila viatu wakati wa baridi.
 会真发一句极短的问题，消耗少量额度。	Tuma swali moja fupi sana na utumie upendeleo kidogo.
 保存参数与响应原文，最多 120 条	Hifadhi vigezo na majibu ghafi, hadi kuingia kwa 120
 只清统计与列表，不影响已缓存的回答。	Tu wazi stats na orodha; majibu cached ni kuhifadhiwa.
 朗读与语音输入，免费与付费引擎都可切	Kusoma-aloud na pembejeo ya sauti, injini za bure na zilizolipwa
+熬夜、赶路、扛重物，睡一觉就缓过来。	Usiku wa mwisho, matembezi ya muda mrefu, mizigo nzito - usingizi mzuri na unarudi.
 sk-…（本地 Ollama 可留空）	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ..................................................................
+从小就知道钱该花在哪，买菜都要比三家。	Unajua mapema ambapo fedha inapaswa kwenda, kulinganisha bei kabla ya kununua kijani.
 只打开系统确认页，需你亲手点保存才生效	Inafungua karatasi ya mfumo tu; hakuna mabadiliko mpaka bonyeza Hifadhi
 把开源 xx2api 项目接成一条连接	Wire mradi wa chanzo wazi xx2api katika uhusiano
 界面、回答、语音识别三套语言，独立设置	Interface, jibu na lugha za kuamuru - mipangilio mitatu ya kujitegemea
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Mfumo wa haraka kabla na interpolation kutof
 尚未配置接口，请先到设置里填好连接与模型。	Hakuna uunganisho uliosanidiwa. Weka mwisho na mfano katika Mipangilio kwanza.
 已为游戏单独指定模型，随时可换或恢复默认。	Mfano wa kujitolea umewekwa kwa michezo; kuibadilisha au kurejesha default wakati wowote.
 检索 → 大纲 → 逐节展开 → 汇总报告	Muhtasari wa Ripoti
+看过的东西像刻在脑子里，考试前翻一遍就够。	Kile unachosoma kinakaa ndani ya akili yako; njia moja kabla ya mtihani ni ya kutosha.
 还没有拉到模型列表，点右上角「刷新」读取。	Hakuna orodha ya mfano bado - bonyeza upya kwenye kulia juu.
 还没有添加任何连接，所以这里没有可用模型。	Hakuna uunganisho ulioongezwa bado, kwa hivyo hakuna mifano inapatikana hapa.
 这个连接还没有缓存模型，可在下方手动输入。	Hakuna mifano ya cached kwa uunganisho huu; kuingia moja kwa manually chini.
+一局只有一次。抽到什么，这一生就从哪里起步。	Kila kitu unachopata katika maisha yako ni pale ambapo maisha yako huanza.
 先选一家运营商（连接），再进入模型列表挑选。	Chagua jina la kikundi, kisha chagua jina la kikundi.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Wakati wa mbali, kutenda hasa kama wazi chat mteja na hakuna zana injected
 写文件、打开应用等动作在界面上等你点「允许」	Kuandika faili, programu za kufungua na vitendo sawa vinasubiri bomba lako la "ow"
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Mfumo wa haraka kabla na interpolation kutof
 模型想一个东西，你用是非题在 20 次内猜中	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ...................................................................
 每天一支签，同一天不会变。图个乐子，别当真。	Bahati moja kwa siku, unchanged ndani ya siku. tu kwa ajili ya furaha.
 每行一条，讨论时所有参会者都会看到这份大纲。	Picha zote na Wizara ya Mambo ya Ndani ya Nchi. ....................................................................
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Sio tu kwamba watu wanakutazama, lakini wanakuhimiza na kukusikiliza.
 读取公开网页正文（禁止内网 / 元数据地址）	Soma maandishi ya ukurasa wa umma ( Anwani za kibinafsi na za metadata zimezuiwa)
 127.0.0.1 或 192.168.1.5	19,416,893,755 (sawa na asilimia 65)
 AI 玩法会调用你所选的模型，按实际用量计费。	AI michezo wito mfano wako kuchaguliwa na ni billed na matumizi halisi.

@@ -25,6 +25,7 @@
 复制	Kopeeri
 外观	Välimus
 大了	Liiga kõrge
+天赋	Talent
 字号	Teksti suurus
 密钥	Võti
 对话	Vestlus
@@ -34,6 +35,7 @@
 平局	See on viik
 开始	Alusta
 当前	Praegune
+心大	Lihtne
 忽略	Ignoreeri
 性别	Soolise
 恢复	Taastage
@@ -47,11 +49,14 @@
 游戏	Mängud
 猜！	Arva!
 百万	M
+知足	Sisu
 确定	OK
 离线	Offline
 管理	Manage
 累计	Kokku
+继续	Jätka
 编辑	Edit
+耐看	Kasvab inimestel
 视觉	Visioon
 设置	Seadistused
 语音	Hääl
@@ -64,20 +69,29 @@
 1 轮	1 ring
 2 轮	2 vooru
 3 轮	3 ringi
+个城市	linnades
 个模型	modelle
 个选项	valikuid
 二十问	20 küsimust
+人缘好	Meeldis
 今日签	Tänane varandus
+会来事	Ühiskondlik
+会算账	Rahaga on hästi
 你赢了	Võidad
 再看看	Jälle
+出生地	Sünnikoht
 去设置	Ava seaded
 多模型	Mitmemudeliline
 已停更	Lõpetatud
 已复制	Kopeerisin
 已完结	Lõpetasin
+底子硬	Raudne põhiseadus
 待检测	Testimata
 我赢了	Võitsin
+技术型	Tehniline
+抗打击	Vastupidav
 摇一摇	Raputa
+有名气	Tuntud
 未匹配	Ei sobinud
 未发言	Vastuseta
 条发言	muutub
@@ -86,11 +100,19 @@
 猜数字	Arva number
 生成中	Genereeri
 知道了	Sain aru
+耐折腾	Karmid naelad
+能上台	Enesekindel laval
 自定义	Kohandatud
+自来熟	Inimisik
+被记住	Mälestusväärne
+读书人	Scholar
+起点稳	Püsiv käivitumine
+身体好	Tervislik
 转起来	Spin
 重命名	Ümbernimeta
 + 新建	+ Uus
 一共用了	sisse
+一点就透	Kiiresti omastamine
 一键接入	Ühendage
 人物形象	Persona
 人生事件	Elusündmus
@@ -117,6 +139,7 @@
 匹配模型	Sobiv mudel
 原始输出	Toores väljund
 参会模型	Osalejad
+吃得住苦	Hardy
 命中概览	Vahemälu tabab
 命中次数	Löögid
 图片诊断	Pildidiagnostika
@@ -124,9 +147,11 @@
 复制全文	Kopeeri
 复制内容	Kopeeri tekst
 外观主题	Välimus
+天赋抽签	Talendijoonis
 完全权限	Täielik juurdepääs
 实时价格	Eluasemehinnad
 实验记录	Katselogi
+容易开心	Kergelt rõõmus
 对话语言	Vastamiskeel
 导出纪要	Ekspordiminutid
 少量权限	Minimaalne juurdepääs
@@ -144,6 +169,7 @@
 恢复默认	Vaikimisi taastamine
 抉择轮盘	Otsustusratas
 抽一支签	Joonista varandus
+抽取天赋	Joonista talent
 拉取失败	Tõmbamine nurjus
 按天花费	Kulud päeva lõikes
 授权范围	Load
@@ -178,6 +204,7 @@
 用量追踪	Kasutuse jälgimine
 界面语言	Liideskeel
 盖棺定论	Lõplik kohtuotsus
+精打细算	Thrifty
 系统当前	Süsteemi
 累计估算	Hinnanguline kogusumma
 缓存命中	Vahemälu tabab
@@ -197,13 +224,16 @@
 请求次数	Taotlused
 输入单价	Sisendhind
 输出单价	Tootmishind
+过目不忘	Fotograafiamälu
 这台设备	Seade
 连接配置	Ühenduse profiilid
+选择城市	Vali linn
 选择形象	Vali persona
 选择模型	Vali mudel
 配置名称	Profiili nimi
 配置连接	Ühenduse seadistamine
 重新开始	Taaskäivitus
+钻得进去	Sügav fookus
 页面底色	Lehekülje taust
 预设名称	Eelseadistatud nimi
 魔法八球	Magic 8-ball
@@ -216,6 +246,8 @@ AI 玩法	Tehisintellektimängud
 反代与网关	Relee ja lüüsi
 命令已复制	Komando kopeeris
 填入输入框	Sisesta sisendisse
+学什么都快	Kiire õppija
+家里有余粮	Mugav algus
 已复制回答	Vastus kopeeriti
 已开启朗读	Loe edasi
 应用与网页	Rakendused ja veebirakendused
@@ -250,6 +282,7 @@ AI 玩法	Tehisintellektimängud
 还没有存档	Elusid pole veel päästetud
 还没有故事	Lugusid veel pole
 连接与模型	Ühendusmudelid
+选择出生地	Vali sünnikoht
 重命名配置	Nimeta ümber profiil
 链接已复制	Link kopeeriti
 顶部形象区	Kõrgeima isiku ala
@@ -287,6 +320,7 @@ AI 玩法	Tehisintellektimängud
 猜中了！就是	Sain kätte!
 生成事件失败	Sündmuse genereerimine nurjus
 生成传记失败	Eluloo kirjutamine nurjus
+站在人前不怵	Lava kohalolek
 等待模型输出	Mudeli ootamine
 自动记录实验	Automaatsalvestuskatsed
 设备清理已开	Seadme puhastamine
@@ -308,6 +342,7 @@ HTTP 插件	HTTP plugin
 按当前单价估算	Hinnanguline jooksevhindades
 换个关键词试试	Proovi teist võtmesõna
 搜索模型 ID	Otsingumudeli ID
+搜索省份或城市	Otsingupiirkond või -linn
 智能体请求执行	Agent nõuab hagi
 服务端缓存命中	Pakkuja vahemälu tabamused
 朗读上一条回答	Loe viimast vastust
@@ -389,18 +424,25 @@ AI 用这种语言回答	AI vastab selles keeles
 点开始，由模型先说第一句。	Koputage ja laske mudelil esimesena rääkida.
 累计消耗、单价、明细与导出	Kulutused kokku, hinnad, jaotus ja eksport
 至少需要一个可用的参会模型	Vaja on vähemalt ühte töömudelit
+见过你的人都记得你的名字。	Kes sinuga kohtub, mäletab su nime.
+跟谁都能在三句话里熟起来。	Kolm lauset sisse, sa oled juba kellegagi tuttav.
 预览：静水深流，字要看得清	Eelvaade: veel vesi, tekst peaks jääma loetavaks
+不算富，但从不缺口粮与学费。	Mitte küll rikas, aga alati oli laual toit ja raha kooli jaoks.
 例如：今天适合开始新计划吗？	Kas tänane päev on hea uue plaani jaoks?
+先抽一次天赋，再开始这一生。	Kõigepealt joonista talent, siis alusta seda elu.
 关闭后主界面回到纯工作台样式	Väljalülitamisel naaseb peaekraan tavalise tööruumi välimusele
 命中统计、响应复用与缓存管理	Hit statistika, vastuse taaskasutamine ja vahemälu haldamine
+天塌下来先睡一觉，醒来再说。	Kui taevas kukub, siis magad esimesena ja tegeled sellega hiljem.
 按钮、标题与说明文字都跟着换	Nupud, pealkirjad ja kirjeldused kõik lülituvad liiga
 这个连接还没有读到模型列表。	Selle ühenduse jaoks ei ole veel mudeliloendit loetud.
 这台主机上没有发现兼容端点。	Sellel masinal ei leitud ühilduvat lõpp-punkti.
 1 到 100，看你能几次猜中	Number 1 kuni 100 - kui vähe oletusi saate võita?
+一屋子人看着你，你反而更清醒。	Tuba täis silmi sinu peal teeb sind ainult teravamaks.
 你一句我一句，让故事一直讲下去	Käige kordamööda ja hoidke lugu käigus
 关闭后保留文档但不注入工具清单	Väljalülitamisel jäävad dokumendid alles, kuid tööriistade nimekirja ei süstita
 多源选择、每源密钥与连通性测试	Vali allikad, lisa lähtekoodi võtmed, testi ühenduvus
 接口地址、密钥、模型与多配置档	Lõpp-punkt, võti, mudelid ja mitu profiili
+没有找到这个城市，试试别的写法	Pole sellist linna, proovi uut kirjapilti.
 深度研究工作流、实验记录与报告	Süvauuringute töövoog, katsepäevik ja aruanded
 猜一个 1 到 100 的数字	Arvake number vahemikus 1 kuni 100
 请输入 1 到 100 的整数	Sisestage täisarv vahemikus 1 kuni 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	AI vastab selles keeles
 先完成推理再输出结论，只显示摘要	Kõigepealt põhjus, siis vastus; näidatakse ainult kokkuvõtet
 公益站额度导航 · 社区持续更新	Ühenduse kvootide nimekiri · ühenduse ajakohastatud
 切换不丢失内容；每份预设独立保存	Lülitamine säilitab teksti; iga eelseadistus salvestatakse eraldi
+别人讲三遍的事，你听一半就明白。	Teised vajavad kolme selgitust, pooled neist on teile piisavad.
 发送格式、视觉能力判定与图片诊断	Vormingu, nägemise tuvastamise ja pildidiagnostika saatmine
 和我来几局，纯靠运气，不花流量。	Paar vooru minuga - puhas õnn, andmeid ei kasutata.
+对着一个问题能坐一整天不觉得烦。	Sa võid istuda ühe probleemiga kogu päeva ilma rahutuks muutumata.
 已启用的源 · 点开填密钥或端点	Allikate lubamine · võtme või lõpp-punkti lisamine
 每次调用的参数、请求体与响应原文	Parameetrid, päringuorgan ja töötlemata vastus iga kõne puhul
 没有发现服务，检查反代是否已启动	Teenust ei leitud – kontrolli, kas relee töötab
 直接输入，或者从下面挑一个开头。	Kirjutage vabalt või alustage allpool olevast soovitusest.
 自动压缩到 320px，仅存本地	Survestatud kuni 320px, salvestatud ainult kohapeal
 自定义头像、名字、性格与角色设定	Kohandatud avatar, nimi, isiksus ja roll
+一碗热汤、一场雨都能让你高兴半天。	Kauss kuuma suppi või mööduv vihm võib teie päeva teha.
 不写入磁盘，仅保留在本次会话内存中	Salvestatud ainult selle seansi mällu, pole kunagi kettale kirjutatud
 圆桌会议、模拟人生与 7 个小游戏	Ümarlaud, Life Simulator ja 7 minimängu
 把纠结的选项写进去，让轮盘替你决定	Loetle oma valikud ja lase rattal otsustada
@@ -424,11 +469,14 @@ AI 用这种语言回答	AI vastab selles keeles
 沿用聊天界面正在使用的连接与模型。	Kasutatakse vestlustes aktiivset ühendust ja mudelit.
 由 AI 根据议题生成，可手动修改	Teemast genereeritud AI; redigeeritav
 19 套主题、自定义配色、圆角与字号	19 teemat, kohandatud värvid, nurgad ja teksti suurus
+从小没怎么进过医院，冬天也光着脚跑。	Sa vaevu nägid haiglat üles kasvamas ja jooksid talvel paljajalu.
 会真发一句极短的问题，消耗少量额度。	Saadab ühe väga lühikese küsimuse ja kasutab väikest kvooti.
 保存参数与响应原文，最多 120 条	Salvesta parameetrid ja töötlemata vastused, kuni 120 kirjet
 只清统计与列表，不影响已缓存的回答。	Puhastab ainult statistikat ja nimekirja; vahemälus vastused säilitatakse.
 朗读与语音输入，免费与付费引擎都可切	Read-aloud ja häälsisend, tasuta ja tasulised mootorid
+熬夜、赶路、扛重物，睡一觉就缓过来。	Hilisõhtud, pikad jalutuskäigud, rasked koormused - üks hea uni ja sa oled tagasi.
 sk-…（本地 Ollama 可留空）	sk-... (jäta kohaliku Ollama puhul tühjaks)
+从小就知道钱该花在哪，买菜都要比三家。	Sa teadsid varakult, kuhu raha peaks minema, võrreldes hindu enne roheliste ostmist.
 只打开系统确认页，需你亲手点保存才生效	Avab ainult süsteemilehe; midagi ei muutu enne, kui puudutad Salvesta
 把开源 xx2api 项目接成一条连接	Avatud lähtekoodiga xx2api projekti ühendamine ühendusega
 界面、回答、语音识别三套语言，独立设置	Liides-, vastus- ja dikteerimiskeeled – kolm sõltumatut seadistust
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Süsteemi algseadistused ja muutujate interp
 尚未配置接口，请先到设置里填好连接与模型。	Ühendust pole seadistatud. Seadistustes seadke kõigepealt lõpp- punkt ja mudel.
 已为游戏单独指定模型，随时可换或恢复默认。	Mängudele on määratud spetsiaalne mudel; seda igal ajal muuta või vaikeväärtus taastada.
 检索 → 大纲 → 逐节展开 → 汇总报告	Otsing → ülevaade → eelnõu → raport
+看过的东西像刻在脑子里，考试前翻一遍就够。	See, mida te loete, jääb teie meelest nikerdatud; piisab ühest läbimisest enne eksamit.
 还没有拉到模型列表，点右上角「刷新」读取。	Mudelite nimekirja veel ei ole - puudutage paremal ülaosas värskendust.
 还没有添加任何连接，所以这里没有可用模型。	Ühendust ei ole veel lisatud, seega pole siin mudeleid saadaval.
 这个连接还没有缓存模型，可在下方手动输入。	Selle ühenduse jaoks pole puhverdatud mudeleid; sisesta üks käsitsi allpool.
+一局只有一次。抽到什么，这一生就从哪里起步。	Mida iganes sa joonistad, sealt see elu algabki.
 先选一家运营商（连接），再进入模型列表挑选。	Valige kõigepealt teenusepakkuja (ühendus), seejärel valige oma mudeliloendist.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Väljalülitamisel käitub täpselt nagu tavaline vestlusklient, kellel pole tööriistu süstitud
 写文件、打开应用等动作在界面上等你点「允许」	Failide kirjutamine, rakenduste avamine ja sarnased toimingud ootavad teie "Allow" kraani
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Süsteemi algseadistused ja muutujate interp
 模型想一个东西，你用是非题在 20 次内猜中	Mudel mõtleb millelegi; arva ära 20 jah/ei küsimusega
 每天一支签，同一天不会变。图个乐子，别当真。	Üks varandus päevas, päeva jooksul muutumatuna.
 每行一条，讨论时所有参会者都会看到这份大纲。	Iga osaleja näeb seda päevakorda.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Esmapilgul mitte silmatorkav, kuid inimesed soojendavad teid ja kuulavad, kui räägite.
 读取公开网页正文（禁止内网 / 元数据地址）	Loe avaliku lehekülje teksti (privaatne ja metaandmete aadress on blokeeritud)
 127.0.0.1 或 192.168.1.5	127.0.0.1 või 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	AI-mängud kutsuvad teie valitud mudelit ja arveldatakse tegeliku kasutuse järgi.

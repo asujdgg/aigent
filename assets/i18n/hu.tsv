@@ -25,6 +25,7 @@
 复制	Másolás
 外观	Megjelenés
 大了	Túl magas
+天赋	Tehetség
 字号	Szövegméret
 密钥	Kulcs
 对话	Beszélgetés
@@ -34,6 +35,7 @@
 平局	Ez egy döntetlen
 开始	Kezdés
 当前	Jelenleg
+心大	Easygoing
 忽略	Figyelmen kívül hagyás
 性别	Nem
 恢复	Visszaállítás
@@ -47,11 +49,14 @@
 游戏	Játékok
 猜！	Találd ki!
 百万	A
+知足	Tartalom
 确定	Oké
 离线	Offline
 管理	Kezelés
 累计	Összesen
+继续	Folytatás
 编辑	Szerkesztés
+耐看	Embereken nő
 视觉	Látás
 设置	Beállítások
 语音	Hang
@@ -64,20 +69,29 @@
 1 轮	1 kör
 2 轮	2 kör
 3 轮	3 kör
+个城市	városok
 个模型	modellek
 个选项	opciók
 二十问	20 Kérdés
+人缘好	Jól kedvelt
 今日签	A mai szerencse
+会来事	Társadalmi
+会算账	Jól bánsz a pénzzel
 你赢了	Nyertél
 再看看	Újra
+出生地	Szülőhely
 去设置	Beállítások megnyitása
 多模型	Több modell
 已停更	A kezelés megszakítása
 已复制	Másolt
 已完结	Befejezve
+底子硬	Vasalkotmány
 待检测	Nem vizsgálták
 我赢了	Nyertem
+技术型	Műszaki
+抗打击	Rugalmas
 摇一摇	Felrázás
+有名气	Ismert
 未匹配	Nem egyezik
 未发言	Nincs válasz
 条发言	fordulatok
@@ -86,11 +100,19 @@
 猜数字	Találd ki a számot
 生成中	Generálás
 知道了	Megvan
+耐折腾	Kemény, mint a szög
+能上台	Magabiztosság a színpadon
 自定义	Egyéni
+自来熟	Emberek
+被记住	Emlékezetes
+读书人	Tudomány
+起点稳	Folyamatos indítás
+身体好	Egészséges
 转起来	Pörgetés
 重命名	Átnevezés
 + 新建	+ Új
 一共用了	in
+一点就透	Gyors felvétel
 一键接入	Csatlakozás
 人物形象	Persona
 人生事件	Életesemény
@@ -117,6 +139,7 @@
 匹配模型	Párolt minta
 原始输出	Nyersteljesítmény
 参会模型	A résztvevők
+吃得住苦	Hardy
 命中概览	A gyorsítótár keresése
 命中次数	Hits
 图片诊断	Képdiagnosztika
@@ -124,9 +147,11 @@
 复制全文	Minden másolás
 复制内容	A szöveg másolása
 外观主题	Megjelenés
+天赋抽签	Tehetségrajz
 完全权限	Teljes hozzáférés
 实时价格	Élő árak
 实验记录	Kísérleti napló
+容易开心	Könnyen el vagyok ragadtatva
 对话语言	Válasznyelv
 导出纪要	Kiviteli jegyzőkönyv
 少量权限	Minimális hozzáférés
@@ -144,6 +169,7 @@
 恢复默认	Alapértelmezés visszaállítása
 抉择轮盘	Döntőkerék
 抽一支签	Rajzolj egy vagyont!
+抽取天赋	Rajzolj egy tehetséget
 拉取失败	Nem sikerült elérni
 按天花费	Naponkénti költség
 授权范围	Jogosultságok
@@ -178,6 +204,7 @@
 用量追踪	Használati nyomkövetés
 界面语言	Interfészek nyelve
 盖棺定论	Végső ítélet
+精打细算	Thrifty
 系统当前	Rendszer
 累计估算	Becsült összeg
 缓存命中	A gyorsítótár keresése
@@ -197,13 +224,16 @@
 请求次数	Kérelmek
 输入单价	Bemeneti ár
 输出单价	Kimeneti ár
+过目不忘	Fényképészeti memória
 这台设备	Ez az eszköz
 连接配置	Csatlakozási profilok
+选择城市	Válasszon várost
 选择形象	Válassza ki a személy
 选择模型	Modell kiválasztása
 配置名称	A profil neve
 配置连接	Kapcsolat beállítása
 重新开始	Újraindítás
+钻得进去	Mély fókusz
 页面底色	Oldal háttere
 预设名称	Előzetes név
 魔法八球	Magic 8- Ball
@@ -216,6 +246,8 @@ AI 玩法	AI játékok
 反代与网关	& Átjáró
 命令已复制	A parancs másolása
 填入输入框	Betöltés
+学什么都快	Gyors tanuló
+家里有余粮	Kényelmes kezdés
 已复制回答	A válasz másolása
 已开启朗读	Read-oud on
 应用与网页	Alkalmazások & web
@@ -250,6 +282,7 @@ AI 玩法	AI játékok
 还没有存档	Még nem mentettek meg senkit
 还没有故事	Még nincs sztori
 连接与模型	Csatlakozási modellek
+选择出生地	Válasszon szülőhelyet
 重命名配置	A profil átnevezése
 链接已复制	Lemásolt link
 顶部形象区	Top persona area
@@ -287,6 +320,7 @@ AI 玩法	AI játékok
 猜中了！就是	Megvan!
 生成事件失败	Nem sikerült létrehozni egy eseményt
 生成传记失败	Nem sikerült életrajzot írni
+站在人前不怵	Fokozatos jelenlét
 等待模型输出	A modellre várok
 自动记录实验	Auto-rekord kísérletek
 设备清理已开	Az eszköz megtisztítása
@@ -308,6 +342,7 @@ HTTP 插件	HTTP bővítmény
 按当前单价估算	Becsült folyó árakon
 换个关键词试试	Próbálj ki egy másik kulcsszót
 搜索模型 ID	Keresési modell azonosítója
+搜索省份或城市	Keresés tartomány vagy város
 智能体请求执行	Az ügynök keresetet kér
 服务端缓存命中	A szolgáltató gyorsítótár keresése
 朗读上一条回答	Olvassa el az utolsó választ
@@ -389,18 +424,25 @@ AI 用这种语言回答	Az MI válaszol ezen a nyelven
 点开始，由模型先说第一句。	Koppintson a kezdésre, és hagyja, hogy a modell beszéljen először.
 累计消耗、单价、明细与导出	Összes kiadás, árak, bontás és export
 至少需要一个可用的参会模型	Legalább egy munkamodell szükséges
+见过你的人都记得你的名字。	Aki találkozik veled, emlékszik a nevedre.
+跟谁都能在三句话里熟起来。	Három mondat van benne, és már mindenki ismeri.
 预览：静水深流，字要看得清	Előnézet: csendes víz, a szövegnek olvashatónak kell maradnia
+不算富，但从不缺口粮与学费。	Nem gazdag, de mindig volt étel az asztalon és pénz az iskolára.
 例如：今天适合开始新计划吗？	Például a mai nap jó egy új tervhez?
+先抽一次天赋，再开始这一生。	Először rajzolj egy tehetséget, aztán kezdd el ezt az életet.
 关闭后主界面回到纯工作台样式	Amikor ki, a fő képernyő visszatér a sima munkaterület megjelenés
 命中统计、响应复用与缓存管理	Hit statisztikák, válasz újrahasználat és gyorsítótár kezelése
+天塌下来先睡一觉，醒来再说。	Ha leesik az ég, te alszol először, és utána elintézed.
 按钮、标题与说明文字都跟着换	Gombok, címek és leírások mind kapcsoló is
 这个连接还没有读到模型列表。	Ehhez a kapcsolathoz még nem olvastunk modelllistát.
 这台主机上没有发现兼容端点。	Nincs kompatibilis végpont ezen a gazdatesten.
 1 到 100，看你能几次猜中	Egy szám 1-től 100-ig - hány találgatás győzhet?
+一屋子人看着你，你反而更清醒。	Egy szoba, tele szemekkel, csak élesebbé tesz.
 你一句我一句，让故事一直讲下去	Forduljatok és folytassátok a történetet
 关闭后保留文档但不注入工具清单	Ha ki, dokumentumok maradnak, de a szerszámlista nem kerül beadásra
 多源选择、每源密钥与连通性测试	Források kiválasztása, perforráskulcsok hozzáadása, tesztkapcsolat
 接口地址、密钥、模型与多配置档	Végpont, kulcs, modellek és több profil
+没有找到这个城市，试试别的写法	Nincs ilyen város.
 深度研究工作流、实验记录与报告	Mély kutatási munkafolyamat, kísérleti napló és jelentések
 猜一个 1 到 100 的数字	Találjon ki egy számot 1 és 100 között
 请输入 1 到 100 的整数	Adja meg az egész számot 1 és 100 között
@@ -409,14 +451,17 @@ AI 用这种语言回答	Az MI válaszol ezen a nyelven
 先完成推理再输出结论，只显示摘要	Első ok, majd válasz; csak az összefoglaló látható
 公益站额度导航 · 社区持续更新	Közösségi kvótajegyzék · a közösség által frissítve
 切换不丢失内容；每份预设独立保存	A váltás megtartja a szöveget; minden előre beállított külön kerül tárolásra
+别人讲三遍的事，你听一半就明白。	Másoknak három magyarázatra van szükségük; az egyik fele elég neked.
 发送格式、视觉能力判定与图片诊断	Formátum, látásfelismerés és képdiagnosztika küldése
 和我来几局，纯靠运气，不花流量。	Néhány töltény velem - tiszta szerencse, nem használt adatok.
+对着一个问题能坐一整天不觉得烦。	Egész nap csak egy problémával kell foglalkoznod, anélkül, hogy nyugtalan lennél.
 已启用的源 · 点开填密钥或端点	Engedélyezett források · nyisson meg egy kulcsot vagy végpontot
 每次调用的参数、请求体与响应原文	Paraméterek, kérési testület és nyers válasz minden egyes híváshoz
 没有发现服务，检查反代是否已启动	Nincs szolgáltatás található - ellenőrizze, hogy a relé fut
 直接输入，或者从下面挑一个开头。	Gépelj szabadon, vagy kezdj egy alábbi javaslatból.
 自动压缩到 320px，仅存本地	Sajtolt 320px, tárolt csak helyben
 自定义头像、名字、性格与角色设定	Egyéni avatár, név, személyiség és szerep
+一碗热汤、一场雨都能让你高兴半天。	Egy tál forró leves vagy egy múló eső eltöltheti a napodat.
 不写入磁盘，仅保留在本次会话内存中	Csak erre a munkamenetre emlékeztetett, soha nem volt lemezre írva
 圆桌会议、模拟人生与 7 个小游戏	Kerekasztal, Life Simulator & 7 mini- játékok
 把纠结的选项写进去，让轮盘替你决定	Sorolja fel a lehetőségeket, és hagyja, hogy a kerék döntsön
@@ -424,11 +469,14 @@ AI 用这种语言回答	Az MI válaszol ezen a nyelven
 沿用聊天界面正在使用的连接与模型。	Használja a kapcsolat és modell jelenleg aktív chat.
 由 AI 根据议题生成，可手动修改	AI- generált téma; szerkeszthető
 19 套主题、自定义配色、圆角与字号	19 téma, egyedi színek, sarkok és szövegméret
+从小没怎么进过医院，冬天也光着脚跑。	Alig látott egy kórházat felnőni, és télen mezítláb futott.
 会真发一句极短的问题，消耗少量额度。	Egy nagyon rövid kérdést küld, és egy kis kvótát használ.
 保存参数与响应原文，最多 120 条	A paraméterek és a nyers válaszok mentése, akár 120 bejegyzés
 只清统计与列表，不影响已缓存的回答。	Csak törli a statisztikákat és a listát; tárolja a válaszokat.
 朗读与语音输入，免费与付费引擎都可切	Hang- és hangfelvétel, ingyenes és fizetett motorok
+熬夜、赶路、扛重物，睡一觉就缓过来。	Hosszú éjszakák, hosszú séták, nehéz teher - egy jó alvás, és visszatértél.
 sk-…（本地 Ollama 可留空）	sk-... (hagyja üresen a helyi Ollama)
+从小就知道钱该花在哪，买菜都要比三家。	Korán tudtad, hova kell menni a pénzzel, összehasonlítottad az árakat, mielőtt zöldséget vettél.
 只打开系统确认页，需你亲手点保存才生效	Csak a rendszerlapot nyitja meg; semmi sem változik, amíg nem koppintottál a Mentés lehetőségre
 把开源 xx2api 项目接成一条连接	Egy nyílt forráskódú xx2api projekt csatlakoztatása
 界面、回答、语音识别三套语言，独立设置	Interfész, válasz és diktálási nyelvek - három független beállítás
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Rendszerazonnali beállítások és változ�
 尚未配置接口，请先到设置里填好连接与模型。	Nincs konfigurálva kapcsolat. Először állítson be egy végpontot és modellt a Beállítások mezőben.
 已为游戏单独指定模型，随时可换或恢复默认。	Egy külön modell van beállítva a játékok; változtatni, vagy visszaállítani az alapértelmezett bármikor.
 检索 → 大纲 → 逐节展开 → 汇总报告	Keresés → vázlat → tervezet → jelentés
+看过的东西像刻在脑子里，考试前翻一遍就够。	Amit olvasol, az az elmédbe vésve marad; egy passz a vizsga előtt elég.
 还没有拉到模型列表，点右上角「刷新」读取。	Még nincs modelllista - koppintsunk a Frissítés lehetőségre a jobb felső sarokban.
 还没有添加任何连接，所以这里没有可用模型。	Még nem adtak hozzá kapcsolatot, így itt nincsenek modellek.
 这个连接还没有缓存模型，可在下方手动输入。	Ehhez a kapcsolathoz nincs tárolt modell; írja be manuálisan.
+一局只有一次。抽到什么，这一生就从哪里起步。	Bármit is rajzolsz, ott kezdődik az élet.
 先选一家运营商（连接），再进入模型列表挑选。	Válasszon egy szolgáltatót (kapcsolat) először, majd válasszon a modell listájáról.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Amikor ki, úgy viselkedik, mint egy egyszerű chat kliens nélkül eszközök injektálva
 写文件、打开应用等动作在界面上等你点「允许」	A fájlok írása, az alkalmazások megnyitása és hasonló tevékenységek várják az "Engedélyezés" koppintást
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Rendszerazonnali beállítások és változ�
 模型想一个东西，你用是非题在 20 次内猜中	A modell gondol valamit; tippelj 20 igen / nem kérdések
 每天一支签，同一天不会变。图个乐子，别当真。	Napi egy vagyon, egy napon belül változatlan.
 每行一条，讨论时所有参会者都会看到这份大纲。	Minden résztvevő látja ezt a napirendet.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Nem első pillantásra, de az emberek melegek rád és hallgatnak, amikor beszélsz.
 读取公开网页正文（禁止内网 / 元数据地址）	A nyilvános oldal szövege (privát és metaadatcímek blokkolva)
 127.0.0.1 或 192.168.1.5	127.0.0.1 vagy 192.18.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	AI játékok hívja a kiválasztott modell, és kiszámlázzák a tényleges használat.

@@ -131,5 +131,37 @@ void main() {
       expect(find.text('开始这一生'), findsOneWidget);
       expect(tester.takeException(), isNull);
     });
+
+    testWidgets('模拟人生可以两级下钻选出生地，并抽一次天赋', (tester) async {
+      SharedPreferences.setMockInitialValues({});
+      final st = AppState()..settings = AppSettings();
+      await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
+        value: st,
+        child: const MaterialApp(home: LifeScreen()),
+      ));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 60));
+
+      // 出生地：先选省，点进去再选市，逐层返回。
+      await tester.tap(find.text('选择出生地'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('河北'));
+      await tester.pumpAndSettle();
+      expect(find.text('河北 · 选择城市'), findsOneWidget);
+      expect(find.text('石家庄'), findsOneWidget);
+      await tester.tap(find.text('石家庄'));
+      await tester.pumpAndSettle();
+      expect(find.text('河北 · 石家庄'), findsOneWidget);
+
+      // 天赋抽签：抽完换成结果卡，按钮不再出现（一局只有一次）。
+      expect(find.text('抽取天赋'), findsOneWidget);
+      await tester.ensureVisible(find.text('抽取天赋'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('抽取天赋'));
+      await tester.pumpAndSettle();
+      expect(find.text('抽取天赋'), findsNothing);
+      expect(find.text('天赋抽签'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
   });
 }

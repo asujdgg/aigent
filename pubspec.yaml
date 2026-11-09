@@ -1,7 +1,7 @@
 name: ai_agent_app
 description: "Aigent — 极简 AI 研究与多模态客户端"
 publish_to: 'none'
-version: 4.25.0+44
+version: 4.26.0+45
 
 environment:
   sdk: ^3.5.4

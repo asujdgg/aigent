@@ -669,4 +669,73 @@ const Map<String, String> kEnUi = {
       'No connection has been added yet, so there are no models available here.',
   '隔离工作区内读写、任务脚本（沙箱保护）':
       'Read/write in the isolated workspace and task scripts (sandboxed)',
+  '出生地': 'Birthplace',
+  '选择出生地': 'Choose birthplace',
+  '选择城市': 'Choose city',
+  '搜索省份或城市': 'Search province or city',
+  '个城市': 'cities',
+  '没有找到这个城市，试试别的写法': 'No such city. Try another spelling.',
+  '天赋': 'Talent',
+  '天赋抽签': 'Talent draw',
+  '抽取天赋': 'Draw a talent',
+  '一局只有一次。抽到什么，这一生就从哪里起步。':
+      'One roll per life. Whatever you draw is where this life begins.',
+  '先抽一次天赋，再开始这一生。':
+      'Draw a talent first, then begin this life.',
+  // 天赋名称
+  '过目不忘': 'Photographic memory',
+  '一点就透': 'Quick on the uptake',
+  '钻得进去': 'Deep focus',
+  '底子硬': 'Iron constitution',
+  '耐折腾': 'Tough as nails',
+  '耐看': 'Grows on people',
+  '自来熟': 'People person',
+  '家里有余粮': 'Comfortable start',
+  '会算账': 'Good with money',
+  '站在人前不怵': 'Stage presence',
+  '被记住': 'Memorable',
+  '心大': 'Easygoing',
+  '容易开心': 'Easily delighted',
+  // 天赋描述
+  '看过的东西像刻在脑子里，考试前翻一遍就够。':
+      'What you read stays carved in your mind; one pass before an exam is enough.',
+  '别人讲三遍的事，你听一半就明白。':
+      'Others need three explanations; half of one is enough for you.',
+  '对着一个问题能坐一整天不觉得烦。':
+      'You can sit with a single problem all day without getting restless.',
+  '从小没怎么进过医院，冬天也光着脚跑。':
+      'You barely saw a hospital growing up, and ran barefoot in winter.',
+  '熬夜、赶路、扛重物，睡一觉就缓过来。':
+      'Late nights, long walks, heavy loads — one good sleep and you are back.',
+  '第一眼不出挑，越看越顺眼，说话时别人愿意听。':
+      'Not striking at first glance, but people warm to you and listen when you speak.',
+  '跟谁都能在三句话里熟起来。':
+      'Three sentences in, you are already familiar with anyone.',
+  '不算富，但从不缺口粮与学费。':
+      'Not rich, but there was always food on the table and money for school.',
+  '从小就知道钱该花在哪，买菜都要比三家。':
+      'You knew early where money should go, comparing prices before buying greens.',
+  '一屋子人看着你，你反而更清醒。':
+      'A room full of eyes on you only makes you sharper.',
+  '见过你的人都记得你的名字。':
+      'Anyone who meets you remembers your name.',
+  '天塌下来先睡一觉，醒来再说。':
+      'If the sky falls, you sleep first and deal with it after.',
+  '一碗热汤、一场雨都能让你高兴半天。':
+      'A bowl of hot soup or a passing rain can make your day.',
+  // 天赋倾向标签
+  '读书人': 'Scholar',
+  '学什么都快': 'Fast learner',
+  '技术型': 'Technical',
+  '身体好': 'Healthy',
+  '吃得住苦': 'Hardy',
+  '人缘好': 'Well liked',
+  '会来事': 'Sociable',
+  '起点稳': 'Steady start',
+  '精打细算': 'Thrifty',
+  '能上台': 'Confident on stage',
+  '有名气': 'Known',
+  '抗打击': 'Resilient',
+  '知足': 'Content',
+  '继续': 'Continue',
 };

@@ -25,6 +25,7 @@
 复制	Copia
 外观	Aspetto
 大了	Troppo alto
+天赋	Talento
 字号	Dimensione del testo
 密钥	Chiave
 对话	Conversazione
@@ -34,6 +35,7 @@
 平局	E' un pareggio
 开始	Inizio
 当前	Corrente
+心大	Facile da usare
 忽略	Ignora
 性别	Genere
 恢复	Ripristino
@@ -47,11 +49,14 @@
 游戏	Giochi
 猜！	Indovina!
 百万	M
+知足	Contenuto
 确定	Ok
 离线	Offline
 管理	Gestione
 累计	Totale
+继续	Continua
 编辑	Modifica
+耐看	Cresce sulle persone
 视觉	Visione
 设置	Impostazioni impostazioni
 语音	Voce
@@ -64,20 +69,29 @@
 1 轮	1 giro
 2 轮	2 giri
 3 轮	3 giri
+个城市	città
 个模型	modelli
 个选项	opzioni
 二十问	20 Domande
+人缘好	Mi piace molto
 今日签	La fortuna di oggi
+会来事	Soci
+会算账	Buono con i soldi
 你赢了	Hai vinto
 再看看	Di nuovo
+出生地	Luogo di nascita
 去设置	Impostazioni aperte
 多模型	Multi-modello
 已停更	Annullamento
 已复制	Copie
 已完结	Completato
+底子硬	Costituzione del ferro
 待检测	Non testato
 我赢了	Ho vinto
+技术型	Tecnica
+抗打击	Resiliente
 摇一摇	Shake
+有名气	Conosciuto
 未匹配	Non corrisposto
 未发言	Nessuna risposta
 条发言	giri
@@ -86,11 +100,19 @@
 猜数字	Indovinate il numero
 生成中	Generazione
 知道了	Capito
+耐折腾	Duro come unghie
+能上台	Confidente sul palco
 自定义	Personale
+自来熟	Persone
+被记住	Memorabile
+读书人	Scholar
+起点稳	Inizio stabile
+身体好	Salute
 转起来	Spingi
 重命名	Nome
 + 新建	+ Nuovo
 一共用了	in
+一点就透	Veloci sull'assorbimento
 一键接入	Collegare tutti
 人物形象	Persona
 人生事件	Evento di vita
@@ -117,6 +139,7 @@
 匹配模型	Modello abbinato
 原始输出	Uscita cruda
 参会模型	Partecipanti
+吃得住苦	Hardy
 命中概览	Cache colpisce
 命中次数	Colpiti
 图片诊断	Diagnostica delle immagini
@@ -124,9 +147,11 @@
 复制全文	Ricevuto
 复制内容	Copia testo
 外观主题	Aspetto
+天赋抽签	Estrazione di talento
 完全权限	Accesso completo
 实时价格	Prezzi vivi
 实验记录	Tronchi di esperimento
+容易开心	Facilmente felice
 对话语言	Rispondi lingua
 导出纪要	Esportare minuti
 少量权限	Accesso minimo
@@ -144,6 +169,7 @@
 恢复默认	Ripristino di default
 抉择轮盘	Ruota di decisione
 抽一支签	Disegna una fortuna
+抽取天赋	Disegnare un talento
 拉取失败	Fetch fallito
 按天花费	Costo al giorno
 授权范围	Permissioni
@@ -178,6 +204,7 @@
 用量追踪	Tracciamento di utilizzo
 界面语言	Lingua di interfaccia
 盖棺定论	Verdetto finale
+精打细算	Thrifty
 系统当前	Sistema
 累计估算	Totale stimato
 缓存命中	Cache colpisce
@@ -197,13 +224,16 @@
 请求次数	Richieste
 输入单价	Prezzo di ingresso
 输出单价	Prezzo di uscita
+过目不忘	Memoria fotografica
 这台设备	Questo dispositivo
 连接配置	Profili di connessione
+选择城市	Scegli la città
 选择形象	Scegli la persona
 选择模型	Scegli il modello
 配置名称	Nome del profilo
 配置连接	Configurare la connessione
 重新开始	Riavviare
+钻得进去	Profondo focus
 页面底色	Sfondo pagina
 预设名称	Nome preimpostato
 魔法八球	Magic 8-Ball
@@ -216,6 +246,8 @@ AI 玩法	AI giochi
 反代与网关	Relay &amp; gateway
 命令已复制	Comando copiato
 填入输入框	Inserisci in ingresso
+学什么都快	Imparante veloce
+家里有余粮	Comodo inizio
 已复制回答	Risposta copiata
 已开启朗读	Read-aloud on
 应用与网页	App e web
@@ -250,6 +282,7 @@ AI 玩法	AI giochi
 还没有存档	Nessuna vita salvata
 还没有故事	Ancora nessuna storia
 连接与模型	Connessione e modelli
+选择出生地	Scegli il luogo di nascita
 重命名配置	Rinomina profilo
 链接已复制	Link copiato
 顶部形象区	Top persona area
@@ -287,6 +320,7 @@ AI 玩法	AI giochi
 猜中了！就是	Ricevuto!
 生成事件失败	Non riuscita a generare evento
 生成传记失败	Non scrivere biografia
+站在人前不怵	Presenza scenica
 等待模型输出	In attesa del modello
 自动记录实验	Esperimenti di registrazione automatica
 设备清理已开	Pulizia del dispositivo su
@@ -308,6 +342,7 @@ HTTP 插件	Plugin HTTP
 按当前单价估算	Stime a prezzi correnti
 换个关键词试试	Prova un'altra parola chiave
 搜索模型 ID	Modello di ricerca ID
+搜索省份或城市	Cerca provincia o città
 智能体请求执行	L'agente richiede un'azione
 服务端缓存命中	Risultati della cache del provider
 朗读上一条回答	Leggi l'ultima risposta
@@ -389,18 +424,25 @@ AI 用这种语言回答	L'AI risponde in questa lingua
 点开始，由模型先说第一句。	Toccare l'avvio e lasciare che il modello parli prima.
 累计消耗、单价、明细与导出	Spese totali, prezzi, ripartizione ed esportazione
 至少需要一个可用的参会模型	Almeno un modello di lavoro è richiesto
+见过你的人都记得你的名字。	Chiunque ti incontri ricorda il tuo nome.
+跟谁都能在三句话里熟起来。	Tre frasi, hai già familiarità con qualcuno.
 预览：静水深流，字要看得清	Anteprima: acqua ancora, il testo dovrebbe rimanere leggibile
+不算富，但从不缺口粮与学费。	Non ricco, ma c'era sempre cibo sul tavolo e soldi per la scuola.
 例如：今天适合开始新计划吗？	Ad esempio, oggi è bene per un nuovo piano?
+先抽一次天赋，再开始这一生。	Disegnare un talento prima, poi iniziare questa vita.
 关闭后主界面回到纯工作台样式	Quando è spento, la schermata principale ritorna al semplice aspetto dello spazio di lavoro
 命中统计、响应复用与缓存管理	Hit statistiche, riutilizzo delle risposte e gestione della cache
+天塌下来先睡一觉，醒来再说。	Se il cielo cade, dormi prima e affrontalo dopo.
 按钮、标题与说明文字都跟着换	Pulsanti, titoli e descrizioni tutti interruttore troppo
 这个连接还没有读到模型列表。	Nessuna lista di modelli è stata ancora letta per questa connessione.
 这台主机上没有发现兼容端点。	Nessun punto finale compatibile trovato su questo host.
 1 到 100，看你能几次猜中	Un numero da 1 a 100 — come poche ipotesi si può vincere in?
+一屋子人看着你，你反而更清醒。	Una stanza piena di occhi su di te ti rende solo più affilato.
 你一句我一句，让故事一直讲下去	A turno e mantenere la storia in corso
 关闭后保留文档但不注入工具清单	Quando fuori, i documenti rimangono ma l'elenco degli strumenti non viene iniettato
 多源选择、每源密钥与连通性测试	Scegli le fonti, aggiungi le chiavi per-source, la connettività di prova
 接口地址、密钥、模型与多配置档	Endpoint, chiave, modelli e profili multipli
+没有找到这个城市，试试别的写法	Niente città del genere, prova un'altra ortografia.
 深度研究工作流、实验记录与报告	Flusso di lavoro di ricerca profondo, registro degli esperimenti e rapporti
 猜一个 1 到 100 的数字	Indovina un numero da 1 a 100
 请输入 1 到 100 的整数	Inserisci un numero intero da 1 a 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	L'AI risponde in questa lingua
 先完成推理再输出结论，只显示摘要	Ragione prima, poi rispondere; solo il riassunto è mostrato
 公益站额度导航 · 社区持续更新	Elenco dei contingenti comunitari · aggiornato dalla comunità
 切换不丢失内容；每份预设独立保存	La commutazione mantiene il testo; ogni preimpostazione viene memorizzata separatamente
+别人讲三遍的事，你听一半就明白。	Altri hanno bisogno di tre spiegazioni; la metà di uno è sufficiente per voi.
 发送格式、视觉能力判定与图片诊断	Invia il formato, il rilevamento della visione e la diagnostica dell'immagine
 和我来几局，纯靠运气，不花流量。	Qualche giro con me — pura fortuna, nessun dato utilizzato.
+对着一个问题能坐一整天不觉得烦。	Puoi sederti con un solo problema tutto il giorno senza essere inquieto.
 已启用的源 · 点开填密钥或端点	Attivare fonti · aprire uno per aggiungere un punto chiave o un punto finale
 每次调用的参数、请求体与响应原文	Parametri, richiesta corpo e risposta cruda per ogni chiamata
 没有发现服务，检查反代是否已启动	Nessun servizio trovato — controllare che il relè è in esecuzione
 直接输入，或者从下面挑一个开头。	Digitare liberamente, o iniziare da un suggerimento qui sotto.
 自动压缩到 320px，仅存本地	Compresso a 320px, memorizzato localmente solo
 自定义头像、名字、性格与角色设定	Avatar personalizzato, nome, personalità e ruolo
+一碗热汤、一场雨都能让你高兴半天。	Una ciotola di zuppa calda o una pioggia di passaggio può rendere la vostra giornata.
 不写入磁盘，仅保留在本次会话内存中	Tenuto in memoria solo per questa sessione, mai scritto su disco
 圆桌会议、模拟人生与 7 个小游戏	Tavola rotonda, simulatore di vita & 7 mini-giochi
 把纠结的选项写进去，让轮盘替你决定	Elenca le opzioni e lascia decidere la ruota
@@ -424,11 +469,14 @@ AI 用这种语言回答	L'AI risponde in questa lingua
 沿用聊天界面正在使用的连接与模型。	Utilizzare la connessione e il modello attualmente attivo in chat.
 由 AI 根据议题生成，可手动修改	AI-generato dall'argomento; modificabile
 19 套主题、自定义配色、圆角与字号	19 temi, colori personalizzati, angoli e dimensioni del testo
+从小没怎么进过医院，冬天也光着脚跑。	Hai appena visto un ospedale crescere, e sei corso a piedi nudi in inverno.
 会真发一句极短的问题，消耗少量额度。	Invia una domanda molto breve e utilizza una piccola quota.
 保存参数与响应原文，最多 120 条	Salvare i parametri e le risposte crude, fino a 120 voci
 只清统计与列表，不影响已缓存的回答。	Cancella solo le statistiche e l'elenco; le risposte memorizzate nella cache sono mantenute.
 朗读与语音输入，免费与付费引擎都可切	Lettura e ingresso vocale, motori liberi e pagati
+熬夜、赶路、扛重物，睡一觉就缓过来。	Notti tardi, lunghe passeggiate, carichi pesanti — un buon sonno e sei tornato.
 sk-…（本地 Ollama 可留空）	sk-... (lasciare vuoto per Ollama locale)
+从小就知道钱该花在哪，买菜都要比三家。	Sapevi presto dove dovrebbero andare i soldi, confrontando i prezzi prima di comprare i verdi.
 只打开系统确认页，需你亲手点保存才生效	Apre solo il foglio di sistema; nulla cambia finché non si tocca Salva
 把开源 xx2api 项目接成一条连接	Filare un progetto xx2api open source in una connessione
 界面、回答、语音识别三套语言，独立设置	Interfaccia, lingue di risposta e dittazione — tre impostazioni indipendenti
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Preimpostazioni del prompt del sistema e int
 尚未配置接口，请先到设置里填好连接与模型。	Nessuna connessione configurata. Impostare un endpoint e un modello in Impostazioni prima.
 已为游戏单独指定模型，随时可换或恢复默认。	Un modello dedicato è impostato per i giochi; cambialo o ripristina il default in qualsiasi momento.
 检索 → 大纲 → 逐节展开 → 汇总报告	Ricerca → schema → progetto → relazione
+看过的东西像刻在脑子里，考试前翻一遍就够。	Quello che leggete rimane scolpito nella vostra mente; un passaggio prima di un esame è sufficiente.
 还没有拉到模型列表，点右上角「刷新」读取。	Nessun elenco di modelli ancora — toccare Rifiuti in alto a destra.
 还没有添加任何连接，所以这里没有可用模型。	Non è stata ancora aggiunta alcuna connessione, quindi non ci sono modelli disponibili qui.
 这个连接还没有缓存模型，可在下方手动输入。	Nessun modello di cache per questa connessione; inserire uno manualmente qui sotto.
+一局只有一次。抽到什么，这一生就从哪里起步。	Qualunque cosa disegnate è dove inizia questa vita.
 先选一家运营商（连接），再进入模型列表挑选。	Scegli un fornitore (connessione) prima, quindi scegli dalla sua lista di modelli.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Quando è spento, si comporta esattamente come un semplice client di chat senza strumenti iniettati
 写文件、打开应用等动作在界面上等你点「允许」	Scrivere i file, le applicazioni di apertura e le azioni simili attendere per il vostro “Allow” toccare
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Preimpostazioni del prompt del sistema e int
 模型想一个东西，你用是非题在 20 次内猜中	Il modello pensa a qualcosa; indovinalo in 20 sì/no domande
 每天一支签，同一天不会变。图个乐子，别当真。	Una fortuna al giorno, immutata al giorno, solo per divertimento.
 每行一条，讨论时所有参会者都会看到这份大纲。	Ogni partecipante vede questa agenda.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Non colpisce a prima vista, ma la gente ti riscalda e ascolta quando parli.
 读取公开网页正文（禁止内网 / 元数据地址）	Leggi il testo della pagina pubblica (indirizzi privati e metadati bloccati)
 127.0.0.1 或 192.168.1.5	127.0.0.1 o 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	I giochi AI chiamano il modello selezionato e sono fatturati dall'utilizzo reale.

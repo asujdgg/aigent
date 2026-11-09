@@ -25,6 +25,7 @@
 复制	Salin
 外观	Penampilan
 大了	Terlalu tinggi
+天赋	Talent
 字号	Ukuran Teks
 密钥	Kunci
 对话	Perbincangan
@@ -34,6 +35,7 @@
 平局	Ini seri
 开始	Mula
 当前	Alfa semasa
+心大	Tenang
 忽略	Abaikan Dia
 性别	Jantina
 恢复	Pulihkan
@@ -47,11 +49,14 @@
 游戏	Permainan
 猜！	Tebak!
 百万	♪ M ♪
+知足	Konten
 确定	♪ OK ♪
 离线	LUAR
 管理	Manage
 累计	Total
+继续	Teruskan
 编辑	Edit
+耐看	Tumbuh pada orang
 视觉	Vision
 设置	Tetapan Profil
 语音	Suara
@@ -64,20 +69,29 @@
 1 轮	Babak pertama
 2 轮	2 putaran
 3 轮	Ronde 3
+个城市	Fijikota
 个模型	model
 个选项	opsi boleh pilih
 二十问	Pertanyaan
+人缘好	Sangat disukai
 今日签	Keberuntungan hari ini
+会来事	♪ Sangat ramah ♪
+会算账	Baik dengan uang
 你赢了	Kau menang
 再看看	Sekali Lagi
+出生地	Tempat Lahir
 去设置	Tetapan Terbuka
 多模型	Multi-model
 已停更	Discontinued
 已复制	Copied
 已完结	Selesai
+底子硬	Konstitusi Besi
 待检测	Tidak diuji
 我赢了	Aku menang
+技术型	Teknikal
+抗打击	Ketahanan
 摇一摇	Shake
+有名气	Diketahui
 未匹配	Kecocokan
 未发言	Tidak ada respon
 条发言	Zalak
@@ -86,11 +100,19 @@
 猜数字	Tebak Angkanya
 生成中	Penjanaan
 知道了	Aku mengerti
+耐折腾	Kasar seperti paku
+能上台	Konfiden di atas panggung
 自定义	Kebiasaan
+自来熟	Orang-orang
+被记住	Takhayul
+读书人	Gelar Sarjana
+起点稳	Steady start
+身体好	Kesehatan
 转起来	Spin
 重命名	Tukarnama
 + 新建	New
 一共用了	dalam
+一点就透	Cepat naik
 一键接入	Hubungkan semua
 人物形象	Persona
 人生事件	Acara hidup
@@ -117,6 +139,7 @@
 匹配模型	Model yang sepadan
 原始输出	Keluaran rafid
 参会模型	Peserta
+吃得住苦	Jerman
 命中概览	Cache cache cache hits
 命中次数	♪ Hits ♪
 图片诊断	Diagnostik Gambar Diagnosis
@@ -124,9 +147,11 @@
 复制全文	Salin semua
 复制内容	Salin teks
 外观主题	Penampilan
+天赋抽签	Lukisan bakat
 完全权限	Full access
 实时价格	Harga real
 实验记录	Log Eksperimen Eksperimen Eksak
+容易开心	Sangat senang
 对话语言	Bahasa Jawa
 导出纪要	Kuala Lumpur
 少量权限	Akses Minimal
@@ -144,6 +169,7 @@
 恢复默认	Pulihkan secara default
 抉择轮盘	Roda Keputusan
 抽一支签	Gambar kekayaan
+抽取天赋	Dia berbakat
 拉取失败	Gagal mengambil
 按天花费	Biaya demi hari
 授权范围	Keizinan
@@ -178,6 +204,7 @@
 用量追踪	Pelacakan penggunaan teropong
 界面语言	Bahasa interface
 盖棺定论	Putusan terakhir
+精打细算	Thrifty
 系统当前	Sistem
 累计估算	Perkiraan total
 缓存命中	Cache cache cache hits
@@ -197,13 +224,16 @@
 请求次数	Permintaan
 输入单价	Harga masukan
 输出单价	Harga keluaran
+过目不忘	Ingatan fotografi
 这台设备	Perangkat ini
 连接配置	Profil Sambungan Sambungan VPN
+选择城市	Kota pilihan
 选择形象	Pilih persona
 选择模型	Model pilihan
 配置名称	Nama profil
 配置连接	Konfigurasikan sambungan
 重新开始	Hidupkan ulang
+钻得进去	Fokus mendalam
 页面底色	Latar belakang halaman
 预设名称	Nama Preset
 魔法八球	Magic 8-Ball
@@ -216,6 +246,8 @@ AI 玩法	Permainan AI
 反代与网关	Gateway
 命令已复制	Perintah disalin
 填入输入框	Dimasukkan ke dalam input
+学什么都快	Belajar dengan Cepat
+家里有余粮	Awal yang Nyaman
 已复制回答	Jawaban disalin
 已开启朗读	Baca-aloud pada
 应用与网页	Web Apps &
@@ -250,6 +282,7 @@ AI 玩法	Permainan AI
 还没有存档	Tidak diselamatkan nyawa belum
 还没有故事	Belum ada cerita
 连接与模型	Model SambunganName
+选择出生地	♪ Pilihlah tempat lahir ♪
 重命名配置	Nama profil
 链接已复制	Disalin
 顶部形象区	Daerah persona top kinada
@@ -287,6 +320,7 @@ AI 玩法	Permainan AI
 猜中了！就是	Dapat!
 生成事件失败	Gagal menjangkitkan peristiwa
 生成传记失败	Gagal menulis biografi
+站在人前不怵	Kehadiran panggung
 等待模型输出	Sofles menunggu modelnya
 自动记录实验	Eksperimen rekaman-otomatis
 设备清理已开	Pembersihan perangkat pada
@@ -308,6 +342,7 @@ HTTP 插件	Plugin HTTP
 按当前单价估算	Diperkirakan pada harga saat ini
 换个关键词试试	Cuba kata kunci lain
 搜索模型 ID	ID model pencarian vedinary
+搜索省份或城市	Provinsi atau kota pencarian
 智能体请求执行	Agen permintaan tindakan
 服务端缓存命中	Data cache penyedia penyedia
 朗读上一条回答	Baca jawaban terakhir
@@ -389,18 +424,25 @@ AI 用这种语言回答	AI jawaban dalam bahasa ini
 点开始，由模型先说第一句。	Ayo mulai dan biarkan model berbicara dulu.
 累计消耗、单价、明细与导出	Pengeluaran total, harga, kerusakan dan ekspor
 至少需要一个可用的参会模型	Setidaknya satu model kerja diperlukan
+见过你的人都记得你的名字。	Siapa saja yang bertemu denganmu ingat namamu.
+跟谁都能在三句话里熟起来。	3 kalimat, kau sudah akrab dengan siapapun.
 预览：静水深流，字要看得清	Preview: masih air, teks harus tetap dapat dipercaya
+不算富，但从不缺口粮与学费。	Tidak kaya, tapi selalu ada makanan di meja dan uang untuk sekolah.
 例如：今天适合开始新计划吗？	Apakah hari ini baik untuk rencana baru?
+先抽一次天赋，再开始这一生。	Pertama kali menggambar bakat, lalu memulai hidup ini.
 关闭后主界面回到纯工作台样式	Ketika off, layar utama kembali ke tampilan ruang kerja biasa
 命中统计、响应复用与缓存管理	Stat Hit, respon penggunaan ulang dan manajemen cache
+天塌下来先睡一觉，醒来再说。	Jika langit jatuh, Anda tidur pertama dan berurusan dengan setelah.
 按钮、标题与说明文字都跟着换	Tombol, judul dan deskripsi tombol juga
 这个连接还没有读到模型列表。	Daftar model belum pernah dibaca untuk sambungan ini.
 这台主机上没有发现兼容端点。	Titik akhir yang tidak kompatibel ditemukan pada host ini.
 1 到 100，看你能几次猜中	Sejumlah dari 1 sampai 100 — seberapa sedikit tebakan yang dapat Anda menangi?
+一屋子人看着你，你反而更清醒。	Sebuah ruangan penuh dengan mata pada Anda hanya membuat Anda lebih tajam.
 你一句我一句，让故事一直讲下去	Bergiliran dan teruskan ceritanya
 关闭后保留文档但不注入工具清单	Ketika off, dokumen tinggal tapi daftar alat tidak disuntikkan
 多源选择、每源密钥与连通性测试	Sumber Tick, tambah kunci per-sumber, sambungan uji
 接口地址、密钥、模型与多配置档	Titik akhir, kunci, model dan beberapa profil
+没有找到这个城市，试试别的写法	Cobalah ejaan lain.
 深度研究工作流、实验记录与报告	Uji kerja penelitian mendalam, catatan percobaan dan laporan
 猜一个 1 到 100 的数字	Tebak angka dari 1 sampai 100
 请输入 1 到 100 的整数	Masukkan nomor bulat dari 1 sampai 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	AI jawaban dalam bahasa ini
 先完成推理再输出结论，只显示摘要	Alasan pertama, kemudian jawaban; hanya ringkasan yang ditampilkan
 公益站额度导航 · 社区持续更新	Daftar kuota komunitas · diperbarui oleh masyarakat
 切换不丢失内容；每份预设独立保存	Switching menyimpan teks Anda; setiap preset disimpan secara terpisah
+别人讲三遍的事，你听一半就明白。	Ada juga yang membutuhkan tiga penjelasan; setengah dari satu cukup untuk Anda.
 发送格式、视觉能力判定与图片诊断	Kirim format, deteksi penglihatan dan diagnostik gambar
 和我来几局，纯靠运气，不花流量。	Beberapa putaran dengan saya — keberuntungan murni, tidak ada data yang digunakan.
+对着一个问题能坐一整天不觉得烦。	Kau bisa duduk dengan satu masalah sepanjang hari tanpa gelisah.
 已启用的源 · 点开填密钥或端点	Sumber-sumber yang diaktifkan · sumber terbuka untuk menambah kunci atau titik akhir
 每次调用的参数、请求体与响应原文	Parameter lema, permintaan tubuh dan respon mentah untuk setiap panggilan
 没有发现服务，检查反代是否已启动	Tak ada layanan yang ditemukan — periksa bahwa relay berjalan
 直接输入，或者从下面挑一个开头。	Type bebas, atau mulai dari saran di bawah.
 自动压缩到 320px，仅存本地	Dimampatkan ke 320px, hanya disimpan secara lokal
 自定义头像、名字、性格与角色设定	Kepribadian dan peran
+一碗热汤、一场雨都能让你高兴半天。	Mangkuk sup panas atau hujan yang lewat dapat membuat hari Anda.
 不写入磁盘，仅保留在本次会话内存中	Tak pernah menulis ke disk
 圆桌会议、模拟人生与 7 个小游戏	[3] roundtable, Life Simulator & 7 mini-game
 把纠结的选项写进去，让轮盘替你决定	Daftar pilihan Anda dan biarkan roda memutuskan
@@ -424,11 +469,14 @@ AI 用这种语言回答	AI jawaban dalam bahasa ini
 沿用聊天界面正在使用的连接与模型。	Infanne menggunakan sambungan dan model yang saat ini aktif dalam chat.
 由 AI 根据议题生成，可手动修改	Dijana dari topik; dapat disunting
 19 套主题、自定义配色、圆角与字号	19 tema, warna suai, sudut dan ukuran teks
+从小没怎么进过医院，冬天也光着脚跑。	Kau hampir tidak melihat rumah sakit tumbuh dewasa, dan berlari tanpa alas kaki di musim dingin.
 会真发一句极短的问题，消耗少量额度。	Kipas mengirimkan satu pertanyaan yang sangat singkat dan menggunakan sedikit kuota.
 保存参数与响应原文，最多 120 条	Simpan parameter dan respon mentah, hingga 120 entri
 只清统计与列表，不影响已缓存的回答。	Hanya membersihkan statistik dan daftar; jawaban tercache disimpan.
 朗读与语音输入，免费与付费引擎都可切	Mesin gratis dan berbayar
+熬夜、赶路、扛重物，睡一觉就缓过来。	Selamat malam, jalan - jalan panjang, beban yang berat — tidur yang nyenyak dan Anda kembali.
 sk-…（本地 Ollama 可留空）	(Leave kosong untuk Ollama lokal)
+从小就知道钱该花在哪，买菜都要比三家。	Kau tahu awal di mana uang harus pergi, membandingkan harga sebelum membeli hijau.
 只打开系统确认页，需你亲手点保存才生效	Buka lembaran sistem saja; tak ada yang berubah sampai kau tekan Simpan
 把开源 xx2api 项目接成一条连接	Proyek open-source xx2api ke dalam sambungan
 界面、回答、语音识别三套语言，独立设置	Bahasa internasional, bahasa pendiktean dan jawaban — tiga pengaturan independen
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Praset dan interpolasi variabel untuk menany
 尚未配置接口，请先到设置里填好连接与模型。	Tak ada sambungan yang dikonfigurasi. Atur titik akhir dan model dalam Pengaturan terlebih dahulu.
 已为游戏单独指定模型，随时可换或恢复默认。	Model berdedikasi adalah set untuk permainan; ubah atau kembalikan secara default kapan saja.
 检索 → 大纲 → 逐节展开 → 汇总报告	Cari → garis luar → draft → laporan
+看过的东西像刻在脑子里，考试前翻一遍就够。	Apa yang Anda baca tetap diukir dalam pikiran Anda; satu lulus sebelum ujian cukup.
 还没有拉到模型列表，点右上角「刷新」读取。	Belum ada daftar model — tekan Segarkan di kanan atas.
 还没有添加任何连接，所以这里没有可用模型。	Belum ada sambungan yang ditambahkan, sehingga tidak ada model yang tersedia di sini.
 这个连接还没有缓存模型，可在下方手动输入。	Tidak ada model yang dicache untuk sambungan ini; masukkan satu secara manual di bawah.
+一局只有一次。抽到什么，这一生就从哪里起步。	Apa pun yang kau gambar adalah di mana kehidupan ini dimulai.
 先选一家运营商（连接），再进入模型列表挑选。	Pertama-tama, Toilet Pilih sebuah penyedia (koneksi) pertama, kemudian pilih dari daftar modelnya.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Ketika off, berperilaku persis seperti pelanggan obrolan biasa tanpa alat disuntikkan
 写文件、打开应用等动作在界面上等你点「允许」	Menulis berkas, membuka aplikasi dan aksi serupa menunggu keran \"Izinkan\" Anda
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Praset dan interpolasi variabel untuk menany
 模型想一个东西，你用是非题在 20 次内猜中	Model ini memikirkan sesuatu; coba tebak dalam 20 pertanyaan ya/tidak
 每天一支签，同一天不会变。图个乐子，别当真。	Satu keberuntungan sehari, tak berubah dalam sehari.
 每行一条，讨论时所有参会者都会看到这份大纲。	Setiap peserta melihat agenda ini.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Tidak mencolok pada pandangan pertama, tetapi orang-orang hangat kepada Anda dan mendengarkan ketika Anda berbicara.
 读取公开网页正文（禁止内网 / 元数据地址）	Teks halaman publik baca lema (alamat privat dan data meta diblokir)
 127.0.0.1 或 192.168.1.5	208 1270.0.1 atau 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	Permainan permainan AI memanggil model pilihan Anda dan ditagih dengan penggunaan yang sebenarnya.

@@ -25,6 +25,7 @@
 复制	Kopioi
 外观	Ulkoasu
 大了	Liian korkealla
+天赋	Lahjakkuus
 字号	Tekstikoko
 密钥	Avain
 对话	Keskustelu
@@ -34,6 +35,7 @@
 平局	Se on tasapeli
 开始	Alku
 当前	Kuluva
+心大	Helppokäyttöinen
 忽略	Älä välitä
 性别	Sukupuoli
 恢复	Palauta
@@ -47,11 +49,14 @@
 游戏	Pelit
 猜！	Arvaa!
 百万	Lä
+知足	Sisältö
 确定	Selvä
 离线	Offline
 管理	Hallitse
 累计	Yhteensä
+继续	Jatka
 编辑	Muokkaa
+耐看	Kasvata ihmisiä
 视觉	Näkö
 设置	Asetukset
 语音	Ääni
@@ -64,20 +69,29 @@
 1 轮	1 erä
 2 轮	2 erää
 3 轮	3 erää
+个城市	kaupungit
 个模型	mallit
 个选项	optiot
 二十问	20 kysymystä
+人缘好	Hyvin pidetty
 今日签	Tämän päivän onni
+会来事	Sosiaalinen
+会算账	Hyvällä rahalla
 你赢了	Sinä voitit
 再看看	Taas
+出生地	Syntymäpaikka
 去设置	Avaa asetukset
 多模型	Monimalli
 已停更	Keskeytetty
 已复制	Kopioi
 已完结	Valmis
+底子硬	Rauta
 待检测	Ei testattu
 我赢了	Minä voitan
+技术型	Tekninen
+抗打击	Hiljainen
 摇一摇	Ravista
+有名气	Tunnettu
 未匹配	Ei täsmäytetty
 未发言	Ei vastausta
 条发言	kierros
@@ -86,11 +100,19 @@
 猜数字	Arvaa numero
 生成中	Luodaan
 知道了	Selvä
+耐折腾	Kova kuin naula
+能上台	Itsevarma lavalla
 自定义	Oma
+自来熟	Henkilö
+被记住	Muisti
+读书人	Scholar
+起点稳	Tasainen aloitus
+身体好	Terve
 转起来	Kierre
 重命名	Nimeä uudelleen
 + 新建	+ Uusi
 一共用了	in
+一点就透	Nopeasti sisäänotto
 一键接入	Yhdistä kaikki
 人物形象	Persona
 人生事件	Elämäntapahtuma
@@ -117,6 +139,7 @@
 匹配模型	Vastaava malli
 原始输出	Raakatuotanto
 参会模型	Osallistujat
+吃得住苦	Hardy
 命中概览	Välimuistin osumat
 命中次数	Osumat
 图片诊断	Kuvanmääritys
@@ -124,9 +147,11 @@
 复制全文	Kopioi kaikki
 复制内容	Kopioi teksti
 外观主题	Ulkoasu
+天赋抽签	Lahjakkuus
 完全权限	Täysi käyttö
 实时价格	Elävien eläinten hinnat
 实验记录	Koeloki
+容易开心	Helposti iloinen
 对话语言	Vastaa kieli
 导出纪要	Vie minut
 少量权限	Vähimmäiskäyttö
@@ -144,6 +169,7 @@
 恢复默认	Palauta oletus
 抉择轮盘	Päätöspyörä
 抽一支签	Piirrä omaisuutesi
+抽取天赋	Piirrä lahjakkuus
 拉取失败	Haku epäonnistui
 按天花费	Kustannukset päiväkohtaisesti
 授权范围	Lupa
@@ -178,6 +204,7 @@
 用量追踪	Käytön seuranta
 界面语言	Käyttöliittymän kieli
 盖棺定论	Lopullinen tuomio
+精打细算	Säästö
 系统当前	Järjestelmä
 累计估算	Arvioitu kokonaismäärä
 缓存命中	Välimuistin osumat
@@ -197,13 +224,16 @@
 请求次数	Pyynnöt
 输入单价	Syöttöhinta
 输出单价	Tuotantohinta
+过目不忘	Valokuvamuisti
 这台设备	Tämä laite
 连接配置	Yhteysprofiilit
+选择城市	Valitse kaupunki
 选择形象	Valitse henkilö
 选择模型	Valitse malli
 配置名称	Profiilin nimi
 配置连接	Määrittele yhteys
 重新开始	Käynnistä uudelleen
+钻得进去	Keskity syvään
 页面底色	Sivun tausta
 预设名称	Esiasetettu nimi
 魔法八球	Taika 8-pallo
@@ -216,6 +246,8 @@ AI 玩法	Tekoälypelit
 反代与网关	& Release- portti
 命令已复制	Komento kopioitu
 填入输入框	Lisää panos
+学什么都快	Nopeampi oppiminen
+家里有余粮	Mukava aloitus
 已复制回答	Vastaus kopioitu
 已开启朗读	Jatka
 应用与网页	Sovellukset ja verkko
@@ -250,6 +282,7 @@ AI 玩法	Tekoälypelit
 还没有存档	Ei pelastettuja henkiä vielä
 还没有故事	Ei tarinoita vielä
 连接与模型	Yhteysmallit
+选择出生地	Valitse syntymäpaikka
 重命名配置	Nimeä profiili uudelleen
 链接已复制	Kopioi linkki
 顶部形象区	Huippuhenkilöalue
@@ -287,6 +320,7 @@ AI 玩法	Tekoälypelit
 猜中了！就是	Sain sen!
 生成事件失败	Tapahtumaa ei voitu luoda
 生成传记失败	Elämänkertaa ei voitu kirjoittaa
+站在人前不怵	Vaiheen läsnäolo
 等待模型输出	Odotetaan mallia
 自动记录实验	Automaattinen tallennus
 设备清理已开	Laite puhdistus päällä
@@ -308,6 +342,7 @@ HTTP 插件	HTTP-liitännäinen
 按当前单价估算	Arvio käypinä hintoina
 换个关键词试试	Kokeile toista avainsanaa
 搜索模型 ID	Hakumallin tunniste
+搜索省份或城市	Etsi maakunta tai kaupunki
 智能体请求执行	Agentti pyytää toimenpidettä
 服务端缓存命中	Tarjoajan välimuistin osumat
 朗读上一条回答	Lue viimeinen vastaus
@@ -389,18 +424,25 @@ AI 用这种语言回答	Tekoäly vastaa tällä kielellä
 点开始，由模型先说第一句。	Napauta alusta ja anna mallin puhua ensin.
 累计消耗、单价、明细与导出	Kokonaismenot, hinnat, jaottelu ja vienti
 至少需要一个可用的参会模型	Tarvitaan vähintään yksi toimiva malli
+见过你的人都记得你的名字。	Kaikki jotka tapaavat, muistavat nimesi.
+跟谁都能在三句话里熟起来。	Kolme lausetta, tunnet jo kaikki.
 预览：静水深流，字要看得清	Esikatselu: vielä vettä, tekstin tulisi pysyä luettavissa
+不算富，但从不缺口粮与学费。	Ei rikas, mutta pöydällä oli ruokaa ja rahaa kouluun.
 例如：今天适合开始新计划吗？	Onko tänään hyvä uusi suunnitelma?
+先抽一次天赋，再开始这一生。	Piirrä lahjakkuus ensin ja aloita tämä elämä.
 关闭后主界面回到纯工作台样式	Kun pois päältä, päänäyttö palaa tavalliseen työtilaan
 命中统计、响应复用与缓存管理	Osumatiedot, vastausten uudelleenkäyttö ja välimuistin hallinta
+天塌下来先睡一觉，醒来再说。	Jos taivas putoaa, nukut ensin ja käsittelet sen jälkeen.
 按钮、标题与说明文字都跟着换	Napit, nimet ja kuvaukset kaikki kytkin liian
 这个连接还没有读到模型列表。	Tälle yhteydelle ei ole vielä luettu mallilistaa.
 这台主机上没有发现兼容端点。	Tähän isäntään ei löytynyt yhteensopivaa päätepistettä.
 1 到 100，看你能几次猜中	Numero 1 - 100 . Kuinka harvat arvauksia voit voittaa?
+一屋子人看着你，你反而更清醒。	Kun huone on täynnä katseitasi, olet terävämpi.
 你一句我一句，让故事一直讲下去	Tee vuoroja ja pidä tarina käynnissä
 关闭后保留文档但不注入工具清单	Kun olet poissa, dokumentit pysyvät, mutta työkaluluetteloa ei injektoida
 多源选择、每源密钥与连通性测试	Valitse lähteet, lisää lähde-avaimet, testiyhteydet
 接口地址、密钥、模型与多配置档	Päätepiste, avain, mallit ja moniprofiilit
+没有找到这个城市，试试别的写法	Ei sellaista kaupunkia.
 深度研究工作流、实验记录与报告	Syvä tutkimustyö, koeloki ja raportit
 猜一个 1 到 100 的数字	Arvaa numero 1 - 100
 请输入 1 到 100 的整数	Anna koko numero 1:stä 100:aan
@@ -409,14 +451,17 @@ AI 用这种语言回答	Tekoäly vastaa tällä kielellä
 先完成推理再输出结论，只显示摘要	Perustelu ensin, sitten vastaus; vain yhteenveto esitetään
 公益站额度导航 · 社区持续更新	Yhteisön kiintiöluettelo · yhteisön päivittämä
 切换不丢失内容；每份预设独立保存	Vaihdtaminen pitää tekstin; jokainen esiasetettu tallennetaan erikseen
+别人讲三遍的事，你听一半就明白。	Toiset tarvitsevat kolme selitystä, puolet riittää sinulle.
 发送格式、视觉能力判定与图片诊断	Lähetä muoto, näkyvyys ja kuvan diagnostiikka
 和我来几局，纯靠运气，不花流量。	Pari erää kanssani puhdasta onnea, ei dataa käytetty.
+对着一个问题能坐一整天不觉得烦。	Voit istua yhden ongelman kanssa koko päivän tulematta levottomaksi.
 已启用的源 · 点开填密钥或端点	Käytössä olevat lähteet · avaa yksi lisätä avain tai päätepiste
 每次调用的参数、请求体与响应原文	Parametrit, pyyntökeho ja raaka vastaus jokaiselle puhelulle
 没有发现服务，检查反代是否已启动	Palvelua ei löytynyt Tarkista, että rele on käynnissä
 直接输入，或者从下面挑一个开头。	Kirjoita vapaasti tai aloita alla olevasta ehdotuksesta.
 自动压缩到 320px，仅存本地	Valmistettu 320px:ksi, varastoitu vain paikallisesti
 自定义头像、名字、性格与角色设定	Oma avatar, nimi, persoonallisuus ja rooli
+一碗热汤、一场雨都能让你高兴半天。	Kuuma keitto tai sade voi tehdä päivän.
 不写入磁盘，仅保留在本次会话内存中	Säilytti muistia vain tämän istunnon, ei koskaan kirjoitettu levylle
 圆桌会议、模拟人生与 7 个小游戏	Roundtable, Life Simulator & 7 minipelejä
 把纠结的选项写进去，让轮盘替你决定	Listaa vaihtoehdot ja anna pyörän päättää
@@ -424,11 +469,14 @@ AI 用这种语言回答	Tekoäly vastaa tällä kielellä
 沿用聊天界面正在使用的连接与模型。	Käytä yhteyden ja mallin tällä hetkellä aktiivinen chat.
 由 AI 根据议题生成，可手动修改	Aiheesta syntynyt tekoäly; muokattavissa
 19 套主题、自定义配色、圆角与字号	19 teemaa, omat värit, kulmat ja tekstin koko
+从小没怎么进过医院，冬天也光着脚跑。	Tuskin näit sairaalaa varttumassa ja juoksit paljain jaloin talvella.
 会真发一句极短的问题，消耗少量额度。	Esittää yhden hyvin lyhyen kysymyksen ja käyttää pientä kiintiötä.
 保存参数与响应原文，最多 120 条	Tallenna parametrit ja raaka vasteet, jopa 120 tietuetta
 只清统计与列表，不影响已缓存的回答。	Vain tyhjentää tilastot ja lista; välimuistivastaukset säilytetään.
 朗读与语音输入，免费与付费引擎都可切	Read-aloud ja äänitulo, ilmaiset ja maksulliset moottorit
+熬夜、赶路、扛重物，睡一觉就缓过来。	Myöhäiset yöt, pitkät kävelyt, raskaat kuormat. Yksi hyvä uni ja olet palannut.
 sk-…（本地 Ollama 可留空）	sk-..
+从小就知道钱该花在哪，买菜都要比三家。	Tiesit aikaisin, minne rahan pitäisi mennä. Vertasit hintoja ennen vihreiden ostamista.
 只打开系统确认页，需你亲手点保存才生效	Avaa vain järjestelmän arkin; mikään ei muutu ennen kuin napautat Tallenna
 把开源 xx2api 项目接成一条连接	Liitä avoimen lähdekoodin xx2api-projekti yhteyteen
 界面、回答、语音识别三套语言，独立设置	Liitäntä, vastaus ja sanelu kielet ... kolme itsenäistä asetusta
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Järjestelmän nopeat esiasetukset ja muuttu
 尚未配置接口，请先到设置里填好连接与模型。	Ei yhteyttä määritetty. Aseta päätepiste ja malli Asetukset ensin.
 已为游戏单独指定模型，随时可换或恢复默认。	Peleille asetetaan oma malli; muutetaan sitä tai palautetaan oletus milloin tahansa.
 检索 → 大纲 → 逐节展开 → 汇总报告	Haku → yhteenveto → luonnos → raportti
+看过的东西像刻在脑子里，考试前翻一遍就够。	Mitä luet pysyy kaiverrettu mielessäsi; yksi läpäisy ennen tentti riittää.
 还没有拉到模型列表，点右上角「刷新」读取。	Ei mallilistaa vielä napauta Päivitä oikeassa yläreunassa.
 还没有添加任何连接，所以这里没有可用模型。	Yhteysttä ei ole vielä lisätty, joten malleja ei ole saatavilla.
 这个连接还没有缓存模型，可在下方手动输入。	Ei välimuistimalleja tälle yhteydelle; kirjoita yksi manuaalisesti alla.
+一局只有一次。抽到什么，这一生就从哪里起步。	Mitä ikinä piirrätkin, siitä elämä alkaa.
 先选一家运营商（连接），再进入模型列表挑选。	Valitse palveluntarjoaja (yhteys) ensin, valitse sen malliluettelo.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Kun pois, käyttäytyy täsmälleen kuin tavallinen chat asiakas ilman työkaluja ruiskutettu
 写文件、打开应用等动作在界面上等你点「允许」	Tiedostojen kirjoittaminen, sovellusten avaaminen ja vastaavat toiminnot odottavat ..
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Järjestelmän nopeat esiasetukset ja muuttu
 模型想一个东西，你用是非题在 20 次内猜中	Malli ajattelee jotain; arvaa se 20 kyllä / ei kysymyksiä
 每天一支签，同一天不会变。图个乐子，别当真。	Omaisuus päivässä, muuttumaton päivässä.
 每行一条，讨论时所有参会者都会看到这份大纲。	Jokainen osallistuja näkee tämän.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Ei ensi silmäyksellä, mutta ihmiset lämmenevät ja kuuntelevat, kun puhut.
 读取公开网页正文（禁止内网 / 元数据地址）	Lue julkinen sivu teksti (yksityiset ja metatiedot osoitteet estetty)
 127.0.0.1 或 192.168.1.5	127,0,0.1 tai 192,168,1,5
 AI 玩法会调用你所选的模型，按实际用量计费。	Tekoälypelit soita valittu malli ja laskutetaan todellinen käyttö.

@@ -25,6 +25,7 @@
 复制	Kopírovat
 外观	Vzhled
 大了	Moc vysoko
+天赋	Talent
 字号	Velikost textu
 密钥	Klíč
 对话	Rozhovor
@@ -34,6 +35,7 @@
 平局	Je to remíza
 开始	Start
 当前	Běžný měsíc
+心大	Easygoing
 忽略	Ignorovat
 性别	Pohlaví
 恢复	Obnovit
@@ -47,11 +49,14 @@
 游戏	Hry
 猜！	Hádej!
 百万	Př
+知足	Obsah
 确定	Dobře
 离线	Offline
 管理	Správa
 累计	Celkem
+继续	Pokračovat
 编辑	Upravit
+耐看	Růst na lidech
 视觉	Vize
 设置	Nastavení
 语音	Hlas
@@ -64,20 +69,29 @@
 1 轮	1 kruhová řada
 2 轮	2 kola
 3 轮	3 kola
+个城市	města
 个模型	modely
 个选项	Možnosti
 二十问	20 Otázky
+人缘好	Líbil se mi
 今日签	Dnešní štěstí
+会来事	Společenské
+会算账	Dobře s penězi
 你赢了	Vyhrál jsi
 再看看	Znovu
+出生地	Místo narození
 去设置	Otevřít nastavení
 多模型	Multimodel
 已停更	Ukončit léčbu
 已复制	Kopírovat
 已完结	Dokončeno
+底子硬	Železná ústava
 待检测	Netestováno
 我赢了	Vyhrál jsem
+技术型	Technické
+抗打击	Odolnost
 摇一摇	Protřepat
+有名气	Známý
 未匹配	Neshodné
 未发言	Žádná odpověď
 条发言	otáčky
@@ -86,11 +100,19 @@
 猜数字	Hádej číslo
 生成中	Generování
 知道了	Mám to
+耐折腾	Tvrdé jako hřebíky
+能上台	Důvěra na jevišti
 自定义	Vlastní
+自来熟	Lidé
+被记住	Zapamatovatelné
+读书人	Scholar
+起点稳	Ustálený start
+身体好	Zdravý
 转起来	Spin
 重命名	Přejmenovat
 + 新建	+ Nový
 一共用了	n
+一点就透	Rychle na příjmu
 一键接入	Připojte všechny
 人物形象	Persona
 人生事件	Životní událost
@@ -117,6 +139,7 @@
 匹配模型	Model shodnosti
 原始输出	Surový výstup
 参会模型	Účastníci
+吃得住苦	Hardy
 命中概览	Kache hity
 命中次数	Zásahy
 图片诊断	Diagnostika obrazu
@@ -124,9 +147,11 @@
 复制全文	Kopírovat vše
 复制内容	Kopírovat text
 外观主题	Vzhled
+天赋抽签	Talent remíza
 完全权限	Plný přístup
 实时价格	Živé ceny
 实验记录	Experimentální deník
+容易开心	Snadno potěšen
 对话语言	Odpovědný jazyk
 导出纪要	Vývoz minut
 少量权限	Minimální přístup
@@ -144,6 +169,7 @@
 恢复默认	Obnovit výchozí
 抉择轮盘	Rozhodnutí kola
 抽一支签	Nakresli jmění
+抽取天赋	Draw a talent
 拉取失败	Svolání selhalo
 按天花费	Náklady za den
 授权范围	Povolení
@@ -178,6 +204,7 @@
 用量追踪	Sledování použití
 界面语言	Jazyk rozhraní
 盖棺定论	Konečný verdikt
+精打细算	Thrifty
 系统当前	Systém
 累计估算	Odhadovaný součet
 缓存命中	Kache hity
@@ -197,13 +224,16 @@
 请求次数	Žádosti
 输入单价	Vstupní cena
 输出单价	Výstupní cena
+过目不忘	Fotografické paměti
 这台设备	Toto zařízení
 连接配置	Profily připojení
+选择城市	Vyberte město
 选择形象	Vyberte si osobnost
 选择模型	Vyberte model
 配置名称	Název profilu
 配置连接	Nastavit spojení
 重新开始	Obnovit
+钻得进去	Hluboké zaměření
 页面底色	Pozadí stránky
 预设名称	Přednastavený název
 魔法八球	Magic 8-Ball
@@ -216,6 +246,8 @@ AI 玩法	AI hry
 反代与网关	Relay & brána
 命令已复制	Příkaz zkopírován
 填入输入框	Vložit do vstupu
+学什么都快	Rychlé učení
+家里有余粮	Pohodlný start
 已复制回答	Odpověď zkopírována
 已开启朗读	Znovu nahlas
 应用与网页	Aplikace & web
@@ -250,6 +282,7 @@ AI 玩法	AI hry
 还没有存档	Zatím žádné zachráněné životy
 还没有故事	Zatím žádné příběhy
 连接与模型	Připojení a modely
+选择出生地	Vyberte si místo narození
 重命名配置	Přejmenovat profil
 链接已复制	Name
 顶部形象区	Oblast top persona
@@ -287,6 +320,7 @@ AI 玩法	AI hry
 猜中了！就是	Mám to!
 生成事件失败	Chyba při generování události
 生成传记失败	Nepodařilo se napsat životopis
+站在人前不怵	Přítomnost jeviště
 等待模型输出	Čekání na model
 自动记录实验	Experimenty s automatickými záznamy
 设备清理已开	Čištění zařízení na
@@ -308,6 +342,7 @@ HTTP 插件	Comment
 按当前单价估算	Odhadované v běžných cenách
 换个关键词试试	Zkus jiné klíčové slovo
 搜索模型 ID	ID modelu vyhledávání
+搜索省份或城市	Provincie nebo město vyhledávání
 智能体请求执行	Agent žádá o akci
 服务端缓存命中	Hity cache pro poskytovatele
 朗读上一条回答	Přečtěte si poslední odpověď
@@ -389,18 +424,25 @@ AI 用这种语言回答	AI odpovídá v tomto jazyce
 点开始，由模型先说第一句。	Klepněte na možnost start a nechte model mluvit jako první.
 累计消耗、单价、明细与导出	Celkové výdaje, ceny, členění a vývoz
 至少需要一个可用的参会模型	Vyžaduje se alespoň jeden pracovní model
+见过你的人都记得你的名字。	Každý, kdo vás potká, si pamatuje vaše jméno.
+跟谁都能在三句话里熟起来。	Ve třech větách už znáš každého.
 预览：静水深流，字要看得清	Náhled: stále voda, text by měl zůstat čitelný
+不算富，但从不缺口粮与学费。	Ne bohatý, ale na stole bylo vždycky jídlo a peníze na školu.
 例如：今天适合开始新计划吗？	Je dnes dobrý pro nový plán?
+先抽一次天赋，再开始这一生。	Napřed nakreslit talent, pak začít tento život.
 关闭后主界面回到纯工作台样式	Po vypnutí se hlavní obrazovka vrací do prostého pracovního prostoru
 命中统计、响应复用与缓存管理	Hit stats, response resume and cache management
+天塌下来先睡一觉，醒来再说。	Když spadne nebe, nejdřív se vyspíš a pak se s tím vypořádáš.
 按钮、标题与说明文字都跟着换	Tlačítka, názvy a popisy také přepínají
 这个连接还没有读到模型列表。	Pro toto spojení zatím nebyl přečten žádný seznam modelů.
 这台主机上没有发现兼容端点。	Na tomto hostiteli nebyl nalezen žádný kompatibilní cílový parametr.
 1 到 100，看你能几次猜中	Počet od 1 do 100 - jak málo hádat můžete vyhrát?
+一屋子人看着你，你反而更清醒。	Místnost plná očí tě jen dělá ostřejším.
 你一句我一句，让故事一直讲下去	Take turn and keep the story on
 关闭后保留文档但不注入工具清单	Po vypnutí, dokumenty zůstat, ale seznam nástrojů není injikován
 多源选择、每源密钥与连通性测试	Vybrat zdroje, přidat per- source klíče, testovací konektivita
 接口地址、密钥、模型与多配置档	Koncový bod, klíč, modely a více profilů
+没有找到这个城市，试试别的写法	Ne takové město.
 深度研究工作流、实验记录与报告	Proces hlubokého výzkumu, evidence experimentů a zprávy
 猜一个 1 到 100 的数字	Hádej číslo od 1 do 100
 请输入 1 到 100 的整数	Zadejte celé číslo od 1 do 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	AI odpovídá v tomto jazyce
 先完成推理再输出结论，只显示摘要	Nejprve důvod, pak odpověď; pouze shrnutí je uvedeno
 公益站额度导航 · 社区持续更新	Seznam kvót Společenství · aktualizován Společenstvím
 切换不丢失内容；每份预设独立保存	Přepínač si nechává text; každý přednastavený soubor je uložen samostatně
+别人讲三遍的事，你听一半就明白。	Jiní potřebují tři vysvětlení, polovina jednoho ti stačí.
 发送格式、视觉能力判定与图片诊断	Poslat formát, detekci zraku a diagnostiku obrazu
 和我来几局，纯靠运气，不花流量。	Pár kol se mnou - čistě štěstí, žádná data.
+对着一个问题能坐一整天不觉得烦。	Můžete sedět s jediným problémem celý den, aniž byste byli neklidní.
 已启用的源 · 点开填密钥或端点	Povolené zdroje · otevřít jeden přidat klíč nebo koncový bod
 每次调用的参数、请求体与响应原文	Parametry, požádat tělo a syrová odpověď pro každou výzvu
 没有发现服务，检查反代是否已启动	Žádná služba nenalezena - zkontrolujte, zda relé běží
 直接输入，或者从下面挑一个开头。	Napište volně, nebo začněte s návrhem níže.
 自动压缩到 320px，仅存本地	Komprimováno na 320px, skladováno pouze lokálně
 自定义头像、名字、性格与角色设定	Vlastní avatar, jméno, osobnost a role
+一碗热汤、一场雨都能让你高兴半天。	Miska horké polévky nebo padající déšť vám udělá den.
 不写入磁盘，仅保留在本次会话内存中	Držen v paměti pouze pro tuto relaci, nikdy napsán na disk
 圆桌会议、模拟人生与 7 个小游戏	Kulatý stůl, život simulátor & 7 mini-hry
 把纠结的选项写进去，让轮盘替你决定	Seznam možností a nech rozhodnout kolo
@@ -424,11 +469,14 @@ AI 用这种语言回答	AI odpovídá v tomto jazyce
 沿用聊天界面正在使用的连接与模型。	Použijte připojení a model v současné době aktivní v chatu.
 由 AI 根据议题生成，可手动修改	AI- generované z tématu; editovatelné
 19 套主题、自定义配色、圆角与字号	19 témat, vlastní barvy, rohy a velikost textu
+从小没怎么进过医院，冬天也光着脚跑。	Sotva jsi viděl nemocnici vyrůstat a v zimě běhal bosý.
 会真发一句极短的问题，消耗少量额度。	Posílá jednu velmi krátkou otázku a používá malou kvótu.
 保存参数与响应原文，最多 120 条	Uložit parametry a syrové odpovědi, až 120 záznamů
 只清统计与列表，不影响已缓存的回答。	Pouze čistí statistiky a seznam; cached odpovědi jsou uchovávány.
 朗读与语音输入，免费与付费引擎都可切	Hlasitý a hlasový vstup, volné a placené motory
+熬夜、赶路、扛重物，睡一觉就缓过来。	Pozdní noci, dlouhé procházky, těžká zátěž - jeden dobrý spánek a jste zpátky.
 sk-…（本地 Ollama 可留空）	sk-... (nechte prázdné pro místní Ollama)
+从小就知道钱该花在哪，买菜都要比三家。	Věděl jste, kam by peníze měly jít, když jste porovnal ceny, než jste koupil zeleninu.
 只打开系统确认页，需你亲手点保存才生效	Otevře pouze systémový list; nic se nezmění, dokud neklepnete na Uložit
 把开源 xx2api 项目接成一条连接	Převést open-source xx2api projekt do spojení
 界面、回答、语音识别三套语言，独立设置	Rozhraní, odpověď a diktační jazyky - tři nezávislá nastavení
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Přednastavené nastavení systému a variab
 尚未配置接口，请先到设置里填好连接与模型。	Není nakonfigurováno žádné spojení. Nejprve nastavte koncový bod a model v Nastavení.
 已为游戏单独指定模型，随时可换或恢复默认。	Dedikovaný model je nastaven pro hry; změnit nebo obnovit výchozí kdykoliv.
 检索 → 大纲 → 逐节展开 → 汇总报告	Hledání → obrys → návrh → zpráva
+看过的东西像刻在脑子里，考试前翻一遍就够。	To, co čtete, zůstává vyřezáno ve vaší mysli; stačí jeden průkaz před zkouškou.
 还没有拉到模型列表，点右上角「刷新」读取。	Zatím žádný seznam modelů - klepněte na možnost Obnovit vpravo nahoře.
 还没有添加任何连接，所以这里没有可用模型。	Zatím nebylo přidáno žádné spojení, takže zde nejsou k dispozici žádné modely.
 这个连接还没有缓存模型，可在下方手动输入。	Žádné cached modely pro toto připojení; zadejte jeden ručně níže.
+一局只有一次。抽到什么，这一生就从哪里起步。	Všechno, co nakreslíš, začíná tady.
 先选一家运营商（连接），再进入模型列表挑选。	Nejprve si vyberte poskytovatele (připojení), pak si vyberte z jeho seznamu modelů.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Když je vypnuto, chová se přesně jako obyčejný chat klient bez nástrojů injikuje
 写文件、打开应用等动作在界面上等你点「允许」	Psaní souborů, otevírání aplikací a podobných akcí čeká na váš "Povolit" ťuk
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Přednastavené nastavení systému a variab
 模型想一个东西，你用是非题在 20 次内猜中	Model něco vymyslí; hádejte za 20 ano / ne otázek
 每天一支签，同一天不会变。图个乐子，别当真。	Jedno jmění za den, nezměněné během dne.
 每行一条，讨论时所有参会者都会看到这份大纲。	Každý účastník vidí tento program.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Ne na první pohled, ale lidé, kteří jsou k tobě vřelí a poslouchají, když mluvíš.
 读取公开网页正文（禁止内网 / 元数据地址）	Přečtěte si text veřejné stránky (zablokované adresy soukromých a metadat)
 127.0.0.1 或 192.168.1.5	127.0.0.1 nebo 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	AI hry volat vybraný model a jsou účtovány skutečné použití.

@@ -181,26 +181,18 @@ class _SoftPageTransition extends StatefulWidget {
 
 class _SoftPageTransitionState extends State<_SoftPageTransition>
     with WidgetsBindingObserver {
-  /// 本次转场是否由手指驱动过。
-  ///
-  /// 一旦为 true 就保持到路由销毁：手势拖动时必须是线性的（手指走多少、
-  /// 页面走多少），松手后如果立刻切回缓动曲线，页面会从当前位置突然
-  /// 跳到曲线上的对应位置。保持线性则全程连续。
-  bool _dragged = false;
-
   /// 当前是否还欠着一次 `Navigator.didStopUserGesture()`。
   ///
   /// 手势进行中导航器会进入 `userGestureInProgress`，这个状态下所有页面
   /// 都不接收点击。必须保证「开一次、关一次」，否则整个 App 会点不动。
   bool _gestureLocked = false;
 
-  /// 四条位移动画在 State 里**只创建一次**。
+  /// 两条位移动画在 State 里**只创建一次**。
   ///
   /// 以前的 build 里每帧 `new CurvedAnimation(...)` + `animation.drive(Tween)`：
   /// 一个 200ms 返回动画就要分配十几个动画对象，旧的还挂在 parent 上等 GC，
-  /// `SlideTransition` 每帧都要 `didUpdateWidget` 重新挂监听。按钮返回这条
-  /// 路径（_dragged=false）因此比侧滑路径多一层每帧抖动。现在 build 里只剩
-  /// 一次选择，零分配。
+  /// `SlideTransition` 每帧都要 `didUpdateWidget` 重新挂监听。现在 build 里
+  /// 只剩一次三元判断，零分配。
   _SoftPositions? _positions;
 
   @override
@@ -238,9 +230,6 @@ class _SoftPageTransitionState extends State<_SoftPageTransition>
         !route.isCurrent ||
         !route.popGestureEnabled) {
       return false;
-    }
-    if (!_dragged) {
-      setState(() => _dragged = true);
     }
     route.handleStartBackGesture(progress: 1 - backEvent.progress);
     // 记住「全局指针锁」已经打开，等这次手势收尾时负责关掉。
@@ -295,41 +284,36 @@ class _SoftPageTransitionState extends State<_SoftPageTransition>
     // 从右往左书写的语言里，页面应该从左边进来。
     final rtl = Directionality.of(context) == TextDirection.rtl;
     final p = _positions!;
-    final Animation<Offset> position = _dragged
-        ? (rtl ? p.dragRtl : p.dragLtr)
-        : (rtl ? p.tapRtl : p.tapLtr);
     return SlideTransition(
-      position: position,
+      position: rtl ? p.rtl : p.ltr,
       child: RepaintBoundary(child: widget.child),
     );
   }
 }
 
-/// 两条路径共用同一个线性 `AnimationController`（路由自己的 animation），
-/// 只有位移距离不同：
+/// 页面位移：进入从右侧整屏滑入，退出整屏滑回右侧。
 ///
-/// - 手势拖动：整屏 1:1 跟手，必须线性，否则手指和画面对不上；
-/// - 点按钮：35% 位移，覆盖更快、两页同屏时间更短。
+/// 这里曾经出过一个很难看出来的 bug：点按钮的路径用 0.35 屏位移，
+/// 想「缩短两页同屏时间」。但 [PageRouteBuilder] 的 animation 对同一个
+/// 路由在进入（0→1）和退出（1→0）是共用的，同一条 tween 于是变成
+/// 「进场滑 35%，退场也滑 35%」。
 ///
-/// 以前按钮路径额外套了一层 `CurvedAnimation`（reverseCurve=easeInCubic），
-/// 反向起步几乎是平的：点完返回页面先"愣"一下再突然滑走，看起来就是掉帧。
-/// 现在统一线性，和已确认流畅的侧滑完全一致；`_dragged` 切换时
-/// animation.value == 1，两套 tween 的 offset 都是 0，不会跳帧。
+/// 结果就是点返回键时，被关掉的页面在 200ms 里只挪了三分之一屏，
+/// 剩下的三分之二一直焊在原地，等动画结束被整页摘掉——看起来
+/// 就是「卡了几百毫秒，然后突然消失」。而侧滑是 1:1 整屏跟手，
+/// 所以同一个页面侧滑很顺、点按钮必卡。
+///
+/// 现在两条路径统一整屏位移：手势是 1:1 跟手，按钮是 240ms 覆盖一屏，
+/// 退出时干净利落地完全移出屏幕。
 class _SoftPositions {
   _SoftPositions(Animation<double> a)
-      : tapLtr = a.drive(Tween<Offset>(
-            begin: const Offset(0.35, 0), end: Offset.zero)),
-        tapRtl = a.drive(Tween<Offset>(
-            begin: const Offset(-0.35, 0), end: Offset.zero)),
-        dragLtr = a.drive(Tween<Offset>(
+      : ltr = a.drive(Tween<Offset>(
             begin: const Offset(1, 0), end: Offset.zero)),
-        dragRtl = a.drive(Tween<Offset>(
+        rtl = a.drive(Tween<Offset>(
             begin: const Offset(-1, 0), end: Offset.zero));
 
-  final Animation<Offset> tapLtr;
-  final Animation<Offset> tapRtl;
-  final Animation<Offset> dragLtr;
-  final Animation<Offset> dragRtl;
+  final Animation<Offset> ltr;
+  final Animation<Offset> rtl;
 }
 
 // ---------------------------------------------------------------- 材质取色

@@ -25,6 +25,7 @@
 复制	Chép
 外观	Diện mạo
 大了	Cao quá
+天赋	Tài năng
 字号	Cỡ văn bản
 密钥	Khóa:
 对话	Trò chuyện
@@ -34,6 +35,7 @@
 平局	Đó là một bản vẽ
 开始	Chạy
 当前	Hiện tại
+心大	Dễ dàng
 忽略	Bỏ qua
 性别	Giới
 恢复	Phục hồi
@@ -47,11 +49,14 @@
 游戏	Trò chơi
 猜！	Đoán đi!
 百万	M
+知足	Nội dung
 确定	Được
 离线	Comment
 管理	Quản lý
 累计	Tổng
+继续	Tiếp tục
 编辑	Sửa
+耐看	Phát triển trên con người
 视觉	Tầm nhìn
 设置	Thiết lập
 语音	Giọng nói
@@ -64,20 +69,29 @@
 1 轮	1 vòng
 2 轮	2 viên
 3 轮	3 vòng
+个城市	Thành phố
 个模型	Mô hình
 个选项	tùy chọn
 二十问	20 Câu hỏi
+人缘好	Được rồi
 今日签	Của cải hôm nay
+会来事	Xã hội
+会算账	Tốt với tiền
 你赢了	Anh thắng rồi
 再看看	Lại
+出生地	Nơi sinh
 去设置	Thiết lập
 多模型	Đa mẫu
 已停更	& Tiếp tục
 已复制	Sao chép
 已完结	Hoàn tất
+底子硬	Hiến pháp Sắt
 待检测	Chưa thử
 我赢了	Tôi thắng
+技术型	Kỹ thuật
+抗打击	Kiên định
 摇一摇	Lắc
+有名气	Biết
 未匹配	Không khớp
 未发言	Không trả lời
 条发言	Quay
@@ -86,11 +100,19 @@
 猜数字	Đoán số
 生成中	Đang tạo ra
 知道了	Hiểu rồi
+耐折腾	Cứng như đinh
+能上台	Tự tin trên sân khấu
 自定义	Tự chọn
+自来熟	Người
+被记住	Ghi nhớ
+读书人	Học giả
+起点稳	Bắt đầu đều đặn
+身体好	Khỏe mạnh
 转起来	Quay
 重命名	Thay tên
 + 新建	+ Mới
 一共用了	in
+一点就透	Nhanh lên
 一键接入	Kết nối
 人物形象	Cá nhân
 人生事件	Sự kiện cuộc sống
@@ -117,6 +139,7 @@
 匹配模型	Mẫu khớp
 原始输出	Kết xuất thô
 参会模型	Những người tham gia
+吃得住苦	Hardy
 命中概览	Comment
 命中次数	Trúng
 图片诊断	Chẩn đoán ảnh
@@ -124,9 +147,11 @@
 复制全文	Chép tất cả
 复制内容	Chép đoạn
 外观主题	Diện mạo
+天赋抽签	Vẽ tài năng
 完全权限	Quyền truy cập đầy đủ
 实时价格	Giá sống
 实验记录	Bản ghi thử nghiệm
+容易开心	Dễ dàng thích thú
 对话语言	Ngôn ngữ trả lời
 导出纪要	Xuất phút
 少量权限	Quyền truy cập tối thiểu
@@ -144,6 +169,7 @@
 恢复默认	Mặc định phục hồi
 抉择轮盘	Name
 抽一支签	Kiếm một gia tài
+抽取天赋	Vẽ một tài năng
 拉取失败	Lỗi lấy
 按天花费	Chi phí hàng ngày
 授权范围	Quyền hạn
@@ -178,6 +204,7 @@
 用量追踪	Theo dõi sử dụng
 界面语言	Ngôn ngữ giao diện
 盖棺定论	Phán quyết cuối cùng
+精打细算	Name
 系统当前	Hệ thống
 累计估算	Tổng số phỏng đoán
 缓存命中	Comment
@@ -197,13 +224,16 @@
 请求次数	Yêu cầu
 输入单价	Giá nhập
 输出单价	Giá xuất
+过目不忘	Bộ nhớ ảnh chụp
 这台设备	Thiết bị này
 连接配置	Hồ sơ kết nối
+选择城市	Chọn thành phố
 选择形象	Chọn một người
 选择模型	Chọn mô hình
 配置名称	Tên hồ sơ
 配置连接	Cấu hình kết nối
 重新开始	Chạy lại
+钻得进去	Tiêu điểm sâu
 页面底色	Nền trang
 预设名称	Đặt sẵn tên
 魔法八球	Bóng ma thuật
@@ -216,6 +246,8 @@ AI 玩法	Trò chơi AI
 反代与网关	Cửa & lại
 命令已复制	Lệnh đã sao chép
 填入输入框	Chèn vào mục nhập
+学什么都快	Người học nhanh
+家里有余粮	Khởi đầu thoải mái
 已复制回答	Trả lời đã sao chép
 已开启朗读	Đọc kinh ngạc vào
 应用与网页	Áp dụng & mạng
@@ -250,6 +282,7 @@ AI 玩法	Trò chơi AI
 还没有存档	Vẫn chưa cứu được người
 还没有故事	Vẫn chưa có câu chuyện nào
 连接与模型	& Mô hình kết nối
+选择出生地	Chọn nơi sinh
 重命名配置	Thay tên hồ sơ
 链接已复制	Liên kết sao chép
 顶部形象区	Vùng trên
@@ -287,6 +320,7 @@ AI 玩法	Trò chơi AI
 猜中了！就是	Được rồi!
 生成事件失败	Lỗi tạo sự kiện
 生成传记失败	Lỗi ghi tiểu sử
+站在人前不怵	Hiện diện sân khấu
 等待模型输出	Đang đợi người mẫu
 自动记录实验	Comment
 设备清理已开	Thiết bị dọn dẹp
@@ -308,6 +342,7 @@ HTTP 插件	Phần bổ sung HTTP
 按当前单价估算	Ước tính giá hiện tại
 换个关键词试试	Thử từ khoá khác
 搜索模型 ID	ID mô hình tìm kiếm
+搜索省份或城市	Tìm kiếm tỉnh hay thành phố
 智能体请求执行	Đặc vụ yêu cầu hành động
 服务端缓存命中	Bộ nhớ tạm nhà cung cấp thành công
 朗读上一条回答	Đọc câu trả lời cuối cùng
@@ -389,18 +424,25 @@ AI 用这种语言回答	AI trả lời bằng ngôn ngữ này
 点开始，由模型先说第一句。	Tap bắt đầu và để người mẫu nói trước.
 累计消耗、单价、明细与导出	Toàn bộ chi tiêu, giá cả, sụp đổ và xuất khẩu
 至少需要一个可用的参会模型	Cần ít nhất một mô hình làm việc
+见过你的人都记得你的名字。	Bất cứ ai gặp anh đều nhớ tên anh.
+跟谁都能在三句话里熟起来。	Ba câu trong, bạn đã quen thuộc với bất kỳ ai.
 预览：静水深流，字要看得清	Xem thử: vẫn còn nước, văn bản nên duy trì khả năng xác thực
+不算富，但从不缺口粮与学费。	Không giàu, nhưng luôn có thức ăn trên bàn và tiền cho trường học.
 例如：今天适合开始新计划吗？	Hôm nay có kế hoạch mới không?
+先抽一次天赋，再开始这一生。	Vẽ một tài năng trước, rồi bắt đầu cuộc sống này.
 关闭后主界面回到纯工作台样式	Khi tắt, màn hình chính trở lại không gian làm việc đơn giản nhìn
 命中统计、响应复用与缓存管理	Thông tin ảnh
+天塌下来先睡一觉，醒来再说。	Nếu bầu trời đổ xuống, anh ngủ trước và xử lý nó sau.
 按钮、标题与说明文字都跟着换	Nút, tựa đề và mô tả tất cả chuyển đổi
 这个连接还没有读到模型列表。	Chưa đọc danh sách mô hình cho kết nối này.
 这台主机上没有发现兼容端点。	Không tìm thấy điểm kết thúc tương thích trên máy này.
 1 到 100，看你能几次猜中	Một số từ 1 đến 100 — bạn có thể đoán được bao nhiêu?
+一屋子人看着你，你反而更清醒。	Một căn phòng đầy mắt trên người anh chỉ làm cho anh sắc bén hơn.
 你一句我一句，让故事一直讲下去	Hãy thay phiên nhau và tiếp tục câu chuyện
 关闭后保留文档但不注入工具清单	Khi tắt, tài liệu ở lại nhưng danh sách công cụ không được tiêm
 多源选择、每源密钥与连通性测试	Chọn nguồn, thêm khóa mỗi nguồn, kết nối thử ra
 接口地址、密钥、模型与多配置档	Điểm kết thúc, phím, mô hình và nhiều hồ sơ
+没有找到这个城市，试试别的写法	Không thành phố nào như vậy.
 深度研究工作流、实验记录与报告	Nghiên cứu sâu lưu trữ, kiểm tra nhật ký và báo cáo
 猜一个 1 到 100 的数字	Đoán một số từ 1 đến 100
 请输入 1 到 100 的整数	Nhập một số nguyên từ 1 đến 100
@@ -409,14 +451,17 @@ AI 用这种语言回答	AI trả lời bằng ngôn ngữ này
 先完成推理再输出结论，只显示摘要	Lý do đầu tiên, sau đó trả lời; chỉ có tóm tắt được cho thấy
 公益站额度导航 · 社区持续更新	Danh sách chỉ tiêu cộng đồng . cập nhật bởi cộng đồng
 切换不丢失内容；每份预设独立保存	Việc chuyển đổi giữ văn bản của bạn; mỗi định sẵn được cất riêng
+别人讲三遍的事，你听一半就明白。	Những người khác cần ba lời giải thích; một nửa là đủ cho bạn.
 发送格式、视觉能力判定与图片诊断	Gửi định dạng, phát hiện thị giác và chẩn đoán hình ảnh
 和我来几局，纯靠运气，不花流量。	Vài vòng với tôi — chỉ là may mắn, không có dữ liệu sử dụng.
+对着一个问题能坐一整天不觉得烦。	Anh có thể ngồi với một vấn đề duy nhất cả ngày mà không lo lắng.
 已启用的源 · 点开填密钥或端点	Bật các nguồn · mở một để thêm một phím hay điểm kết thúc
 每次调用的参数、请求体与响应原文	Tham số, yêu cầu cơ thể và phản ứng thô cho mỗi cuộc gọi
 没有发现服务，检查反代是否已启动	Không tìm thấy dịch vụ nào — hãy kiểm tra xem cái rơle đang chạy
 直接输入，或者从下面挑一个开头。	Gõ tự do, hoặc bắt đầu từ đề nghị bên dưới.
 自动压缩到 320px，仅存本地	Được nén vào 320px, chỉ lưu trữ tại địa phương
 自定义头像、名字、性格与角色设定	Tự chọn, tên, tính cách và vai trò
+一碗热汤、一场雨都能让你高兴半天。	Một tô súp nóng hoặc một cơn mưa ngang qua có thể làm cho bạn có một ngày.
 不写入磁盘，仅保留在本次会话内存中	Giữ trong bộ nhớ chỉ cho phiên chạy này, không bao giờ ghi vào đĩa
 圆桌会议、模拟人生与 7 个小游戏	Hoàn chỉnh, giả lập cuộc sống & 7 trò chơi nhỏ
 把纠结的选项写进去，让轮盘替你决定	Name
@@ -424,11 +469,14 @@ AI 用这种语言回答	AI trả lời bằng ngôn ngữ này
 沿用聊天界面正在使用的连接与模型。	Dùng kết nối và mô hình hiện thời đang hoạt động trong trò chuyện.
 由 AI 根据议题生成，可手动修改	Ai được tạo ra từ chủ đề; có thể sửa
 19 套主题、自定义配色、圆角与字号	19 sắc thái, màu tự chọn, góc và kích cỡ văn bản
+从小没怎么进过医院，冬天也光着脚跑。	Bạn hầu như không nhìn thấy một bệnh viện lớn lên, và chạy chân trần vào mùa đông.
 会真发一句极短的问题，消耗少量额度。	Gửi một câu hỏi rất ngắn và sử dụng một chút chỉ tiêu.
 保存参数与响应原文，最多 120 条	Lưu tham số và phản ứng thô, lên tới 120 mục
 只清统计与列表，不影响已缓存的回答。	Chỉ xóa các số liệu và danh sách; các câu trả lời đã lưu tạm được giữ.
 朗读与语音输入，免费与付费引擎都可切	Đọc và đầu vào giọng nói miễn phí và các động cơ được trả tiền
+熬夜、赶路、扛重物，睡一觉就缓过来。	Những đêm khuya, đi bộ dài, những gánh nặng — một giấc ngủ ngon và bạn trở lại.
 sk-…（本地 Ollama 可留空）	sk-..
+从小就知道钱该花在哪，买菜都要比三家。	Bạn biết sớm nơi tiền nên đi, so sánh giá cả trước khi mua xanh lá cây.
 只打开系统确认页，需你亲手点保存才生效	Mở chỉ tờ hệ thống; không có gì thay đổi cho đến khi bạn gõ lưu
 把开源 xx2api 项目接成一条连接	Name
 界面、回答、语音识别三套语言，独立设置	Giao diện, trả lời và đánh vần — ba thiết lập độc lập
@@ -451,9 +499,11 @@ System Prompt 预设与变量插值	Name
 尚未配置接口，请先到设置里填好连接与模型。	Chưa cấu hình kết nối. Thiết lập điểm kết thúc và mô hình trong Thiết lập trước.
 已为游戏单独指定模型，随时可换或恢复默认。	Một mô hình dành riêng được thiết lập cho trò chơi; thay đổi nó hoặc phục hồi mặc định bất cứ lúc nào.
 检索 → 大纲 → 逐节展开 → 汇总报告	@ info: status
+看过的东西像刻在脑子里，考试前翻一遍就够。	Những gì bạn đọc sẽ được khắc sâu trong tâm trí bạn; một vượt qua trước khi một kỳ thi là đủ.
 还没有拉到模型列表，点右上角「刷新」读取。	Vẫn chưa có danh sách mô hình — cập nhật vòi ở góc trên bên phải.
 还没有添加任何连接，所以这里没有可用模型。	Chưa thêm kết nối, nên không có mô hình sẵn có ở đây.
 这个连接还没有缓存模型，可在下方手动输入。	Không có mô hình đã lưu tạm cho kết nối này; hãy nhập một vào đây bằng tay.
+一局只有一次。抽到什么，这一生就从哪里起步。	Cho dù bạn vẽ gì đi nữa, cuộc sống này bắt đầu từ đâu.
 先选一家运营商（连接），再进入模型列表挑选。	Trước tiên, hãy chọn nhà cung cấp (kết nối) rồi chọn trong danh sách mô hình.
 关闭时与纯聊天客户端完全一致，不注入任何工具	Khi tắt, cư xử y như một khách hàng tán gẫu bình thường mà không có công cụ tiêm
 写文件、打开应用等动作在界面上等你点「允许」	Viết tập tin, mở ứng dụng và hành động tương tự đang chờ bạn gõ “Ap đơn
@@ -464,6 +514,7 @@ System Prompt 预设与变量插值	Name
 模型想一个东西，你用是非题在 20 次内猜中	Các mô hình nghĩ về một cái gì đó; đoán nó trong 20 có / không câu hỏi
 每天一支签，同一天不会变。图个乐子，别当真。	Một gia tài một ngày, không thay đổi trong một ngày, chỉ để vui chơi.
 每行一条，讨论时所有参会者都会看到这份大纲。	Mỗi người tham gia đều thấy chương trình này.
+第一眼不出挑，越看越顺眼，说话时别人愿意听。	Không ấn tượng lúc đầu, nhưng người ta thân thiện với bạn và lắng nghe khi bạn nói.
 读取公开网页正文（禁止内网 / 元数据地址）	Đọc văn bản trang công cộng (địa chỉ chính và siêu dữ liệu bị chặn)
 127.0.0.1 或 192.168.1.5	127.0.1 hoặc 192.168.1.5
 AI 玩法会调用你所选的模型，按实际用量计费。	Trò chơi AI gọi cho mô hình đã chọn và được tính bằng cách sử dụng thực tế.

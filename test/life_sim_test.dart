@@ -75,14 +75,26 @@ void main() {
       final e = parseEventJson('抱歉我无法生成', 20, 2030);
       expect(e.choices.length, 2);
       expect(e.story.isNotEmpty, isTrue);
-      expect(e.years, 1);
+      // 兜底也给一个正常的章节跨度，不会退化成「一年一章」的流水账。
+      expect(e.years, 5);
+      expect(e.age, 25);
     });
 
-    test('选项最多 3 个，年数夹在 1–8', () {
+    test('选项最多 3 个，章节跨度夹在 3–9 年', () {
       const raw = '{"choices":["A","B","C","D"],"years":99}';
       final e = parseEventJson(raw, 20, 2030);
       expect(e.choices.length, 3);
-      expect(e.years, 8);
+      expect(e.years, 9);
+      expect(e.startAge, 20);
+      expect(e.age, 29);
+      expect(e.spanLabel, '20 → 29');
+    });
+
+    test('跨度太小会被抬到 3 年，接近寿命上限时收窄', () {
+      expect(parseEventJson('{"years":1}', 20, 2030).years, 3);
+      final late = parseEventJson('{"years":9}', 78, 2088);
+      expect(late.age, kMaxAge);
+      expect(late.years, kMaxAge - 78);
     });
 
     test('结果解析：只接受已知属性且单项受限', () {
@@ -154,7 +166,7 @@ void main() {
   group('人生引擎', () {
     CompleteFn responder() => (LlmRequest req, {CancelToken? cancel}) async {
           final user = '${req.messages.last['content']}';
-          if (user.contains('请生成下一段人生事件')) return _eventJson;
+          if (user.contains('请写下一章')) return _eventJson;
           if (user.contains('请判定这个选择的后果')) return _resolveJson;
           return '这是他平凡又认真的一生，没成为谁，却没丢了自己。\n76';
         };
@@ -171,9 +183,11 @@ void main() {
       expect(identical(again, e), isTrue);
       expect(c.events.length, 1);
 
+      // 章节生成时年龄就推进了（16 + 本章 3 年），结算不再重复加。
+      expect(c.age, 19);
       await engine.choose(c, 0, _conn());
       expect(c.pending, isNull);
-      expect(c.age, 20);
+      expect(c.age, 19);
       expect(c.stats.mind, 63);
       expect(c.stats.wealth, 36);
       expect(e.outcome, contains('大城市'));

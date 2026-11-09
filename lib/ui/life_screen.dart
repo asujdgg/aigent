@@ -7,6 +7,7 @@ import '../i18n.dart';
 import '../services/feature_store.dart';
 import '../services/life_sim.dart';
 import '../services/model_source.dart';
+import '../services/region_data.dart';
 import '../state/app_state.dart';
 import '../theme.dart';
 import 'feature_kit.dart';
@@ -44,6 +45,11 @@ class _LifeScreenState extends State<LifeScreen> {
   String gender = '女';
   String era = kEraOptions.first;
   String goal = kGoalOptions.first;
+  String province = '';
+  String city = '';
+
+  /// 开局抽签结果。null 表示还没抽——没抽不能开始。
+  CharacterRoll? roll;
 
   @override
   void initState() {
@@ -204,6 +210,10 @@ class _LifeScreenState extends State<LifeScreen> {
           ],
         ),
         const SizedBox(height: 14),
+        Text(t('出生地'), style: sectionTitle(dark)),
+        const SizedBox(height: 8),
+        _regionRow(dark),
+        const SizedBox(height: 14),
         Text(t('时代背景'), style: sectionTitle(dark)),
         const SizedBox(height: 8),
         Wrap(
@@ -249,6 +259,20 @@ class _LifeScreenState extends State<LifeScreen> {
           style: ts(dark, size: 12.5),
           decoration: fieldDecoration(dark, hint: t('也可以自己写一个目标')),
         ),
+        const SizedBox(height: 16),
+        Container(height: 1, color: hairOf(dark)),
+        const SizedBox(height: 14),
+        featureLabel(dark, t('天赋抽签')),
+        featureHint(dark, t('一局只有一次。抽到什么，这一生就从哪里起步。')),
+        const SizedBox(height: 10),
+        if (roll == null)
+          featureOutline(
+              dark: dark,
+              label: t('抽取天赋'),
+              icon: Icons.casino_rounded,
+              onPressed: _roll)
+        else
+          _rollCard(dark, roll!),
         const SizedBox(height: 18),
         featurePrimary(
             dark: dark,
@@ -259,6 +283,129 @@ class _LifeScreenState extends State<LifeScreen> {
         const SizedBox(height: 6),
         featureHint(dark, t('所有剧情由你配置的模型实时生成，只保存在本机。')),
       ]);
+
+  Widget _regionRow(bool dark) => InkWell(
+        borderRadius: BorderRadius.circular(D.r),
+        onTap: _pickRegion,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+          decoration: BoxDecoration(
+            color: fieldOf(dark),
+            borderRadius: BorderRadius.circular(D.r),
+            border: Border.all(color: borderOf(dark), width: 0.9),
+          ),
+          child: Row(
+            children: [
+              Icon(Icons.place_outlined,
+                  size: 17, color: dark ? C.dInk3 : C.ink3),
+              const SizedBox(width: 9),
+              Expanded(
+                child: Text(
+                  province.isEmpty ? t('选择出生地') : regionLabel(province, city),
+                  style: ts(dark, size: 13).copyWith(
+                      color: province.isEmpty
+                          ? (dark ? C.dInk3 : C.ink3)
+                          : (dark ? C.dInk : C.ink)),
+                ),
+              ),
+              Icon(Icons.chevron_right_rounded,
+                  size: 18, color: dark ? C.dInk3 : C.ink3),
+            ],
+          ),
+        ),
+      );
+
+  /// 抽签结果卡：稀有度 + 天赋 + 六维，并在最强项上打星。
+  Widget _rollCard(bool dark, CharacterRoll r) {
+    final colors = [
+      C.ok,
+      C.brand,
+      const Color(0xFFE0708A),
+      const Color(0xFFD9A441),
+      const Color(0xFF8A73D6),
+      const Color(0xFF43B8A8),
+    ];
+    const rarityNames = ['普通', '稀有', '传说'];
+    final rarityColor = [
+      dark ? C.dInk3 : C.ink3,
+      C.brand,
+      const Color(0xFFD9A441),
+    ][r.rarity];
+    return Container(
+      padding: const EdgeInsets.fromLTRB(13, 12, 13, 10),
+      decoration: BoxDecoration(
+        color: fieldOf(dark),
+        borderRadius: BorderRadius.circular(D.cardR),
+        border: Border.all(
+            color: r.rarity == 2
+                ? const Color(0xFFD9A441).withOpacity(0.55)
+                : hairOf(dark),
+            width: 0.9),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+                decoration: BoxDecoration(
+                  color: rarityColor.withOpacity(0.12),
+                  borderRadius: BorderRadius.circular(5),
+                ),
+                child: Text(t(rarityNames[r.rarity]),
+                    style: ts(dark,
+                        size: 10.5,
+                        weight: FontWeight.w600,
+                        color: rarityColor)),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                  child: Text(t(r.talent.name), style: display(dark, size: 17))),
+            ],
+          ),
+          const SizedBox(height: 6),
+          Text(t(r.talent.desc), style: ts(dark, size: 12, height: 1.55, color: dark ? C.dInk2 : C.ink2)),
+          const SizedBox(height: 10),
+          for (var i = 0; i < kStatKeys.length; i++)
+            statBar(
+              dark,
+              '${t(kStatLabels[i])}${kStatKeys[i] == r.strongestKey ? ' ★' : ''}',
+              r.stats[kStatKeys[i]],
+              colors[i],
+            ),
+          const SizedBox(height: 4),
+          Text('${t('天赋')}：${t(r.talent.hint)}',
+              style: meta(dark, size: 11)),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _pickRegion() async {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    final picked = await showModalBottomSheet<RegionPick>(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (_) => _RegionSheet(
+        dark: dark,
+        province: province,
+        city: city,
+      ),
+    );
+    if (picked == null || !mounted) return;
+    setState(() {
+      province = picked.province;
+      city = picked.city;
+    });
+  }
+
+  void _roll() {
+    if (roll != null) return;
+    setState(() => roll = rollCharacter());
+  }
 
   // ------------------------------------------------------------------ 状态
 
@@ -280,7 +427,14 @@ class _LifeScreenState extends State<LifeScreen> {
               children: [
                 Text(c.name, style: display(dark, size: 20)),
                 const SizedBox(height: 3),
-                Text('${t(c.gender)} · ${t(c.era)}', style: meta(dark, size: 11.5)),
+                Text(
+                    [
+                      t(c.gender),
+                      t(c.era),
+                      if (c.province.isNotEmpty)
+                        regionLabel(c.province, c.city),
+                    ].join(' · '),
+                    style: meta(dark, size: 11.5)),
               ],
             ),
           ),
@@ -305,6 +459,11 @@ class _LifeScreenState extends State<LifeScreen> {
       for (var i = 0; i < kStatKeys.length; i++)
         statBar(dark, t(kStatLabels[i]), c.stats[kStatKeys[i]], colors[i]),
       const SizedBox(height: 6),
+      if (c.talentName.trim().isNotEmpty) ...[
+        Text('${t('天赋')}：${t(c.talentName)}',
+            style: meta(dark, size: 11.5)),
+        const SizedBox(height: 3),
+      ],
       Text('${t('人生目标')}：${t(c.goal)}',
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
@@ -316,37 +475,83 @@ class _LifeScreenState extends State<LifeScreen> {
 
   Widget _eventCard(bool dark, LifeCharacter c) {
     final e = c.pending;
+    final last = c.events.isEmpty ? null : c.events.last;
+    final showContinue = e == null && !busy && !c.ended;
     return featureCard(dark, [
       Row(
         children: [
           Expanded(child: featureLabel(dark, t('人生事件'))),
-          if (e == null)
+          if (showContinue)
             featureOutline(
                 dark: dark,
-                label: t('推进人生'),
+                label: last == null || !last.resolved ? t('推进人生') : t('继续'),
                 icon: Icons.arrow_forward_rounded,
-                onPressed: busy ? null : _next),
+                onPressed: _next),
         ],
       ),
-      if (busy && e == null)
+      if (busy)
         const Padding(
           padding: EdgeInsets.symmetric(vertical: 22),
           child: Center(child: CircularProgressIndicator(strokeWidth: 2)),
         )
-      else if (e == null)
-        featureEmpty(dark, Icons.hourglass_empty_rounded, t('下一段人生尚未发生'))
-      else ...[
-        Text('${e.age} ${t('岁')} · ${e.title}',
+      else if (e != null) ...[
+        Text('${e.spanLabel} ${t('岁')} · ${e.title}',
             style: ts(dark, size: 15, weight: FontWeight.w600)),
         const SizedBox(height: 10),
         Text(e.story, style: ts(dark, size: 13, height: 1.7)),
         const SizedBox(height: 14),
         Text(t('你会怎么选？'), style: sectionTitle(dark)),
         const SizedBox(height: 8),
-        for (var i = 0; i < e.choices.length; i++)
-          _choiceTile(dark, e, i),
-      ],
+        for (var i = 0; i < e.choices.length; i++) _choiceTile(dark, e, i),
+      ] else if (last != null && last.resolved) ...[
+        // 选完先看清后果，再决定继续——不要点一下就跳到几年后，
+        // 让人不知道自己刚才那个选择到底改变了什么。
+        Text('${last.spanLabel} ${t('岁')} · ${last.title}',
+            style: ts(dark, size: 15, weight: FontWeight.w600)),
+        const SizedBox(height: 10),
+        _outcomeBlock(dark, last),
+      ] else
+        featureEmpty(dark, Icons.hourglass_empty_rounded, t('下一段人生尚未发生')),
     ]);
+  }
+
+  /// 选择后的后果：选了什么、发生了什么、六维怎么变。
+  Widget _outcomeBlock(bool dark, LifeEvent e) => Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('${t('选择')}：${e.choices[e.chosenIndex].text}',
+              style: meta(dark, size: 11.5)),
+          const SizedBox(height: 8),
+          Text(e.outcome, style: ts(dark, size: 13, height: 1.7)),
+          if (e.deltas.values.any((v) => v != 0)) ...[
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: [
+                for (var i = 0; i < kStatKeys.length; i++)
+                  if ((e.deltas[kStatKeys[i]] ?? 0) != 0)
+                    _deltaChip(dark, t(kStatLabels[i]),
+                        e.deltas[kStatKeys[i]]!),
+              ],
+            ),
+          ],
+        ],
+      );
+
+  Widget _deltaChip(bool dark, String label, int delta) {
+    final up = delta > 0;
+    final color = up ? C.ok : C.danger;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.10),
+        borderRadius: BorderRadius.circular(5),
+      ),
+      child: Text('$label ${up ? '+' : ''}$delta',
+          style: ts(dark,
+              size: 10.5, weight: FontWeight.w600, color: color)),
+    );
   }
 
   Widget _choiceTile(bool dark, LifeEvent e, int i) {
@@ -449,8 +654,8 @@ class _LifeScreenState extends State<LifeScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              width: 40,
-              child: Text('${e.age}${t('岁')}',
+              width: 48,
+              child: Text(e.spanLabel,
                   style: numStyle(dark, size: 11)),
             ),
             Container(
@@ -491,6 +696,11 @@ class _LifeScreenState extends State<LifeScreen> {
       setState(() => notice = t('尚未配置接口，请先到设置里填好连接与模型。'));
       return;
     }
+    final r = roll;
+    if (r == null) {
+      setState(() => notice = t('先抽一次天赋，再开始这一生。'));
+      return;
+    }
     final g = goalCtrl.text.trim().isNotEmpty ? goalCtrl.text.trim() : goal;
     final c = LifeCharacter(
       id: newLifeId(),
@@ -498,8 +708,15 @@ class _LifeScreenState extends State<LifeScreen> {
       gender: gender,
       era: era,
       goal: g,
+      province: province,
+      city: city,
+      talentKey: r.talent.key,
+      talentName: r.talent.name,
+      talentDesc: r.talent.desc,
+      talentRarity: r.rarity,
       birthYear: _birthYearFor(era),
-      age: 16,
+      age: 0,
+      stats: r.stats,
     );
     setState(() {
       life = c;
@@ -508,11 +725,13 @@ class _LifeScreenState extends State<LifeScreen> {
     await _next();
   }
 
+  /// 出生年。人生从 0 岁写起，所以这里给的是「出生那一年」，
+  /// 不是角色登场时的年份。
   int _birthYearFor(String e) {
-    if (e.contains('九十年代')) return 1978;
+    if (e.contains('九十年代')) return 1990;
     if (e.contains('古代')) return 1720;
     if (e.contains('近未来')) return 2088;
-    return 2010;
+    return 2026;
   }
 
   Future<void> _next() async {
@@ -544,11 +763,10 @@ class _LifeScreenState extends State<LifeScreen> {
     });
     cancel = CancelToken();
     try {
+      // 只结算，不自动跳下一章：先让玩家看到这一选择把人生推向了哪。
       await engine.choose(c, index, conn, cancel: cancel);
       if (c.over) {
         await _finish();
-      } else {
-        await engine.nextEvent(c, conn, cancel: cancel);
       }
     } catch (e) {
       setState(() => notice = '${t('判定结果失败')}：$e');
@@ -578,6 +796,7 @@ class _LifeScreenState extends State<LifeScreen> {
     cancel?.cancel();
     setState(() {
       life = null;
+      roll = null;
       busy = false;
       notice = null;
       showTimeline = false;
@@ -704,6 +923,204 @@ class _LifeSavesSheet extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+/// 出生地选择结果。用 record 而不是小类，少一个只出现一次的模型。
+typedef RegionPick = ({String province, String city});
+
+/// 出生地两级下钻：省 → 市。
+///
+/// 和「选运营商 → 点进去看模型」是同一套手势：一路点进去、逐层返回，
+/// 不做一次性铺开几百个城市的巨型列表。
+class _RegionSheet extends StatefulWidget {
+  const _RegionSheet({
+    required this.dark,
+    required this.province,
+    required this.city,
+  });
+
+  final bool dark;
+  final String province;
+  final String city;
+
+  @override
+  State<_RegionSheet> createState() => _RegionSheetState();
+}
+
+class _RegionSheetState extends State<_RegionSheet> {
+  RegionProvince? open;
+  final TextEditingController q = TextEditingController();
+
+  @override
+  void dispose() {
+    q.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final dark = widget.dark;
+    return SafeArea(
+      child: Container(
+        height: MediaQuery.of(context).size.height * 0.72,
+        decoration: BoxDecoration(
+          color: canvasOf(dark),
+          borderRadius: BorderRadius.vertical(top: Radius.circular(D.floatR)),
+        ),
+        child: Column(
+          children: [
+            const SizedBox(height: 10),
+            Container(
+                width: 32,
+                height: 3,
+                decoration: BoxDecoration(
+                    color: lineOf(dark),
+                    borderRadius: BorderRadius.circular(3))),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 10, 12, 8),
+              child: Row(
+                children: [
+                  InkWell(
+                    borderRadius: BorderRadius.circular(20),
+                    onTap: () {
+                      if (open != null) {
+                        setState(() => open = null);
+                      } else {
+                        Navigator.pop(context);
+                      }
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.all(8),
+                      child: Icon(
+                          open == null
+                              ? Icons.close_rounded
+                              : Icons.arrow_back_rounded,
+                          size: 19,
+                          color: dark ? C.dInk2 : C.ink2),
+                    ),
+                  ),
+                  const SizedBox(width: 4),
+                  Expanded(
+                    child: Text(
+                      open == null
+                          ? t('选择出生地')
+                          : '${open!.name} · ${t('选择城市')}',
+                      style: display(dark, size: 17),
+                    ),
+                  ),
+                  if (open != null)
+                    Text('${open!.cities.length} ${t('个城市')}',
+                        style: meta(dark, size: 11)),
+                ],
+              ),
+            ),
+            if (open == null)
+              Padding(
+                padding: const EdgeInsets.fromLTRB(14, 2, 14, 8),
+                child: TextField(
+                  controller: q,
+                  onChanged: (_) => setState(() {}),
+                  style: ts(dark, size: 13),
+                  decoration: fieldDecoration(dark,
+                          hint: t('搜索省份或城市'))
+                      .copyWith(
+                    isDense: true,
+                    contentPadding:
+                        const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+                  ),
+                ),
+              ),
+            Container(height: 1, color: hairOf(dark)),
+            Expanded(
+              child: open == null ? _provinceList(dark) : _cityGrid(dark, open!),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _provinceList(bool dark) {
+    final query = q.text.trim();
+    if (query.isEmpty) {
+      return ListView.builder(
+        padding: const EdgeInsets.only(bottom: 12),
+        itemCount: kProvinces.length,
+        itemBuilder: (_, i) {
+          final p = kProvinces[i];
+          final selected = p.name == widget.province;
+          return ListTile(
+            dense: true,
+            title: Text(p.name,
+                style: ts(dark,
+                    size: 13.5,
+                    weight: selected ? FontWeight.w600 : FontWeight.w400,
+                    color: selected ? C.brand : null)),
+            subtitle: Text('${p.cities.length} ${t('个城市')}',
+                style: meta(dark, size: 11)),
+            trailing: Icon(Icons.chevron_right_rounded,
+                size: 18, color: dark ? C.dInk3 : C.ink3),
+            onTap: () => setState(() => open = p),
+          );
+        },
+      );
+    }
+    // 搜索时直接把省和市摊平：搜「深圳」应该立刻看到「广东 · 深圳」，
+    // 而不是先让用户猜它属于哪个省。
+    final hits = <({RegionProvince p, String c})>[];
+    for (final p in kProvinces) {
+      for (final c in p.cities) {
+        if (c.contains(query) || p.name.contains(query)) {
+          hits.add((p: p, c: c));
+        }
+      }
+    }
+    if (hits.isEmpty) {
+      return featureEmpty(
+          dark, Icons.search_off_rounded, t('没有找到这个城市，试试别的写法'));
+    }
+    return ListView.builder(
+      padding: const EdgeInsets.only(bottom: 12),
+      itemCount: hits.length,
+      itemBuilder: (_, i) {
+        final h = hits[i];
+        return ListTile(
+          dense: true,
+          title: Text(h.c, style: ts(dark, size: 13.5)),
+          subtitle: Text(h.p.name, style: meta(dark, size: 11)),
+          onTap: () => Navigator.pop(
+              context, (province: h.p.name, city: h.c)),
+        );
+      },
+    );
+  }
+
+  Widget _cityGrid(bool dark, RegionProvince p) {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(14, 14, 14, 24),
+      child: Wrap(
+        spacing: 8,
+        runSpacing: 8,
+        children: [
+          for (final c in p.cities)
+            ChoiceChip(
+              label: Text(c, style: ts(dark, size: 12.5)),
+              selected: p.name == widget.province && c == widget.city,
+              showCheckmark: false,
+              backgroundColor: fieldOf(dark),
+              selectedColor: C.brand.withOpacity(0.14),
+              side: BorderSide(
+                  color: p.name == widget.province && c == widget.city
+                      ? C.brand
+                      : hairOf(dark),
+                  width: 0.8),
+              onSelected: (_) =>
+                  Navigator.pop(context, (province: p.name, city: c)),
+            ),
+        ],
       ),
     );
   }

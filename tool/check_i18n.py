@@ -30,6 +30,18 @@ def collect_keys():
                 skipped.add(k)
             else:
                 keys.add(k)
+    # 游戏内容词条：天赋的「名称 / 描述 / 倾向」在 kTalents 里是数据，
+    # 运行时用 t(name) 查表，参数是变量，上面的正则扫不到。这里补一遍，
+    # 保证 40 种语言的词表都覆盖它们（否则英文界面会露出中文）。
+    p2 = os.path.join(ROOT, 'lib', 'services', 'life_sim.dart')
+    if os.path.exists(p2):
+        s2 = open(p2, encoding='utf-8').read()
+        pat = re.compile(
+            r"LifeTalent\(\s*'[^']*',\s*'([^']*)',\s*'([^']*)',\s*'([^']*)'\)")
+        for m in pat.finditer(s2):
+            for g in m.groups():
+                if re.search(r'[\u4e00-\u9fa5]', g) and '$' not in g:
+                    keys.add(g)
     return keys, skipped
 
 

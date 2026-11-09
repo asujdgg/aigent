@@ -71,6 +71,52 @@ void main() {
       expect(route.opaque, isTrue);
     });
 
+    // v4.26 回归：点顶栏返回按钮一直「卡一下」的真凶，是进出共用同一条
+    // 0.35 屏的 tween——退出的页面只滑出三分之一就被摘掉，看起来像
+    // 卡了几百毫秒然后突然消失。侧滑走的是整屏跟手，所以只有按钮卡。
+    testWidgets('按钮进出都走整屏位移，不会滑到一半就消失', (tester) async {
+      await tester.pumpWidget(MaterialApp(
+        home: Builder(
+          builder: (c) => Scaffold(
+            body: Center(
+              child: TextButton(
+                onPressed: () => Navigator.of(c).push(
+                  SoftPageRoute<void>(
+                    builder: (_) => const Scaffold(
+                      body: Center(child: Text('DETAIL_MARK')),
+                    ),
+                  ),
+                ),
+                child: const Text('OPEN_MARK'),
+              ),
+            ),
+          ),
+        ),
+      ));
+      await tester.tap(find.text('OPEN_MARK'));
+      await tester.pump();
+      // 进入半程（120 / 240ms）：整屏 tween 应已移动约半屏。
+      await tester.pump(const Duration(milliseconds: 120));
+      final enterDx = tester
+          .widgetList<SlideTransition>(find.byType(SlideTransition))
+          .map((s) => s.position.value.dx)
+          .reduce((a, b) => a > b ? a : b);
+      expect(enterDx, greaterThan(0.3), reason: '进入应走整屏位移');
+      await tester.pumpAndSettle();
+
+      Navigator.of(tester.element(find.text('DETAIL_MARK'))).pop();
+      await tester.pump();
+      // 退出半程（100 / 200ms）：同样要离开原位足够远。
+      await tester.pump(const Duration(milliseconds: 100));
+      final exitDx = tester
+          .widgetList<SlideTransition>(find.byType(SlideTransition))
+          .map((s) => s.position.value.dx)
+          .reduce((a, b) => a > b ? a : b);
+      expect(exitDx, greaterThan(0.3), reason: '退出应走完整屏位移，而不是 0.35 屏');
+      await tester.pumpAndSettle();
+      expect(find.text('OPEN_MARK'), findsOneWidget);
+    });
+
   });
 
   group('设置页逐层返回', () {
